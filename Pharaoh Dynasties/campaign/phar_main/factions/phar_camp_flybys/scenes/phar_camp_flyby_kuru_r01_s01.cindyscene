@@ -1,0 +1,32 @@
+<SCENE_FILE end_record_time="104.0000054240227" version="23" name="phar_camp_flyby_kuru_r01_s01.CindyScene" perspective_camera="329.586,7.07865,353.618:341.133,-4.46835,365.165" id="{8006e3d5-75a2-4d3f-9e31-a209ab6369c8}" start_record_time="0">
+ <ENVIRONMENT name="Environment" data="" order="0" id="{110c91ac-e006-438b-a80f-3050bf07dc84}" hidden="false"/>
+ <VECTOR is_linked="0" name="position" unique_id="{f6c847a9-0b5d-4ce3-9d0a-4d21a4c74825}" id="{f6c847a9-0b5d-4ce3-9d0a-4d21a4c74825}" link_id="0" surface_mode="Freeform">
+  <DOUBLE animated="1" default="0" name="X" single_keyframe_only="1" order="0" id="{597d5cb9-fc45-4578-ad74-1c0c8e6fca2c}" hidden="false"/>
+  <DOUBLE animated="1" default="0" name="Y" single_keyframe_only="1" order="1" id="{e4304384-e2b6-4c79-9b17-6cc6616652c1}" hidden="false"/>
+  <DOUBLE animated="1" default="0" name="Z" single_keyframe_only="1" order="2" id="{fe3de4e6-f341-4296-bdf7-89492db91efd}" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{27f7d79b-29d6-4c81-a136-fb93803136a5}">
+  <RADIAN animated="1" default="0" name="X" single_keyframe_only="1" order="0" id="{39c434dc-f0a7-4012-a2f9-796dfc1b82b3}" hidden="false"/>
+  <RADIAN animated="1" default="0" name="Y" single_keyframe_only="1" order="1" id="{445219f6-b2c6-4440-97fd-474274cb567f}" hidden="false"/>
+  <RADIAN animated="1" default="0" name="Z" single_keyframe_only="1" order="2" id="{97268d4f-0d79-4e52-80e6-86f7de0e87a1}" hidden="false"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{7b4456e8-2d79-47df-a5e3-40164a3ea61d}"/>
+ <NODE name="Warscape Properties" id="{d9f0e9dc-9938-449e-866a-03f3ab6e4dce}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_kuru.xml" warscape_properties_file="../cameras/flyby_cam_kuru.xml" id="{07973f81-677d-4e52-8b6c-6a838780c6ec}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{761dd6f2-d2bf-46b7-9d84-f0d63efb92cc}">
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_kuru_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_kuru_01.kfa" id="{76cd46a9-8f86-4f4b-91b5-6b984ff77593}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_kuru_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_kuru_02.kfa" id="{3d778185-1eab-4889-825b-8b9ccd6e8ee2}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_kuru_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_kuru_03.kfa" id="{3b49f7ee-08b8-40f3-b4b1-e11412e5a12f}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_kuru_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_kuru_04.kfa" id="{a803517c-514c-40a5-a2b5-770f011c3d95}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_kuru_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_kuru_05.kfa" id="{71739ebe-f977-4b20-9651-5805192dde5c}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{09eb5749-1863-405a-b715-c8b85c9e4669}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/kuru_idle.kfcs" name="kuru_idle.kfcs" id="{1afef94a-6295-439c-a66c-f973f54c29f0}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/sup_kills.kfcs" name="sup_kills.kfcs" id="{daa5d8ef-c9cc-49b7-9927-12322ae4bab6}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/kuru_kills.kfcs" name="kuru_kills.kfcs" id="{dc40b13e-69c9-4023-a076-e1abcfce7496}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/hit_vs_hit_raid.kfcs" name="hit_vs_hit_raid.kfcs" id="{26d4460a-0b8c-443b-b07c-7d885ff605c1}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ships_kuru.kfcs" name="ships_kuru.kfcs" id="{7f84f889-dd98-4b76-8ecc-3d9e8dad2274}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/phry_raid.kfcs" name="phry_raid.kfcs" id="{373bbeb4-7764-42cd-8e3c-b557e6ef6266}"/>
+ </NODE>
+</SCENE_FILE>

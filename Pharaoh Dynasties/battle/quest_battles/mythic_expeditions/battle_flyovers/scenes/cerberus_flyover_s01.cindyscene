@@ -1,0 +1,41 @@
+<SCENE_FILE end_record_time="51.00000265985727" name="cerberus_flyover_s01.CindyScene" start_record_time="0" perspective_camera="0.407674,419.507,582.819:-3.40683,413.728,601.582" id="{bf888dcf-c568-4a23-9cf7-f51732fab683}" version="23">
+ <ENVIRONMENT order="0" name="Environment" hidden="false" data="" id="{843ed954-8019-4f9a-b695-4d87de3e7f09}"/>
+ <VECTOR link_id="0" name="position" is_linked="0" unique_id="{0285b7d5-ded2-4e61-870f-837762dd71c8}" id="{0285b7d5-ded2-4e61-870f-837762dd71c8}" surface_mode="Freeform">
+  <DOUBLE default="0" order="0" name="X" animated="1" hidden="false" single_keyframe_only="1" id="{016df50e-1a4a-4b86-8ce4-2064e592a1cd}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" name="Y" animated="1" hidden="false" single_keyframe_only="1" id="{87b35bfc-d2c6-4164-8aa2-3aebb6a60ee5}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" name="Z" animated="1" hidden="false" single_keyframe_only="1" id="{94dfb2f9-66e9-4070-8b0c-f60c3b26af30}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{20f40efc-b7a7-4c02-be21-83ba848d82f4}">
+  <RADIAN default="0" order="0" name="X" animated="1" hidden="false" single_keyframe_only="1" id="{de23dd05-df11-41ae-b80d-b2c00624b972}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN default="0" order="1" name="Y" animated="1" hidden="false" single_keyframe_only="1" id="{727d6cc6-243c-4860-921b-c41766d86a10}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" name="Z" animated="1" hidden="false" single_keyframe_only="1" id="{a37d436e-1585-4c7a-99df-d744d6050b6c}">
+   <KEYFRAME time="15.19751739501953" handle1_x="15.1975" handle2_x="15.1975" data="0" handle1_type="SMOOTH" handle1_y="0" handle2_y="0" handle2_type="SMOOTH"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{a1ab601b-0e39-4c08-bcb3-97e3a7ac0c51}"/>
+ <NODE name="Warscape Properties" id="{2e7413fd-8763-4bfe-bc09-fd5367ad42c7}">
+  <WARSCAPE_PROPERTIES name="cerberus_cam.xml" id="{d17ecd88-ec91-46e3-81a8-5823fc21a905}" warscape_properties_file="../cameras/cerberus_cam.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{53a1656b-ce6e-47a1-b7be-03967d249742}">
+  <COMPOSITE_SCENE name="cerberus_custom.kfcs" composite_scene_file="../csc_ref/cerberus_custom.kfcs" id="{cb1709c0-bde8-4798-ad7d-baccb97a1dc6}"/>
+  <COMPOSITE_SCENE name="extra_fog.kfcs" composite_scene_file="../csc_ref/extra_fog.kfcs" id="{3e1ae860-6f86-4a26-b214-a514c38d835a}"/>
+  <COMPOSITE_SCENE name="extra_fog01.kfcs" composite_scene_file="../csc_ref/extra_fog01.kfcs" id="{f8304e26-a3e2-4aeb-bde1-6572c922c862}"/>
+  <COMPOSITE_SCENE name="extra_fog02.kfcs" composite_scene_file="../csc_ref/extra_fog02.kfcs" id="{4eeb6195-3008-4bcb-bb68-f18f641e80e2}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{6afd047f-a509-451c-9c3e-7406ca4fed4a}">
+  <AUDIO_EVENT name="cerberus_1.kfa" id="{f07f343e-0437-454a-b454-4ac25e5153df}" audio_event_file="../audio/cerberus_1.kfa"/>
+  <AUDIO_EVENT name="cerberus_2.kfa" id="{08ff51fa-008c-4ed6-a0f9-65e2055c00b9}" audio_event_file="../audio/cerberus_2.kfa"/>
+  <AUDIO_EVENT name="cerberus_3.kfa" id="{8bcd796e-a56a-4bb2-8ac7-5e1cbcc1bbb1}" audio_event_file="../audio/cerberus_3.kfa"/>
+  <AUDIO_EVENT name="cerberus_4.kfa" id="{d111ce45-baf0-4d48-895a-3ae03e072b4e}" audio_event_file="../audio/cerberus_4.kfa"/>
+ </NODE>
+</SCENE_FILE>

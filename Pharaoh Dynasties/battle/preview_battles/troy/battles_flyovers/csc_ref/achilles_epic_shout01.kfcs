@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE name="Achilles_Epic_Shout01.kfcs" directory="projects/battles_flyovers/csc_ref/achilles_shout.csc" version="23" id="{127950fa-aee9-47ca-9cae-e93f03de5a4c}">
+ <VECTOR link_id="0" surface_mode="Freeform" name="position" is_linked="0" unique_id="{704cdaa9-2a1e-437a-9c69-cad8a8ad296d}" id="{704cdaa9-2a1e-437a-9c69-cad8a8ad296d}">
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" animated="0" name="X" order="0" id="{0c95d3bf-dbd0-4a52-b0f3-2f54fb0e8caf}">
+   <KEYFRAME data="-291.79998779296875" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" animated="0" name="Y" order="1" id="{d58dcfb0-1972-427e-a792-40752286e8ab}">
+   <KEYFRAME data="54.87791442871094" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" animated="0" name="Z" order="2" id="{2ed0dda4-94a3-4d8c-9263-d6869c5df57e}">
+   <KEYFRAME data="-68.75" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{e0c86f70-2aea-428c-b5f1-f74a12c369a3}">
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" animated="0" name="X" order="0" id="{3d2803a3-81d7-43fd-9f4c-0972c95c3e6c}"/>
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" animated="0" name="Y" order="1" id="{06164814-6925-4329-99e5-f655885895fe}">
+   <KEYFRAME data="0.6981314420700073" time="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" animated="0" name="Z" order="2" id="{a23a33ac-12ad-4803-a42f-69671db27e0f}"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" user_friendy_name="Scale" hidden="false" default="1" animated="0" name="scale" order="2" id="{055240b0-2390-445c-a3a1-405dfc5d69a5}">
+  <KEYFRAME data="1.1399999856948853" time="0"/>
+ </DOUBLE>
+ <BOOL single_keyframe_only="0" user_friendy_name="Active" hidden="false" default="0" animated="1" name="active" order="3" id="{06d44175-c90f-4539-abaf-92b5d4e9f173}">
+  <KEYFRAME data="1" time="31"/>
+  <KEYFRAME data="0" time="50.0333366394043"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" user_friendy_name="Speed Multiplier" hidden="false" default="1" animated="1" name="speed_multiplier" order="4" id="{0afc366e-7cc5-4337-81bc-8af4591bec31}"/>
+</COMPOSITE_SCENE_FILE>

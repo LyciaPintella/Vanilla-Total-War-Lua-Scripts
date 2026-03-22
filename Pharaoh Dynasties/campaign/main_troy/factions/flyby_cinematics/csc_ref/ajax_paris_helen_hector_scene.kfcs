@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_hct_prs_hln_arrive_vo_foolish_short.csc" id="{6a282c64-9ce5-4d16-89ec-634c271ca05a}" name="ajax_paris_helen_hector_scene.kfcs">
+ <VECTOR is_linked="0" link_id="0" id="{2bc62d22-4313-4bab-9559-b20a651323ab}" unique_id="{2bc62d22-4313-4bab-9559-b20a651323ab}" name="position" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{c7f88119-c3d0-4df9-b7bc-0edc4eab09db}" default="0" name="X" order="0" animated="0">
+   <KEYFRAME data="373.4015197753906" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{8088531b-7af0-4f8f-97bb-8c4a43fb8169}" default="0" name="Y" order="1" animated="0">
+   <KEYFRAME data="0.38904523849487305" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{940d27e2-ff4d-40f8-8f83-25ce807372df}" default="0" name="Z" order="2" animated="0">
+   <KEYFRAME data="417.7543029785156" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{23b4f104-b0d1-4fab-9c75-5fce8c64d9e5}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" id="{d7cfee81-b4a8-47ad-ae91-178ab93bce59}" default="0" name="X" order="0" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{4e088230-9668-4209-a3cc-4fa627e36f40}" default="0" name="Y" order="1" animated="0">
+   <KEYFRAME data="3.591177463531494" time="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{c7cde694-8696-4544-a0fa-bb8b66d2f2d8}" default="0" name="Z" order="2" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" id="{ffe6df54-77fc-40ba-bafe-e62b6d5d767b}" default="1" name="scale" order="2" animated="0"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" id="{cae0ef00-db36-43a1-9975-477f899cd5ad}" default="0" name="active" order="3" animated="1">
+  <KEYFRAME data="0" time="0"/>
+  <KEYFRAME data="1" time="0.03333333507180214"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" hidden="false" id="{9690e567-17a0-4058-8a62-5569cdb334af}" default="1" name="speed_multiplier" order="4" animated="1"/>
+</COMPOSITE_SCENE_FILE>

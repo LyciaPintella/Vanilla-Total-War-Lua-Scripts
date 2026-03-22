@@ -1,0 +1,30 @@
+<SCENE_FILE start_record_time="0" name="flyby_menelausmap_r01_s01.CindyScene" version="23" perspective_camera="210.079,2.58897,160.28:209.192,1.07953,165.297" id="{c30085d6-347f-49b1-a64d-f006256ce3cd}" end_record_time="74.00000385940075">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" id="{fdf726b5-92b2-41b2-8194-f1b0977942a2}" data=""/>
+ <VECTOR is_linked="0" unique_id="{9be55322-4b13-48d5-a4ae-a99d132252f4}" name="position" id="{9be55322-4b13-48d5-a4ae-a99d132252f4}" link_id="0" surface_mode="Freeform">
+  <DOUBLE animated="1" hidden="false" order="0" name="X" single_keyframe_only="1" id="{0937180f-4d4a-4841-a3f6-1885a908482d}" default="0"/>
+  <DOUBLE animated="1" hidden="false" order="1" name="Y" single_keyframe_only="1" id="{8afb5761-e397-4ee0-8660-65b896da6f9c}" default="0"/>
+  <DOUBLE animated="1" hidden="false" order="2" name="Z" single_keyframe_only="1" id="{86ac60ab-1bf0-4893-aa9f-6b4b2833b403}" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{29785574-6540-407f-b29d-5e889adbcfe0}">
+  <RADIAN animated="1" hidden="false" order="0" name="X" single_keyframe_only="1" id="{d7c5e21a-97ad-4d85-9947-6abbdb7fd1d4}" default="0"/>
+  <RADIAN animated="1" hidden="false" order="1" name="Y" single_keyframe_only="1" id="{a1e88e06-1f94-4da6-839f-19bf24b80578}" default="0"/>
+  <RADIAN animated="1" hidden="false" order="2" name="Z" single_keyframe_only="1" id="{f0f2d972-18c5-4db7-8dc4-e9631ef4fbe7}" default="0"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{b7188632-ca48-4d8e-8488-ed7648fd2db8}"/>
+ <NODE name="Warscape Properties" id="{ffa4f89a-6993-4516-8293-c9e6c55eeb82}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_menelaus.xml" warscape_properties_file="../cameras/flyby_cam_menelaus.xml" id="{c8d76e19-5156-4f7a-b38c-35acf9660ad1}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{adf4df99-8915-494b-b246-4a7072d6a553}">
+  <COMPOSITE_SCENE name="menelaus01.kfcs" id="{342687d6-0d0f-4f15-9b6a-0a2ab67dfab5}" composite_scene_file="../csc_ref/menelaus01.kfcs"/>
+  <COMPOSITE_SCENE name="agamemnon01.kfcs" id="{ecfefe2e-d923-47c1-8a21-c7c5d6bcc35c}" composite_scene_file="../csc_ref/agamemnon01.kfcs"/>
+  <COMPOSITE_SCENE name="tyrin_general.kfcs" id="{48f8832e-1fc5-43d3-93c3-b5886ab20622}" composite_scene_file="../csc_ref/tyrin_general.kfcs"/>
+ </NODE>
+ <NODE name="Audio Events" id="{fa2a72c3-ecb5-426e-9dfe-7d23a1662058}">
+  <AUDIO_EVENT audio_event_file="../audio/menelaus01.kfa" name="menelaus01.kfa" id="{48997bda-4cae-4555-b234-3c3658cab9b1}"/>
+  <AUDIO_EVENT audio_event_file="../audio/menelaus02.kfa" name="menelaus02.kfa" id="{06a2b9ea-31d6-4e1b-b23d-a0b4b37646d9}"/>
+  <AUDIO_EVENT audio_event_file="../audio/menelaus03.kfa" name="menelaus03.kfa" id="{cfbe4a86-63cf-4523-9008-ff2526170ba3}"/>
+  <AUDIO_EVENT audio_event_file="../audio/menelaus04.kfa" name="menelaus04.kfa" id="{8763dcc0-7c32-4a1b-a44d-41fa34cde4b5}"/>
+  <AUDIO_EVENT audio_event_file="../audio/menelaus05.kfa" name="menelaus05.kfa" id="{a9d0c2f8-60a6-485b-b763-4655de9ce674}"/>
+  <AUDIO_EVENT audio_event_file="../audio/menelaus06.kfa" name="menelaus06.kfa" id="{1db5a48e-ff20-4fa1-8f54-dc2df67f419b}"/>
+ </NODE>
+</SCENE_FILE>

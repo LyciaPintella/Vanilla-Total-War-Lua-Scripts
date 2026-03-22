@@ -1,0 +1,14 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_troy_mth_qb_intro_hydra_3" version="23" id="{1444633a-1404-42ed-bdc8-5aa26834b3ab}" name="hydra_3.kfa">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{a8781211-1209-4f0f-a9cf-5510a471a37f}" unique_id="{a8781211-1209-4f0f-a9cf-5510a471a37f}" name="position">
+  <DOUBLE default="0" hidden="false" animated="0" id="{ce4adab0-e8c1-48fb-97fd-61fa0fb0e136}" order="0" name="X" single_keyframe_only="1"/>
+  <DOUBLE default="0" hidden="false" animated="0" id="{0bc10eeb-876f-4aec-a16b-4a575168f0b1}" order="1" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="1.8510363101959229" handle1_x="22.3757" handle1_y="1.85104" time="22.37568092346191" handle2_x="22.3757" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_y="1.85104"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" animated="0" id="{6c590c06-b35b-4d2a-9422-b9de86591843}" order="2" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <BOOL default="0" hidden="false" animated="1" id="{4f1bfc86-e7f2-4be6-aa18-c6fe3afb8a29}" user_friendy_name="Active" order="2" name="active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="34"/>
+  <KEYFRAME data="0" time="49.00000381469727"/>
+ </BOOL>
+ <DOUBLE default="100" hidden="false" animated="0" id="{37f8548d-abad-4364-939b-8f06c75a067c}" user_friendy_name="Volume" order="3" name="volume" single_keyframe_only="1"/>
+</AUDIO_EVENT_FILE>

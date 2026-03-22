@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ach_talk_and_stab.csc" version="23" id="{e153d231-2209-44f6-85c5-42291649337d}" name="aga_ach_betrayl.kfcs">
+ <VECTOR unique_id="{e25fcb1d-0a1c-4fdf-8928-adb8746010f6}" surface_mode="Freeform" id="{e25fcb1d-0a1c-4fdf-8928-adb8746010f6}" link_id="-1" name="position" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{dbb14082-17c4-4963-8ece-cb8fa879f2c4}" name="X" order="0" animated="0" default="0">
+   <KEYFRAME time="-1" data="85.3473892211914"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{1370929d-d29b-45cf-856d-e531cfc9105c}" name="Y" order="1" animated="0" default="0">
+   <KEYFRAME time="-1" data="0.2473917007446289"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{7e0da98b-f5e0-40a2-bd35-ce6dfcfef6fd}" name="Z" order="2" animated="0" default="0">
+   <KEYFRAME time="-1" data="1009.4063110351562"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{a35b22d8-9e83-42cc-b4be-6489a05fee15}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" id="{44f2411a-b152-4b40-9be3-44d94318b50c}" name="X" order="0" animated="0" default="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{81de7888-b9bf-4b4d-b61b-e8faf38b086a}" name="Y" order="1" animated="0" default="0">
+   <KEYFRAME time="-1" data="5.8484015464782715"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{5c497065-c5c4-4d6b-b619-58ce0559e02e}" name="Z" order="2" animated="0" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" hidden="false" id="{6af8b6ed-00c7-4d9a-8416-d8de3b6f8fb7}" user_friendy_name="Scale" name="scale" order="2" animated="0" default="1"/>
+ <BOOL single_keyframe_only="0" hidden="false" id="{3d840ac4-b302-4d3f-bb52-c422d3c9d25a}" user_friendy_name="Active" name="active" order="3" animated="1" default="0">
+  <KEYFRAME time="10.50000095367432" data="1"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" hidden="false" id="{840d75c7-b6c0-4898-9c76-2759f404355a}" user_friendy_name="Speed Multiplier" name="speed_multiplier" order="4" animated="1" default="1"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,63 @@
+<SCENE_FILE start_record_time="0" end_record_time="134.0000069886446" perspective_camera="214.716,25.3906,1161.22:223.286,11.251,1172.48" name="phar_camp_flyby_pri_r01_s01.CindyScene" id="{2f695773-bb3f-4521-a7f1-3e991c38a5b5}" version="23">
+ <ENVIRONMENT data="weather/campaign/prosperity/midday_prosperity.environment" name="Environment" order="0" hidden="false" id="{0ebece4f-b28f-4432-b8b5-d95dd6d22112}"/>
+ <VECTOR surface_mode="Freeform" name="position" unique_id="{b321839a-f474-469f-ab5d-11fd6937f60b}" is_linked="0" link_id="0" id="{b321839a-f474-469f-ab5d-11fd6937f60b}">
+  <DOUBLE name="X" default="0" single_keyframe_only="1" animated="1" order="0" hidden="false" id="{621bd02a-a3d0-46e2-9e94-0f232a0e22bb}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" single_keyframe_only="1" animated="1" order="1" hidden="false" id="{c59f49ee-57d0-475d-a2e6-8f3f46956c1e}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" single_keyframe_only="1" animated="1" order="2" hidden="false" id="{77a6c1d1-b673-44aa-a583-32d79f199c44}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{74206056-18cf-497c-ae19-775639429aea}">
+  <RADIAN name="X" default="0" single_keyframe_only="1" animated="1" order="0" hidden="false" id="{44bce389-2a23-4191-94a6-3c2ac7331fe3}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN name="Y" default="0" single_keyframe_only="1" animated="1" order="1" hidden="false" id="{4b5f09c3-7e90-44fa-aa49-f40a3918dbb9}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" single_keyframe_only="1" animated="1" order="2" hidden="false" id="{9e4910cb-f2dd-4185-9141-a65b2261de4b}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{6ed45e6b-1e93-4b6a-a23a-fe8a6d9b2d88}"/>
+ <NODE name="Warscape Properties" id="{87685b20-1cf2-4964-9164-c43d88de1ca8}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/flyby_cam_pri.xml" name="flyby_cam_pri.xml" id="{07735915-c0b5-49fc-a575-9411f06ae0b3}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{b2eda88f-4417-4dc2-852a-dac243c572e5}">
+  <AUDIO_EVENT audio_event_file="../audio/pri01.kfa" name="pri01.kfa" id="{d08fb7c4-04b2-4ed9-8144-614d0d5b8720}"/>
+  <AUDIO_EVENT audio_event_file="../audio/pri02.kfa" name="pri02.kfa" id="{aaeccb75-9035-4557-8d78-9ad985b3d630}"/>
+  <AUDIO_EVENT audio_event_file="../audio/pri03.kfa" name="pri03.kfa" id="{058c69e8-f63a-4f35-904c-1daff0102c6b}"/>
+  <AUDIO_EVENT audio_event_file="../audio/pri04.kfa" name="pri04.kfa" id="{c41c98fd-aa2f-4078-8329-3a2c7e6b8fb1}"/>
+  <AUDIO_EVENT audio_event_file="../audio/pri05.kfa" name="pri05.kfa" id="{5fa029f6-7b27-4d1a-b9d0-2c02e4d80078}"/>
+  <AUDIO_EVENT audio_event_file="../audio/pri06.kfa" name="pri06.kfa" id="{60cd00f9-c881-44c5-85dc-972a2a808278}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{6b91c113-5c80-4712-a103-009abd12c7c1}">
+  <COMPOSITE_SCENE name="pri_ships.kfcs" composite_scene_file="../csc_ref/pri_ships.kfcs" id="{5bce0026-672e-4c7d-b3ea-270bae0d807c}"/>
+  <COMPOSITE_SCENE name="pri_ship.kfcs" composite_scene_file="../csc_ref/pri_ship.kfcs" id="{ec99f987-68d3-4715-b47f-438cd8011592}"/>
+  <COMPOSITE_SCENE name="pri_ship01.kfcs" composite_scene_file="../csc_ref/pri_ship01.kfcs" id="{dc21a2d3-7203-4c43-83d2-e25e1429044e}"/>
+  <COMPOSITE_SCENE name="pri_acheans_fight.kfcs" composite_scene_file="../csc_ref/pri_acheans_fight.kfcs" id="{97e5cfe1-899e-4e12-bd5b-3085ee838de6}"/>
+  <COMPOSITE_SCENE name="pri_static_ship.kfcs" composite_scene_file="../csc_ref/pri_static_ship.kfcs" id="{53b2fdb0-8be4-45c8-ac5a-4b4c0cbcc538}"/>
+  <COMPOSITE_SCENE name="pri_tro_talk.kfcs" composite_scene_file="../csc_ref/pri_tro_talk.kfcs" id="{30c94084-c1b1-4a09-99f3-e1c81e8e4daa}"/>
+  <COMPOSITE_SCENE name="pri_static_ship01.kfcs" composite_scene_file="../csc_ref/pri_static_ship01.kfcs" id="{89df2dfc-498b-4425-9747-710c4aadb3da}"/>
+  <COMPOSITE_SCENE name="pri_static_ship02.kfcs" composite_scene_file="../csc_ref/pri_static_ship02.kfcs" id="{059e8b12-44aa-480b-bdda-6be535bc57ea}"/>
+  <COMPOSITE_SCENE name="pri_ships_to_stop.kfcs" composite_scene_file="../csc_ref/pri_ships_to_stop.kfcs" id="{6b17d636-454d-4a6b-a35b-0fd95b2a78a6}"/>
+  <COMPOSITE_SCENE name="pri_static_ship03.kfcs" composite_scene_file="../csc_ref/pri_static_ship03.kfcs" id="{b9de0eb8-9653-4eb1-bd0f-ccda5073a563}"/>
+  <COMPOSITE_SCENE name="pri_ach_raid.kfcs" composite_scene_file="../csc_ref/pri_ach_raid.kfcs" id="{b5b027a2-32ac-4eee-bbcf-655805dd56eb}"/>
+  <COMPOSITE_SCENE name="pri_ach_handshake.kfcs" composite_scene_file="../csc_ref/pri_ach_handshake.kfcs" id="{c90c8e14-5199-4592-90ac-cb8d07db15f5}"/>
+  <COMPOSITE_SCENE name="pri_static_ship04.kfcs" composite_scene_file="../csc_ref/pri_static_ship04.kfcs" id="{93f62bd7-6988-433b-a979-90e99ad8ca81}"/>
+  <COMPOSITE_SCENE name="pri_static_ship05.kfcs" composite_scene_file="../csc_ref/pri_static_ship05.kfcs" id="{b1b75bd1-3c94-4747-a977-4819c9352c84}"/>
+  <COMPOSITE_SCENE name="pri_ships_to_stop01.kfcs" composite_scene_file="../csc_ref/pri_ships_to_stop01.kfcs" id="{d9e77592-3ceb-4d52-9710-bda42f5cdc7e}"/>
+  <COMPOSITE_SCENE name="pri_ach_idle.kfcs" composite_scene_file="../csc_ref/pri_ach_idle.kfcs" id="{a869fa77-416a-4f23-a541-2ac472717620}"/>
+  <COMPOSITE_SCENE name="pri_ach_idle01.kfcs" composite_scene_file="../csc_ref/pri_ach_idle01.kfcs" id="{c6fc554c-5357-46f3-bd4e-f529d5142b92}"/>
+  <COMPOSITE_SCENE name="pri_ach_vs_tro.kfcs" composite_scene_file="../csc_ref/pri_ach_vs_tro.kfcs" id="{b8190c06-7af7-459c-a793-44cf61ec81c6}"/>
+  <COMPOSITE_SCENE name="pri_aga_fights.kfcs" composite_scene_file="../csc_ref/pri_aga_fights.kfcs" id="{51096d6b-91a0-4618-a518-b3bd0be0d72c}"/>
+  <COMPOSITE_SCENE name="pri_ach_stance.kfcs" composite_scene_file="../csc_ref/pri_ach_stance.kfcs" id="{cbab7d85-c727-4459-a783-139b3a64791f}"/>
+  <COMPOSITE_SCENE name="pri_ships_to_stop02.kfcs" composite_scene_file="../csc_ref/pri_ships_to_stop02.kfcs" id="{4c709f93-b388-462c-9d1c-3a899d84d169}"/>
+  <COMPOSITE_SCENE name="pri_ships01.kfcs" composite_scene_file="../csc_ref/pri_ships01.kfcs" id="{eb8ea17e-44f7-4ca6-9dd3-908b201a63ad}"/>
+  <COMPOSITE_SCENE name="pri_thr.kfcs" composite_scene_file="../csc_ref/pri_thr.kfcs" id="{0e4ed51e-6ff0-4dfc-9e70-2ab2bc51b893}"/>
+  <COMPOSITE_SCENE name="pri_hit_training.kfcs" composite_scene_file="../csc_ref/pri_hit_training.kfcs" id="{b72354d2-e71b-4b26-b474-05dd5258e1ca}"/>
+ </NODE>
+</SCENE_FILE>

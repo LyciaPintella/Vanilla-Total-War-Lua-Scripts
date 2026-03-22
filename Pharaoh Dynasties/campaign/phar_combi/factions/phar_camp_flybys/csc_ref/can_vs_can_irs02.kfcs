@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE version="23" id="{d145f48b-6a54-4b02-8b31-4483076e19c9}" name="can_vs_can_irs02.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_can_vs_can_02.csc">
+ <VECTOR id="{867f0923-5ebf-40c9-af91-0ab3c2a51bbe}" unique_id="{867f0923-5ebf-40c9-af91-0ab3c2a51bbe}" link_id="0" is_linked="0" surface_mode="Freeform" name="position">
+  <DOUBLE default="0" id="{4749b734-69a4-4919-aa3c-11eda3caeded}" order="0" animated="0" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="829.7340087890625" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" id="{2df291d7-942e-4f59-ad3f-5404e527bee1}" order="1" animated="0" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="2.280575752258301" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" id="{ecb29fb3-f650-4c7f-9515-f0b8768f33e7}" order="2" animated="0" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="941.4239501953125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{6c44993a-aeed-4684-90eb-72663fa4500a}" name="rotation">
+  <RADIAN default="0" id="{d4be6db0-223d-4819-8073-fc2979590be2}" order="0" animated="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN default="0" id="{3401d319-0dbb-4529-88b0-5285905a81c7}" order="1" animated="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <RADIAN default="0" id="{6fa3afc0-87fe-45db-8513-33cb6ddf1993}" order="2" animated="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" id="{9f03f26b-8873-4a30-9ed7-777587b49e15}" user_friendy_name="Scale" order="2" animated="0" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL default="0" id="{d8c3027c-7e12-41a2-9bef-30dfd7ec4b0e}" user_friendy_name="Active" order="3" animated="1" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="21.50000190734863"/>
+ </BOOL>
+ <DOUBLE default="1" id="{02cefa69-34ed-4441-a7d3-e3ddc467b94d}" user_friendy_name="Speed Multiplier" order="4" animated="1" hidden="false" name="speed_multiplier" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

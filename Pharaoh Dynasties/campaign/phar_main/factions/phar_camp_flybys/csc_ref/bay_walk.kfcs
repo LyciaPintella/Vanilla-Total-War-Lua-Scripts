@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE version="23" name="bay_walk.kfcs" id="{a04db867-861c-4dcf-b28f-d29ab9f0b830}" directory="composite_scene/phar/campaign_cinematic/phar_camp_bay_walk.csc">
+ <VECTOR surface_mode="Freeform" name="position" unique_id="{14392728-2af9-4410-af8c-6e71cba9a5ed}" link_id="-1" id="{14392728-2af9-4410-af8c-6e71cba9a5ed}" is_linked="0">
+  <DOUBLE name="X" default="0" single_keyframe_only="1" order="0" hidden="false" id="{8a38dcca-0e8d-4bae-92c9-3435146d2acb}" animated="0">
+   <KEYFRAME time="-1" data="527.7164916992188"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" single_keyframe_only="1" order="1" hidden="false" id="{9fd55fce-1f3b-4358-856d-bfbce01d541a}" animated="0">
+   <KEYFRAME time="-1" data="3.925325393676758"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" single_keyframe_only="1" order="2" hidden="false" id="{5f0abc60-6def-4853-8f1a-fc3226023262}" animated="0">
+   <KEYFRAME time="-1" data="842.2083129882812"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{500701df-3fc7-4e27-874c-af6c3b900d15}">
+  <RADIAN name="X" default="0" single_keyframe_only="1" order="0" hidden="false" id="{9a01db97-4c6a-45aa-96fe-5f0dfb85c236}" animated="0"/>
+  <RADIAN name="Y" default="0" single_keyframe_only="1" order="1" hidden="false" id="{57f6552b-05ff-4097-a7a1-c65e070c99bd}" animated="0">
+   <KEYFRAME time="-1" data="2.0607330799102783"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" single_keyframe_only="1" order="2" hidden="false" id="{cd3b5363-5f73-4563-9915-b1e9ad8285d3}" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" default="1" single_keyframe_only="1" order="2" hidden="false" id="{6b990c18-ae3c-41b0-8d96-0c168fbfffd0}" user_friendy_name="Scale" animated="0"/>
+ <BOOL name="active" default="0" single_keyframe_only="0" order="3" hidden="false" id="{c5600e18-67c2-44a9-83db-5d919a7f30eb}" user_friendy_name="Active" animated="1">
+  <KEYFRAME time="43.76667022705078" data="0"/>
+  <KEYFRAME time="44.66666793823242" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" default="1" single_keyframe_only="0" order="4" hidden="false" id="{63af15a8-d315-42d5-bdf8-cc6ac4cf66e4}" user_friendy_name="Speed Multiplier" animated="1"/>
+</COMPOSITE_SCENE_FILE>

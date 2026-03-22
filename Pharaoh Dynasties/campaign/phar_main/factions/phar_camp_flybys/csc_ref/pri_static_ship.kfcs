@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="pri_static_ship.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_ship_to_stop.csc" id="{7c9271dc-037d-4cb3-8992-db9e5187ec1f}" version="23">
+ <VECTOR surface_mode="Freeform" name="position" unique_id="{3c863a7b-2b41-4f89-9a6c-bf0d785f83ec}" is_linked="0" link_id="0" id="{3c863a7b-2b41-4f89-9a6c-bf0d785f83ec}">
+  <DOUBLE name="X" default="0" single_keyframe_only="1" animated="0" order="0" hidden="false" id="{c8c6b5cb-8eb1-4e81-a84f-a1d245d3a611}">
+   <KEYFRAME data="243.29244995117188" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" single_keyframe_only="1" animated="0" order="1" hidden="false" id="{80079fbb-993b-4ab0-83b5-cb356ba7fd08}">
+   <KEYFRAME data="0.010813236236572266" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" single_keyframe_only="1" animated="0" order="2" hidden="false" id="{74e64ff2-1a78-4229-a35c-8b6cd35c57e3}">
+   <KEYFRAME data="1045.46875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{67d8b166-4a49-4d24-b47b-4fdd08fb6195}">
+  <RADIAN name="X" default="0" single_keyframe_only="1" animated="0" order="0" hidden="false" id="{afc14a88-9489-4e78-a6a4-fc8ed6a39f4e}"/>
+  <RADIAN name="Y" default="0" single_keyframe_only="1" animated="0" order="1" hidden="false" id="{1b171853-071b-44a7-9344-cf3a68db0132}">
+   <KEYFRAME data="4.444211483001709" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" single_keyframe_only="1" animated="0" order="2" hidden="false" id="{0e703483-9010-4025-a908-8bfc7762de7b}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" default="1" single_keyframe_only="1" user_friendy_name="Scale" animated="0" order="2" hidden="false" id="{e42c4328-7951-4b68-836c-2ae7478e3765}"/>
+ <BOOL name="active" default="0" single_keyframe_only="0" user_friendy_name="Active" animated="1" order="3" hidden="false" id="{7d63f226-2b31-45bf-b982-ab51b0b318cf}">
+  <KEYFRAME data="1" time="4"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" default="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier" animated="1" order="4" hidden="false" id="{941ebcaa-1b7d-4689-beac-703861901e57}"/>
+</COMPOSITE_SCENE_FILE>

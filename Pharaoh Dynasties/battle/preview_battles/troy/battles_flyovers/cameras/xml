@@ -1,0 +1,11 @@
+<WARSCAPE_PROPERTIES_FILE id="{533934e0-767d-4f56-bc10-50a9c2f63e57}" name=".xml" version="23" supported_warscape_properties="1">
+ <NODE id="{33c6385c-2bf0-4577-b637-2f33d03ee4b2}" name="Weather Node">
+  <BOOL id="{8d0e3aa4-4999-484f-ae34-6943aad73f80}" default="1" name="Enabled" order="0" hidden="false" single_keyframe_only="0" animated="1"/>
+  <NODE id="{189b8670-f184-44d4-987f-06c61e14e898}" name="Sky">
+   <INT id="{ceb45e7e-d21d-47fc-b7a5-ab318f4876fd}" default="1" name="sun_texture" order="0" hidden="false" single_keyframe_only="0" animated="1"/>
+   <DOUBLE id="{4c733465-203f-4517-adff-279ac0f00d37}" default="0.2800000011920929" name="sun_scale" order="0" hidden="false" single_keyframe_only="0" animated="1"/>
+   <DOUBLE id="{a62984e9-027f-4049-90b7-8bcf4b947758}" default="8.399999618530273" name="sun_disk_color_scale" order="0" hidden="false" single_keyframe_only="0" animated="1"/>
+   <DOUBLE id="{fb123af2-b360-4d68-af43-237d27287ee4}" default="0.2599999904632568" name="sun_flare" order="0" hidden="false" single_keyframe_only="0" animated="1"/>
+  </NODE>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

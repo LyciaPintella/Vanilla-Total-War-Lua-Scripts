@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE id="{2d834a9b-1ddc-4356-a807-bc598a668fd1}" name="sq05_track04.kfa" version="23" audio_event_name="Play_phar_main_tutorial_v2_worry_mern_1">
+ <VECTOR surface_mode="Freeform" id="{5a8ba86e-25f0-49e7-a4b9-582ae77969ce}" name="position" is_linked="0" link_id="0" unique_id="{5a8ba86e-25f0-49e7-a4b9-582ae77969ce}">
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{00d73037-3b93-419b-88f9-4849df7fdf6f}" order="0" default="0" name="X">
+   <KEYFRAME time="0" data="436.4554138183594"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{c97e0108-ee3c-420a-a6e7-475a7c75e8fd}" order="1" default="0" name="Y">
+   <KEYFRAME time="16.63333511352539" data="4.76837158203125e-5"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{6222dadc-36a3-413a-8d8d-b3a5db13143d}" order="2" default="0" name="Z">
+   <KEYFRAME time="0" data="733.9160766601562"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" animated="1" hidden="false" user_friendy_name="Active" id="{b3779520-4467-45d1-9ef6-e2b148be9c89}" order="2" default="0" name="active">
+  <KEYFRAME time="43.60000228881836" data="1"/>
+  <KEYFRAME time="50.00000381469727" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" animated="0" hidden="false" user_friendy_name="Volume" id="{e41c4bac-092c-4db0-8907-19970b5eb9b9}" order="3" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

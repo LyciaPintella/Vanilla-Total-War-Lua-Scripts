@@ -1,0 +1,9 @@
+<AUDIO_EVENT_FILE id="{7593dd14-57e4-4e1b-9524-2c1f4bca6861}" name="phar_cam_faction_intro_mernephtah_bay_05.kfa" audio_event_name="BAT_ENV_Fire_Burning_Buildings_Play" version="23">
+ <VECTOR id="{65ff0749-4290-4257-89f8-b272ba4edc36}" name="position" is_linked="0" unique_id="{65ff0749-4290-4257-89f8-b272ba4edc36}" link_id="0" surface_mode="Freeform">
+  <DOUBLE order="0" id="{18e9e23c-5c30-4b02-8d59-cd32909248cb}" name="X" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+  <DOUBLE order="1" id="{cf75b68e-0e35-4433-b986-1bbea26146e0}" name="Y" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+  <DOUBLE order="2" id="{353e101b-b0c0-48ad-8f3a-bb8e14b3e5ca}" name="Z" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+ </VECTOR>
+ <BOOL order="2" id="{d2b2781c-70f5-4853-857c-8f639a0ba9d3}" name="active" default="0" hidden="false" animated="1" user_friendy_name="Active" single_keyframe_only="0"/>
+ <DOUBLE order="3" id="{d4051a56-1994-4c00-a253-2fb665a006df}" name="volume" default="100" hidden="false" animated="0" user_friendy_name="Volume" single_keyframe_only="1"/>
+</AUDIO_EVENT_FILE>

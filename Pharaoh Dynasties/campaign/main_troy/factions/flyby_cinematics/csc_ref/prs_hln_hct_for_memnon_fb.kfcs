@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/troy/campaign_cinematic/troy_camp_hct_prs_hln_arrive_vo_foolish_long.csc" version="23" name="prs_hln_hct_for_memnon_fb.kfcs" id="{ecc03bb8-02eb-47b5-a8bc-687b6decaa2e}">
+ <VECTOR link_id="0" unique_id="{e8f4223e-d842-4ddb-8627-df8d87da3936}" surface_mode="Freeform" is_linked="0" name="position" id="{e8f4223e-d842-4ddb-8627-df8d87da3936}">
+  <DOUBLE default="0" hidden="false" animated="0" single_keyframe_only="1" order="0" name="X" id="{21ba013a-9b6c-4990-a690-e66cb0025294}">
+   <KEYFRAME data="371.93951416015625" time="0.5"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" animated="0" single_keyframe_only="1" order="1" name="Y" id="{776e7fc1-1522-42ba-b358-a467215da914}">
+   <KEYFRAME data="0.36658763885498047" time="0.5"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" animated="0" single_keyframe_only="1" order="2" name="Z" id="{20e8a9b2-9d90-4db8-a9d9-a1d898f85773}">
+   <KEYFRAME data="407.889404296875" time="0.5"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{49393929-3190-4842-8a5b-55da1021dce0}">
+  <RADIAN default="0" hidden="false" animated="0" single_keyframe_only="1" order="0" name="X" id="{8431fb44-e4eb-4dd6-9387-cf5ffd5ba4e3}">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" animated="0" single_keyframe_only="1" order="1" name="Y" id="{1b147972-ab5b-48f7-a307-2253db1e3c40}">
+   <KEYFRAME data="5.432354927062988" time="0.5"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" animated="0" single_keyframe_only="1" order="2" name="Z" id="{06b50162-1b31-4c9c-9039-d7191f09b269}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" default="1" hidden="false" animated="0" single_keyframe_only="1" order="2" name="scale" id="{2bee7cc0-27e4-42b8-a94c-7249ea0bd452}"/>
+ <BOOL user_friendy_name="Active" default="0" hidden="false" animated="1" single_keyframe_only="0" order="3" name="active" id="{2ab6d44c-d322-4bad-b82c-4b7693bbe531}">
+  <KEYFRAME data="1" time="1.50000011920929"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" default="1" hidden="false" animated="1" single_keyframe_only="0" order="4" name="speed_multiplier" id="{f40c2ae7-30e6-4d9f-912a-7a5950ebf773}"/>
+</COMPOSITE_SCENE_FILE>

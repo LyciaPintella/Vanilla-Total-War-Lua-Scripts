@@ -1,0 +1,17 @@
+<SCENE_FILE end_record_time="1000" perspective_camera="315.69,81.472,-179.873:321.95,71.7106,-196.394" name="wrath_of_poseidon_r01_s01.CindyScene" start_record_time="2.000000104308128" version="23" id="{0fb9523f-8818-4f96-878c-d41ff81625fe}">
+ <ENVIRONMENT hidden="false" name="Environment" data="" order="0" id="{949797c2-d167-4e0f-96dd-2907cbb16145}"/>
+ <VECTOR is_linked="0" name="position" surface_mode="Freeform" link_id="-1" unique_id="{c580f011-c9c6-40bf-a604-484edbecc97b}" id="{c580f011-c9c6-40bf-a604-484edbecc97b}">
+  <DOUBLE hidden="false" animated="0" name="X" single_keyframe_only="1" default="0" order="0" id="{ab193f2b-112e-434e-849c-1355e10581fe}"/>
+  <DOUBLE hidden="false" animated="0" name="Y" single_keyframe_only="1" default="0" order="1" id="{3101bb55-c561-4961-88db-a5f9f04cd161}"/>
+  <DOUBLE hidden="false" animated="0" name="Z" single_keyframe_only="1" default="0" order="2" id="{e6066581-80be-4ddf-af76-e087d77653d7}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{1c4d6969-ac0e-4b75-88f3-0be906c3c9f7}">
+  <RADIAN hidden="false" animated="0" name="X" single_keyframe_only="1" default="0" order="0" id="{ea789e28-0edb-4ce5-bd8f-8fcd9f0ffe77}"/>
+  <RADIAN hidden="false" animated="0" name="Y" single_keyframe_only="1" default="0" order="1" id="{37261d0b-3d9b-47c9-a2c5-04eb12b1b45e}"/>
+  <RADIAN hidden="false" animated="0" name="Z" single_keyframe_only="1" default="0" order="2" id="{508f32a2-98df-4c9f-a2cb-573999bc892b}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{ce222634-20f3-4019-9366-4d9ec7f6c145}"/>
+ <NODE name="Warscape Properties" id="{e84bd1d4-2e41-4d9b-9888-f1b62218dacc}">
+  <WARSCAPE_PROPERTIES name="earthquake_battle_cam.xml" warscape_properties_file="../cameras/earthquake_battle_cam.xml" id="{23648346-05fb-4885-8a50-b75138f3d568}"/>
+ </NODE>
+</SCENE_FILE>

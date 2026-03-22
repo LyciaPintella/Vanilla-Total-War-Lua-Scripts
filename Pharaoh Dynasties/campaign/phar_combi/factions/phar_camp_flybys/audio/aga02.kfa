@@ -1,0 +1,19 @@
+<AUDIO_EVENT_FILE name="aga02.kfa" audio_event_name="Play_phar_cam_faction_intro_merneptah_aga_02" version="23" id="{8d01a708-8303-4c34-b339-49af72914cb8}">
+ <VECTOR name="position" link_id="0" surface_mode="Freeform" id="{9b79e597-93e0-485f-b093-3d95a8a02ed8}" is_linked="0" unique_id="{9b79e597-93e0-485f-b093-3d95a8a02ed8}">
+  <DOUBLE name="X" animated="0" single_keyframe_only="1" hidden="false" default="0" order="0" id="{7f4d346f-2c95-434d-85f8-712d222c4940}">
+   <KEYFRAME data="66.80208587646484" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" animated="0" single_keyframe_only="1" hidden="false" default="0" order="1" id="{0c18da2e-c236-4dbe-9ea4-784b5d98ba2d}">
+   <KEYFRAME data="0.6212406158447266" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" animated="0" single_keyframe_only="1" hidden="false" default="0" order="2" id="{fd8b5c9f-507e-4cd4-a16c-dadfb39e3ff4}">
+   <KEYFRAME data="1036.849609375" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL name="active" animated="1" single_keyframe_only="0" hidden="false" user_friendy_name="Active" default="0" order="2" id="{77f6d014-6f00-4baa-9204-a90008bbdf7f}">
+  <KEYFRAME data="0" time="24.50000190734863"/>
+  <KEYFRAME data="1" time="24.50100135803223"/>
+  <KEYFRAME data="0" time="43.50000381469727"/>
+ </BOOL>
+ <DOUBLE name="volume" animated="0" single_keyframe_only="1" hidden="false" user_friendy_name="Volume" default="100" order="3" id="{700cf2e6-ba59-4a5b-a21e-b79028089854}"/>
+</AUDIO_EVENT_FILE>

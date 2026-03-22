@@ -1,0 +1,45 @@
+<SCENE_FILE name="flyby_oddyseusmap_r01_s01.CindyScene" version="23" id="{b56402f0-e04f-4778-a8d7-fb672f1d0033}" start_record_time="0" end_record_time="85.00000443309546" perspective_camera="107.153,7.74972,240.221:101.771,-0.0292363,249.919">
+ <ENVIRONMENT name="Environment" hidden="false" order="0" id="{0a790e90-680a-4123-8ef5-e6cb6daec1b3}" data=""/>
+ <VECTOR name="position" surface_mode="Freeform" unique_id="{d8a2e468-7ad2-4b92-b272-8bca306149f9}" is_linked="0" link_id="0" id="{d8a2e468-7ad2-4b92-b272-8bca306149f9}">
+  <DOUBLE name="X" hidden="false" order="0" id="{e22f17f2-543a-4edf-9500-ccb7b5a4774b}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" id="{5cfd2571-82c3-402b-b8a4-1784d712e7d3}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" id="{9b03f4e1-777b-4589-8c3b-11ac33c1cf3b}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{3ebc11c8-5030-4c9f-9e6b-e6a7b12b4993}">
+  <RADIAN name="X" hidden="false" order="0" id="{2924e9b7-71d6-4b1e-94b6-d4d67407a3bc}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </RADIAN>
+  <RADIAN name="Y" hidden="false" order="1" id="{e6ac48ba-e11b-4d9b-b47c-ea477b123350}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" order="2" id="{d6b6817f-1363-4058-b24f-6c83a7127f05}" single_keyframe_only="1" default="0" animated="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="28" handle2_type="SMOOTH" time="27.99999046325684" handle1_y="0" data="0" handle2_y="0" handle1_x="28"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{c10311d7-eea5-4009-94a7-88c2b6601eb9}"/>
+ <NODE name="Warscape Properties" id="{1fb349ce-adf7-4136-be47-daf6370c11e6}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_oddyseus.xml" warscape_properties_file="../cameras/flyby_cam_oddyseus.xml" id="{9ef74580-aba0-4580-9049-e6dfe1777211}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{a2ae91bb-a517-43a4-8e2b-d35dab790de9}">
+  <COMPOSITE_SCENE name="oddysseus_achilles.kfcs" id="{4b8eb030-b098-4b1e-9224-a89f5da780be}" composite_scene_file="../csc_ref/oddysseus_achilles.kfcs"/>
+  <COMPOSITE_SCENE name="oddysseus.kfcs" id="{7f8ea6a1-65c1-4e9b-9edf-4a1b6ed4e3c4}" composite_scene_file="../csc_ref/oddysseus.kfcs"/>
+  <COMPOSITE_SCENE name="teleboan_soldier.kfcs" id="{289685aa-ce24-4441-a8a4-e0424ca9c0e6}" composite_scene_file="../csc_ref/teleboan_soldier.kfcs"/>
+  <COMPOSITE_SCENE name="menelaus03.kfcs" id="{2454c89b-8cef-4ab7-b355-e24e2510f54c}" composite_scene_file="../csc_ref/menelaus03.kfcs"/>
+  <COMPOSITE_SCENE name="agamemnon03.kfcs" id="{0f863369-6eb0-46f5-8877-9c730580c629}" composite_scene_file="../csc_ref/agamemnon03.kfcs"/>
+ </NODE>
+ <NODE name="Audio Events" id="{b9d6ddda-8bf1-439f-ab63-7d5da155f6e7}">
+  <AUDIO_EVENT name="oddyseus01.kfa" id="{29054d7f-25b7-4e6c-ad67-49cc091ec34e}" audio_event_file="../audio/oddyseus01.kfa"/>
+  <AUDIO_EVENT name="oddyseus02.kfa" id="{96916d36-7d16-4a0a-821f-b813834b8a26}" audio_event_file="../audio/oddyseus02.kfa"/>
+  <AUDIO_EVENT name="oddyseus03.kfa" id="{ab666086-2f24-4bb3-b786-c7185069edb0}" audio_event_file="../audio/oddyseus03.kfa"/>
+  <AUDIO_EVENT name="oddyseus04.kfa" id="{3b04f5cf-9fc7-4f05-a49f-68400e776b46}" audio_event_file="../audio/oddyseus04.kfa"/>
+  <AUDIO_EVENT name="oddyseus05.kfa" id="{8759907b-f4f2-47aa-833c-f383dea6d101}" audio_event_file="../audio/oddyseus05.kfa"/>
+  <AUDIO_EVENT name="oddyseus06.kfa" id="{fa1b7791-130a-4b4b-803b-814e317b4f53}" audio_event_file="../audio/oddyseus06.kfa"/>
+  <AUDIO_EVENT name="oddyseus07.kfa" id="{01f0ea83-33b9-4d4a-a3c1-269e9681beea}" audio_event_file="../audio/oddyseus07.kfa"/>
+ </NODE>
+</SCENE_FILE>

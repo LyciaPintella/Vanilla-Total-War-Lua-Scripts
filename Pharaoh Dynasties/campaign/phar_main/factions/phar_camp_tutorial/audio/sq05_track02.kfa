@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE id="{3031d3fd-439e-408a-b618-5f39ba547d61}" name="sq05_track02.kfa" version="23" audio_event_name="Play_phar_main_tutorial_v2_no_trust_mern_1">
+ <VECTOR surface_mode="Freeform" id="{928c38cf-7287-4b59-90cd-7a406940cd09}" name="position" is_linked="0" link_id="0" unique_id="{928c38cf-7287-4b59-90cd-7a406940cd09}">
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{fc4f459e-ff6b-4f92-a6bf-1e322b6e10ea}" order="0" default="0" name="X">
+   <KEYFRAME time="0" data="436.4554138183594"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{021db27c-c358-4c19-8357-b5167b3c5d80}" order="1" default="0" name="Y">
+   <KEYFRAME time="0" data="4.76837158203125e-5"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{fbe8676e-30d6-4b54-ba9e-b4e5f1e8bfdb}" order="2" default="0" name="Z">
+   <KEYFRAME time="0" data="733.9160766601562"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" animated="1" hidden="false" user_friendy_name="Active" id="{6ae44567-963d-4b62-a009-fb68daf4a2da}" order="2" default="0" name="active">
+  <KEYFRAME time="14.80000114440918" data="1"/>
+  <KEYFRAME time="30.79999923706055" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" animated="0" hidden="false" user_friendy_name="Volume" id="{0e69f27c-ad08-49fa-aaba-b71ac7b0fa69}" order="3" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

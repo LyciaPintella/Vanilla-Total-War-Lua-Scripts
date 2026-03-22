@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE name="3_laser_griffins_fly_cycle_1.kfcs" directory="composite_scene/troy/campaign_cinematic/griffin_quest_btl_flyovers_3_lasser_griffins_fly_cycle.csc" version="23" id="{c6baad84-26ed-4d91-90ee-bdca6e0247b2}">
+ <VECTOR is_linked="0" name="position" link_id="0" id="{0177539b-2e35-4f13-a225-311a715c1e8c}" surface_mode="Freeform" unique_id="{0177539b-2e35-4f13-a225-311a715c1e8c}">
+  <DOUBLE single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" order="0" id="{f41ffeaa-9bdf-48e1-bb90-40dc04deb14a}">
+   <KEYFRAME data="87.29230499267578" time="-38.16667175292969"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" order="1" id="{3362dd0c-90ce-4bd8-9d44-96812850931c}">
+   <KEYFRAME data="1306.0755615234375" time="-38.16667175292969"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" order="2" id="{900295af-17c1-454e-925f-dd0926d875d1}">
+   <KEYFRAME data="-537.0800170898438" time="-38.16667175292969"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{f8da7022-34b9-439d-9e34-37f728dee676}">
+  <RADIAN single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" order="0" id="{2105c050-de1d-420b-a195-436a86783727}"/>
+  <RADIAN single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" order="1" id="{fa010025-0398-48cf-ac5c-c8c3a109e07b}"/>
+  <RADIAN single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" order="2" id="{0a135aea-aaf2-403d-a8a8-240187c166fa}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" name="scale" default="1" hidden="false" animated="0" order="2" id="{ba06c385-ca32-46c3-8306-1dcc4b34770f}">
+  <KEYFRAME data="1.2999999523162842" time="-38.16667175292969"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" name="active" default="0" hidden="false" animated="1" order="3" id="{af45207a-23a0-4aa3-ae9f-205d5c350c83}">
+  <KEYFRAME data="0" time="-4.033336639404297"/>
+  <KEYFRAME data="1" time="-4.032337188720703"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" name="speed_multiplier" default="1" hidden="false" animated="1" order="4" id="{0a1c3ca9-0ee3-4eb0-844a-c1e75b2f1bf5}"/>
+</COMPOSITE_SCENE_FILE>

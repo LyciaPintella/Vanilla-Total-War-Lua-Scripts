@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE name="tau_idle_02.kfcs" id="{fecc7ca8-5c94-4fa4-b68c-ab2d9f3d5810}" version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_tau_set_talk.csc">
+ <VECTOR link_id="0" surface_mode="Freeform" is_linked="0" unique_id="{049d72a7-325a-4a46-9add-70169790bcdb}" name="position" id="{049d72a7-325a-4a46-9add-70169790bcdb}">
+  <DOUBLE default="0" order="0" hidden="false" name="X" id="{7d291074-bb45-4477-8030-fc61a48fe3c7}" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="377.9991760253906" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" hidden="false" name="Y" id="{dc2d06aa-b3be-4f3a-b902-2665164efca0}" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="0.6819911003112793" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" hidden="false" name="Z" id="{41473e13-9972-418a-bba3-82de26711f69}" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="357.2361755371094" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{78f0da67-1b51-4dda-87a2-9c54db26f07c}">
+  <RADIAN default="0" order="0" hidden="false" name="X" id="{3bc68a68-f3f8-4023-91c9-1160c0a88914}" single_keyframe_only="1" animated="0"/>
+  <RADIAN default="0" order="1" hidden="false" name="Y" id="{710b48f2-e905-4dc2-9543-7696878583cc}" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="2.4671242237091064" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" hidden="false" name="Z" id="{ff1e1546-15f2-4be3-af33-a552d0e4fae6}" single_keyframe_only="1" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" order="2" hidden="false" name="scale" id="{232db93e-0b7c-4b99-a40e-6aff5b1e6c83}" single_keyframe_only="1" animated="0" user_friendy_name="Scale"/>
+ <BOOL default="0" order="3" hidden="false" name="active" id="{b2b24f3c-d6a2-46cd-acb1-8cdfb4324075}" single_keyframe_only="0" animated="1" user_friendy_name="Active">
+  <KEYFRAME data="1" time="45.13333511352539"/>
+ </BOOL>
+ <DOUBLE default="1" order="4" hidden="false" name="speed_multiplier" id="{a65e013d-2e6a-428f-9276-2d2791787710}" single_keyframe_only="0" animated="1" user_friendy_name="Speed Multiplier">
+  <KEYFRAME data="1" time="12.00000095367432"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

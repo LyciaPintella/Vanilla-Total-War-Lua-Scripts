@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ships.csc" version="23" id="{03187d4b-1cb0-49fa-8614-26f4060458b3}" name="aga_ships01.kfcs">
+ <VECTOR unique_id="{4e4456b2-a031-42ca-8105-8e944f3f93e3}" surface_mode="Freeform" id="{4e4456b2-a031-42ca-8105-8e944f3f93e3}" link_id="0" name="position" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{1ebd77b5-bd6f-4665-8698-c92a510e3458}" name="X" order="0" animated="0" default="0">
+   <KEYFRAME time="0" data="201.52001953125"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{3e2088d5-e168-4119-bc49-dc727f119a7f}" name="Y" order="1" animated="0" default="0">
+   <KEYFRAME time="0" data="0.03915095329284668"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{c665975d-c9b5-4bac-815b-6a5dd6b226ff}" name="Z" order="2" animated="0" default="0">
+   <KEYFRAME time="0" data="1067.608642578125"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{971b12fc-2d63-4905-a5c0-5c64268dd494}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" id="{78a64674-2308-45fb-80f4-f8f14f8ea55a}" name="X" order="0" animated="0" default="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{aa395a0d-2176-4fa8-a1a9-61c33e5e7579}" name="Y" order="1" animated="0" default="0">
+   <KEYFRAME time="0" data="0.9070525765419006"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{ff48f096-db8a-4c8d-9e72-2b9497b9271c}" name="Z" order="2" animated="0" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" hidden="false" id="{25a275da-1751-42e1-82e6-342e62d4dcde}" user_friendy_name="Scale" name="scale" order="2" animated="0" default="1"/>
+ <BOOL single_keyframe_only="0" hidden="false" id="{43c5e14d-f422-4548-ae62-a0219609131a}" user_friendy_name="Active" name="active" order="3" animated="1" default="0">
+  <KEYFRAME time="46.00000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" hidden="false" id="{e6ff1a4a-8628-49e1-88c1-23ca2cf3d672}" user_friendy_name="Speed Multiplier" name="speed_multiplier" order="4" animated="1" default="1"/>
+</COMPOSITE_SCENE_FILE>

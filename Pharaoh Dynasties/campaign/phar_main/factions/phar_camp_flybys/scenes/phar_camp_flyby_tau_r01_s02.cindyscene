@@ -1,0 +1,44 @@
+<SCENE_FILE version="23" id="{6925f76d-7787-4735-8077-a300cd50b55f}" name="phar_camp_flyby_tau_r01_s02.CindyScene" start_record_time="0" end_record_time="80.00000417232513" perspective_camera="329.586,7.07865,353.618:341.133,-4.46835,365.165">
+ <ENVIRONMENT data="" id="{b3d1be82-ecf1-46f8-a2c2-cde9f7bd8706}" name="Environment" hidden="false" order="0"/>
+ <VECTOR surface_mode="Freeform" id="{aa2e25d1-e4bd-4db2-aa1d-3dbbc4197d81}" name="position" link_id="0" is_linked="0" unique_id="{aa2e25d1-e4bd-4db2-aa1d-3dbbc4197d81}">
+  <DOUBLE id="{6e3b9a3c-03d2-44fb-aa8a-8bc5db0afb6c}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </DOUBLE>
+  <DOUBLE id="{23dac0ea-dd4c-4f78-8388-3d60cdb147ca}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </DOUBLE>
+  <DOUBLE id="{5d5d7de6-5838-4f33-8728-8bbc45b00358}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d12da27e-0d71-4819-9598-95e15a0aaa1c}" name="rotation">
+  <RADIAN id="{9c13dc8e-d4e7-402b-a6f3-fa6bdef17428}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </RADIAN>
+  <RADIAN id="{c734a289-09e7-4df9-aad2-be4592f2d854}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </RADIAN>
+  <RADIAN id="{ec006cdc-bc73-4ab0-99ea-b193b9a26a26}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="15.0894832611084"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{cf8ddd54-68ac-4a28-934b-74e07bcdab36}" name="Links"/>
+ <NODE id="{4bcf40e9-1775-47b0-9f04-282edda560c5}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{2e141a8f-6660-4edd-968f-a74ea22d5e64}" name="flyby_cam_tau.xml" warscape_properties_file="../cameras/flyby_cam_tau.xml"/>
+ </NODE>
+ <NODE id="{b41e8379-9510-4a1e-ba88-490da2aafb75}" name="Audio Events">
+  <AUDIO_EVENT id="{a32a1325-9689-4799-a14a-c5c9c1ff9297}" name="phar_cam_faction_intro_mernephtah_tau_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_01.kfa"/>
+  <AUDIO_EVENT id="{1d668fea-4923-4190-95cf-bc3a502489ea}" name="phar_cam_faction_intro_mernephtah_tau_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_02.kfa"/>
+  <AUDIO_EVENT id="{34ab215b-9500-4a2b-bdb6-b1859db48b4a}" name="phar_cam_faction_intro_mernephtah_tau_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_03.kfa"/>
+  <AUDIO_EVENT id="{f5352bf0-2f5b-4cb8-9473-b610dbb62ef6}" name="phar_cam_faction_intro_mernephtah_tau_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_04.kfa"/>
+  <AUDIO_EVENT id="{e8c670fb-d7f7-446a-8c6d-785f5e0aaacc}" name="phar_cam_faction_intro_mernephtah_tau_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_05.kfa"/>
+ </NODE>
+ <NODE id="{722ba7c1-a10a-4d59-9e22-14b06ab1df26}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{0fa5706c-8b21-4400-9317-9adb7a9ac48d}" name="mer_idle.kfcs" composite_scene_file="../csc_ref/mer_idle.kfcs"/>
+  <COMPOSITE_SCENE id="{89c86c49-1b36-4c79-ba0c-8d43ddb69f7f}" name="set_vs_gen_01.kfcs" composite_scene_file="../csc_ref/set_vs_gen_01.kfcs"/>
+  <COMPOSITE_SCENE id="{f85b5ce1-48a4-43ae-a317-32816c555962}" name="kush_idle.kfcs" composite_scene_file="../csc_ref/kush_idle.kfcs"/>
+  <COMPOSITE_SCENE id="{88da04a0-0c5f-4c31-9069-e294f144a3cb}" name="libu_raid.kfcs" composite_scene_file="../csc_ref/libu_raid.kfcs"/>
+  <COMPOSITE_SCENE id="{c5c5791a-c2a4-42fc-95c9-45df791bad95}" name="egy_raid_tau.kfcs" composite_scene_file="../csc_ref/egy_raid_tau.kfcs"/>
+  <COMPOSITE_SCENE id="{07dfcfba-69e7-48aa-a912-6e94e4102f37}" name="tau_idle_01_special.kfcs" composite_scene_file="../csc_ref/tau_idle_01_special.kfcs"/>
+ </NODE>
+</SCENE_FILE>

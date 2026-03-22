@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE name="hyppolita.kfcs" version="23" id="{e6c628b1-2b88-4864-be6e-7c83225d586f}" directory="composite_scene/troy/campaign_cinematic/troy_camp_hip_vo_my_kingdom.csc">
+ <VECTOR name="position" is_linked="0" link_id="0" unique_id="{0f698ba6-f041-4048-9108-6b7bb9ca126a}" surface_mode="Freeform" id="{0f698ba6-f041-4048-9108-6b7bb9ca126a}">
+  <DOUBLE name="X" single_keyframe_only="1" default="0" hidden="false" animated="0" order="0" id="{cbcda12f-ce03-4162-b323-6433c95bcdfb}">
+   <KEYFRAME time="0" data="460.8134765625"/>
+  </DOUBLE>
+  <DOUBLE name="Y" single_keyframe_only="1" default="0" hidden="false" animated="0" order="1" id="{a186ec5b-a9f5-4444-8c7f-75d21e068429}">
+   <KEYFRAME time="0" data="1.786057710647583"/>
+  </DOUBLE>
+  <DOUBLE name="Z" single_keyframe_only="1" default="0" hidden="false" animated="0" order="2" id="{d5ca4a90-3d0d-4c12-8ae4-91283c03455d}">
+   <KEYFRAME time="0" data="274.4128112792969"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{5fb03d9e-cdd0-464f-ad47-a5d9fec0b855}">
+  <RADIAN name="X" single_keyframe_only="1" default="0" hidden="false" animated="0" order="0" id="{769503db-a13e-4852-9e54-e91bae6329b7}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Y" single_keyframe_only="1" default="0" hidden="false" animated="0" order="1" id="{064a435d-34fc-4991-89ce-eb850208f230}">
+   <KEYFRAME time="0" data="3.141592741012573"/>
+  </RADIAN>
+  <RADIAN name="Z" single_keyframe_only="1" default="0" hidden="false" animated="0" order="2" id="{523dfa67-434e-4588-8fa4-078f4007e9de}">
+   <KEYFRAME time="68.60013580322266" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" single_keyframe_only="1" user_friendy_name="Scale" default="1" hidden="false" animated="0" order="2" id="{83bb4bca-93df-479f-bb75-2422aa01fe6a}"/>
+ <BOOL name="active" single_keyframe_only="0" user_friendy_name="Active" default="0" hidden="false" animated="1" order="3" id="{27ec3c4f-40ea-4261-ae9c-4c693ee11ee5}">
+  <KEYFRAME time="24.9000072479248" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" single_keyframe_only="1" user_friendy_name="Speed Multiplier" default="1" hidden="false" animated="0" order="4" id="{f6cdceff-1cde-4163-a44c-3be1ce6f2a95}"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,33 @@
+<SCENE_FILE end_record_time="87.00000453740358" version="23" perspective_camera="209.308,3.54936,217.27:207.135,-0.25847,225.799" start_record_time="0" name="flyby_diomedes_r01_s01.CindyScene" id="{14b1d520-d39c-4fc8-97e1-402fb98c8aa8}">
+ <ENVIRONMENT data="" order="0" hidden="false" name="Environment" id="{96ea2904-003f-4394-9617-9059558633fe}"/>
+ <VECTOR is_linked="0" surface_mode="Freeform" unique_id="{6175b46c-f0ee-4531-9083-ddc6390f0784}" name="position" id="{6175b46c-f0ee-4531-9083-ddc6390f0784}" link_id="0">
+  <DOUBLE default="0" animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{d24f7797-c386-4134-9337-9a38a1a3eea4}"/>
+  <DOUBLE default="0" animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{2ea9fb11-4b06-4405-9cf9-e729b203db88}"/>
+  <DOUBLE default="0" animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{dcd8c664-c8f9-4d93-9f96-d47687918c7d}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{2dc9874d-97dd-4f4a-9180-5d3eca167650}">
+  <RADIAN default="0" animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{b9c081b0-c756-4387-980f-9fc979788709}"/>
+  <RADIAN default="0" animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{f64684f0-2bc3-4783-8d9a-f30df975be2b}"/>
+  <RADIAN default="0" animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{95987e85-a08c-4880-b29a-21034d610e96}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{594a9549-1490-4af8-884f-990c0e592a85}"/>
+ <NODE name="Warscape Properties" id="{33dfcc34-180e-4e5e-b2f5-32af4e6877ae}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/diomedes_cam.xml" name="diomedes_cam.xml" id="{f7a57b9c-0b6c-469a-af17-4a6d01b17b76}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{1fd05ca1-24a6-49b8-9d39-1f06a9b5210f}">
+  <AUDIO_EVENT audio_event_file="../audio/dio_01.kfa" name="dio_01.kfa" id="{8106fe0c-d742-49fd-bfeb-4cb60edc8989}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_02.kfa" name="dio_02.kfa" id="{1474233b-7a2d-4b1d-b6cc-973785a7505b}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_03.kfa" name="dio_03.kfa" id="{a1e44d38-4efc-469d-baec-fcd9edb5b790}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_04.kfa" name="dio_04.kfa" id="{9c57058b-6be9-47e6-aaca-d08dce0258d9}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_05.kfa" name="dio_05.kfa" id="{932b00ad-2d31-490e-9118-6bae33cea9b5}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_06.kfa" name="dio_06.kfa" id="{cc78b625-66a7-4333-bed4-f208fe3291f5}"/>
+  <AUDIO_EVENT audio_event_file="../audio/dio_07.kfa" name="dio_07.kfa" id="{56a760fe-e70f-4f3d-9388-2f6284b5724e}"/>
+ </NODE>
+ <NODE name="Triggers" id="{b148ac4c-273b-40a6-8f21-13adaefe7fd4}">
+  <TRIGGER trigger_file="../triggers/diomedes_vo.ktr" name="diomedes_vo.ktr" id="{74d78791-cb55-4383-8c4a-7d590d32cbca}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{376c9d17-1ece-4662-aee7-76e5173d32c5}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/dio_prs_hln_hct_scene.kfcs" name="dio_prs_hln_hct_scene.kfcs" id="{01162852-418e-4af3-aa11-cc09c11619f3}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/dio_scene.kfcs" name="dio_scene.kfcs" id="{94391993-d568-4e57-884d-c9923df71619}"/>
+ </NODE>
+</SCENE_FILE>

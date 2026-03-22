@@ -1,0 +1,39 @@
+<SCENE_FILE perspective_camera="322.22,2.02066,675.408:307.827,-8.35578,684.638" end_record_time="50.00000260770321" version="23" id="{37a85c66-feba-4082-90f1-dd141337770b}" start_record_time="0" name="phar_camp_tutorial_sq05.CindyScene">
+ <ENVIRONMENT id="{6f9a999e-e042-42d8-b3b8-ab61d274d1e6}" hidden="false" order="0" data="weather/campaign/prosperity/midday_prosperity.environment" name="Environment"/>
+ <VECTOR link_id="0" surface_mode="Freeform" is_linked="0" id="{d6094cf2-1ab6-4ebf-a572-78bd188b3c6a}" unique_id="{d6094cf2-1ab6-4ebf-a572-78bd188b3c6a}" name="position">
+  <DOUBLE animated="1" id="{9983c273-9fdb-4305-b4e9-9b3850b9b6c8}" default="0" hidden="false" order="0" single_keyframe_only="1" name="X">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" id="{cd614485-1b02-4ac2-844e-ef8bbb284093}" default="0" hidden="false" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" id="{02e4fde7-ccb9-4181-a919-2426d8e9f19d}" default="0" hidden="false" order="2" single_keyframe_only="1" name="Z">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{79c3fc7e-92b9-44bf-ade1-6c0a26e8193a}" name="rotation">
+  <RADIAN animated="1" id="{06075a79-8a87-41ab-ab0d-7a9eeb40b2f8}" default="0" hidden="false" order="0" single_keyframe_only="1" name="X">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" id="{812e44fb-df89-441d-a976-c692c9ea6cd5}" default="0" hidden="false" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" id="{7f58dac0-9990-4598-9a74-11a855ec3657}" default="0" hidden="false" order="2" single_keyframe_only="1" name="Z">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{7d6b12a5-e63b-45be-8b4c-d04cc1efe35f}" name="Links"/>
+ <NODE id="{da927185-57fa-40f8-98a8-695be8b51fc1}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{2714bfd3-c1b5-430e-8dbb-e57dae73cb51}" warscape_properties_file="../cameras/sq05_cam.xml" name="sq05_cam.xml"/>
+ </NODE>
+ <NODE id="{fec5c181-c907-471c-a3de-479412610c3a}" name="Audio Events">
+  <AUDIO_EVENT id="{3152b39a-8dce-4d8b-b23f-6716ea700e15}" audio_event_file="../audio/sq05_track01.kfa" name="sq05_track01.kfa"/>
+  <AUDIO_EVENT id="{88099421-3a6b-43c8-a652-fc9f8f1edbf6}" audio_event_file="../audio/sq05_track02.kfa" name="sq05_track02.kfa"/>
+  <AUDIO_EVENT id="{ee7ab589-bdea-4470-8b2c-e4993237e546}" audio_event_file="../audio/sq05_track03.kfa" name="sq05_track03.kfa"/>
+  <AUDIO_EVENT id="{1e08f01b-453f-4748-9ea5-9dc949554379}" audio_event_file="../audio/sq05_track04.kfa" name="sq05_track04.kfa"/>
+ </NODE>
+ <NODE id="{7eeb6ec1-c6fa-49ba-92e6-1e0aa54b3246}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{19f99df5-deb9-4d80-9cab-2cb328c1337c}" name="mer.kfcs" composite_scene_file="../csc_ref/mer.kfcs"/>
+  <COMPOSITE_SCENE id="{ac1571f6-6236-4b5a-a43d-9ea44e37bc46}" name="gen_run.kfcs" composite_scene_file="../csc_ref/gen_run.kfcs"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,32 @@
+<SCENE_FILE perspective_camera="0,0,0:0,0,0" end_record_time="129.0000067278743" version="23" id="{e1cd1803-2e2f-447d-a28b-c7ea796fbee7}" name="land_battle_hard.CindyScene" start_record_time="0">
+ <ENVIRONMENT order="0" data="" hidden="false" id="{bb95616e-a99f-4c47-8b25-ac2d4ef9567e}" name="Environment"/>
+ <VECTOR unique_id="{72945535-ab26-4647-90b5-3472fe3497cd}" surface_mode="Freeform" is_linked="0" id="{72945535-ab26-4647-90b5-3472fe3497cd}" name="position" link_id="0">
+  <DOUBLE order="0" animated="1" hidden="false" id="{ed95d831-e4b6-4a2e-b0ce-6f7885d10988}" default="0" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE order="1" animated="1" hidden="false" id="{b99c0ad6-6d9a-4995-a821-efb0e442eb6f}" default="0" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE order="2" animated="1" hidden="false" id="{afd2d44d-6bf0-4755-9c0f-60aa8cf45603}" default="0" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{b59bb56b-f54c-474a-96a7-7b81d2722101}" name="rotation">
+  <RADIAN order="0" animated="1" hidden="false" id="{64b3c366-daa0-4240-8e23-650f220af73d}" default="0" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN order="1" animated="1" hidden="false" id="{971c05f7-78f3-4022-a0f8-d828af534729}" default="0" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN order="2" animated="1" hidden="false" id="{5618d5de-51d7-4027-a327-858949fc2f61}" default="0" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{18bbf240-3086-486a-8368-d2195d272d21}" name="Links"/>
+ <NODE id="{7f42b07e-632b-4cbd-9147-f1d11d65940c}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/cam_lbh.xml" id="{8855a03c-cfb1-4db7-a745-7ad78218b6a1}" name="cam_lbh.xml"/>
+ </NODE>
+ <NODE id="{3f2e69cc-b691-41d2-bc25-a9ef640aad11}" name="Audio Events">
+  <AUDIO_EVENT id="{37adcbb6-09c8-402e-9c95-fc7ef498a951}" audio_event_file="../audio/vo_lbh.kfa" name="vo_lbh.kfa"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,20 @@
+<SCENE_FILE name="hector01.CindyScene" end_record_time="47.00000245124102" start_record_time="2.000000104308128" id="{bc43d2c6-f995-47aa-8818-1e36a2456a0e}" perspective_camera="793.203,226.934,1088.29:742.36,155.035,1320.12" version="23">
+ <ENVIRONMENT name="Environment" order="0" hidden="false" id="{0c93d146-a1d9-4899-911f-280fe605686b}" data="projects/battles_flyovers/weahter/troy_generic_10_lo_k.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" name="position" id="{ebcbac69-e72f-4058-8755-531b3b17164f}" unique_id="{ebcbac69-e72f-4058-8755-531b3b17164f}">
+  <DOUBLE default="0" name="X" order="0" hidden="false" id="{04e9583a-f722-44bf-973f-4dc1e29ad92b}" single_keyframe_only="1" animated="1"/>
+  <DOUBLE default="0" name="Y" order="1" hidden="false" id="{37644af0-1703-4fa6-922a-d172f811f1d1}" single_keyframe_only="1" animated="1"/>
+  <DOUBLE default="0" name="Z" order="2" hidden="false" id="{e0ff72f0-e335-431e-b5d0-cd6810a55b03}" single_keyframe_only="1" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{107efadc-df4d-43c8-be59-65440797f933}">
+  <RADIAN default="0" name="X" order="0" hidden="false" id="{9a072b22-8865-49c3-b636-7f2d1529cc36}" single_keyframe_only="1" animated="1"/>
+  <RADIAN default="0" name="Y" order="1" hidden="false" id="{02f1abb2-b679-4349-878d-59aa96e2fbc7}" single_keyframe_only="1" animated="1"/>
+  <RADIAN default="0" name="Z" order="2" hidden="false" id="{bb98c104-eb66-4c6d-b3d1-beb381df0f59}" single_keyframe_only="1" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{f8d50cd0-4973-43f8-bd34-28331d7443d4}"/>
+ <NODE name="Composite Scenes" id="{b15e724f-3e19-4105-baa8-6a0c092430f6}">
+  <COMPOSITE_SCENE name="Hector_Epic_Shout.kfcs" composite_scene_file="../csc_ref/Hector_Epic_Shout.kfcs" id="{3ad7b871-3d65-4fad-b4eb-b85060df1a1f}"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{c05ab170-04c1-4fb2-a996-0a3874834a60}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/Hec_BattleIntroCam01.xml" name="Hec_BattleIntroCam01.xml" id="{1ef68c00-f89d-47df-a053-f3fc3de72caa}"/>
+ </NODE>
+</SCENE_FILE>

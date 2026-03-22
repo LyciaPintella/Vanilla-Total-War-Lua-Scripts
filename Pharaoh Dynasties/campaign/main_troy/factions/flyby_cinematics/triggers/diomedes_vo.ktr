@@ -1,0 +1,11 @@
+<TRIGGER_FILE version="23" name="diomedes_vo.ktr" id="{ead9a0de-82c9-430d-911f-6e0847ee20b2}">
+ <STRING name="Timeline" order="0" id="{16523024-629f-4eae-b865-242eca1aa325}" hidden="false">
+  <KEYFRAME data="" time="1"/>
+  <KEYFRAME data="" time="16"/>
+  <KEYFRAME data="" time="33.49997711181641"/>
+  <KEYFRAME data="" time="44.50096130371094"/>
+  <KEYFRAME data="" time="52.50095367431641"/>
+  <KEYFRAME data="" time="65.49995422363281"/>
+  <KEYFRAME data="" time="77.53334045410156"/>
+ </STRING>
+</TRIGGER_FILE>

@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ach_vs_tro.csc" version="23" id="{d2c97979-e19c-496b-b7ff-b46a67e02029}" name="pri_ach_vs_tro.kfcs">
+ <VECTOR unique_id="{855123b5-fce4-48cd-b4ca-65637a3876fe}" surface_mode="Freeform" id="{855123b5-fce4-48cd-b4ca-65637a3876fe}" is_linked="0" link_id="0" name="position">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" default="0" id="{ce3880b8-d868-4953-a0c2-9b7c402cd331}" name="X" animated="0">
+   <KEYFRAME time="0" data="336.5925598144531"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" default="0" id="{16402930-7096-4967-af96-9d2c9af07981}" name="Y" animated="0">
+   <KEYFRAME time="0" data="1.0241804122924805"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" default="0" id="{0be9fd0a-fe09-4659-a9b8-cb55514a4575}" name="Z" animated="0">
+   <KEYFRAME time="0" data="1007.8761596679688"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{8c8debe8-cf90-441e-8503-f561772e24ae}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" order="0" default="0" id="{c75ba00f-8e49-46cc-8423-cdb960a753eb}" name="X" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="1" default="0" id="{0abb6ec1-e31a-4e32-b6cb-32ce402125a5}" name="Y" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="2" default="0" id="{69aaa061-816f-4598-abd9-fbc50d229f66}" name="Z" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="2" user_friendy_name="Scale" default="1" id="{38d86910-8b56-40ea-9482-ab7fa0487869}" name="scale" animated="0"/>
+ <BOOL single_keyframe_only="0" hidden="false" order="3" user_friendy_name="Active" default="0" id="{cf839c4b-344f-442a-a884-bf55a2d87ba3}" name="active" animated="1">
+  <KEYFRAME time="60.50000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" hidden="false" order="4" user_friendy_name="Speed Multiplier" default="1" id="{a36933b1-a72f-4ad4-b57c-c7d25584167a}" name="speed_multiplier" animated="1"/>
+</COMPOSITE_SCENE_FILE>

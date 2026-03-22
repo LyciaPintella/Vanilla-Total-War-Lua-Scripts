@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/preview_battles/troy/battle_cutscene/csc/battle_scene.csc" version="23" name="battle.kfcs" id="{5ef7cb6e-8b3b-46cd-9e4d-a8d88a8f5abd}">
+ <VECTOR name="position" surface_mode="Freeform" unique_id="{7fca8a6c-c738-4f1b-a7c9-d355caf38e2d}" link_id="0" is_linked="0" id="{7fca8a6c-c738-4f1b-a7c9-d355caf38e2d}">
+  <DOUBLE animated="0" single_keyframe_only="1" order="0" default="0" name="X" id="{bb232862-ee48-4d98-b38f-a017fddc79f3}" hidden="false">
+   <KEYFRAME data="-114.56883239746094" time="0.2000000178813934"/>
+  </DOUBLE>
+  <DOUBLE animated="0" single_keyframe_only="1" order="1" default="0" name="Y" id="{06afc8f3-c158-4456-8b36-21371e90dd04}" hidden="false"/>
+  <DOUBLE animated="0" single_keyframe_only="1" order="2" default="0" name="Z" id="{2a7a32c7-b1ce-4484-bf8b-ddb7dc0fa45d}" hidden="false">
+   <KEYFRAME data="-52.04890441894531" time="10.46666717529297"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{71afcfc8-1492-4a74-987c-d55cac9eff23}">
+  <RADIAN animated="0" single_keyframe_only="1" order="0" default="0" name="X" id="{53b5b33e-ecd4-4405-b4cb-e6ca1e34736f}" hidden="false"/>
+  <RADIAN animated="0" single_keyframe_only="1" order="1" default="0" name="Y" id="{40a90b2c-cbc3-4ebd-82b8-3953bdbd6979}" hidden="false">
+   <KEYFRAME data="0.7853981852531433" time="0"/>
+  </RADIAN>
+  <RADIAN animated="0" single_keyframe_only="1" order="2" default="0" name="Z" id="{c7088352-de3c-4bb6-8873-1d75428b7ba1}" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" single_keyframe_only="1" user_friendy_name="Scale" order="2" default="1" name="scale" id="{262b6c7f-986c-48d9-b4a4-b567a221349b}" hidden="false"/>
+ <BOOL animated="1" single_keyframe_only="0" user_friendy_name="Active" order="3" default="0" name="active" id="{56999fed-ac0f-4139-98e9-d15fede3cbdd}" hidden="false">
+  <KEYFRAME data="0" time="9.999000549316406"/>
+  <KEYFRAME data="1" time="10.00000095367432"/>
+ </BOOL>
+ <DOUBLE animated="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier" order="4" default="1" name="speed_multiplier" id="{30719485-2a59-4b06-9674-dabb33c5abba}" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

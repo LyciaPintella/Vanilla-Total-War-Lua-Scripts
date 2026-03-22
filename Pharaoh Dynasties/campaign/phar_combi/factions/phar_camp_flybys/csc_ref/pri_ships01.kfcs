@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="pri_ships01.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_ships.csc" id="{93f1d7dc-c3c5-406b-bbc7-129688acde23}" version="23">
+ <VECTOR surface_mode="Freeform" name="position" unique_id="{53e37a24-9c00-4789-b5c4-477427edfc2c}" is_linked="0" link_id="0" id="{53e37a24-9c00-4789-b5c4-477427edfc2c}">
+  <DOUBLE name="X" default="0" single_keyframe_only="1" animated="0" order="0" hidden="false" id="{f11c6eb9-2849-4154-8801-07a6209369fd}">
+   <KEYFRAME data="168.77999877929688" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" single_keyframe_only="1" animated="0" order="1" hidden="false" id="{d18cec37-68e8-46bf-bef5-4e9580d08e7b}">
+   <KEYFRAME data="0.9179999828338623" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" single_keyframe_only="1" animated="0" order="2" hidden="false" id="{65c22ebb-68ec-4d84-b9d5-44a38e842034}">
+   <KEYFRAME data="1120.3280029296875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{e7caf2c5-c6d0-4116-90a8-21df23a9a43b}">
+  <RADIAN name="X" default="0" single_keyframe_only="1" animated="0" order="0" hidden="false" id="{5e8ab7ba-d3ba-4d9c-a02b-795e7a8d577e}"/>
+  <RADIAN name="Y" default="0" single_keyframe_only="1" animated="0" order="1" hidden="false" id="{6175f872-9075-48c0-9213-7ef68098e5f4}">
+   <KEYFRAME data="1.3785462379455566" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" single_keyframe_only="1" animated="0" order="2" hidden="false" id="{a8dac8b3-fbff-4a48-9633-d1d72f397313}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" default="1" single_keyframe_only="1" user_friendy_name="Scale" animated="0" order="2" hidden="false" id="{c387f4b4-a02f-4648-86d5-3c1a8879810b}"/>
+ <BOOL name="active" default="0" single_keyframe_only="0" user_friendy_name="Active" animated="1" order="3" hidden="false" id="{2dbd9ef5-0589-4468-b900-64f752dc9e8f}">
+  <KEYFRAME data="1" time="93.00000762939453"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" default="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier" animated="1" order="4" hidden="false" id="{2b8f168b-ad22-4873-9f95-e2975d7e3ccf}"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,35 @@
+<SCENE_FILE perspective_camera="457.956,36.8683,726.994:456.592,30.6359,732.85" id="{4c99fcc9-fb74-492e-a334-51fcde187dc6}" start_record_time="0" name="phar_camp_tutorial_sq01_1.CindyScene" version="23" end_record_time="13.00000067800283">
+ <ENVIRONMENT hidden="false" id="{59fc2b7d-fe66-420f-9952-4f2c99054c5e}" order="0" name="Environment" data="weather/campaign/prosperity/midday_prosperity.environment"/>
+ <VECTOR surface_mode="Freeform" id="{8e4888a2-07f1-4002-b5c7-0806fa6133fe}" name="position" is_linked="0" link_id="0" unique_id="{8e4888a2-07f1-4002-b5c7-0806fa6133fe}">
+  <DOUBLE single_keyframe_only="1" animated="1" hidden="false" id="{e61204f6-33ee-439f-a28b-be10384cc8a6}" order="0" default="0" name="X">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="1" hidden="false" id="{c6cc9db3-8b9e-45a2-8038-8d2881b44607}" order="1" default="0" name="Y">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="1" hidden="false" id="{83d472bd-dd80-4d58-a936-633f591fd582}" order="2" default="0" name="Z">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{4430aeb1-f210-4674-9a76-a2b7474382f4}" name="rotation">
+  <RADIAN single_keyframe_only="1" animated="1" hidden="false" id="{812736a9-dc74-4418-8495-1542912c01ff}" order="0" default="0" name="X">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" animated="1" hidden="false" id="{56d09e48-eda6-46e5-bc1f-0c51a0365e0e}" order="1" default="0" name="Y">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" animated="1" hidden="false" id="{c40aebb7-8ead-40fb-9f16-9943d9595557}" order="2" default="0" name="Z">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{3a06768d-4900-4e84-879e-5c61d070b62e}" name="Links"/>
+ <NODE id="{818ff14c-9c2c-4cff-95a4-40baba6dd14c}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{d767aa58-1972-4646-9171-c6426cea0761}" warscape_properties_file="../cameras/sq01_1_cam.xml" name="sq01_1_cam.xml"/>
+ </NODE>
+ <NODE id="{4e5cdcc0-6ff9-419a-a055-15a5d1754480}" name="Audio Events">
+  <AUDIO_EVENT id="{a8ea26e9-7e32-40f5-8c57-c764fecf5be7}" audio_event_file="../audio/sq01_1_track01.kfa" name="sq01_1_track01.kfa"/>
+  <AUDIO_EVENT id="{9f526c5b-dcaf-4c41-a412-ab785fb04051}" audio_event_file="../audio/sq01_1_track02.kfa" name="sq01_1_track02.kfa"/>
+  <AUDIO_EVENT id="{deafcaa8-dab6-46e7-b1b5-f7832c2ea0f2}" audio_event_file="../audio/sq01_1_track03.kfa" name="sq01_1_track03.kfa"/>
+  <AUDIO_EVENT id="{29b7d989-a194-4320-bf15-1ee47c077c21}" audio_event_file="../audio/sq01_1_track04.kfa" name="sq01_1_track04.kfa"/>
+ </NODE>
+</SCENE_FILE>

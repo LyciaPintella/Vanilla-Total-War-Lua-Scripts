@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/troy/campaign_cinematic/athenian_sldr.csc" id="{76cae3ae-8b3a-49ab-a19b-55f1bcbea0f7}" name="athenian_gen.kfcs" version="23">
+ <VECTOR id="{52639f11-7812-4a26-b4de-80479e10e7c9}" unique_id="{52639f11-7812-4a26-b4de-80479e10e7c9}" surface_mode="Freeform" name="position" link_id="0" is_linked="0">
+  <DOUBLE id="{35dcee68-6be1-4e05-a173-8363530f2a71}" default="0" animated="0" single_keyframe_only="1" name="X" order="0" hidden="false">
+   <KEYFRAME time="0" data="257"/>
+  </DOUBLE>
+  <DOUBLE id="{d2cd2c63-78e4-44a1-9660-d417ec78a18f}" default="0" animated="0" single_keyframe_only="1" name="Y" order="1" hidden="false">
+   <KEYFRAME time="0" data="2"/>
+  </DOUBLE>
+  <DOUBLE id="{dce550fa-83ff-4e9c-b5c8-8355a741db6d}" default="0" animated="0" single_keyframe_only="1" name="Z" order="2" hidden="false">
+   <KEYFRAME time="0" data="249"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{1b870e2b-98a2-40d3-bbab-241a8d685768}" name="rotation">
+  <RADIAN id="{0af19d4f-d4e6-4f00-a577-3cec080fdf23}" default="0" animated="0" single_keyframe_only="1" name="X" order="0" hidden="false"/>
+  <RADIAN id="{e8f6d4a9-61a4-4d32-bbd4-7ef38fd82c77}" default="0" animated="0" single_keyframe_only="1" name="Y" order="1" hidden="false">
+   <KEYFRAME time="0" data="3.665190696716309"/>
+  </RADIAN>
+  <RADIAN id="{1cb0ce86-78d6-4b35-9bfc-17c06d3f65b4}" default="0" animated="0" single_keyframe_only="1" name="Z" order="2" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{deea50fb-e31c-4749-b91c-334b3f5b021d}" default="1" animated="0" single_keyframe_only="1" user_friendy_name="Scale" name="scale" order="2" hidden="false"/>
+ <BOOL id="{32192c30-7e07-4add-97c8-f54224edac52}" default="0" animated="1" single_keyframe_only="0" user_friendy_name="Active" name="active" order="3" hidden="false">
+  <KEYFRAME time="66.03334045410156" data="1"/>
+  <KEYFRAME time="96.00000762939453" data="0"/>
+ </BOOL>
+ <DOUBLE id="{8fff4a0b-5a29-4501-8f30-931e4fb7e2bf}" default="1" animated="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier" name="speed_multiplier" order="4" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

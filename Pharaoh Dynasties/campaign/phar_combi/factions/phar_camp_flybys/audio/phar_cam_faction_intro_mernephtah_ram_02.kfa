@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE name="phar_cam_faction_intro_mernephtah_ram_02.kfa" audio_event_name="Play_phar_cam_faction_intro_merneptah_ram_02" id="{7b90b012-0ce9-4df6-b11f-0f623c2d0082}" version="23">
+ <VECTOR unique_id="{9debc88c-a306-42e7-a307-eac25fc6edf3}" name="position" id="{9debc88c-a306-42e7-a307-eac25fc6edf3}" is_linked="0" link_id="0" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="1" name="X" default="0" order="0" id="{85eee515-f761-4fb3-8ec1-be5da6e93448}" hidden="false" animated="0"/>
+  <DOUBLE single_keyframe_only="1" name="Y" default="0" order="1" id="{1124b378-9465-495e-bc92-39847b404d02}" hidden="false" animated="0"/>
+  <DOUBLE single_keyframe_only="1" name="Z" default="0" order="2" id="{5e83f662-2ae2-4320-b99b-78796306bcb6}" hidden="false" animated="0"/>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" name="active" default="0" order="2" id="{90afb5ab-2563-4b2a-baa9-425c423de02d}" hidden="false" animated="1">
+  <KEYFRAME time="20.10000038146973" data="1"/>
+  <KEYFRAME time="30.20000076293945" data="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" single_keyframe_only="1" name="volume" default="100" order="3" id="{7f17f4bc-a34d-4330-9000-c305fef7f827}" hidden="false" animated="0"/>
+</AUDIO_EVENT_FILE>

@@ -1,0 +1,20 @@
+<SCENE_FILE id="{2631a7d4-55aa-4e2a-aa66-1472cdf6e819}" end_record_time="10.9333339035511" perspective_camera="364.772,2.58932,411.458:372.575,-0.48701,413.618" name="hector_audio_test.CindyScene" start_record_time="1.000000052154064" version="23">
+ <ENVIRONMENT order="0" data="" id="{6db884cd-c501-43b3-a3e0-abc3fbe4baed}" name="Environment" hidden="false"/>
+ <VECTOR unique_id="{acbcd2bd-6d73-47f3-a031-54cf5623735a}" id="{acbcd2bd-6d73-47f3-a031-54cf5623735a}" is_linked="0" surface_mode="Freeform" link_id="-1" name="position">
+  <DOUBLE order="0" default="0" id="{7514c293-93e1-4d1e-bdd9-adb4dd93c80a}" single_keyframe_only="1" animated="1" name="X" hidden="false"/>
+  <DOUBLE order="1" default="0" id="{b79d1303-1a42-49ed-8f4b-99806a96dc54}" single_keyframe_only="1" animated="1" name="Y" hidden="false"/>
+  <DOUBLE order="2" default="0" id="{103b44e2-220e-47ba-83c7-3fdc0666ebb3}" single_keyframe_only="1" animated="1" name="Z" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES id="{b6f1b3d7-7a97-45d6-befc-7f373a46d44d}" name="rotation">
+  <RADIAN order="0" default="0" id="{2808721e-b19f-4e83-a7df-9a303adb3c01}" single_keyframe_only="1" animated="1" name="X" hidden="false"/>
+  <RADIAN order="1" default="0" id="{b1d25d71-82d6-4e44-99ac-471bca6ed4c4}" single_keyframe_only="1" animated="1" name="Y" hidden="false"/>
+  <RADIAN order="2" default="0" id="{81896b50-e30a-4210-b045-17b7b3764176}" single_keyframe_only="1" animated="1" name="Z" hidden="false"/>
+ </ROTATION_AXES>
+ <NODE id="{147b3b11-caaf-4510-8ed2-618c49f8d8af}" name="Links"/>
+ <NODE id="{5edd6075-ef4d-4ee1-a7f1-e1660d0113cf}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{4b83daac-536a-458a-8e36-1cbb7c72f1bd}" name="hector_test_camera.xml" warscape_properties_file="../cameras/hector_test_camera.xml"/>
+ </NODE>
+ <NODE id="{2f74253c-1e4a-4e4e-a71a-30ec7e8c5330}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/hector_test.kfcs" id="{a9c1436c-17b7-4438-8bc2-d326ddff998f}" name="hector_test.kfcs"/>
+ </NODE>
+</SCENE_FILE>

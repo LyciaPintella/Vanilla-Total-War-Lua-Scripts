@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE id="{abe4f537-1452-4ba2-b4ad-0acdca4b69d9}" name="sq01_1_track02.kfa" version="23" audio_event_name="Play_phar_main_tutorial_v2_city_in_distress_1_1_pract_1">
+ <VECTOR surface_mode="Freeform" id="{c08feb16-0c06-46ac-96e6-e1ecbc363f4c}" name="position" is_linked="0" link_id="0" unique_id="{c08feb16-0c06-46ac-96e6-e1ecbc363f4c}">
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{82357ae9-053b-4f16-996c-75f1be6933bc}" order="0" default="0" name="X"/>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{993eaca4-7037-4dec-891b-e433a4e1f219}" order="1" default="0" name="Y"/>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{5c843afd-bb59-4649-a0f4-2f295058af43}" order="2" default="0" name="Z"/>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" animated="1" hidden="false" user_friendy_name="Active" id="{eb5993ef-3021-4fb6-ac9f-98b693883460}" order="2" default="0" name="active">
+  <KEYFRAME time="3.200000286102295" data="1"/>
+  <KEYFRAME time="7.700000286102295" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" animated="0" hidden="false" user_friendy_name="Volume" id="{b7467ec1-803b-4300-b5b2-f1160d5048cf}" order="3" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

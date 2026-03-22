@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_asy_idle01.csc" name="ada_asy_idle01.kfcs" version="23" id="{4d29bdd2-eb29-4f13-b9da-23d5b3eb7720}">
+ <VECTOR is_linked="0" link_id="-1" name="position" surface_mode="Freeform" unique_id="{b465e975-ec9e-48ec-888a-64a19835133c}" id="{b465e975-ec9e-48ec-888a-64a19835133c}">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{2bf191cf-9ef0-41d4-9e4b-52e464d86bb2}">
+   <KEYFRAME time="-1" data="1246.93408203125"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{a0af1519-9bfe-4194-920e-6d4f54ca942a}">
+   <KEYFRAME time="-1" data="1.0785274505615234"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{2fb514bb-5cad-4b4f-a2b8-f9018f28d8ef}">
+   <KEYFRAME time="-1" data="779.6029052734375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{2adc756b-7757-43d3-921e-10a58411e0b3}">
+  <RADIAN name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{c6d35427-77af-45fa-b987-89efa4dea4bf}">
+   <KEYFRAME time="-1" data="0"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{89e1c739-d88f-439d-a232-10d1d90a997e}">
+   <KEYFRAME time="-1" data="3.7252273559570312"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{41a27683-99d8-4c6b-b290-1a1d8787b613}">
+   <KEYFRAME time="-1" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" order="2" single_keyframe_only="1" user_friendy_name="Scale" default="1" hidden="false" animated="0" id="{2be6d13f-5bb8-4cd7-9742-4da5a075292c}"/>
+ <BOOL name="active" order="3" single_keyframe_only="0" user_friendy_name="Active" default="0" hidden="false" animated="1" id="{8f9b6001-e9e4-42e9-8b96-8ee9383a4abe}">
+  <KEYFRAME time="23.03333473205566" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" order="4" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" hidden="false" animated="1" id="{9f24f316-65e8-4038-a625-5d60d89ec4c0}"/>
+</COMPOSITE_SCENE_FILE>

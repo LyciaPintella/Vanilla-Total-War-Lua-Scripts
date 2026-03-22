@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_sup_points.csc" name="ada_sup_orders.kfcs" version="23" id="{45ec6a76-bfc8-4947-b502-1d1cfccbef0e}">
+ <VECTOR is_linked="0" link_id="-1" name="position" surface_mode="Freeform" unique_id="{13b458a2-137a-4915-a23a-4e708e8a4b39}" id="{13b458a2-137a-4915-a23a-4e708e8a4b39}">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{6953b947-ec63-47cf-85da-fd8cdb1db4e7}">
+   <KEYFRAME time="-1" data="857.6990356445312"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{27639b2f-dde1-4151-bf7c-2e2082a904aa}">
+   <KEYFRAME time="-1" data="2.6115665435791016"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{5bd20001-a1e0-46fc-8565-59a2c460ab87}">
+   <KEYFRAME time="-1" data="992.0755615234375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{296c565f-1022-4090-8804-d343c30dc6a6}">
+  <RADIAN name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{90a781b1-7e0c-47df-9b5b-aaf0fbdcfd50}"/>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{b97375c2-671d-43b7-8c36-31f2a0cb98a4}"/>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{1f36dc77-1983-4a30-bfcd-b896c9c612aa}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" order="2" single_keyframe_only="1" user_friendy_name="Scale" default="1" hidden="false" animated="0" id="{13b62b0d-32b8-4ae5-a8d6-b6adeca373e1}"/>
+ <BOOL name="active" order="3" single_keyframe_only="0" user_friendy_name="Active" default="0" hidden="false" animated="1" id="{29b68c66-eaf5-4ab2-ba34-b8bc5beed63b}">
+  <KEYFRAME time="53.00000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" order="4" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" hidden="false" animated="1" id="{d73e3851-1aa1-43d6-9212-327bc5f57fe2}"/>
+</COMPOSITE_SCENE_FILE>

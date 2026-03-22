@@ -1,0 +1,17 @@
+<SCENE_FILE end_record_time="60.00000312924385" id="{a53a42b1-6ddb-4df1-a6d6-a9e502974c93}" perspective_camera="-218.636,145.708,-226.093:-178.869,77.7812,33.7251" hidden="false" version="27" start_record_time="0">
+ <ENVIRONMENT id="{cddb9b06-0c0c-44a4-9224-433e1f211ac6}" name="Environment" hidden="false" data="" order="0"/>
+ <VECTOR surface_mode="Freeform" link_id="0" id="{50ed6572-54eb-4a27-98d6-8091b1ddba0a}" name="position" hidden="false" is_linked="0" unique_id="{50ed6572-54eb-4a27-98d6-8091b1ddba0a}">
+  <DOUBLE single_keyframe_only="1" id="{584a0e39-2f2e-457b-897f-1d4cc9fdce17}" name="X" hidden="false" animated="1" default="0" order="0"/>
+  <DOUBLE single_keyframe_only="1" id="{22578b8a-2557-46ca-9038-b22235e2fc61}" name="Y" hidden="false" animated="1" default="0" order="1"/>
+  <DOUBLE single_keyframe_only="1" id="{c613ae57-a1dd-4cf3-9732-ca6c73f39642}" name="Z" hidden="false" animated="1" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES id="{0d706c95-3e89-4a68-bfd2-67e0260930d3}" name="rotation" hidden="false">
+  <RADIAN single_keyframe_only="1" id="{19cd799f-1a26-4207-bc18-cd3f63026b82}" name="X" hidden="false" animated="1" default="0" order="0"/>
+  <RADIAN single_keyframe_only="1" id="{c278ca08-4ab4-4def-8931-691da8f1a24b}" name="Y" hidden="false" animated="1" default="0" order="1"/>
+  <RADIAN single_keyframe_only="1" id="{c7fc96fc-b799-4fe8-beec-4844b035da00}" name="Z" hidden="false" animated="1" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE id="{e5cdfc7a-85e1-4e68-b3c5-c6aa2e641d09}" name="Links" hidden="false"/>
+ <NODE id="{14d89ba7-1104-4f60-823f-a642f429a61b}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES id="{c4b19d21-4c24-4756-9a6b-6d5494469da2}" name="heartoxy_first_s02.xml" hidden="false" warscape_properties_file="../cameras/heartoxy_first_s02.xml"/>
+ </NODE>
+</SCENE_FILE>

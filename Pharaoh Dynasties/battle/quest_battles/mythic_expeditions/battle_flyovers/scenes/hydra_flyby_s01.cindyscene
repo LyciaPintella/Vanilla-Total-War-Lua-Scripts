@@ -1,0 +1,34 @@
+<SCENE_FILE perspective_camera="56.505,19.6695,-52.5033:69.6798,13.0599,-38.986" version="23" id="{f1ecb411-1c43-4567-b6f8-1e221306e731}" name="hydra_flyby_s01.CindyScene" start_record_time="0" end_record_time="50.00000260770321">
+ <ENVIRONMENT data="" hidden="false" id="{c6373c05-132a-487e-9eaa-0f5645e16ee2}" order="0" name="Environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{f61cd955-4450-4b15-a7c7-c578a7974216}" unique_id="{f61cd955-4450-4b15-a7c7-c578a7974216}" name="position">
+  <DOUBLE default="0" hidden="false" animated="1" id="{59645b1a-f488-4bfd-ae10-b8c5053eedc6}" order="0" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" animated="1" id="{9e214905-417a-490b-aa32-07c569223642}" order="1" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" animated="1" id="{d8e665c7-31a6-4ad0-8762-90843deae5f5}" order="2" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{6a2587f2-32c0-4623-aa18-51f063db691a}" name="rotation">
+  <RADIAN default="0" hidden="false" animated="1" id="{0c0aa11d-d031-49ae-96b6-12b4e3e9f481}" order="0" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" animated="1" id="{d75affde-9aa6-42ee-8a51-9defce738357}" order="1" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" animated="1" id="{622626d9-b2f6-465a-acc2-df312a87179a}" order="2" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="26.09997367858887"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{3f1dfede-105f-4369-abb1-d144556aec9d}" name="Links"/>
+ <NODE id="{fd727ddc-2b28-4375-8f53-e79898665462}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{58dcd02b-fb33-4528-ba05-149c70778dc7}" warscape_properties_file="../cameras/hydra_cam.xml" name="hydra_cam.xml"/>
+ </NODE>
+ <NODE id="{31fea366-12f8-44cb-a840-dabfbe1b9cea}" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/hydra_1.kfa" id="{b53142ec-2bc3-4ddc-b0b9-fb7123daffe2}" name="hydra_1.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/hudra_2.kfa" id="{d428e44f-254e-4e09-be01-ba6a4ba17c99}" name="hudra_2.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/hydra_3.kfa" id="{75f802e5-fdce-4ff6-9d70-f28283caf89a}" name="hydra_3.kfa"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/troy/campaign_cinematic/red_fog.csc" name="extra_fog01.kfcs" id="{9f105d6c-44a9-4111-9929-2dcbfc118ae5}" version="23">
+ <VECTOR link_id="0" name="position" is_linked="0" unique_id="{258ea880-50e5-4e1c-9e11-63214f322170}" id="{258ea880-50e5-4e1c-9e11-63214f322170}" surface_mode="Freeform">
+  <DOUBLE default="0" order="0" name="X" animated="0" hidden="false" single_keyframe_only="1" id="{34b6af41-2c10-40af-8f3e-2c9c25add348}">
+   <KEYFRAME time="0.997503399848938" data="-14.291141510009766"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" name="Y" animated="0" hidden="false" single_keyframe_only="1" id="{db44c0a9-3c04-4368-a5e6-e2e005c61379}">
+   <KEYFRAME time="0.997503399848938" data="403.9009704589844"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" name="Z" animated="0" hidden="false" single_keyframe_only="1" id="{209540c5-b420-4233-9484-5347fc6b8686}">
+   <KEYFRAME time="0.997503399848938" data="493.38165283203125"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{a3606f69-8df0-4988-8473-9d765867e888}">
+  <RADIAN default="0" order="0" name="X" animated="0" hidden="false" single_keyframe_only="1" id="{281b7ad8-e5fa-4a2e-b6fe-1c8bfd4c0bf2}"/>
+  <RADIAN default="0" order="1" name="Y" animated="0" hidden="false" single_keyframe_only="1" id="{aff052e5-9847-4085-9024-47ff33ec6ed1}"/>
+  <RADIAN default="0" order="2" name="Z" animated="0" hidden="false" single_keyframe_only="1" id="{407bff3a-1f8e-4511-ada7-a6aca133c2df}"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" order="2" name="scale" user_friendy_name="Scale" animated="0" hidden="false" single_keyframe_only="1" id="{20615386-4f16-42e9-ba32-92fb53fe525c}">
+  <KEYFRAME time="0.997503399848938" data="2"/>
+ </DOUBLE>
+ <BOOL default="0" order="3" name="active" user_friendy_name="Active" animated="1" hidden="false" single_keyframe_only="0" id="{dda47be8-eb65-4d46-be74-40266ddbc3b9}">
+  <KEYFRAME time="23.89850234985352" data="1"/>
+ </BOOL>
+ <DOUBLE default="1" order="4" name="speed_multiplier" user_friendy_name="Speed Multiplier" animated="1" hidden="false" single_keyframe_only="0" id="{9ca31c6b-876d-4602-8fa7-7f27e4c93b89}"/>
+</COMPOSITE_SCENE_FILE>

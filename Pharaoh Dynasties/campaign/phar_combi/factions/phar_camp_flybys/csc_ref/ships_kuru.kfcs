@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE version="23" name="ships_kuru.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_ships.csc" id="{826916ab-08bc-4bb4-a5ed-0b6e43f34946}">
+ <VECTOR surface_mode="Freeform" name="position" is_linked="0" link_id="0" unique_id="{a2cbc45d-025e-4a5f-813a-f8fca3c0b279}" id="{a2cbc45d-025e-4a5f-813a-f8fca3c0b279}">
+  <DOUBLE name="X" single_keyframe_only="1" order="0" default="0" animated="0" hidden="false" id="{4e810a6c-9ae2-4bff-a5b2-2c8cb67b6a70}">
+   <KEYFRAME data="634.8579711914062" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" single_keyframe_only="1" order="1" default="0" animated="0" hidden="false" id="{48cf6234-26d3-478e-bc35-68f501b9db8f}">
+   <KEYFRAME data="0.0004863739013671875" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" single_keyframe_only="1" order="2" default="0" animated="0" hidden="false" id="{f0b6dfd9-269f-4064-966e-3f0a020cc560}">
+   <KEYFRAME data="957.4824829101562" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{763a973a-ec39-4af2-81b1-0845aa806f54}">
+  <RADIAN name="X" single_keyframe_only="1" order="0" default="0" animated="0" hidden="false" id="{f68cb2b2-8bd2-4981-871b-b10bd4e9bd05}"/>
+  <RADIAN name="Y" single_keyframe_only="1" order="1" default="0" animated="0" hidden="false" id="{a75045a8-0b06-4b8f-8dcf-4fded681a7da}">
+   <KEYFRAME data="2.8528873920440674" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" single_keyframe_only="1" order="2" default="0" animated="0" hidden="false" id="{89399c59-765c-4d89-9f45-d32d0caf7b80}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" user_friendy_name="Scale" single_keyframe_only="1" order="2" default="1" animated="0" hidden="false" id="{11e7d96d-5e7f-44f3-ad4a-7f4fb15e88c3}"/>
+ <BOOL name="active" user_friendy_name="Active" single_keyframe_only="0" order="3" default="0" animated="1" hidden="false" id="{57078d65-9540-433b-ae6d-fc46fc09743a}">
+  <KEYFRAME data="1" time="57.80000305175781"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" user_friendy_name="Speed Multiplier" single_keyframe_only="0" order="4" default="1" animated="1" hidden="false" id="{8e7d0695-638c-4953-aad5-cc8332e2ca9e}"/>
+</COMPOSITE_SCENE_FILE>

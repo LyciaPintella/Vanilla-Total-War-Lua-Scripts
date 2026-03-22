@@ -1,0 +1,70 @@
+<SCENE_FILE end_record_time="153.0000152587891" name="phar_camp_flyby_aga_r01_s01.CindyScene" perspective_camera="214.716,25.3906,1161.22:223.286,11.251,1172.48" id="{d0bd54f3-0d51-42f5-8942-fad7ad5f2bf7}" start_record_time="0" version="23">
+ <ENVIRONMENT order="0" hidden="false" name="Environment" id="{b08650ee-1a35-4d77-a372-163c191dbc57}" data=""/>
+ <VECTOR link_id="0" unique_id="{34c5531e-6284-4cbb-9496-a31fbbc97d02}" is_linked="0" surface_mode="Freeform" name="position" id="{34c5531e-6284-4cbb-9496-a31fbbc97d02}">
+  <DOUBLE animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{c16bfc51-63a3-4a2b-b1ea-f116958ca70b}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{516a8674-df1d-46c3-a1a9-7b023cbab5d1}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{1c23f3dd-c48f-4ca7-b4c2-1c54bd00ef06}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{b4db7b2e-875c-4a76-9700-2834246ab998}">
+  <RADIAN animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{410928a3-555a-4385-b177-44ad63104850}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{0e05e3fd-4948-4257-bf8a-6fc1d1205bcd}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{a624cff9-6fc0-45d3-96f2-113db58bf53a}" default="0">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{ce2e709c-3e18-4356-ba7e-caaee399fdad}"/>
+ <NODE name="Warscape Properties" id="{6e081360-b346-45c6-8576-c3d8f5c95e3c}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_aga.xml" id="{072e2501-4f27-431e-8443-703563c289df}" warscape_properties_file="../cameras/flyby_cam_aga.xml"/>
+ </NODE>
+ <NODE name="Audio Events" id="{e4a468b3-e447-479f-a624-149fcddf8b5e}">
+  <AUDIO_EVENT name="aga01.kfa" id="{d3b4c47b-2494-4926-8306-b8017298514b}" audio_event_file="../audio/aga01.kfa"/>
+  <AUDIO_EVENT name="aga03.kfa" id="{9a9c645b-04fa-4300-8d99-490683673c1f}" audio_event_file="../audio/aga03.kfa"/>
+  <AUDIO_EVENT name="aga04.kfa" id="{50b2c97b-3b96-4e4c-b89c-d34b700de9f8}" audio_event_file="../audio/aga04.kfa"/>
+  <AUDIO_EVENT name="aga02.kfa" id="{5c3d2f39-03ad-4025-9a58-9990fba63ea2}" audio_event_file="../audio/aga02.kfa"/>
+  <AUDIO_EVENT name="aga05.kfa" id="{dfb89819-16d3-464b-846e-a437e7d0ce18}" audio_event_file="../audio/aga05.kfa"/>
+  <AUDIO_EVENT name="aga06.kfa" id="{5c967bfd-e958-4834-8177-3248301abf8d}" audio_event_file="../audio/aga06.kfa"/>
+  <AUDIO_EVENT name="aga07.kfa" id="{593b5376-85dd-4d29-a33f-d893271e7f08}" audio_event_file="../audio/aga07.kfa"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{08c5dbfe-cc3c-4106-a553-5f8f7152aae3}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships.kfcs" name="aga_ships.kfcs" id="{cfd5d594-2f54-4de8-a962-c201a9e33954}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ach_fight.kfcs" name="aga_ach_fight.kfcs" id="{7855fbc1-539b-47bc-b286-f0cb3c8316a9}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ach_stand.kfcs" name="aga_ach_stand.kfcs" id="{6ef99a26-706c-4222-abb2-c1b215addcb1}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship.kfcs" name="aga_ship.kfcs" id="{9b969ced-1651-4e5f-8a6c-cea5e1ae7852}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship01.kfcs" name="aga_ship01.kfcs" id="{b5fa9e9e-1ea0-4563-9ad0-9fd4d97f1627}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_stance.kfcs" name="aga_stance.kfcs" id="{6de9b0cd-df4a-4a8b-adfa-e1626c78b81d}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_static_ship.kfcs" name="aga_static_ship.kfcs" id="{3791f62b-71e7-4530-a5bb-11b6b834c9b4}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_static_ship01.kfcs" name="aga_static_ship01.kfcs" id="{c8267502-b308-4d02-a4fb-f25d5926208c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ach_stance.kfcs" name="aga_ach_stance.kfcs" id="{049c0fa8-5e31-4dff-99bd-32b117a7484e}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_vs_corinth.kfcs" name="aga_vs_corinth.kfcs" id="{dd771e2f-0707-4f9b-aa71-68c42741e476}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships01.kfcs" name="aga_ships01.kfcs" id="{d42af1e6-c205-407b-b71d-704e9a7ffd1c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_static_ship02.kfcs" name="aga_static_ship02.kfcs" id="{bb93ac0d-2f04-43bd-87f9-73995a1b6580}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_static_ship03.kfcs" name="aga_static_ship03.kfcs" id="{677d86f2-e8fc-4d88-9a9f-d1586549d1cc}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_pri_talk.kfcs" name="aga_pri_talk.kfcs" id="{1986f051-15d8-422d-a72a-5d6a36726949}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ach_vs_tro.kfcs" name="aga_ach_vs_tro.kfcs" id="{bdfef398-3619-40e7-b73d-ac7cd1a2c849}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship_to stop.kfcs" name="aga_ship_to stop.kfcs" id="{85bddc23-909f-4cdb-b8ec-90f422bab703}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship_to stop01.kfcs" name="aga_ship_to stop01.kfcs" id="{7bcb3713-11ef-406e-9220-2f4461d73482}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships03.kfcs" name="aga_ships03.kfcs" id="{b5780205-9acf-4d09-b4e8-0261db9ea8ab}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships02.kfcs" name="aga_ships02.kfcs" id="{e192f7cb-06e5-42f4-b497-85ed5a371b32}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships04.kfcs" name="aga_ships04.kfcs" id="{5266f496-49c9-4e1f-8bb6-c4573b2c9978}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships05.kfcs" name="aga_ships05.kfcs" id="{00fd8921-f607-4166-a285-a728694883a3}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship02.kfcs" name="aga_ship02.kfcs" id="{0e29bdd5-d7f6-4dfd-a8ef-99947eb0cb50}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship03.kfcs" name="aga_ship03.kfcs" id="{8d2131d8-a962-44c0-90b9-b2377506a990}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship04.kfcs" name="aga_ship04.kfcs" id="{d65fb77c-45ee-43da-892b-2e2d07c24368}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship05.kfcs" name="aga_ship05.kfcs" id="{18c842f4-fd86-4359-af16-16dbdde83cd4}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ships06.kfcs" name="aga_ships06.kfcs" id="{7619111b-5123-4fd9-af82-d14e345bdd9d}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ship06.kfcs" name="aga_ship06.kfcs" id="{3071c87e-b1f2-4739-88ca-58d33b780cbb}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_ach_betrayl.kfcs" name="aga_ach_betrayl.kfcs" id="{a7dc3731-2765-4f40-859f-9062a2316ef3}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_sea_lane_ship.kfcs" name="aga_sea_lane_ship.kfcs" id="{d21e12f9-0092-4d9c-814f-e4decbb5ffe1}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aga_sea_lane_ship01.kfcs" name="aga_sea_lane_ship01.kfcs" id="{a9dfcbff-97a1-4afe-9ead-05e1536daab0}"/>
+ </NODE>
+</SCENE_FILE>

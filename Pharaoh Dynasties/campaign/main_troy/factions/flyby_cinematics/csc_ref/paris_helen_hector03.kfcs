@@ -1,0 +1,30 @@
+<COMPOSITE_SCENE_FILE name="paris_helen_hector03.kfcs" version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_hct_prs_hln_arrive_vo_foolish_long.csc" id="{d2fb7bb6-cb9b-450d-8ccd-9a0ef35da5f6}">
+ <VECTOR name="position" link_id="0" unique_id="{135057ce-7741-46fd-866d-f4fa203a8ae0}" surface_mode="Freeform" is_linked="0" id="{135057ce-7741-46fd-866d-f4fa203a8ae0}">
+  <DOUBLE single_keyframe_only="1" animated="0" name="X" order="0" hidden="false" default="0" id="{dcdae45f-05fb-4e4b-8122-a980b3f7de86}">
+   <KEYFRAME time="0" data="369.63800048828125"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" name="Y" order="1" hidden="false" default="0" id="{e48798cf-7c90-4cff-9c75-0739b7efe48d}">
+   <KEYFRAME time="0" data="0.15600000321865082"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" name="Z" order="2" hidden="false" default="0" id="{d69f5ee0-5979-4202-911c-79208d12a73b}">
+   <KEYFRAME time="0" data="414.3699951171875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{00d4adac-85cb-4efa-a4b2-784b37b30b1d}">
+  <RADIAN single_keyframe_only="1" animated="0" name="X" order="0" hidden="false" default="0" id="{7950de5a-665f-4756-8d56-55b6e21e35cf}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" animated="0" name="Y" order="1" hidden="false" default="0" id="{164fc9b9-41b8-43bb-b6eb-ec9750860f73}">
+   <KEYFRAME time="0" data="3.831153631210327"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" animated="0" name="Z" order="2" hidden="false" default="0" id="{b6a0dfbd-4917-4133-abf6-5e049b50dfab}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" animated="0" name="scale" order="2" hidden="false" default="1" id="{7fa41b80-9fad-4a61-b858-5d30c526be15}"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" animated="1" name="active" order="3" hidden="false" default="0" id="{7bfe2223-6083-4cbe-86fa-d8dde156c6de}">
+  <KEYFRAME time="18.23333549499512" data="1"/>
+  <KEYFRAME time="105.5000076293945" data="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" animated="1" name="speed_multiplier" order="4" hidden="false" default="1" id="{36909858-5d71-4615-9887-6000cedffbcf}"/>
+</COMPOSITE_SCENE_FILE>

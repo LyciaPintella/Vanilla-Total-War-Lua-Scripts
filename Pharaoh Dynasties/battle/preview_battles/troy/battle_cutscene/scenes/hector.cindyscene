@@ -1,0 +1,20 @@
+<SCENE_FILE version="23" id="{73601501-9634-42ad-8f47-68aa1598295c}" name="hector.CindyScene" perspective_camera="-155.392,63.0816,-85.4134:5.52145,-14.3764,65.1684" end_record_time="33.76667022705078" start_record_time="10.00000052154064">
+ <ENVIRONMENT id="{7d5d8e4c-2783-4117-88b7-880b2654394d}" name="Environment" data="weather/battle/troy_generic_01.environment" order="0" hidden="false"/>
+ <VECTOR surface_mode="Freeform" id="{6ae68639-c808-484d-949f-bd9558f90771}" name="position" unique_id="{6ae68639-c808-484d-949f-bd9558f90771}" link_id="0" is_linked="0">
+  <DOUBLE default="0" id="{511e50ea-d67b-4018-838b-a49b52a98299}" name="X" order="0" hidden="false" single_keyframe_only="1" animated="1"/>
+  <DOUBLE default="0" id="{e4990931-c541-49c0-9dc1-411c276579bf}" name="Y" order="1" hidden="false" single_keyframe_only="1" animated="1"/>
+  <DOUBLE default="0" id="{838d3c47-3f7e-4d9f-b86e-c7b70b185f06}" name="Z" order="2" hidden="false" single_keyframe_only="1" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{d9766af7-5731-47f4-9098-d4915f3d10a6}" name="rotation">
+  <RADIAN default="0" id="{4b1fa029-06eb-49ee-80bc-d4f300391772}" name="X" order="0" hidden="false" single_keyframe_only="1" animated="1"/>
+  <RADIAN default="0" id="{f5c3fc56-be02-4d90-b9da-f88a9269b454}" name="Y" order="1" hidden="false" single_keyframe_only="1" animated="1"/>
+  <RADIAN default="0" id="{844ebb41-b19a-4982-969a-cc11ca3be6e6}" name="Z" order="2" hidden="false" single_keyframe_only="1" animated="1"/>
+ </ROTATION_AXES>
+ <NODE id="{f56be07c-ca81-441f-a136-461e5c888ff8}" name="Links"/>
+ <NODE id="{ad0309e6-cf33-455a-8f66-703e55e8d98e}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{2898412e-f20c-4af9-b229-f74f44ae533c}" name="hector_camera.xml" warscape_properties_file="../cameras/hector_camera.xml"/>
+ </NODE>
+ <NODE id="{7133c0f2-42a3-4053-bf98-28a742c67b4a}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{d9b568b1-6b94-42d7-87c1-1bf17f48a4b2}" name="battle.kfcs" composite_scene_file="../csc_ref/battle.kfcs"/>
+ </NODE>
+</SCENE_FILE>

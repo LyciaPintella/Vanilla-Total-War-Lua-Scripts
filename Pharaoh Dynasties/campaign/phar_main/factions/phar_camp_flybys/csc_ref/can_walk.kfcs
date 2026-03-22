@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="can_walk.kfcs" version="23" id="{27da897e-cd2c-4773-8b22-af26aa24ad78}" directory="composite_scene/phar/campaign_cinematic/phar_camp_can_walk.csc">
+ <VECTOR name="position" link_id="0" id="{853f4020-a173-4fef-a18b-ccefffb8f409}" unique_id="{853f4020-a173-4fef-a18b-ccefffb8f409}" surface_mode="Freeform" is_linked="0">
+  <DOUBLE name="X" default="0" animated="0" single_keyframe_only="1" id="{55a70df6-9545-43af-943b-ac7225a54a64}" hidden="false" order="0">
+   <KEYFRAME time="0" data="499.3754577636719"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" animated="0" single_keyframe_only="1" id="{e93cc859-7a3c-4b3b-8a87-94839a9d2912}" hidden="false" order="1">
+   <KEYFRAME time="0" data="1.8156428337097168"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" animated="0" single_keyframe_only="1" id="{aab75ad8-f205-49eb-855c-98de596dc090}" hidden="false" order="2">
+   <KEYFRAME time="0" data="750.7840576171875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{05dd3942-079a-4134-94d1-1ccdaa021ce8}">
+  <RADIAN name="X" default="0" animated="0" single_keyframe_only="1" id="{c0e0e838-f155-4640-838d-997a1f8b2d39}" hidden="false" order="0"/>
+  <RADIAN name="Y" default="0" animated="0" single_keyframe_only="1" id="{0305ec1f-8cb5-4db0-8d07-c64a51108a2a}" hidden="false" order="1">
+   <KEYFRAME time="0" data="6.026901721954346"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" animated="0" single_keyframe_only="1" id="{fb119264-41d8-4138-a4a4-fa5f6d9e4d7f}" hidden="false" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" default="1" animated="0" user_friendy_name="Scale" single_keyframe_only="1" id="{32a11c75-c730-4c03-bbd0-d00929d5efcb}" hidden="false" order="2"/>
+ <BOOL name="active" default="0" animated="1" user_friendy_name="Active" single_keyframe_only="0" id="{19b54a1a-0647-4631-b03a-216f177d6313}" hidden="false" order="3">
+  <KEYFRAME time="57.50000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" default="1" animated="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0" id="{722c81fa-f1c2-48a1-b7f1-37bdf8c81930}" hidden="false" order="4"/>
+</COMPOSITE_SCENE_FILE>

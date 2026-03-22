@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE id="{743b4640-d9bb-4220-ac57-12c2f0703475}" version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_kuru_raid.csc" name="kuru_raid.kfcs">
+ <VECTOR id="{02f93bcf-462b-4cb5-873b-ca653b3e7a4c}" unique_id="{02f93bcf-462b-4cb5-873b-ca653b3e7a4c}" link_id="0" is_linked="0" surface_mode="Freeform" name="position">
+  <DOUBLE id="{42602e04-0c0b-46d4-80c1-8bdf25adf785}" single_keyframe_only="1" default="0" order="0" animated="0" hidden="false" name="X">
+   <KEYFRAME data="383.5715026855469" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{76d6b237-b738-4d6b-972b-f810037bba3b}" single_keyframe_only="1" default="0" order="1" animated="0" hidden="false" name="Y">
+   <KEYFRAME data="5.076826572418213" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{bd4c41c1-d6db-4bda-acdf-7de5e01a87c3}" single_keyframe_only="1" default="0" order="2" animated="0" hidden="false" name="Z">
+   <KEYFRAME data="1014.67626953125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{693ee3e6-286a-4dad-bcd1-c2641fb77132}" name="rotation">
+  <RADIAN id="{71bb5121-e2a2-4187-83f9-c2ee762c9526}" single_keyframe_only="1" default="0" order="0" animated="0" hidden="false" name="X"/>
+  <RADIAN id="{acb5d8b3-4b52-4679-bf57-98ab71f1f20b}" single_keyframe_only="1" default="0" order="1" animated="0" hidden="false" name="Y">
+   <KEYFRAME data="0.814430296421051" time="0"/>
+  </RADIAN>
+  <RADIAN id="{c2bdea79-6a5c-4da8-b8c1-6e99b5dae4cd}" single_keyframe_only="1" default="0" order="2" animated="0" hidden="false" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{8ea5d71e-465a-49a0-8e7b-90c3580b613d}" single_keyframe_only="1" user_friendy_name="Scale" default="1" order="2" animated="0" hidden="false" name="scale"/>
+ <BOOL id="{5650b84c-4142-41e1-847e-8cfa650dd72d}" single_keyframe_only="0" user_friendy_name="Active" default="0" order="3" animated="1" hidden="false" name="active">
+  <KEYFRAME data="1" time="39.00000381469727"/>
+ </BOOL>
+ <DOUBLE id="{cf9da105-0e9b-47ab-88f5-f3c4c514d245}" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" order="4" animated="1" hidden="false" name="speed_multiplier">
+  <KEYFRAME data="1" time="57.4666633605957"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

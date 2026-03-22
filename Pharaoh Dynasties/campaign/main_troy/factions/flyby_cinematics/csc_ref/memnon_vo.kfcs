@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE name="memnon_vo.kfcs" id="{2fb405e6-a4b0-4dd4-82e5-83827f193b9d}" version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_memnon_vo.csc">
+ <VECTOR name="position" unique_id="{60a424f7-dea9-4720-b5df-1c552fd757ee}" link_id="0" id="{60a424f7-dea9-4720-b5df-1c552fd757ee}" is_linked="0" surface_mode="Freeform">
+  <DOUBLE name="X" animated="0" id="{318e745c-7a39-4811-9220-c0aa5962ba1d}" default="0" hidden="false" single_keyframe_only="1" order="0">
+   <KEYFRAME data="492.4709167480469" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" animated="0" id="{0cce5251-6040-47a1-90ec-871e64cba1f2}" default="0" hidden="false" single_keyframe_only="1" order="1">
+   <KEYFRAME data="0.17604732513427734" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" animated="0" id="{73b27dd6-3684-44bf-821b-bcfc620481e1}" default="0" hidden="false" single_keyframe_only="1" order="2">
+   <KEYFRAME data="146.9557342529297" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{17f92913-4c2c-432d-9797-5cb99eec4dd4}">
+  <RADIAN name="X" animated="0" id="{208493a3-b28a-4514-922d-5afb7f5247df}" default="0" hidden="false" single_keyframe_only="1" order="0"/>
+  <RADIAN name="Y" animated="0" id="{492fd742-7cdb-43d4-9131-2645313fe0b7}" default="0" hidden="false" single_keyframe_only="1" order="1">
+   <KEYFRAME data="2.965522050857544" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" animated="0" id="{ef83ed9c-e867-457f-a2e4-0989ac34b4df}" default="0" hidden="false" single_keyframe_only="1" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" animated="0" id="{1d171507-170d-45fe-bbdb-54cbbbdcc306}" default="1" hidden="false" single_keyframe_only="1" user_friendy_name="Scale" order="2"/>
+ <BOOL name="active" animated="1" id="{daa1449d-3c4a-4c1a-bde4-6a2f292964ba}" default="0" hidden="false" single_keyframe_only="0" user_friendy_name="Active" order="3">
+  <KEYFRAME data="1" time="30.00000190734863"/>
+  <KEYFRAME data="0" time="44.50000381469727"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" animated="1" id="{98d4bda1-ee0e-4e40-b61b-2001c350e4f9}" default="1" hidden="false" single_keyframe_only="0" user_friendy_name="Speed Multiplier" order="4"/>
+</COMPOSITE_SCENE_FILE>

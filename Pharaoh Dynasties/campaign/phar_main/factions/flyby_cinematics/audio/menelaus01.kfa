@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE id="{51b47852-35c3-45fb-bbcf-bf1d61630311}" audio_event_name="Play_troy_cam_faction_intro_homer_men_01" version="23" name="menelaus01.kfa">
+ <VECTOR unique_id="{8e89c8f1-aa31-440e-822a-62a9e5190281}" id="{8e89c8f1-aa31-440e-822a-62a9e5190281}" is_linked="0" surface_mode="Freeform" name="position" link_id="0">
+  <DOUBLE id="{0a9fe224-4c0d-44a0-a67e-6b408baae6ec}" order="0" animated="0" default="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <DOUBLE id="{7aae30b8-12cd-44dc-8638-f182852a2565}" order="1" animated="0" default="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <DOUBLE id="{544174cc-e9fd-46c0-b1d9-9040b1e5034f}" order="2" animated="0" default="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <BOOL id="{5a437a1e-2582-4abf-85f6-655a3a711030}" order="2" animated="1" default="0" user_friendy_name="Active" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME time="0.03333333507180214" data="1"/>
+  <KEYFRAME time="74.00006103515625" data="0"/>
+ </BOOL>
+ <DOUBLE id="{f9551030-12b3-4917-9f16-63066895c20d}" order="3" animated="0" default="100" user_friendy_name="Volume" hidden="false" name="volume" single_keyframe_only="1"/>
+</AUDIO_EVENT_FILE>

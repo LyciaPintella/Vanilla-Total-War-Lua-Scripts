@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE id="{8004dde6-d80e-4cd0-afb2-1af1f18c4a3f}" directory="composite_scene/troy/campaign_cinematic/ships.csc" version="23" name="sailing_pirates.kfcs">
+ <VECTOR id="{f80bae09-64bf-4110-b75c-f1a6e33d0672}" surface_mode="Freeform" is_linked="0" link_id="0" unique_id="{f80bae09-64bf-4110-b75c-f1a6e33d0672}" name="position">
+  <DOUBLE id="{142c77c0-cea6-4ea8-8533-910d0acf7787}" default="0" hidden="false" animated="0" order="0" single_keyframe_only="1" name="X">
+   <KEYFRAME time="0" data="285.16363525390625"/>
+  </DOUBLE>
+  <DOUBLE id="{bb54eddb-54e6-4fe9-9429-356e112f9aa9}" default="0" hidden="false" animated="0" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0" data="0.000331878662109375"/>
+  </DOUBLE>
+  <DOUBLE id="{f8819ea5-d7d9-46c8-9f15-e9623e3aaae2}" default="0" hidden="false" animated="0" order="2" single_keyframe_only="1" name="Z">
+   <KEYFRAME time="0" data="200.59979248046875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{f52e13f5-06c8-4ee6-81a9-a1e9b966180f}" name="rotation">
+  <RADIAN id="{13f61b64-daa9-430f-a409-3fceacaa0fa8}" default="0" hidden="false" animated="0" order="0" single_keyframe_only="1" name="X"/>
+  <RADIAN id="{c9ad269b-9cc0-4265-a8ec-5b9a98e37a67}" default="0" hidden="false" animated="0" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0" data="5.0648722648620605"/>
+  </RADIAN>
+  <RADIAN id="{a5613457-47cd-4039-8eaf-808f3ddb795e}" default="0" hidden="false" animated="0" order="2" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{8fd027ae-ba8e-459c-8c8a-c30bbad6cc89}" default="1" hidden="false" animated="0" order="2" user_friendy_name="Scale" single_keyframe_only="1" name="scale"/>
+ <BOOL id="{329b9c92-2e11-4cbc-9890-db09ce0293f9}" default="0" hidden="false" animated="1" order="3" user_friendy_name="Active" single_keyframe_only="0" name="active">
+  <KEYFRAME time="46.00000381469727" data="0"/>
+  <KEYFRAME time="46.00100326538086" data="1"/>
+ </BOOL>
+ <DOUBLE id="{e5bb2696-5b7c-423b-b957-1d6a3433a230}" default="1" hidden="false" animated="1" order="4" user_friendy_name="Speed Multiplier" single_keyframe_only="0" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

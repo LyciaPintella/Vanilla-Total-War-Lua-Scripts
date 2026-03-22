@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="hit_vs_hit_raid.kfcs" version="23" id="{76392687-0481-4ee5-a35d-9cfa865c760c}" directory="composite_scene/phar/campaign_cinematic/phar_camp_hit_vs_hit_raid.csc">
+ <VECTOR name="position" is_linked="0" unique_id="{127a313c-751d-455f-bf84-78fb64570446}" link_id="0" surface_mode="Freeform" id="{127a313c-751d-455f-bf84-78fb64570446}">
+  <DOUBLE name="X" single_keyframe_only="1" default="0" animated="0" id="{deec70ce-373d-492c-a443-1e2a6cb74382}" order="0" hidden="false">
+   <KEYFRAME time="0" data="388.28704833984375"/>
+  </DOUBLE>
+  <DOUBLE name="Y" single_keyframe_only="1" default="0" animated="0" id="{9f001f59-ea15-4622-be90-1bdcbe33530e}" order="1" hidden="false">
+   <KEYFRAME time="0" data="0.6968250274658203"/>
+  </DOUBLE>
+  <DOUBLE name="Z" single_keyframe_only="1" default="0" animated="0" id="{83e22791-3684-47ac-bdf3-808654d051aa}" order="2" hidden="false">
+   <KEYFRAME time="0" data="901.3713989257812"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{32b1ac9d-76ba-4cde-9878-910778a0edb4}">
+  <RADIAN name="X" single_keyframe_only="1" default="0" animated="0" id="{fa60117a-3e6c-4de4-8bc1-5a2a0f54575c}" order="0" hidden="false"/>
+  <RADIAN name="Y" single_keyframe_only="1" default="0" animated="0" id="{f31c51eb-d07f-4d84-bad2-9ff3380745ac}" order="1" hidden="false">
+   <KEYFRAME time="0" data="1.161769986152649"/>
+  </RADIAN>
+  <RADIAN name="Z" single_keyframe_only="1" default="0" animated="0" id="{a3472836-f550-420a-ac27-dab56267b2f3}" order="2" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" single_keyframe_only="1" user_friendy_name="Scale" default="1" animated="0" id="{4597d47b-fce7-47df-b596-87073fb439a7}" order="2" hidden="false"/>
+ <BOOL name="active" single_keyframe_only="0" user_friendy_name="Active" default="0" animated="1" id="{0f9c372d-8503-4571-ad2a-64d291e760e1}" order="3" hidden="false">
+  <KEYFRAME time="67" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" animated="1" id="{f6609ec5-dd2a-4c43-8034-ba4d2e6b115e}" order="4" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

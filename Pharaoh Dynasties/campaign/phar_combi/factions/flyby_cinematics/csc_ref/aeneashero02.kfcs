@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE id="{a39899cb-dd46-44ea-a337-f640873a217f}" directory="composite_scene/troy/campaign_cinematic/troy_camp_aen_vo_fear_not.csc" version="23" name="aeneashero02.kfcs">
+ <VECTOR unique_id="{c23439a8-756b-4662-bd94-4c3252786a92}" id="{c23439a8-756b-4662-bd94-4c3252786a92}" is_linked="0" surface_mode="Freeform" name="position" link_id="0">
+  <DOUBLE id="{eca2375e-08ef-4f14-b669-0799efda92d0}" order="0" animated="0" default="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <DOUBLE id="{7ebc5cb5-dd9b-4779-8dc2-7ad8f51d6393}" order="1" animated="0" default="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <DOUBLE id="{d2f83c30-f962-4f75-983c-74783fc13368}" order="2" animated="0" default="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{b6e79a9d-f6b0-4f69-9737-8e6cb84b0849}" name="rotation">
+  <RADIAN id="{8e8dac67-b44b-4aff-8659-7dfe51b0b3da}" order="0" animated="0" default="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN id="{80499c84-f257-452d-8c3b-c1ead9b5fe94}" order="1" animated="0" default="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <RADIAN id="{0380b51d-c360-4b35-b6bf-05683eb0c3da}" order="2" animated="0" default="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{641c8f0d-1b00-445a-b687-75fa4e38b8e9}" order="2" animated="0" default="1" user_friendy_name="Scale" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL id="{cc1cfdd7-30e9-46ee-9050-08a686370d8d}" order="3" animated="1" default="0" user_friendy_name="Active" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME time="9" data="1"/>
+  <KEYFRAME time="115.0000076293945" data="0"/>
+ </BOOL>
+ <DOUBLE id="{4d798d5c-16a1-4e3d-bc02-7ad0e127c58d}" order="4" animated="1" default="1" user_friendy_name="Speed Multiplier" hidden="false" name="speed_multiplier" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

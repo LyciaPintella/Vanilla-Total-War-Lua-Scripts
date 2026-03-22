@@ -1,0 +1,29 @@
+<SCENE_FILE name="phar_camp_tutorial_sq01_sh04.CindyScene" id="{396e10ed-4fc3-4b28-acee-ea5d6864ff47}" version="23" start_record_time="0" end_record_time="18.00058178416934" perspective_camera="457.956,36.8683,726.994:456.592,30.6359,732.85">
+ <ENVIRONMENT name="Environment" order="0" id="{533a9f3d-1fa7-4ca6-878d-5df444c8e7a0}" hidden="false" data="weather/campaign/prosperity/midday_prosperity.environment"/>
+ <VECTOR name="position" id="{07538248-749a-4b52-8888-ce69282f4135}" link_id="0" surface_mode="Freeform" is_linked="0" unique_id="{07538248-749a-4b52-8888-ce69282f4135}">
+  <DOUBLE name="X" order="0" id="{45e7f436-20dd-47c4-b383-70017a49ed07}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" id="{07063d14-d194-4d0e-804b-f6cedd0e5b72}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" id="{da27b47e-ce5c-4297-a483-30d744cabe2f}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{e76e8346-6951-4a29-8120-fe4368e91d19}">
+  <RADIAN name="X" order="0" id="{bd1b57bf-4514-427f-ac64-691fe6322a86}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" id="{b39c918c-deed-4310-aa39-04c43624b5f4}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" id="{aa1271e6-f9a3-4b59-9840-fbba5e760933}" animated="1" hidden="false" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="18.00065612792969"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{164d47d7-8127-4d1e-bfc3-a5dca0c3e198}"/>
+ <NODE name="Warscape Properties" id="{b3db1d4f-6e24-4cf8-bf69-42ccde4a60e7}">
+  <WARSCAPE_PROPERTIES name="cam_sq01_sh04.xml" id="{11d5dfcb-7e96-4e73-90f1-0a55982c7a4c}" warscape_properties_file="../cameras/cam_sq01_sh04.xml"/>
+ </NODE>
+</SCENE_FILE>

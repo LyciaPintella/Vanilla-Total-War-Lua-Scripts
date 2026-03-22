@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE version="23" name="set_vs_gen_01.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_set_vs_gen.csc" id="{eb66fada-dd1e-4f0e-9c2d-77fc322dfe0a}">
+ <VECTOR unique_id="{6f0c3ae0-1901-4ff0-93eb-0c805cedb816}" is_linked="0" link_id="0" surface_mode="Freeform" name="position" id="{6f0c3ae0-1901-4ff0-93eb-0c805cedb816}">
+  <DOUBLE order="0" hidden="false" default="0" single_keyframe_only="1" name="X" id="{183ae60d-9f9a-4667-a4d3-97bc95a6a18a}" animated="0">
+   <KEYFRAME time="0" data="562.7410278320312"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" default="0" single_keyframe_only="1" name="Y" id="{4621cb47-f5cb-487c-a479-76a17e8efd10}" animated="0">
+   <KEYFRAME time="0" data="1.2537264823913574"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" default="0" single_keyframe_only="1" name="Z" id="{db659fef-2e76-42a9-8af1-ee3ab6ecd185}" animated="0">
+   <KEYFRAME time="0" data="477.20904541015625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{3916f3be-b0c1-408b-a8dd-3b7e8d2395ca}">
+  <RADIAN order="0" hidden="false" default="0" single_keyframe_only="1" name="X" id="{274c4313-f8ed-453f-843b-6f175d02c5ff}" animated="0"/>
+  <RADIAN order="1" hidden="false" default="0" single_keyframe_only="1" name="Y" id="{5575b363-2213-4687-a63b-468890387872}" animated="0"/>
+  <RADIAN order="2" hidden="false" default="0" single_keyframe_only="1" name="Z" id="{bdbbdfec-2e0b-4403-850f-969f9098dae1}" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" hidden="false" default="1" single_keyframe_only="1" name="scale" user_friendy_name="Scale" id="{1a3a54cc-c660-461b-87ee-4cac1c3c4fd8}" animated="0"/>
+ <BOOL order="3" hidden="false" default="0" single_keyframe_only="0" name="active" user_friendy_name="Active" id="{7be4d3a0-dae9-4cbb-96cd-205a3bf2f06b}" animated="1">
+  <KEYFRAME time="18" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" hidden="false" default="1" single_keyframe_only="0" name="speed_multiplier" user_friendy_name="Speed Multiplier" id="{10d7092b-fb90-4071-8346-dce40c267d32}" animated="1"/>
+</COMPOSITE_SCENE_FILE>

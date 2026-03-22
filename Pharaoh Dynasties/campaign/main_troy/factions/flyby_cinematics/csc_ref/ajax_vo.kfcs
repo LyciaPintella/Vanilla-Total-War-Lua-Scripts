@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_ajax_vo.csc" id="{abd473a4-64ed-4461-ac0e-6e4f07dec7b6}" name="ajax_vo.kfcs">
+ <VECTOR is_linked="0" link_id="0" id="{ce74fd17-a939-472b-8951-6abe1455dfb3}" unique_id="{ce74fd17-a939-472b-8951-6abe1455dfb3}" name="position" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{bffaf52d-344d-47f0-af48-1343509901f9}" default="0" name="X" order="0" animated="0">
+   <KEYFRAME data="245.1766815185547" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{3f927eaf-132c-4254-9b32-676fe681bda1}" default="0" name="Y" order="1" animated="0">
+   <KEYFRAME data="0.00018215179443359375" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{b23aa64e-35e1-48ee-b9e6-143fc6228fe0}" default="0" name="Z" order="2" animated="0">
+   <KEYFRAME data="240.70880126953125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{de68b36d-772d-4f64-9f05-52e7a3b9eafa}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" id="{77fcbd3a-1a44-4430-a13b-31d718fa6997}" default="0" name="X" order="0" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{e201abef-3589-473f-9d9d-6ca85205ff82}" default="0" name="Y" order="1" animated="0">
+   <KEYFRAME data="2.506539821624756" time="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{42accb8d-b828-428d-ad49-e1edcda8095c}" default="0" name="Z" order="2" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" id="{c8821c6b-107a-449a-90df-3fe2f91a4b15}" default="1" name="scale" order="2" animated="0"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" id="{3fbe016b-2274-46ab-b7e5-bd237c3e9299}" default="0" name="active" order="3" animated="1">
+  <KEYFRAME data="0" time="22.00000190734863"/>
+  <KEYFRAME data="1" time="22.70000076293945"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" hidden="false" id="{cf8b7e38-a0ee-490c-803c-f75f9390bda6}" default="1" name="speed_multiplier" order="4" animated="1"/>
+</COMPOSITE_SCENE_FILE>

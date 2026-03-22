@@ -1,0 +1,33 @@
+<SCENE_FILE end_record_time="68.00000354647636" version="23" perspective_camera="466.418,4.7915,269.401:461.534,1.07844,273.439" id="{6600952d-ccb3-4fa6-b093-798fbbcffccb}" name="flyby_hyppolitamap.CindyScene" start_record_time="0">
+ <ENVIRONMENT data="" hidden="false" order="0" id="{19ce7dce-6a7f-491d-83ab-57dc20a9dfdd}" name="Environment"/>
+ <VECTOR unique_id="{c88cdc87-7a85-4542-863b-bff41ed1be1e}" surface_mode="Freeform" link_id="0" is_linked="0" id="{c88cdc87-7a85-4542-863b-bff41ed1be1e}" name="position">
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="0" id="{badec1fc-85ad-4728-b529-3ddcd5a6210e}" name="X" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="1" id="{ad4b4f01-3563-41dd-94ba-03993a66a57b}" name="Y" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="2" id="{82c18913-ec4e-40c8-a27f-eb50c73e6a8e}" name="Z" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{e021fc04-d1d0-4852-a8a8-6ad14e24cb1e}" name="rotation">
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="0" id="{9ee4ec87-fdbc-48a6-a716-6399d22db1da}" name="X" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="1" id="{d64145b1-953f-4e8f-8735-8282bad654e3}" name="Y" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="2" id="{32b5fee8-da20-497e-9924-d9bff710d430}" name="Z" default="0">
+   <KEYFRAME data="0" time="0.2094825804233551"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{a1994432-8f9b-4f23-8b4e-3412805b8573}" name="Links"/>
+ <NODE id="{9359a3b3-83e5-4f19-ba3b-b2218866de18}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/hyppolita_cam.xml" id="{1950460f-22a8-4487-8e18-87e1c48d64ce}" name="hyppolita_cam.xml"/>
+ </NODE>
+ <NODE id="{a739bca0-34ab-4f3a-b3b4-bb24227c9766}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/paris_helen_hector06.kfcs" id="{2f7fc094-69ff-42cc-ad46-c8d15051b0a0}" name="paris_helen_hector06.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/hyppolita.kfcs" id="{2add9bfc-da41-4de7-96bb-19b19bcb1fad}" name="hyppolita.kfcs"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE name="cerberus_1.kfa" id="{470c6a73-9919-47a8-9094-f9819957549c}" version="23" audio_event_name="Play_troy_mth_qb_intro_cerberus_1">
+ <VECTOR link_id="0" surface_mode="Freeform" name="position" id="{0e20a3f7-0701-467d-924e-cfdc7ec0cc32}" unique_id="{0e20a3f7-0701-467d-924e-cfdc7ec0cc32}" is_linked="0">
+  <DOUBLE default="0" animated="0" name="X" id="{54647130-debc-45f9-8a5b-e74e4fa35b88}" hidden="false" single_keyframe_only="1" order="0">
+   <KEYFRAME handle2_y="-13.4711" data="-13.47105884552002" handle1_type="SMOOTH" handle1_y="-13.4711" handle2_type="SMOOTH" handle2_x="0.997503" time="0.997503399848938" handle1_x="0.997503"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" name="Y" id="{53787ab0-430a-4dca-806e-7d4be3c2999b}" hidden="false" single_keyframe_only="1" order="1">
+   <KEYFRAME handle2_y="393.653" data="393.6530456542969" handle1_type="SMOOTH" handle1_y="393.653" handle2_type="SMOOTH" handle2_x="0.997503" time="0.997503399848938" handle1_x="0.997503"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" name="Z" id="{bca99959-3427-4256-9390-eec62f5569ae}" hidden="false" single_keyframe_only="1" order="2">
+   <KEYFRAME handle2_y="-21.6364" data="-21.63638687133789" handle1_type="SMOOTH" handle1_y="-21.6364" handle2_type="SMOOTH" handle2_x="0.997503" time="0.997503399848938" handle1_x="0.997503"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" default="0" animated="1" name="active" id="{a860abe8-92b6-487b-95f9-b2c7c8577414}" hidden="false" single_keyframe_only="0" order="2">
+  <KEYFRAME data="1" time="4.997502326965332"/>
+  <KEYFRAME data="0" time="14.50000095367432"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" default="100" animated="0" name="volume" id="{e73d42b3-4f58-4c4e-b10b-cc3a5da574e0}" hidden="false" single_keyframe_only="1" order="3"/>
+</AUDIO_EVENT_FILE>

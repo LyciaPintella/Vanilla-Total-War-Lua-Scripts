@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE name="rhesus02.kfa" version="23" audio_event_name="Play_troy_rem_cam_faction_intro_homer_rhe_02" id="{93fc9373-0883-4f4a-8a9e-509d0b3086e2}">
+ <VECTOR unique_id="{2d863bfb-13d4-45f2-87eb-de5c8b956f9b}" surface_mode="Freeform" is_linked="0" link_id="0" name="position" id="{2d863bfb-13d4-45f2-87eb-de5c8b956f9b}">
+  <DOUBLE default="0" name="X" hidden="false" order="0" single_keyframe_only="1" animated="0" id="{c15f7e00-7b5a-44b3-b87a-9ee577cd632e}">
+   <KEYFRAME data="326.5343017578125" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Y" hidden="false" order="1" single_keyframe_only="1" animated="0" id="{6e3a52c1-77d1-4623-be0d-94f1a0954835}">
+   <KEYFRAME data="0.0006275177001953125" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Z" hidden="false" order="2" single_keyframe_only="1" animated="0" id="{ed251f6a-e3ba-4fd5-b702-ea6d0b152a0b}">
+   <KEYFRAME data="414.1402587890625" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" default="0" name="active" hidden="false" order="2" single_keyframe_only="0" animated="1" id="{c3b7a996-79fa-4755-a45b-407355274663}">
+  <KEYFRAME data="1" time="20.03333473205566"/>
+  <KEYFRAME data="0" time="27.10000038146973"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" default="100" name="volume" hidden="false" order="3" single_keyframe_only="1" animated="0" id="{9fedc69b-4748-4ff2-873b-e1a79d1566e5}"/>
+</AUDIO_EVENT_FILE>

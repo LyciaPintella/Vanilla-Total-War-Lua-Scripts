@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="menelaus03.kfcs" version="23" id="{b6ed8efa-cb1d-4131-b266-a00569f3c55a}" directory="composite_scene/troy/campaign_cinematic/troy_camp_mls_vo_must_pay.csc">
+ <VECTOR name="position" surface_mode="Freeform" unique_id="{2ea5cfa9-3e83-4c0d-b71e-abf3b2333849}" is_linked="0" link_id="0" id="{2ea5cfa9-3e83-4c0d-b71e-abf3b2333849}">
+  <DOUBLE name="X" hidden="false" order="0" id="{bd8ee424-3cf9-4bfe-81ab-196d86c9f101}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="0" data="205.1338348388672"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" id="{f67055b4-32e1-4ef2-a718-21a180071d6d}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="0" data="1.132551193237305"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" id="{d744dd24-c086-4716-af23-ef901c79199b}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="0" data="165.6535339355469"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{541f18b8-3a03-465c-9c3b-6908ed3d1b43}">
+  <RADIAN name="X" hidden="false" order="0" id="{ec67f659-56b7-4202-92fe-4133ce44e244}" single_keyframe_only="1" default="0" animated="0"/>
+  <RADIAN name="Y" hidden="false" order="1" id="{47af47ea-08c6-411e-836d-a761f44fc39e}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="0" data="0.2417936772108078"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" order="2" id="{3a87585f-b967-442a-b59c-fa21528d65e4}" single_keyframe_only="1" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="2" id="{e5ab188b-882a-403f-884a-170a89b0f449}" single_keyframe_only="1" user_friendy_name="Scale" default="1" animated="0"/>
+ <BOOL name="active" hidden="false" order="3" id="{eac0833a-7864-40a4-a9af-6275683ab10d}" single_keyframe_only="0" user_friendy_name="Active" default="0" animated="1">
+  <KEYFRAME time="0" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" hidden="false" order="4" id="{470924c3-e4de-4ad1-9aa6-4c722f2981b1}" single_keyframe_only="1" user_friendy_name="Speed Multiplier" default="1" animated="0"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{891ed154-1401-465f-bd87-7dc77bc3359a}" version="23" name="kizz_point.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_kizz_point.csc">
+ <VECTOR link_id="0" id="{018dc4d9-c23f-47e5-b504-00a2f414797a}" is_linked="0" unique_id="{018dc4d9-c23f-47e5-b504-00a2f414797a}" surface_mode="Freeform" name="position">
+  <DOUBLE animated="0" id="{d85cf4ef-ed68-4be3-9359-cc261ed7b1fd}" order="0" single_keyframe_only="1" name="X" default="0" hidden="false">
+   <KEYFRAME handle2_y="442.236" handle2_type="SMOOTH" handle1_y="442.236" handle2_x="0" handle1_x="0" time="0" data="442.2360534667969" handle1_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE animated="0" id="{4109bca6-0df4-44ea-a28f-75f85b720760}" order="1" single_keyframe_only="1" name="Y" default="0" hidden="false">
+   <KEYFRAME handle2_y="0.00014019" handle2_type="SMOOTH" handle1_y="0.00014019" handle2_x="0" handle1_x="0" time="0" data="0.00014019012451171875" handle1_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE animated="0" id="{c3e65914-b986-4ea0-8ef7-0caa880259a3}" order="2" single_keyframe_only="1" name="Z" default="0" hidden="false">
+   <KEYFRAME handle2_y="973.102" handle2_type="SMOOTH" handle1_y="973.102" handle2_x="0" handle1_x="0" time="0" data="973.1015014648438" handle1_type="SMOOTH"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{48c3e484-6072-4671-a9d3-39f662cbce83}" name="rotation">
+  <RADIAN animated="0" id="{b8c0aae6-94f7-4383-9de8-520d70687441}" order="0" single_keyframe_only="1" name="X" default="0" hidden="false"/>
+  <RADIAN animated="0" id="{15c96aa8-f6b8-4ab2-9e7d-d0953c9e1c08}" order="1" single_keyframe_only="1" name="Y" default="0" hidden="false">
+   <KEYFRAME handle2_y="82.0153" handle2_type="SMOOTH" handle1_y="82.0153" handle2_x="0" handle1_x="0" time="0" data="1.4314361810684204" handle1_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN animated="0" id="{d7a769ae-82b4-4283-8fdc-d859786a9470}" order="2" single_keyframe_only="1" name="Z" default="0" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" id="{cae80b8f-3066-4ed0-b99a-976e27825697}" order="2" single_keyframe_only="1" name="scale" user_friendy_name="Scale" default="1" hidden="false"/>
+ <BOOL animated="1" id="{e653e52d-9694-4d65-a36e-12846574612b}" order="3" single_keyframe_only="0" name="active" user_friendy_name="Active" default="0" hidden="false">
+  <KEYFRAME time="31.50000190734863" data="1"/>
+ </BOOL>
+ <DOUBLE animated="1" id="{83f8b98e-c9db-4e58-941b-85afb18b46a0}" order="4" single_keyframe_only="0" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

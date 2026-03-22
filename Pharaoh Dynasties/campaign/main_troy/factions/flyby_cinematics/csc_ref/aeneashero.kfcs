@@ -1,0 +1,31 @@
+<COMPOSITE_SCENE_FILE name="aeneashero.kfcs" id="{de08f1b1-74fd-4748-9fd2-74e6f040c98f}" version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_aen_vo_fear_not.csc">
+ <VECTOR name="position" link_id="0" id="{e3437bdd-0b3c-4138-8125-20e2ecbc84b3}" is_linked="0" unique_id="{e3437bdd-0b3c-4138-8125-20e2ecbc84b3}" surface_mode="Freeform">
+  <DOUBLE name="X" hidden="false" animated="0" id="{5e4764ca-84dd-462d-a29c-51a28b548537}" order="0" default="0" single_keyframe_only="1">
+   <KEYFRAME data="374.7774047851563" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" animated="0" id="{61eab064-0527-4ea1-8fc8-da37ce92bca4}" order="1" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0.4309501647949219" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" animated="0" id="{c8f3eee5-cc88-49d6-b083-4bfd85128f3e}" order="2" default="0" single_keyframe_only="1">
+   <KEYFRAME data="433.070068359375" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{08b12e20-58a2-4931-86f4-3233c1603f3f}">
+  <RADIAN name="X" hidden="false" animated="0" id="{96565b7f-ffe2-4670-8c8d-eae00c37763f}" order="0" default="0" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN name="Y" hidden="false" animated="0" id="{c8031a30-d84e-4f9b-9bfc-5a49d88fa72c}" order="1" default="0" single_keyframe_only="1">
+   <KEYFRAME data="3.141592741012573" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" animated="0" id="{53c239b2-bc38-4d00-addb-e6682db38647}" order="2" default="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" animated="0" id="{4bbc942b-a994-416c-b129-40e5b4f5f901}" order="2" user_friendy_name="Scale" default="1" single_keyframe_only="1"/>
+ <BOOL name="active" hidden="false" animated="1" id="{23665c4e-f3ce-41a2-baf2-bbc121c0124a}" order="3" user_friendy_name="Active" default="0" single_keyframe_only="0">
+  <KEYFRAME data="1" time="8.5"/>
+  <KEYFRAME data="0" time="91.00000762939453"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" hidden="false" animated="1" id="{002af456-4df1-47e3-801e-5788183b16f6}" order="4" user_friendy_name="Speed Multiplier" default="1" single_keyframe_only="0">
+  <KEYFRAME data="1" time="56.00008392333984"/>
+  <KEYFRAME data="1" time="62.03377151489258"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

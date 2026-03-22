@@ -1,0 +1,13 @@
+<AUDIO_EVENT_FILE name="griffin_vo_1.kfa" id="{fee5b9d9-0190-4ab8-a42d-c41f9362c11b}" audio_event_name="Play_troy_mth_qb_intro_griffin_1" version="23">
+ <VECTOR name="position" id="{2e3ae516-91e7-4b2d-8ed6-8e6959d5fb75}" surface_mode="Freeform" is_linked="0" link_id="0" unique_id="{2e3ae516-91e7-4b2d-8ed6-8e6959d5fb75}">
+  <DOUBLE name="X" hidden="false" id="{cab096c9-fd8b-4db9-a8d2-f0bbca8e5b14}" animated="0" default="0" order="0" single_keyframe_only="1"/>
+  <DOUBLE name="Y" hidden="false" id="{82eed673-edd1-4619-8d29-980a658becff}" animated="0" default="0" order="1" single_keyframe_only="1"/>
+  <DOUBLE name="Z" hidden="false" id="{b9f75340-a99a-49ce-9eb7-805b7d760491}" animated="0" default="0" order="2" single_keyframe_only="1"/>
+ </VECTOR>
+ <BOOL name="active" hidden="false" id="{5ddc9144-ff23-4410-9b8c-f4830d960f17}" animated="1" user_friendy_name="Active" default="0" order="2" single_keyframe_only="0">
+  <KEYFRAME data="0" time="14.7333345413208"/>
+  <KEYFRAME data="1" time="14.73433399200439"/>
+  <KEYFRAME data="0" time="27.86666297912598"/>
+ </BOOL>
+ <DOUBLE name="volume" hidden="false" id="{56b7942e-e09e-4670-930b-d8fb09d9f1ef}" animated="0" user_friendy_name="Volume" default="100" order="3" single_keyframe_only="1"/>
+</AUDIO_EVENT_FILE>

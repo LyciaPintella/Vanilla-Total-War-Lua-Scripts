@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE version="23" name="kuru_kills_special.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_kuru_vs_hit_special.csc" id="{a59f9b4c-e833-422b-8e52-ec3862505047}">
+ <VECTOR surface_mode="Freeform" name="position" is_linked="0" link_id="0" unique_id="{9441a698-4476-4124-a9a4-0f76c9bde83b}" id="{9441a698-4476-4124-a9a4-0f76c9bde83b}">
+  <DOUBLE name="X" single_keyframe_only="1" order="0" default="0" animated="0" hidden="false" id="{c870804b-c66a-49b3-b809-5aa5db6a88f4}">
+   <KEYFRAME data="628.8289794921875" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" single_keyframe_only="1" order="1" default="0" animated="0" hidden="false" id="{fa3a4e2d-9164-4108-af3a-f340ad7155f8}">
+   <KEYFRAME data="0.9472713470458984" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" single_keyframe_only="1" order="2" default="0" animated="0" hidden="false" id="{d17ffc07-1284-4d56-ba36-ea4453c0d4ec}">
+   <KEYFRAME data="976.198486328125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{36974bf1-ed21-4a6f-ae60-f2cca8d54ab3}">
+  <RADIAN name="X" single_keyframe_only="1" order="0" default="0" animated="0" hidden="false" id="{2ef452e6-d23a-4541-a793-492ced683fff}"/>
+  <RADIAN name="Y" single_keyframe_only="1" order="1" default="0" animated="0" hidden="false" id="{f89fd332-cc14-4ed6-8134-a49b2e559b8c}">
+   <KEYFRAME data="5.161679744720459" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" single_keyframe_only="1" order="2" default="0" animated="0" hidden="false" id="{78923969-38e6-40eb-80cb-d5476a7de127}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" user_friendy_name="Scale" single_keyframe_only="1" order="2" default="1" animated="0" hidden="false" id="{590a1bb5-88b1-4de1-895b-32e9fc962718}"/>
+ <BOOL name="active" user_friendy_name="Active" single_keyframe_only="0" order="3" default="0" animated="1" hidden="false" id="{45aac015-bdff-433c-998e-c79a96db0b69}">
+  <KEYFRAME data="1" time="45.00000381469727"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" user_friendy_name="Speed Multiplier" single_keyframe_only="0" order="4" default="1" animated="1" hidden="false" id="{1670817d-69e3-418a-b6e1-c25584fa95da}"/>
+</COMPOSITE_SCENE_FILE>

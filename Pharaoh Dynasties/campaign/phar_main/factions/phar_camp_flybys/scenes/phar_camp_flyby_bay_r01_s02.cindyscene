@@ -1,0 +1,45 @@
+<SCENE_FILE version="23" id="{f4b6a8d9-cdfa-4408-929c-8acc134150e2}" name="phar_camp_flyby_bay_r01_s02.CindyScene" start_record_time="0" end_record_time="57.00000297278166" perspective_camera="313.909,14.8827,471.165:325.456,3.33573,482.712">
+ <ENVIRONMENT data="" id="{7f3c82e6-0cd3-4ec3-baef-9b314def7468}" name="Environment" hidden="false" order="0"/>
+ <VECTOR surface_mode="Freeform" id="{64c0ef88-3609-4f12-bd4d-5638c2ff552a}" name="position" link_id="0" is_linked="0" unique_id="{64c0ef88-3609-4f12-bd4d-5638c2ff552a}">
+  <DOUBLE id="{4a920956-38fe-41fb-8549-e55f806b99db}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="35"/>
+  </DOUBLE>
+  <DOUBLE id="{d94c395d-4cb3-4884-8b75-5ebf1e32e59f}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="35"/>
+  </DOUBLE>
+  <DOUBLE id="{60fe67e9-1168-411c-a9f7-4bab43804a75}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="35"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{c37a0f43-2a1a-49b4-a28f-63f361853e98}" name="rotation">
+  <RADIAN id="{b468d2b9-8c8b-4bb1-9654-c14f53a17136}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="35"/>
+  </RADIAN>
+  <RADIAN id="{f0918b2e-b2fc-4292-8003-2bde4c423d12}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="35"/>
+  </RADIAN>
+  <RADIAN id="{4959b0c2-f5de-4b39-9154-04b785c66bbb}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="35"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{957295f1-b21f-4326-8751-0092570d052f}" name="Links"/>
+ <NODE id="{40702959-75ca-4b63-a583-b1fd4918b803}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{7b0de901-8f32-4f0d-adc6-18f3947fa116}" name="flyby_cam_bay.xml" warscape_properties_file="../cameras/flyby_cam_bay.xml"/>
+ </NODE>
+ <NODE id="{9b339a60-4ead-46d2-8588-4e16f028b4db}" name="Audio Events">
+  <AUDIO_EVENT id="{54c48d0f-adf6-44a0-9c5d-f25d8dbe4cb0}" name="phar_cam_faction_intro_mernephtah_bay_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_bay_01.kfa"/>
+  <AUDIO_EVENT id="{2c07961a-8d49-4719-a66c-aebadcba4d1d}" name="phar_cam_faction_intro_mernephtah_bay_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_bay_02.kfa"/>
+  <AUDIO_EVENT id="{ca527572-34cb-468a-b107-b926c499acd0}" name="phar_cam_faction_intro_mernephtah_bay_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_bay_03.kfa"/>
+  <AUDIO_EVENT id="{ad8cd01b-02fa-4a80-914c-a7c52dc39a9e}" name="phar_cam_faction_intro_mernephtah_bay_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_bay_04.kfa"/>
+  <AUDIO_EVENT id="{9d9ca9b6-74a4-4e22-9a2f-49780742b1ea}" name="phar_cam_faction_intro_mernephtah_bay_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_bay_05.kfa"/>
+ </NODE>
+ <NODE id="{dac98274-6c49-4cfe-874a-35ca339f9cbe}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{e5c1833e-9a64-4696-8546-16e464250866}" name="ships01.kfcs" composite_scene_file="../csc_ref/ships01.kfcs"/>
+  <COMPOSITE_SCENE id="{0e32aaf5-0c39-4881-ab78-fcaa7f5dc63b}" name="ships02.kfcs" composite_scene_file="../csc_ref/ships02.kfcs"/>
+  <COMPOSITE_SCENE id="{42ef95c3-3be2-4806-9409-30fe2573f2d3}" name="can_vs_hit.kfcs" composite_scene_file="../csc_ref/can_vs_hit.kfcs"/>
+  <COMPOSITE_SCENE id="{63f085f3-9c72-46a2-bc54-853e55574a6c}" name="irs_raid.kfcs" composite_scene_file="../csc_ref/irs_raid.kfcs"/>
+  <COMPOSITE_SCENE id="{a3f3aca9-1868-4b56-a6ca-6bd9ea931f6b}" name="can_vs_can.kfcs" composite_scene_file="../csc_ref/can_vs_can.kfcs"/>
+  <COMPOSITE_SCENE id="{b8e96229-23c8-4415-a312-ccb5f6fbfbfe}" name="bay_can_talk_special.kfcs" composite_scene_file="../csc_ref/bay_can_talk_special.kfcs"/>
+  <COMPOSITE_SCENE id="{d5ef29f0-a24a-4b40-a72d-a8b629684a43}" name="bay_stabs_special.kfcs" composite_scene_file="../csc_ref/bay_stabs_special.kfcs"/>
+ </NODE>
+</SCENE_FILE>

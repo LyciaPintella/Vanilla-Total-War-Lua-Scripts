@@ -1,0 +1,20 @@
+<SCENE_FILE perspective_camera="739.917,77.9945,502.284:215.142,-43.5281,423.227" end_record_time="48.00000250339508" id="{7e99e2ec-45c7-4f20-bc73-6f3a5d658e9e}" start_record_time="5.000000260770321" version="23" name="achilles.CindyScene">
+ <ENVIRONMENT id="{49d2c25c-e0ea-4ab9-950a-2849c3a3798c}" data="projects/battles_flyovers/weahter/troy_generic_10_lo.environment" order="0" name="Environment" hidden="false"/>
+ <VECTOR is_linked="0" surface_mode="Freeform" id="{00a343db-891e-4366-9a09-950c2b49e85f}" link_id="0" unique_id="{00a343db-891e-4366-9a09-950c2b49e85f}" name="position">
+  <DOUBLE id="{109f5a2b-6d33-4987-9b8c-4b19f8b4cf25}" animated="1" default="0" order="0" name="X" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE id="{8be5e9a6-1d40-4fe6-bfa4-d310314fb823}" animated="1" default="0" order="1" name="Y" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE id="{b3fb04fe-2568-4cf3-9ea1-3713d8f6641d}" animated="1" default="0" order="2" name="Z" hidden="false" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{3f76962d-223d-499d-84ac-3043004a73e6}" name="rotation">
+  <RADIAN id="{bc2ed7f5-cafb-47e1-95e0-3a00e2e2dcf6}" animated="1" default="0" order="0" name="X" hidden="false" single_keyframe_only="1"/>
+  <RADIAN id="{7283c2c7-6f87-47da-8cf6-1c5397cfd74f}" animated="1" default="0" order="1" name="Y" hidden="false" single_keyframe_only="1"/>
+  <RADIAN id="{5f8dc01f-99d4-452c-a4df-a0595b1363a7}" animated="1" default="0" order="2" name="Z" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE id="{cfa1b063-3416-4d20-a100-5e7415d0832d}" name="Links"/>
+ <NODE id="{809feef7-f1fd-471b-8420-e9d7f409d3ec}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{22f1fb38-b3fb-4528-867c-4cd8ac3b7ed8}" name="Ach_BattleIntroCam.xml" warscape_properties_file="../cameras/Ach_BattleIntroCam.xml"/>
+ </NODE>
+ <NODE id="{6fd681dd-8790-4d12-96ef-f003d2475996}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/Achilles_Epic_Shout.kfcs" id="{e2c4b89a-7009-473f-8fac-58f88473d8de}" name="Achilles_Epic_Shout.kfcs"/>
+ </NODE>
+</SCENE_FILE>

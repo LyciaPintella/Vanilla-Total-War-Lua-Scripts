@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="Hector_Epic_Shout.kfcs" id="{78575aad-dcd4-4d1f-baa5-d10b556f613a}" directory="projects/battles_flyovers/csc_ref/hector_shout.csc" version="23">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" name="position" id="{dcd80b63-dfd5-4c13-862d-07fe257abb40}" unique_id="{dcd80b63-dfd5-4c13-862d-07fe257abb40}">
+  <DOUBLE default="0" name="X" order="0" hidden="false" id="{d64b589a-2a4a-4f2a-a53d-a00f2a3758e8}" single_keyframe_only="1" animated="0">
+   <KEYFRAME time="0" data="-6.400000095367432"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Y" order="1" hidden="false" id="{dbf8a444-1fd6-4e8e-aa03-2fa1aee778d0}" single_keyframe_only="1" animated="0"/>
+  <DOUBLE default="0" name="Z" order="2" hidden="false" id="{ba6aaaf0-ceaa-43ba-ad53-98395db4ca9e}" single_keyframe_only="1" animated="0">
+   <KEYFRAME time="0" data="138.75"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{ddd924ff-5587-4ab6-bea6-7690eef37db7}">
+  <RADIAN default="0" name="X" order="0" hidden="false" id="{30cf42ae-1bbe-442e-8cb3-a77690de9d3c}" single_keyframe_only="1" animated="0"/>
+  <RADIAN default="0" name="Y" order="1" hidden="false" id="{3c3baccb-077f-4963-a266-59795ff5a098}" single_keyframe_only="1" animated="0">
+   <KEYFRAME time="0" data="4.014257431030273"/>
+  </RADIAN>
+  <RADIAN default="0" name="Z" order="2" hidden="false" id="{2904c4e4-b2f0-4018-9a05-1b38c14996f7}" single_keyframe_only="1" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" default="1" name="scale" order="2" hidden="false" id="{a0bddd5c-94b9-4b7f-84b4-2372e367dd43}" single_keyframe_only="1" animated="0">
+  <KEYFRAME time="0" data="1.149999976158142"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Active" default="0" name="active" order="3" hidden="false" id="{1e7a17ca-70d1-4a67-82e1-20fcf331a62d}" single_keyframe_only="0" animated="1">
+  <KEYFRAME time="33.800048828125" data="1"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" default="1" name="speed_multiplier" order="4" hidden="false" id="{334043dc-864c-4568-a7f8-8824ab056dd7}" single_keyframe_only="0" animated="1"/>
+</COMPOSITE_SCENE_FILE>

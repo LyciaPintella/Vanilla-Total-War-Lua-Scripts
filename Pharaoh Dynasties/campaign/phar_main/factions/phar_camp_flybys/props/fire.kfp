@@ -1,0 +1,30 @@
+<PROP_FILE version="23" prop_name="vfx/models/phar_house_fire_inner_fast_01.wsmodel" name="fire.kfp" id="{131d7e79-9135-41bc-8d98-d476ce6d1dfa}">
+ <VECTOR link_id="-1" unique_id="{dd9da303-6e58-44a7-8c8e-9676a6c720cd}" surface_mode="Freeform" name="position" is_linked="0" id="{dd9da303-6e58-44a7-8c8e-9676a6c720cd}">
+  <DOUBLE animated="0" default="0" order="0" name="X" single_keyframe_only="1" hidden="false" id="{a3708f3b-bd2f-450c-97ec-e4b401175dd0}">
+   <KEYFRAME time="-1" data="445.4456787109375"/>
+  </DOUBLE>
+  <DOUBLE animated="0" default="0" order="1" name="Y" single_keyframe_only="1" hidden="false" id="{b8d08509-88f8-491b-9ee4-0d93f4ce96e3}">
+   <KEYFRAME time="-1" data="-0.8195192813873291"/>
+  </DOUBLE>
+  <DOUBLE animated="0" default="0" order="2" name="Z" single_keyframe_only="1" hidden="false" id="{a3e525df-a8fd-4ab9-be49-14827687a1c8}">
+   <KEYFRAME time="-1" data="919.839599609375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{821d3205-05f4-42a1-953b-14fb458302b3}">
+  <RADIAN animated="0" default="0" order="0" name="X" single_keyframe_only="1" hidden="false" id="{b43f2d97-7a80-4dac-8ccf-a321082b457d}">
+   <KEYFRAME time="-1" data="3.141592025756836"/>
+  </RADIAN>
+  <RADIAN animated="0" default="0" order="1" name="Y" single_keyframe_only="1" hidden="false" id="{02594868-64fe-44c2-8173-05e011ad1d2e}">
+   <KEYFRAME time="-1" data="5.664975643157959"/>
+  </RADIAN>
+  <RADIAN animated="0" default="0" order="2" name="Z" single_keyframe_only="1" hidden="false" id="{6dfd06a6-fa68-4fbf-8bde-fb67bce33fc4}">
+   <KEYFRAME time="-1" data="3.07201886177063"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" default="1" order="1" name="scale" single_keyframe_only="1" hidden="false" id="{91b3b68b-bb07-4cb9-a6f6-a45fc4786dd6}">
+  <KEYFRAME time="-1" data="0.550000011920929"/>
+ </DOUBLE>
+ <BOOL animated="0" default="0" order="3" name="always visible" single_keyframe_only="1" hidden="false" id="{0694af75-0abc-45f6-a39f-6597c182ef20}">
+  <KEYFRAME time="-1" data="1"/>
+ </BOOL>
+</PROP_FILE>

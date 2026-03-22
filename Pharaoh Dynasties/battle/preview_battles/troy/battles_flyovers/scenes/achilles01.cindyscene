@@ -1,0 +1,20 @@
+<SCENE_FILE name="achilles01.CindyScene" perspective_camera="-284.263,14.1054,-75.138:-285.152,14.5499,-77.0925" start_record_time="2.000000104308128" end_record_time="44.00000229477882" id="{66342c1d-984d-4c72-a7ca-45ec3655e052}" version="23">
+ <ENVIRONMENT name="Environment" data="projects/battles_flyovers/weahter/troy_generic_10_lo_k.environment" hidden="false" id="{3093e160-adbe-4ac5-9631-1474ad0e1294}" order="0"/>
+ <VECTOR name="position" is_linked="0" link_id="0" id="{08da59bc-81c8-4d3b-8481-6a40ed80aba8}" unique_id="{08da59bc-81c8-4d3b-8481-6a40ed80aba8}" surface_mode="Freeform">
+  <DOUBLE name="X" animated="1" single_keyframe_only="1" hidden="false" id="{b5a147c8-76d5-4e77-a9b5-15ce629bd2fd}" default="0" order="0"/>
+  <DOUBLE name="Y" animated="1" single_keyframe_only="1" hidden="false" id="{365c6a96-579a-4ee0-83fc-dca72348f1ab}" default="0" order="1"/>
+  <DOUBLE name="Z" animated="1" single_keyframe_only="1" hidden="false" id="{f890896a-7ba3-42e7-96b0-f3c39f5ca6b0}" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{fd5634e7-7f08-4033-b5c3-de9dd2b6fbff}">
+  <RADIAN name="X" animated="1" single_keyframe_only="1" hidden="false" id="{605f96f8-348a-446e-ba19-aee40ee9e0a8}" default="0" order="0"/>
+  <RADIAN name="Y" animated="1" single_keyframe_only="1" hidden="false" id="{e8729088-6884-463b-9c44-601c451d27b1}" default="0" order="1"/>
+  <RADIAN name="Z" animated="1" single_keyframe_only="1" hidden="false" id="{78f13a64-ed94-430f-a6b3-c294e4311b2c}" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{7eb3e6cb-c715-43bf-b680-e5b1d3bb274d}"/>
+ <NODE name="Composite Scenes" id="{c4256288-c67e-453a-bd1e-4aa6fb40b59a}">
+  <COMPOSITE_SCENE name="Achilles_Epic_Shout.kfcs" id="{6a1a5056-9007-4fab-8ae3-373455a2bfbc}" composite_scene_file="../csc_ref/Achilles_Epic_Shout.kfcs"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{2b9412a2-67d6-48ab-aaf8-3f8343880685}">
+  <WARSCAPE_PROPERTIES name="Ach_BattleIntroCam01.xml" warscape_properties_file="../cameras/Ach_BattleIntroCam01.xml" id="{a0b34cca-9bf4-40f1-a45c-ba7aef18a8da}"/>
+ </NODE>
+</SCENE_FILE>

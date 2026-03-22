@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="agamemnon03.kfcs" version="23" id="{0a85c2fd-ddfe-4b44-9d6d-5b300addd2a2}" directory="composite_scene/troy/campaign_cinematic/troy_camp_agm_vo_slight_me.csc">
+ <VECTOR name="position" surface_mode="Freeform" unique_id="{153ef85e-2246-4ff5-bf2f-75e7311891b8}" is_linked="0" link_id="-1" id="{153ef85e-2246-4ff5-bf2f-75e7311891b8}">
+  <DOUBLE name="X" hidden="false" order="0" id="{1fe6fb87-76ed-4c70-96da-f2080cb9f972}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="-1" data="216.0197296142578"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" id="{f1736ec0-5fb1-4887-b289-5939c49ac5e7}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="-1" data="0.7892570495605469"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" id="{d9d56112-1ccf-417a-b466-e09a0317d993}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="-1" data="225.3372802734375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{08ac6d00-88ac-491d-aee4-406634371f5b}">
+  <RADIAN name="X" hidden="false" order="0" id="{9cd628bd-b57f-4166-a79d-00fddeb5864a}" single_keyframe_only="1" default="0" animated="0"/>
+  <RADIAN name="Y" hidden="false" order="1" id="{f9620d6e-f2e4-401e-917e-38d73bece9b3}" single_keyframe_only="1" default="0" animated="0">
+   <KEYFRAME time="-1" data="3.411822080612183"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" order="2" id="{fc6b1855-a157-41ac-a8dd-2be25282498c}" single_keyframe_only="1" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="2" id="{38873d5f-928c-44ca-868f-7774616f6c58}" single_keyframe_only="1" user_friendy_name="Scale" default="1" animated="0"/>
+ <BOOL name="active" hidden="false" order="3" id="{9780e07c-6718-444e-a601-77a9dd7aed6f}" single_keyframe_only="0" user_friendy_name="Active" default="0" animated="1">
+  <KEYFRAME time="11.00000095367432" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" hidden="false" order="4" id="{391d8a17-658f-4964-8b78-272ce178d00b}" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" animated="1"/>
+</COMPOSITE_SCENE_FILE>

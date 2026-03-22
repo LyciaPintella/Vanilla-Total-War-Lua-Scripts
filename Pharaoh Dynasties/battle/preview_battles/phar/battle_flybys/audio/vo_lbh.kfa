@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE id="{9e8f8b80-53a1-4df2-967e-661a03f9bfd7}" name="vo_lbh.kfa" version="23" audio_event_name="Play_phar_tut_battle_b2_bronzeandthunder">
+ <VECTOR id="{58663bc9-2841-47a5-a9e1-670e80078290}" name="position" is_linked="0" link_id="-1" unique_id="{58663bc9-2841-47a5-a9e1-670e80078290}" surface_mode="Freeform">
+  <DOUBLE id="{6b047365-ef58-42b7-8a26-0039eca7af7a}" name="X" hidden="false" single_keyframe_only="1" default="0" order="0" animated="0">
+   <KEYFRAME data="-11.930388450622559" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{40fe2a02-b3e6-4d4f-ad4f-30e0a5db4364}" name="Y" hidden="false" single_keyframe_only="1" default="0" order="1" animated="0">
+   <KEYFRAME data="73.49201965332031" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{21637b4d-d326-475e-8675-b124ed4caa97}" name="Z" hidden="false" single_keyframe_only="1" default="0" order="2" animated="0">
+   <KEYFRAME data="400.6600036621094" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" id="{f5fdb9e4-a584-4e5e-b56d-7e7f657551ab}" name="active" hidden="false" single_keyframe_only="0" default="0" order="2" animated="1">
+  <KEYFRAME data="0" time="0.9990000128746033"/>
+  <KEYFRAME data="1" time="1"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" id="{903f0da9-0acd-4210-b67a-b958e18caa86}" name="volume" hidden="false" single_keyframe_only="1" default="100" order="3" animated="0"/>
+</AUDIO_EVENT_FILE>

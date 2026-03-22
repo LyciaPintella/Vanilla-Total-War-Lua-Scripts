@@ -1,0 +1,49 @@
+<SCENE_FILE start_record_time="0" end_record_time="94.00000490248203" id="{21d9658d-d26c-4967-86e0-e300e10a5274}" name="flyby_hectormap_r01_s01.CindyScene" version="23" perspective_camera="315.557,7.71849,387.609:333.335,-0.605418,403.501">
+ <ENVIRONMENT hidden="false" order="0" data="" id="{1403f645-1874-42c0-9908-3aa808996035}" name="Environment"/>
+ <VECTOR unique_id="{eacca551-6750-4f7a-84a5-cc9f80f88df1}" surface_mode="Freeform" is_linked="0" id="{eacca551-6750-4f7a-84a5-cc9f80f88df1}" name="position" link_id="0">
+  <DOUBLE hidden="false" order="0" animated="1" single_keyframe_only="1" id="{43d46b90-d77a-4d7f-a66b-95824d491d59}" name="X" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" animated="1" single_keyframe_only="1" id="{fa7a63a8-5d81-4ff2-905a-6c3778f8accb}" name="Y" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" animated="1" single_keyframe_only="1" id="{89afb72f-63b3-4ddc-aa07-7a17c72392ee}" name="Z" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{e9dfe086-1672-487a-bf76-33d151eaa956}" name="rotation">
+  <RADIAN hidden="false" order="0" animated="1" single_keyframe_only="1" id="{a49d266c-c5d9-4710-81dc-fd6d6ee0a191}" name="X" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" animated="1" single_keyframe_only="1" id="{58c24942-b4f5-45fa-9132-6c15a472d1e9}" name="Y" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" animated="1" single_keyframe_only="1" id="{d9eb0489-aa91-4562-afb0-3d3b82c21861}" name="Z" default="0">
+   <KEYFRAME time="2.800000429153442" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{6bec3675-2fee-4895-8e5a-5a6ec95b8031}" name="Links"/>
+ <NODE id="{489e52ed-929a-45f3-aa91-88c7674ddfdc}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/flyby_cam_hector.xml" id="{bf79c8b0-be88-4d6a-8746-9b9546f87155}" name="flyby_cam_hector.xml"/>
+ </NODE>
+ <NODE id="{fe30dd9e-1720-4b54-96f7-83271c578392}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aeneashero03.kfcs" id="{907c23c2-a94b-4414-9139-35c80052442c}" name="aeneashero03.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/paris_helen_hector07.kfcs" id="{ae908416-b2c1-4df8-9e3a-5404f3c75378}" name="paris_helen_hector07.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/menelaus04.kfcs" id="{923723b5-e0e5-47db-a56b-5ce759ddfc05}" name="menelaus04.kfcs"/>
+ </NODE>
+ <NODE id="{7a0975f0-b641-49fb-a276-a8d08ef8dddb}" name="Audio Events">
+  <AUDIO_EVENT id="{201abe43-ea6a-4c41-aee8-6f1e5349c1d6}" audio_event_file="../audio/hector01.kfa" name="hector01.kfa"/>
+  <AUDIO_EVENT id="{67d47503-5cee-4bea-b9d7-cfbfe3d3f9db}" audio_event_file="../audio/hector02.kfa" name="hector02.kfa"/>
+  <AUDIO_EVENT id="{41ea2a98-8aaa-4d1f-a647-0380013d8136}" audio_event_file="../audio/hector03.kfa" name="hector03.kfa"/>
+  <AUDIO_EVENT id="{35be000f-459e-43cd-8327-ed8861b3186d}" audio_event_file="../audio/hector04.kfa" name="hector04.kfa"/>
+  <AUDIO_EVENT id="{70814f74-b61b-4f3a-85ef-cc3b77702608}" audio_event_file="../audio/hector05.kfa" name="hector05.kfa"/>
+  <AUDIO_EVENT id="{69996652-2ca0-4ce0-8d44-a4ec17fa95d0}" audio_event_file="../audio/hector06.kfa" name="hector06.kfa"/>
+  <AUDIO_EVENT id="{fe9ee7dd-eaa2-4789-9e49-a423b0caa210}" audio_event_file="../audio/hector07.kfa" name="hector07.kfa"/>
+  <AUDIO_EVENT id="{1fe43230-6e70-49a2-919e-ea6c53a86c34}" audio_event_file="../audio/hector08.kfa" name="hector08.kfa"/>
+  <AUDIO_EVENT id="{bad5b4b5-9fea-49dc-aabe-979c76068203}" audio_event_file="../audio/hector09.kfa" name="hector09.kfa"/>
+  <AUDIO_EVENT id="{fd07679e-2d96-42ae-a2b9-474fc3d8c884}" audio_event_file="../audio/hector10.kfa" name="hector10.kfa"/>
+  <AUDIO_EVENT id="{6db22b77-bacc-4fec-b245-d3dfea411078}" audio_event_file="../audio/hector11.kfa" name="hector11.kfa"/>
+  <AUDIO_EVENT id="{a7e7ff66-08db-41bd-989d-e16ddfdbf90b}" audio_event_file="../audio/hector12.kfa" name="hector12.kfa"/>
+  <AUDIO_EVENT id="{e1744f9e-7c3c-4b95-8b1b-d5a6ad411a34}" audio_event_file="../audio/hector13.kfa" name="hector13.kfa"/>
+ </NODE>
+</SCENE_FILE>

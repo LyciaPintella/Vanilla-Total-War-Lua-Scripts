@@ -1,0 +1,29 @@
+<SCENE_FILE id="{36df3384-ba5b-4b23-a373-36bf96b56a63}" perspective_camera="-23.6586,1314.69,-163.889:-17.6818,1310.83,-180.022" start_record_time="0" name="advanced_battle_r01_s01.CindyScene" version="23" end_record_time="1000">
+ <ENVIRONMENT id="{2920425a-6cfc-4343-899d-179254e85309}" data="" name="Environment" hidden="false" order="0"/>
+ <VECTOR id="{e3a0fa44-7e02-475b-b744-4a4930e1d81b}" name="position" is_linked="0" link_id="0" unique_id="{e3a0fa44-7e02-475b-b744-4a4930e1d81b}" surface_mode="Freeform">
+  <DOUBLE id="{dec56e9a-9f1f-45f7-a705-82ca822b8aab}" single_keyframe_only="1" name="X" default="0" hidden="false" order="0" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE id="{ea05cac4-86af-4e92-b6b2-f33dc9f7969d}" single_keyframe_only="1" name="Y" default="0" hidden="false" order="1" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE id="{aeaaacd4-5231-49a5-a06c-a0baff4bb265}" single_keyframe_only="1" name="Z" default="0" hidden="false" order="2" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{eb628c85-79d9-48bb-af58-4381f5fa331f}" name="rotation">
+  <RADIAN id="{a90909d1-26bf-48e0-b705-910c31b08023}" single_keyframe_only="1" name="X" default="0" hidden="false" order="0" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN id="{5982fa2d-0435-4bd4-b638-d603cf841719}" single_keyframe_only="1" name="Y" default="0" hidden="false" order="1" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN id="{1674b0f9-5f2a-4ab0-81db-9af1197c56b9}" single_keyframe_only="1" name="Z" default="0" hidden="false" order="2" animated="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{a7e70e4f-2c61-4195-aa9e-26084b1e7c85}" name="Links"/>
+ <NODE id="{c9a11d9d-cf84-4d21-9f78-a68d33f57388}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/advanced_battle_cam.xml" id="{1afe6032-d6aa-4e62-b037-b09aed3d4366}" name="advanced_battle_cam.xml"/>
+ </NODE>
+</SCENE_FILE>

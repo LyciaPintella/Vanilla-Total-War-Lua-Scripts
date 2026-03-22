@@ -1,0 +1,29 @@
+<SCENE_FILE end_record_time="1000" perspective_camera="74.1559,1407.84,-575.25:73.7229,1401.92,-556.151" name="basic_battle_flyby.CindyScene" version="23" start_record_time="0" id="{4e2129c7-640f-47cc-a9a1-2029d798f020}">
+ <ENVIRONMENT order="0" name="Environment" hidden="false" data="" id="{2aec26c8-9db5-4824-acc2-fb0bc72aa257}"/>
+ <VECTOR is_linked="0" unique_id="{0218f4b7-c8d9-40e0-80a2-bb396bffd8d7}" name="position" link_id="0" surface_mode="Freeform" id="{0218f4b7-c8d9-40e0-80a2-bb396bffd8d7}">
+  <DOUBLE single_keyframe_only="1" default="0" order="0" name="X" hidden="false" animated="0" id="{655fa69f-3586-4e72-b33f-7291b86d4612}">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" default="0" order="1" name="Y" hidden="false" animated="0" id="{67f87048-391f-4f70-800e-b35df70af2f6}">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" default="0" order="2" name="Z" hidden="false" animated="0" id="{8c40e383-406a-4e85-aff3-3bec0587da37}">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{4976a6ad-77a0-47c3-9cdf-1029712a077c}">
+  <RADIAN single_keyframe_only="1" default="0" order="0" name="X" hidden="false" animated="0" id="{b99f6d81-3ff9-40ee-912d-d8d918dbc867}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" default="0" order="1" name="Y" hidden="false" animated="0" id="{fc171ea0-4936-44d4-ac6b-782b42a49d89}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" default="0" order="2" name="Z" hidden="false" animated="0" id="{78273fd4-ad00-49ef-97f6-58284ee90e0c}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{c29da7ac-7b9c-4433-b96b-60c49c8ca518}"/>
+ <NODE name="Warscape Properties" id="{1b9a610c-269f-4689-9ffd-4f453462f2ed}">
+  <WARSCAPE_PROPERTIES name="basic_battle_cam.xml" warscape_properties_file="../cameras/basic_battle_cam.xml" id="{651b8d28-a906-445e-9420-cc7c7eb156be}"/>
+ </NODE>
+</SCENE_FILE>

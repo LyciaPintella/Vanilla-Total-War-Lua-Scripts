@@ -1,0 +1,32 @@
+<COMPOSITE_SCENE_FILE name="lasser_griffin_roar.kfcs" directory="composite_scene/troy/campaign_cinematic/griffin_quest_btl_flyovers_lesser_roar.csc" version="23" id="{94ea7c9c-f731-4ac5-b384-48a5ff152ed1}">
+ <VECTOR is_linked="0" name="position" link_id="0" id="{32c2c8a1-05c8-4f29-be76-032d780417ab}" surface_mode="Freeform" unique_id="{32c2c8a1-05c8-4f29-be76-032d780417ab}">
+  <DOUBLE single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" order="0" id="{07eca7d7-24b8-4330-a278-ae4080bcbf4f}">
+   <KEYFRAME data="-130.17713928222656" time="3.366668462753296"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" order="1" id="{53bd2215-5c23-4b63-bd67-4708d400cc48}">
+   <KEYFRAME data="1215.09814453125" time="3.366668462753296"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" order="2" id="{e3b86900-34a8-4251-92cb-c1bb631e1b07}">
+   <KEYFRAME data="41.7457389831543" time="3.366668462753296"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{84946464-3343-4298-b620-822a38285da3}">
+  <RADIAN single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" order="0" id="{d67c5582-9b5e-4f46-9317-abc051db4ea3}">
+   <KEYFRAME data="-0.08714288473129272" time="3.366668462753296"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" order="1" id="{8be457be-5e2d-4a7c-863c-aed5dd0784f5}">
+   <KEYFRAME data="0.970008909702301" time="3.366668462753296"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" order="2" id="{23559fc3-f718-44c6-813c-b6438f5785ad}">
+   <KEYFRAME data="0.0032669405918568373" time="3.366668462753296"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" name="scale" default="1" hidden="false" animated="0" order="2" id="{e1c161ba-aadf-4333-a49b-9f12e0210394}">
+  <KEYFRAME data="2" time="3.366668462753296"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" name="active" default="0" hidden="false" animated="1" order="3" id="{53a763fa-0a3d-407a-ba86-7345741bd398}">
+  <KEYFRAME data="1" time="14.93334293365479"/>
+  <KEYFRAME data="1" time="35.43333435058594"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" name="speed_multiplier" default="1" hidden="false" animated="1" order="4" id="{9de2c30c-daa2-4d5a-b7ff-6711c5f16cc7}"/>
+</COMPOSITE_SCENE_FILE>

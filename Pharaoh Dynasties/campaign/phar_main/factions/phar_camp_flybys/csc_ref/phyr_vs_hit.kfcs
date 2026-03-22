@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE id="{5d32eca2-61af-4d34-b0dd-c0a68699903d}" version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_phyr_vs_hit.csc" name="phyr_vs_hit.kfcs">
+ <VECTOR id="{617bc39d-70b9-4dfc-a142-0d1aa999218b}" unique_id="{617bc39d-70b9-4dfc-a142-0d1aa999218b}" link_id="-1" is_linked="0" surface_mode="Freeform" name="position">
+  <DOUBLE id="{bdf7c8ec-0ccf-4b1c-ba94-4ce98f0de5fa}" single_keyframe_only="1" default="0" order="0" animated="0" hidden="false" name="X">
+   <KEYFRAME data="396.55194091796875" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{40058a3d-ddc3-49ca-9213-e5deac66fad8}" single_keyframe_only="1" default="0" order="1" animated="0" hidden="false" name="Y">
+   <KEYFRAME data="4.515254497528076" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{969caac4-4417-4fba-b89f-f8a2d46bdf42}" single_keyframe_only="1" default="0" order="2" animated="0" hidden="false" name="Z">
+   <KEYFRAME data="1145.679931640625" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{14191da4-1660-4a34-94ef-3f9bb823ff73}" name="rotation">
+  <RADIAN id="{9ab68ef5-25d1-4d79-8059-912d3a610a09}" single_keyframe_only="1" default="0" order="0" animated="0" hidden="false" name="X"/>
+  <RADIAN id="{28b4368b-7b9d-4f98-956f-a75871699a29}" single_keyframe_only="1" default="0" order="1" animated="0" hidden="false" name="Y"/>
+  <RADIAN id="{ff6ec88d-1a0e-4246-8410-a4a2321208e3}" single_keyframe_only="1" default="0" order="2" animated="0" hidden="false" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{71ea6e23-7d2b-445e-b4ee-e9e8637babdf}" single_keyframe_only="1" user_friendy_name="Scale" default="1" order="2" animated="0" hidden="false" name="scale"/>
+ <BOOL id="{aeb09d65-4332-4d3f-8072-a6d429e2d84d}" single_keyframe_only="0" user_friendy_name="Active" default="0" order="3" animated="1" hidden="false" name="active">
+  <KEYFRAME data="1" time="64"/>
+ </BOOL>
+ <DOUBLE id="{94e02a58-d26b-4420-9549-e229f7895ff5}" single_keyframe_only="0" user_friendy_name="Speed Multiplier" default="1" order="4" animated="1" hidden="false" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

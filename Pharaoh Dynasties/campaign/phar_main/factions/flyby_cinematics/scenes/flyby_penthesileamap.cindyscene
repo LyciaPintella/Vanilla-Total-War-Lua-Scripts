@@ -1,0 +1,21 @@
+<SCENE_FILE name="flyby_penthesileamap.CindyScene" start_record_time="0" version="23" end_record_time="70.00000365078449" perspective_camera="497.433,2.72367,528.275:492.558,0.503508,531.132" id="{3d09068e-71db-453d-ad78-8585ecafa91e}">
+ <ENVIRONMENT hidden="false" name="Environment" order="0" data="" id="{46ad71a0-1fd3-4904-a858-df08c7fd67a1}"/>
+ <VECTOR is_linked="0" unique_id="{c32fb5ba-6467-4663-999d-1019d777dd10}" name="position" link_id="0" surface_mode="Freeform" id="{c32fb5ba-6467-4663-999d-1019d777dd10}">
+  <DOUBLE hidden="false" name="X" default="0" animated="1" single_keyframe_only="1" order="0" id="{77adf9da-ea4b-42d0-a1ee-343f669fd8eb}"/>
+  <DOUBLE hidden="false" name="Y" default="0" animated="1" single_keyframe_only="1" order="1" id="{9aea328f-a501-4aef-87bf-a25fbd01b8ab}"/>
+  <DOUBLE hidden="false" name="Z" default="0" animated="1" single_keyframe_only="1" order="2" id="{7f2f9042-dee1-434e-9bb2-e9572681d4cd}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{bf65737b-0e76-4f8d-8d5a-8b9a9e69e1f5}">
+  <RADIAN hidden="false" name="X" default="0" animated="1" single_keyframe_only="1" order="0" id="{054fa853-0d13-4149-9f88-ebeeceb481ea}"/>
+  <RADIAN hidden="false" name="Y" default="0" animated="1" single_keyframe_only="1" order="1" id="{14f50ba5-302b-4c34-92c7-fc9b50f76c06}"/>
+  <RADIAN hidden="false" name="Z" default="0" animated="1" single_keyframe_only="1" order="2" id="{89a2747f-e3d5-4c70-a1c5-d0676d091bbe}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{cb501432-2b8f-484d-88ff-8631ac34258d}"/>
+ <NODE name="Warscape Properties" id="{3324971c-6f99-48cc-b1ed-785231e51a6c}">
+  <WARSCAPE_PROPERTIES name="penthesilea_cam.xml" warscape_properties_file="../cameras/penthesilea_cam.xml" id="{df58f025-10f9-4c28-bd1b-305aedb58736}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{38e226d5-70fa-4731-aa2c-579badef9cf5}">
+  <COMPOSITE_SCENE name="paris_helen_hector06.kfcs" id="{396e198b-875e-43e1-b980-b9490aaa1261}" composite_scene_file="../csc_ref/paris_helen_hector06.kfcs"/>
+  <COMPOSITE_SCENE name="penthesilea.kfcs" id="{259703db-5abd-4c33-885e-95d440398c00}" composite_scene_file="../csc_ref/penthesilea.kfcs"/>
+ </NODE>
+</SCENE_FILE>

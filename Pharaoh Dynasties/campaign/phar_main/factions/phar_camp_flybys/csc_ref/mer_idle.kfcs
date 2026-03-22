@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE id="{9834f034-5bf8-4fe7-9cd1-0d2dd4806c5c}" name="mer_idle.kfcs" version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_mer_idle.csc">
+ <VECTOR id="{b21fbdb6-8160-4182-b9ff-394643dd1013}" is_linked="0" link_id="0" name="position" surface_mode="Freeform" unique_id="{b21fbdb6-8160-4182-b9ff-394643dd1013}">
+  <DOUBLE animated="0" id="{2d19e164-a07c-4bb3-bdec-1c15088991dc}" name="X" order="0" hidden="false" single_keyframe_only="1" default="0">
+   <KEYFRAME time="0" data="402.4100036621094"/>
+  </DOUBLE>
+  <DOUBLE animated="0" id="{117b4c13-6fe4-4dd7-afbf-a101f1125417}" name="Y" order="1" hidden="false" single_keyframe_only="1" default="0">
+   <KEYFRAME time="0" data="0.593085765838623"/>
+  </DOUBLE>
+  <DOUBLE animated="0" id="{475667e1-f902-493f-aa6d-b87c403a8234}" name="Z" order="2" hidden="false" single_keyframe_only="1" default="0">
+   <KEYFRAME time="0" data="474.8205871582031"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{1de82696-0929-4e00-a168-078a4255dbaf}" name="rotation">
+  <RADIAN animated="0" id="{2319cd02-f6be-402c-8e5c-e3ff983891c0}" name="X" order="0" hidden="false" single_keyframe_only="1" default="0"/>
+  <RADIAN animated="0" id="{e263e902-2497-4b09-bff9-64425d6fc9a8}" name="Y" order="1" hidden="false" single_keyframe_only="1" default="0">
+   <KEYFRAME time="0" data="2.8361902236938477"/>
+  </RADIAN>
+  <RADIAN animated="0" id="{c4f2ace2-9839-4816-8a36-d5aebd1092e0}" name="Z" order="2" hidden="false" single_keyframe_only="1" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" id="{2d3c657a-3567-48fb-901b-0e45c177a09d}" name="scale" order="2" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" default="1"/>
+ <BOOL animated="1" id="{77229be0-f20e-47b7-adad-3981119b637b}" name="active" order="3" user_friendy_name="Active" hidden="false" single_keyframe_only="0" default="0">
+  <KEYFRAME time="1" data="1"/>
+  <KEYFRAME time="129.1666717529297" data="0"/>
+ </BOOL>
+ <DOUBLE animated="1" id="{147bf54b-61b1-4ed1-9d07-1d2e1e7a6fd2}" name="speed_multiplier" order="4" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" default="1">
+  <KEYFRAME time="15.0894832611084" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

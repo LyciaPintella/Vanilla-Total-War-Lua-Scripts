@@ -1,0 +1,30 @@
+<COMPOSITE_SCENE_FILE id="{f792888d-a1e6-4013-986e-3687a7c4493b}" version="23" directory="composite_scene/troy/campaign_cinematic/thessally_soldier.csc" name="thessally_soldier.kfcs">
+ <VECTOR is_linked="0" id="{9ea0efcf-a557-4fa2-821b-3b9ee220a7da}" unique_id="{9ea0efcf-a557-4fa2-821b-3b9ee220a7da}" name="position" link_id="0" surface_mode="Freeform">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" id="{cc31ad67-b267-4956-aaee-cc7ca26789cf}" default="0" name="X" animated="0">
+   <KEYFRAME data="175.7278594970703" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" id="{7028adf5-eed5-418d-8bce-f916eb66a7d3}" default="0" name="Y" animated="0">
+   <KEYFRAME data="3.00749683380127" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" id="{5d897321-5669-4eff-9d36-14469413ff04}" default="0" name="Z" animated="0">
+   <KEYFRAME data="321.2579650878906" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{6b91aba6-6724-40ff-a75f-c1a10adfdc84}" name="rotation">
+  <RADIAN hidden="false" order="0" single_keyframe_only="1" id="{4ec8fcb9-c167-425c-afc7-f92f37c7a447}" default="0" name="X" animated="0">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" single_keyframe_only="1" id="{780920a0-0112-4e1c-9f9c-6cc31cc8ba4a}" default="0" name="Y" animated="0">
+   <KEYFRAME data="2.286355018615723" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" single_keyframe_only="1" id="{13326b2e-4edd-49ae-b5b3-bfa847975371}" default="0" name="Z" animated="0">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" order="2" user_friendy_name="Scale" single_keyframe_only="1" id="{d23c2676-632d-421d-868f-cde422063705}" default="1" name="scale" animated="0"/>
+ <BOOL hidden="false" order="3" user_friendy_name="Active" single_keyframe_only="0" id="{3bf22245-0685-42f7-8a04-8f48cbb7384c}" default="0" name="active" animated="1">
+  <KEYFRAME data="1" time="53.00000381469727"/>
+  <KEYFRAME data="0" time="81.00000762939453"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="4" user_friendy_name="Speed Multiplier" single_keyframe_only="0" id="{a3710fbf-aad1-4150-82cc-765a2044b134}" default="1" name="speed_multiplier" animated="1"/>
+</COMPOSITE_SCENE_FILE>

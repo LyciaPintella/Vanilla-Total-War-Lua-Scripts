@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="iol_kills.kfcs" version="23" id="{4395f7c4-f92b-4c98-8132-6062a9cf4238}" directory="composite_scene/phar/campaign_cinematic/phar_camp_iol_kills.csc">
+ <VECTOR name="position" unique_id="{be2319fd-ee7a-4596-96bb-b89f530e90d4}" id="{be2319fd-ee7a-4596-96bb-b89f530e90d4}" is_linked="0" surface_mode="Freeform" link_id="0">
+  <DOUBLE name="X" animated="0" default="0" id="{eec1d952-31c4-43bb-a4c0-899fed24ba61}" order="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME data="634.8079833984375" handle1_type="SMOOTH" time="0" handle2_x="0" handle2_y="634.808" handle1_y="634.808" handle2_type="SMOOTH" handle1_x="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" animated="0" default="0" id="{f167663b-669e-4456-a217-d6d17fa602c7}" order="1" single_keyframe_only="1" hidden="false">
+   <KEYFRAME data="0.26598262786865234" handle1_type="SMOOTH" time="0" handle2_x="0" handle2_y="0.265983" handle1_y="0.265983" handle2_type="SMOOTH" handle1_x="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" animated="0" default="0" id="{70a6e744-2691-454e-a867-5bf1074ceaae}" order="2" single_keyframe_only="1" hidden="false">
+   <KEYFRAME data="928.9729614257812" handle1_type="SMOOTH" time="0" handle2_x="0" handle2_y="928.973" handle1_y="928.973" handle2_type="SMOOTH" handle1_x="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{6e8e4667-b82a-41d0-9ad0-d9c711846cac}">
+  <RADIAN name="X" animated="0" default="0" id="{ffffb60e-e178-4478-80bc-92f123dc2553}" order="0" single_keyframe_only="1" hidden="false"/>
+  <RADIAN name="Y" animated="0" default="0" id="{1a26a5d7-e8bd-4787-acdd-0d26f461d90c}" order="1" single_keyframe_only="1" hidden="false">
+   <KEYFRAME data="0.24327953159809113" time="0"/>
+  </RADIAN>
+  <RADIAN name="Z" animated="0" default="0" id="{c77a07b9-d731-40d0-91d9-959088410e59}" order="2" single_keyframe_only="1" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" animated="0" default="1" id="{d9af2a35-0202-41ed-a4a9-2f66a69a85a7}" order="2" single_keyframe_only="1" hidden="false"/>
+ <BOOL user_friendy_name="Active" name="active" animated="1" default="0" id="{e8e0ca87-322a-47de-9458-56dcd2ffafcf}" order="3" single_keyframe_only="0" hidden="false">
+  <KEYFRAME data="1" time="6.800000190734863"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" animated="1" default="1" id="{60f2bf36-8157-47cc-9eca-d46a3cf1b458}" order="4" single_keyframe_only="0" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

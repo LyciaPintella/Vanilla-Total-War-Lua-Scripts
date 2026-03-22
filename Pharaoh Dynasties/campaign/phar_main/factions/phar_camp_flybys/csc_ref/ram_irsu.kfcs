@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{027863e5-609b-4fda-a7e5-17e2c0108ace}" name="ram_irsu.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_irs_vo.csc" version="23">
+ <VECTOR id="{194630ac-61df-4481-b725-8c4c1ef4559d}" name="position" link_id="0" unique_id="{194630ac-61df-4481-b725-8c4c1ef4559d}" is_linked="0" surface_mode="Freeform">
+  <DOUBLE default="0" animated="0" id="{76aaa0fb-dcdf-4aeb-9870-6f06ab6141a0}" hidden="false" name="X" single_keyframe_only="1" order="0">
+   <KEYFRAME time="0" data="505.7920227050781"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" id="{d3390f78-e6fb-442e-9506-95362f1ed4bf}" hidden="false" name="Y" single_keyframe_only="1" order="1">
+   <KEYFRAME time="0" data="1.7678353786468506"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" id="{ae69d761-f0a6-42cd-a6b7-673726ffb35b}" hidden="false" name="Z" single_keyframe_only="1" order="2">
+   <KEYFRAME time="0" data="789.4692993164062"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{8abf75c7-11b0-4f5f-b982-6b01297677c1}" name="rotation">
+  <RADIAN default="0" animated="0" id="{d4739f22-eff0-421c-8caa-26cc5edb0378}" hidden="false" name="X" single_keyframe_only="1" order="0"/>
+  <RADIAN default="0" animated="0" id="{e9e1eca8-72eb-46a7-b30e-80dee7dfacca}" hidden="false" name="Y" single_keyframe_only="1" order="1">
+   <KEYFRAME time="0" data="2.973886013031006"/>
+  </RADIAN>
+  <RADIAN default="0" animated="0" id="{07ef4506-0847-4422-ac55-db49496df29e}" hidden="false" name="Z" single_keyframe_only="1" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" animated="0" id="{a006c807-007c-4cca-8ed0-8340e2d28722}" hidden="false" name="scale" user_friendy_name="Scale" single_keyframe_only="1" order="2"/>
+ <BOOL default="0" animated="1" id="{f6f8dc6a-3700-4f07-becb-d8395e32d301}" hidden="false" name="active" user_friendy_name="Active" single_keyframe_only="0" order="3">
+  <KEYFRAME time="34" data="1"/>
+ </BOOL>
+ <DOUBLE default="1" animated="1" id="{97ae8108-02ac-4f70-b74a-a4456a66c86c}" hidden="false" name="speed_multiplier" user_friendy_name="Speed Multiplier" single_keyframe_only="0" order="4"/>
+</COMPOSITE_SCENE_FILE>

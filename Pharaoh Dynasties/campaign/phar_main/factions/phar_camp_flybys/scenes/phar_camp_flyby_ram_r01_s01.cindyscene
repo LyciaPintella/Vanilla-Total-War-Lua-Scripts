@@ -1,0 +1,32 @@
+<SCENE_FILE name="phar_camp_flyby_ram_r01_s01.CindyScene" id="{b1c5f4bc-cb7f-4587-83bd-e5e61c966acb}" perspective_camera="355.562,22.3241,562.915:356.294,13.3354,580.767" version="23" start_record_time="0" end_record_time="106.0000055283308">
+ <ENVIRONMENT name="Environment" data="" order="0" id="{93f9107a-a4b5-410a-95e0-e61d25c0ffb1}" hidden="false"/>
+ <VECTOR unique_id="{26013f59-dfc8-4cad-955b-6f188270bb1e}" name="position" id="{26013f59-dfc8-4cad-955b-6f188270bb1e}" is_linked="0" link_id="0" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="1" name="X" default="0" order="0" id="{efbdcad0-0f9a-4d09-84cb-b8f2036e0c92}" hidden="false" animated="1"/>
+  <DOUBLE single_keyframe_only="1" name="Y" default="0" order="1" id="{97e8d65a-e7ab-499e-8afd-1bbf5afa020b}" hidden="false" animated="1"/>
+  <DOUBLE single_keyframe_only="1" name="Z" default="0" order="2" id="{6241ab68-3ed5-4b9b-bb58-5da01367b36e}" hidden="false" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{f334af55-58ff-4733-81d8-d0d96fa1b79d}">
+  <RADIAN single_keyframe_only="1" name="X" default="0" order="0" id="{b941f276-1fd8-4d55-b1ee-ce93876a6816}" hidden="false" animated="1"/>
+  <RADIAN single_keyframe_only="1" name="Y" default="0" order="1" id="{7e42e88a-ac36-4962-84f4-f957f14b09f5}" hidden="false" animated="1"/>
+  <RADIAN single_keyframe_only="1" name="Z" default="0" order="2" id="{bfd59794-070e-47f5-ad34-4511ad1ccb1c}" hidden="false" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{29097cbe-e9b8-4db8-909c-6e6f8d954ff5}"/>
+ <NODE name="Audio Events" id="{151a8b49-0119-4c18-909d-4344a1404fa0}">
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_01.kfa" id="{0eb40dbe-4e4b-4345-805f-f87458857990}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_01.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_02.kfa" id="{4caa5152-ed89-4d00-8b00-7946ba090040}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_02.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_03.kfa" id="{36f88c27-732f-497a-a6a3-2dfa27ba4ae8}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_03.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_04.kfa" id="{99342a88-e758-4c0c-a4aa-c2a4b31f5a36}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_04.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_05.kfa" id="{d81097e3-d2b0-4fb5-99a7-2704e22d0cc0}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_05.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_06.kfa" id="{7004f0b5-fb02-4c44-90f1-5415b3ce8373}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_06.kfa"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ram_07.kfa" id="{49e22b4e-2c06-43c4-9f32-9f588628e31b}" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ram_07.kfa"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{d13f95cb-ec81-41db-adcf-40dcb133c9c3}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_ram.xml" id="{3f2a6a3e-c4f4-45b9-a49b-3f83c79f2dd9}" warscape_properties_file="../cameras/flyby_cam_ram.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{ee9ff276-7c13-4aef-8bed-90750c8931f7}">
+  <COMPOSITE_SCENE name="ram_irsu.kfcs" id="{29a8fe23-7168-4a93-bbaa-7f2825d9369f}" composite_scene_file="../csc_ref/ram_irsu.kfcs"/>
+  <COMPOSITE_SCENE name="ram_ships.kfcs" id="{889d2b2f-7640-4c4d-9043-119f4c7ed91f}" composite_scene_file="../csc_ref/ram_ships.kfcs"/>
+  <COMPOSITE_SCENE name="ram_medjais.kfcs" id="{614bd0b3-26d8-4f03-8e73-b72f7528ccb5}" composite_scene_file="../csc_ref/ram_medjais.kfcs"/>
+  <COMPOSITE_SCENE name="ram_idle.kfcs" id="{bff2e048-1396-4ec7-9e2e-679daef53d6a}" composite_scene_file="../csc_ref/ram_idle.kfcs"/>
+ </NODE>
+</SCENE_FILE>

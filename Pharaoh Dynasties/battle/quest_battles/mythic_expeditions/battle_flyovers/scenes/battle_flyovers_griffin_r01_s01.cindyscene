@@ -1,0 +1,40 @@
+<SCENE_FILE start_record_time="0" end_record_time="66.96669006347656" version="23" id="{2c961aca-998b-4153-9bd9-8ca2b482865d}" name="battle_flyovers_griffin_r01_s01.CindyScene" perspective_camera="372.201,1497.87,208.429:348.367,1423.57,11.5841">
+ <ENVIRONMENT hidden="false" data="" order="0" id="{baa787df-d84a-4fd3-acd3-90b76bcee0e0}" name="Environment"/>
+ <VECTOR surface_mode="Freeform" link_id="0" unique_id="{8189fcd8-0e05-4e68-aa34-d02b0f187484}" is_linked="0" id="{8189fcd8-0e05-4e68-aa34-d02b0f187484}" name="position">
+  <DOUBLE animated="1" default="0" hidden="false" order="0" id="{1fc23df4-707a-4c40-a991-a061e92813b4}" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" hidden="false" order="1" id="{af48f562-4cea-470c-bf47-8e3089b4b6e7}" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" hidden="false" order="2" id="{11814cc0-2126-4efc-ad58-39b69944b06d}" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{12386b7e-6677-4439-92d8-5158735cf5eb}" name="rotation">
+  <RADIAN animated="1" default="0" hidden="false" order="0" id="{007b67aa-7ca1-4397-bc74-6481f8e93432}" name="X" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" hidden="false" order="1" id="{4aa46302-30e3-488b-ae8b-3713cde9f7fa}" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" hidden="false" order="2" id="{594360fd-c416-42f5-a8c6-899a09aeb5ea}" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="0" time="41.5333366394043"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{57c0471b-f62b-4b42-9487-81b36882cb09}" name="Links"/>
+ <NODE id="{5826f986-311f-4eed-862b-fcf1607c4097}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lasser_griffin_roar.kfcs" id="{4f2f4198-e728-4e95-8fa8-e7329756ffd3}" name="lasser_griffin_roar.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/griffin_patriarch_takeoff.kfcs" id="{8d2c15f6-ea10-43bf-b7e0-bef502f75fb4}" name="griffin_patriarch_takeoff.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/3_laser_griffins_fly_cycle_1.kfcs" id="{8c0cd769-3adf-4826-938f-79f0dccbd664}" name="3_laser_griffins_fly_cycle_1.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/3_laser_griffins_fly_cycle_3.kfcs" id="{bf825616-69f6-4b25-bf69-632c45f64a94}" name="3_laser_griffins_fly_cycle_3.kfcs"/>
+ </NODE>
+ <NODE id="{331aecdc-9861-4a7f-abe8-11bc2ef938d8}" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/griffin_vo_1.kfa" id="{de7db9cb-3045-4290-9431-b75781374474}" name="griffin_vo_1.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/griffin_vo_2.kfa" id="{75b60fe8-b242-45af-b37d-37f817dfb759}" name="griffin_vo_2.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/griffin_vo_3.kfa" id="{6dd6260d-94e1-476c-acfb-963fde496cc9}" name="griffin_vo_3.kfa"/>
+ </NODE>
+ <NODE id="{3f47e813-7b9f-447c-ad45-e952fee05fdf}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/griffin_cam_quest_battle_flyovers_r01_s01.xml" id="{8e44597b-aff8-4038-ba4f-098a7bea0a69}" name="griffin_cam_quest_battle_flyovers_r01_s01.xml"/>
+ </NODE>
+</SCENE_FILE>

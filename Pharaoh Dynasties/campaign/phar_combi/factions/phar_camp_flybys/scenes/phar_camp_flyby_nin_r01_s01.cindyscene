@@ -1,0 +1,51 @@
+<SCENE_FILE end_record_time="100.5000052414834" name="phar_camp_flyby_nin_r01_s01.CindyScene" perspective_camera="214.716,25.3906,1161.22:223.286,11.251,1172.48" id="{36bd3383-4dfa-47c2-88ac-2d55c17071cd}" start_record_time="0" version="23">
+ <ENVIRONMENT order="0" hidden="false" name="Environment" id="{4f1926b8-1005-450a-91da-8a3e506189e0}" data=""/>
+ <VECTOR link_id="0" unique_id="{85bdcf65-844b-4e44-b7ff-dd94fe91081d}" is_linked="0" surface_mode="Freeform" name="position" id="{85bdcf65-844b-4e44-b7ff-dd94fe91081d}">
+  <DOUBLE animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{7f5f9fdd-45c6-4e31-b5c5-b2836b3544c9}" default="0"/>
+  <DOUBLE animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{a0e249d3-1ab9-4b75-9610-3c3e282bd1d3}" default="0"/>
+  <DOUBLE animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{44f5015a-74b0-48ca-9e39-df3715f19576}" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{9ad5df12-5512-4ea9-96e0-70b1391b3101}">
+  <RADIAN animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{41920502-6a21-4237-9fe8-be67139d6994}" default="0"/>
+  <RADIAN animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{eb8659aa-121c-4912-8c27-c2cc7a7368f7}" default="0"/>
+  <RADIAN animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{8aff4808-ebb4-46ea-b308-d880bbe85f87}" default="0"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{9c9a8884-9ff0-4666-9f8a-ed82bbf6fc49}"/>
+ <NODE name="Warscape Properties" id="{89d2bb53-168e-430f-b63e-13316d00d94b}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_nin.xml" id="{b4a13b5e-c20f-4487-8a96-68dbd28e2023}" warscape_properties_file="../cameras/flyby_cam_nin.xml"/>
+ </NODE>
+ <NODE name="Audio Events" id="{aaf6bc79-6162-4e6c-9260-7fbb2946b955}">
+  <AUDIO_EVENT name="nin01.kfa" id="{97ffee24-3816-4505-98bb-06757d827f79}" audio_event_file="../audio/nin01.kfa"/>
+  <AUDIO_EVENT name="nin02.kfa" id="{0154ecb4-0ec5-4310-86ec-1036e5a9a146}" audio_event_file="../audio/nin02.kfa"/>
+  <AUDIO_EVENT name="nin03.kfa" id="{1a5e172a-534c-435f-933d-0b01a4064c12}" audio_event_file="../audio/nin03.kfa"/>
+  <AUDIO_EVENT name="nin04.kfa" id="{ac155228-10cc-4420-b8ef-9949230bb163}" audio_event_file="../audio/nin04.kfa"/>
+  <AUDIO_EVENT name="nin06.kfa" id="{77f4a742-51dc-44c3-93cb-57616fec90ac}" audio_event_file="../audio/nin06.kfa"/>
+  <AUDIO_EVENT name="nin07.kfa" id="{e494ed0d-4cb1-423f-87e7-4ad2c77d329d}" audio_event_file="../audio/nin07.kfa"/>
+  <AUDIO_EVENT name="nin05.kfa" id="{61b9de03-3dd4-4374-adfb-96d4f78da539}" audio_event_file="../audio/nin05.kfa"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{f306add4-ff8b-4410-a04f-f1233d3f7dc7}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_mes_talking.kfcs" name="nin_mes_talking.kfcs" id="{720f5b8f-c0e8-40ec-a358-ca4b851cc887}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_static_ship.kfcs" name="nin_static_ship.kfcs" id="{dc3d9b06-7c2d-454b-bc49-ea34e0d8955a}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_static_ship_with_anim.kfcs" name="nin_static_ship_with_anim.kfcs" id="{74931728-56a2-47e7-b802-e25974dcde0f}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_raid.kfcs" name="nin_asy_raid.kfcs" id="{dfc3b0f2-8924-46d4-afaf-8ccbc72af527}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_burning_city.kfcs" name="nin_burning_city.kfcs" id="{b2569ceb-dc74-4454-aeda-3108f52757aa}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_attacks.kfcs" name="nin_attacks.kfcs" id="{3c0a2d74-0e69-451c-84c6-bc9ca5f724bf}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_training.kfcs" name="nin_asy_training.kfcs" id="{5ae355c8-cece-45ad-ae1d-c251ab53b8ce}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_walk.kfcs" name="nin_asy_walk.kfcs" id="{e45dec15-762a-4017-b575-b3efaacfcb47}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_hit_vs_asy.kfcs" name="nin_hit_vs_asy.kfcs" id="{4b433fc4-65d8-423b-9773-4a71157b71f4}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_hit_walking.kfcs" name="nin_hit_walking.kfcs" id="{77d9094e-1bf8-48b4-b87b-0ed546bacc52}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_wiver_ship.kfcs" name="nin_wiver_ship.kfcs" id="{2e5f6631-3cad-4db7-a3e1-2344ce2d3f7c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_kneels.kfcs" name="nin_asy_kneels.kfcs" id="{5fdface6-0be0-4270-9107-529989c43e5f}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_vs_bab.kfcs" name="nin_asy_vs_bab.kfcs" id="{c816ad97-0357-4b94-be83-0c2bcf1f8822}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_elm_walk.kfcs" name="nin_elm_walk.kfcs" id="{1083e592-183d-43a0-b860-f2ddd7472328}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_elm_walk01.kfcs" name="nin_elm_walk01.kfcs" id="{bc1d268f-95c8-4710-bc8f-53689bfd5116}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_elm_walk02.kfcs" name="nin_elm_walk02.kfcs" id="{71bd03eb-8a3c-4be7-ae78-8c547c581188}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_idle.kfcs" name="nin_asy_idle.kfcs" id="{d98bf494-4c5f-472e-9737-0c1a815020bd}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_vs_urt.kfcs" name="nin_asy_vs_urt.kfcs" id="{a2927425-9aee-424d-b560-52c27d0d2d4f}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_elm_walk03.kfcs" name="nin_elm_walk03.kfcs" id="{39920273-9d7d-4a61-8c6c-4f748805b538}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_vs_utr.kfcs" name="nin_asy_vs_utr.kfcs" id="{be8484f6-ae9b-418f-9310-b0806aebe4ec}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_chariot.kfcs" name="nin_asy_chariot.kfcs" id="{8362e55e-b9b9-4771-94dc-ec299873a03e}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_asy_vs_elm.kfcs" name="nin_asy_vs_elm.kfcs" id="{9a234e28-9209-4860-a046-6acbf8e7963e}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/nin_elm_walk04.kfcs" name="nin_elm_walk04.kfcs" id="{94a25a92-00ae-47a8-8132-9f121031e8e7}"/>
+ </NODE>
+</SCENE_FILE>

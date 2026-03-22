@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE version="23" directory="composite_scene/troy/campaign_cinematic/troy_camp_mls_vo_must_pay.csc" id="{b42b7b93-0b06-42b2-81a3-c9dad9a3c9e3}" name="menelaus_ajax.kfcs">
+ <VECTOR is_linked="0" link_id="-1" id="{31f84b09-8217-405e-8195-afdd1339427c}" unique_id="{31f84b09-8217-405e-8195-afdd1339427c}" name="position" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{4dbe9edb-2df7-43be-a3c9-19e4dad5fa4d}" default="0" name="X" order="0" animated="0">
+   <KEYFRAME data="208.838623046875" time="-1"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{8d698f28-e8c4-4ff0-bcd0-0b9a620a38b5}" default="0" name="Y" order="1" animated="0">
+   <KEYFRAME data="0.00029659271240234375" time="-1"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" id="{81efa212-f4d6-4018-b065-daea7cd36bdc}" default="0" name="Z" order="2" animated="0">
+   <KEYFRAME data="164.82110595703125" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{43a6056d-6f01-4f04-bb7f-dccda88cadbf}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" id="{8bfd1c46-891d-4835-8488-e5df8f5a354f}" default="0" name="X" order="0" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{9d6a4c55-4153-474b-98f9-4b3248413ea2}" default="0" name="Y" order="1" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" id="{dbfd087c-4959-4b74-8d46-7eb799aaa620}" default="0" name="Z" order="2" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" id="{7417739f-1895-4fa7-a203-26579aef1e5c}" default="1" name="scale" order="2" animated="0"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" id="{d1dd4beb-8982-4e76-a5eb-b15bd649725c}" default="0" name="active" order="3" animated="1">
+  <KEYFRAME data="0" time="64.99900054931641"/>
+  <KEYFRAME data="1" time="65"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" hidden="false" id="{90a90650-49ca-4fb5-bd81-cfee47db83de}" default="1" name="speed_multiplier" order="4" animated="1"/>
+</COMPOSITE_SCENE_FILE>

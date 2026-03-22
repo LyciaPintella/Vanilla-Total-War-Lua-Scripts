@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ram_fights.csc" version="23" id="{02665e5b-91d0-4585-a256-1e34c4276918}" name="ram_fights.kfcs">
+ <VECTOR link_id="0" surface_mode="Freeform" id="{eb49dbc3-18bd-4fac-bd4e-e4c0fcacd180}" unique_id="{eb49dbc3-18bd-4fac-bd4e-e4c0fcacd180}" name="position" is_linked="0">
+  <DOUBLE default="0" order="0" animated="0" id="{fc89cd73-c6f5-4c2b-8b18-60156b8a77f5}" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="629.6519775390625" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" animated="0" id="{f0609477-618b-482a-b9eb-073b3c41b152}" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="1.3748292922973633" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" animated="0" id="{8d27852a-ee76-406d-b03d-aa6041417577}" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="707.4192504882812" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{a0408634-8847-4461-9472-aadb40f3ec8c}" name="rotation">
+  <RADIAN default="0" order="0" animated="0" id="{2f682ab5-5c3b-444f-b3ea-5e9e3535607e}" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN default="0" order="1" animated="0" id="{7305eb40-7091-4559-89c1-3b6eb57c55e7}" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="2.28751802444458" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" animated="0" id="{673dc59f-e3f3-4676-b509-435acb86835d}" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" order="2" animated="0" user_friendy_name="Scale" id="{00c26d1b-fc42-4619-8641-538e1cc3ac16}" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL default="0" order="3" animated="1" user_friendy_name="Active" id="{b337d1ae-ce32-4f90-a7cd-a4ec8b4fb22c}" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="66.63339233398438"/>
+ </BOOL>
+ <DOUBLE default="1" order="4" animated="1" user_friendy_name="Speed Multiplier" id="{1366e516-37ac-4ab5-9e1d-2fd42da8384f}" hidden="false" name="speed_multiplier" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,44 @@
+<SCENE_FILE end_record_time="80.00000417232513" version="23" name="phar_camp_flyby_tau_r01_s01.CindyScene" perspective_camera="329.586,7.07865,353.618:341.133,-4.46835,365.165" id="{39d730bf-4458-45b6-82fa-80918373f630}" start_record_time="0">
+ <ENVIRONMENT name="Environment" data="" order="0" id="{f760da39-cc09-4a37-acef-bdfab92380af}" hidden="false"/>
+ <VECTOR is_linked="0" name="position" unique_id="{d93741ee-8a5a-4df9-81b8-cebf8538db71}" id="{d93741ee-8a5a-4df9-81b8-cebf8538db71}" link_id="0" surface_mode="Freeform">
+  <DOUBLE animated="1" default="0" name="X" single_keyframe_only="1" order="0" id="{46747c91-7837-4941-ade7-2e591ab5cd0c}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" name="Y" single_keyframe_only="1" order="1" id="{14155ff8-205f-4a3b-8d00-2cf58cfe6632}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" name="Z" single_keyframe_only="1" order="2" id="{879af83f-aa16-489a-b790-e044d44ad995}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{5714da10-2517-4347-b47b-eed3f4300483}">
+  <RADIAN animated="1" default="0" name="X" single_keyframe_only="1" order="0" id="{49a0bd16-3e9d-4a38-877e-080023b92ec2}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" name="Y" single_keyframe_only="1" order="1" id="{505bb07e-1f17-477f-88b0-fba42b32d72e}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" name="Z" single_keyframe_only="1" order="2" id="{473e7a04-fd80-48fd-b205-283fe06fba79}" hidden="false">
+   <KEYFRAME time="15.0894832611084" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{ea24eb66-47c0-4b03-832c-1a463df159f9}"/>
+ <NODE name="Warscape Properties" id="{799d2531-4e88-4f43-8f64-fa7e28f39a7a}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_tau.xml" warscape_properties_file="../cameras/flyby_cam_tau.xml" id="{6e3edbf5-e5ba-4896-95e2-fb4516cda5cc}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{53205b67-1f30-405f-b435-597ae5621d69}">
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_tau_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_01.kfa" id="{d3421417-9958-44ac-ab96-feda4b918ab0}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_tau_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_02.kfa" id="{4b67cbe8-5b2e-4690-ab7f-556358fd28b2}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_tau_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_03.kfa" id="{c96ee77f-01ff-4007-8daf-7e8ad0593771}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_tau_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_04.kfa" id="{a8b3e987-dc74-4882-a9b7-632fea52b675}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_tau_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_tau_05.kfa" id="{e8d0fa28-2e39-42a9-a0dd-9640c5fe30ba}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{b3f9fb40-b0c4-4292-af72-402b79e4d2d3}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/mer_idle.kfcs" name="mer_idle.kfcs" id="{0e4e3265-6544-422a-918c-c310d1a4954e}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/tau_idle_01.kfcs" name="tau_idle_01.kfcs" id="{c155285c-3fba-4d74-8fe2-17633d4240e3}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/set_vs_gen_01.kfcs" name="set_vs_gen_01.kfcs" id="{836eaaab-3baa-4c88-acca-4533656d3d78}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/kush_idle.kfcs" name="kush_idle.kfcs" id="{ce3713f8-4cb8-4c59-9796-b81fa795886c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/libu_raid.kfcs" name="libu_raid.kfcs" id="{ba35a8f1-9434-4f7a-9cf1-76a6ea2cf744}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/egy_raid_tau.kfcs" name="egy_raid_tau.kfcs" id="{6153bb09-3ead-4dcd-881c-e727f17aba96}"/>
+ </NODE>
+</SCENE_FILE>

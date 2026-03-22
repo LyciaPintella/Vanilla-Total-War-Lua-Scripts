@@ -1,0 +1,43 @@
+<SCENE_FILE start_record_time="0.5000000260770321" perspective_camera="361.563,7.47261,398.376:366.396,3.32436,406.298" end_record_time="88.00000458955765" name="flyby_rhesus_r01_s01.CindyScene" version="23" id="{b4f0bf90-ae4d-4fb8-b9ba-2a8ef6e75676}">
+ <ENVIRONMENT hidden="false" name="Environment" data="" order="0" id="{8f6608f1-2576-485e-92b8-738973191c70}"/>
+ <VECTOR surface_mode="Freeform" name="position" link_id="0" unique_id="{503d4f69-fd8a-48a4-bba3-741744075ac6}" is_linked="0" id="{503d4f69-fd8a-48a4-bba3-741744075ac6}">
+  <DOUBLE hidden="false" single_keyframe_only="1" name="X" order="0" animated="1" default="0" id="{7db9124d-e33d-4939-bc7e-c1552d96c3be}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" name="Y" order="1" animated="1" default="0" id="{86898e31-a67c-4182-a0c4-6dc42e9037ce}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" name="Z" order="2" animated="1" default="0" id="{fe91509a-6f37-4e92-ab62-16ad2a8b6272}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{eaff1c61-4050-4389-8848-e1c60b907d1f}">
+  <RADIAN hidden="false" single_keyframe_only="1" name="X" order="0" animated="1" default="0" id="{56388371-72b9-4dac-9529-231aab30f168}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" name="Y" order="1" animated="1" default="0" id="{3726a8f8-db8e-41e7-b502-cceee797be3b}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" name="Z" order="2" animated="1" default="0" id="{78ac9973-3cd0-443a-ae89-8deef0c1a27b}">
+   <KEYFRAME handle2_type="SMOOTH" handle1_type="SMOOTH" handle1_x="14.3333" handle2_x="14.3333" time="14.33333969116211" handle2_y="0" data="0" handle1_y="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{f267ca74-5104-4d95-aa6e-b5f2ac8a8f29}"/>
+ <NODE name="Warscape Properties" id="{ac4e597f-53fa-42cc-a98e-eddf02b30995}">
+  <WARSCAPE_PROPERTIES name="rhesus_flyby_cam.xml" warscape_properties_file="../cameras/rhesus_flyby_cam.xml" id="{6c68d2bc-42d3-4684-bf86-1bc7f90491ba}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{0bc83f9b-1429-4883-8501-ca8429b3dc15}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/prs_hln_hct_for_rhesus_fb.kfcs" name="prs_hln_hct_for_rhesus_fb.kfcs" id="{0c007a63-5b45-424e-9d2d-856ea6076fa0}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/rhesus_vo.kfcs" name="rhesus_vo.kfcs" id="{b250e881-5eb7-4863-a546-65e51e4a50c7}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{faa428be-e97c-474b-9538-9e88131dc132}">
+  <AUDIO_EVENT name="rhesus01.kfa" id="{77336d21-a517-41dd-ade1-4417ea456433}" audio_event_file="../audio/rhesus01.kfa"/>
+  <AUDIO_EVENT name="rhesus03.kfa" id="{10fae269-8a5b-42d9-8e68-69c193eb1cae}" audio_event_file="../audio/rhesus03.kfa"/>
+  <AUDIO_EVENT name="rhesus02.kfa" id="{33aaf0e3-b852-4f8c-bb9d-006b9c9f1df2}" audio_event_file="../audio/rhesus02.kfa"/>
+  <AUDIO_EVENT name="rhesus04.kfa" id="{38faea70-90f9-4bfc-add8-87cd72456515}" audio_event_file="../audio/rhesus04.kfa"/>
+  <AUDIO_EVENT name="rhesus05.kfa" id="{4e984d30-0a26-4597-8a52-037a3ef31065}" audio_event_file="../audio/rhesus05.kfa"/>
+  <AUDIO_EVENT name="rhesus06.kfa" id="{73fee281-45c0-44ce-93bd-3f3850cbef30}" audio_event_file="../audio/rhesus06.kfa"/>
+  <AUDIO_EVENT name="rhesus07.kfa" id="{e7891895-34e0-4045-8394-66ddcf4bcf18}" audio_event_file="../audio/rhesus07.kfa"/>
+  <AUDIO_EVENT name="rhesus08.kfa" id="{3fc5388b-2cfb-493f-85b0-272952d21827}" audio_event_file="../audio/rhesus08.kfa"/>
+ </NODE>
+</SCENE_FILE>

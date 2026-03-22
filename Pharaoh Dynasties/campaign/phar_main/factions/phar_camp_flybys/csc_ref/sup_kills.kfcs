@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{e29d8f23-f888-4c03-9e66-2a56a23764d7}" name="sup_kills.kfcs" version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_supi_vs_kask.csc">
+ <VECTOR surface_mode="Freeform" id="{29154385-ab42-4df9-9676-21c8821c2316}" is_linked="0" name="position" unique_id="{29154385-ab42-4df9-9676-21c8821c2316}" link_id="0">
+  <DOUBLE id="{99d31db9-2d68-4179-aec9-8c5656456192}" animated="0" default="0" hidden="false" order="0" name="X" single_keyframe_only="1">
+   <KEYFRAME data="434.3511962890625" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{59fda6ae-703b-46f2-a58c-a0b94d3fb3dc}" animated="0" default="0" hidden="false" order="1" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="2.40401029586792" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{b322eb0a-4114-4c1f-84b4-fe0f9bebd3c9}" animated="0" default="0" hidden="false" order="2" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="1065.0089111328125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{0a874562-ec0d-48cb-8a72-d8df7f1810e0}" name="rotation">
+  <RADIAN id="{33d314e6-edca-4eae-bb35-369b57e9c06a}" animated="0" default="0" hidden="false" order="0" name="X" single_keyframe_only="1"/>
+  <RADIAN id="{4f040e16-43f0-4061-a5b4-bfd7ec769fec}" animated="0" default="0" hidden="false" order="1" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="3.1497719287872314" time="0"/>
+  </RADIAN>
+  <RADIAN id="{e7d3e7c8-7f9a-42e4-a41c-966ee40d400d}" animated="0" default="0" hidden="false" order="2" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{91d561e9-1dce-4ac7-813f-ef4033680b80}" animated="0" default="1" hidden="false" order="2" name="scale" single_keyframe_only="1" user_friendy_name="Scale"/>
+ <BOOL id="{dd58b3ba-8271-4133-83d6-33867fae1eff}" animated="1" default="0" hidden="false" order="3" name="active" single_keyframe_only="0" user_friendy_name="Active">
+  <KEYFRAME data="1" time="28.00000190734863"/>
+ </BOOL>
+ <DOUBLE id="{6f0edd46-8f08-42e0-a942-fbc5a7ab98ce}" animated="1" default="1" hidden="false" order="4" name="speed_multiplier" single_keyframe_only="0" user_friendy_name="Speed Multiplier"/>
+</COMPOSITE_SCENE_FILE>

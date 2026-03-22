@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_phar_tut_battle_b1_alineinthesand" name="vo_lbe.kfa" id="{fb6cf468-0d6d-4c54-a784-6bc8da2458bd}" version="23">
+ <VECTOR unique_id="{287d73ca-833b-4d9f-b820-12d81fb60e07}" link_id="0" name="position" id="{287d73ca-833b-4d9f-b820-12d81fb60e07}" is_linked="0" surface_mode="Freeform">
+  <DOUBLE default="0" hidden="false" name="X" animated="0" order="0" id="{a1a2c678-b5fe-4995-8b31-dac0b74bf6d7}" single_keyframe_only="1"/>
+  <DOUBLE default="0" hidden="false" name="Y" animated="0" order="1" id="{c9596ba6-ac42-4f56-900f-9a557e87714e}" single_keyframe_only="1"/>
+  <DOUBLE default="0" hidden="false" name="Z" animated="0" order="2" id="{e37f2220-b19d-4f38-8124-a7be2aed25e3}" single_keyframe_only="1"/>
+ </VECTOR>
+ <BOOL default="0" hidden="false" name="active" animated="1" order="2" id="{8908c3d3-c7ee-4b71-8b0f-d888433891b0}" user_friendy_name="Active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="1"/>
+  <KEYFRAME data="0" time="126.0000076293945"/>
+ </BOOL>
+ <DOUBLE default="100" hidden="false" name="volume" animated="0" order="3" id="{c4c15697-1e46-4f8d-bf22-ccd09838c500}" user_friendy_name="Volume" single_keyframe_only="1"/>
+</AUDIO_EVENT_FILE>

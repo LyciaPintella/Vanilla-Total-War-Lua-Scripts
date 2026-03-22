@@ -1,0 +1,49 @@
+<COMPOSITE_SCENE_FILE id="{2be2be06-8cba-40e7-81cf-f39b6783625a}" directory="composite_scene/phar/tutorial_campaign/sq01_flying_eagle.csc" version="23" name="eagle.kfcs">
+ <VECTOR id="{7d1238a6-7a02-4fdd-aae2-b338bacbe85f}" surface_mode="Freeform" link_id="0" unique_id="{7d1238a6-7a02-4fdd-aae2-b338bacbe85f}" name="position" is_linked="0">
+  <DOUBLE id="{0d4ab96b-8450-4f12-8d87-0b29edacd60a}" single_keyframe_only="0" default="0" hidden="false" name="X" order="0" animated="1">
+   <KEYFRAME data="452.01190185546875" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="446.50164794921875" time="7.000000476837158" handle2_y="445.682" handle1_type="SMOOTH" handle1_x="4.66667" handle2_x="8" handle1_y="448.415"/>
+   <KEYFRAME data="443.840087890625" time="10.00000095367432"/>
+  </DOUBLE>
+  <DOUBLE id="{d2b81ca5-0902-421e-9c2d-cc8d2c076f37}" single_keyframe_only="0" default="0" hidden="false" name="Y" order="1" animated="1">
+   <KEYFRAME data="7.4831061363220215" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="6.454978942871094" time="7.000000476837158" handle2_y="6.37118" handle1_type="SMOOTH" handle1_x="4.66667" handle2_x="8" handle1_y="6.65052"/>
+   <KEYFRAME data="6.353784084320068" time="10.00000095367432"/>
+  </DOUBLE>
+  <DOUBLE id="{ed7f4b58-aaeb-482a-acc6-02cc395558e0}" single_keyframe_only="0" default="0" hidden="false" name="Z" order="2" animated="1">
+   <KEYFRAME data="347.14080810546875" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="358.1865539550781" time="7.000000476837158" handle2_y="359.051" handle1_type="SMOOTH" handle1_x="4.66667" handle2_x="8" handle1_y="356.169"/>
+   <KEYFRAME data="359.070556640625" time="10.00000095367432"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{ebefc9c0-fdb1-430c-a6e3-866f2f14cba2}" name="rotation">
+  <RADIAN id="{3466f56f-e6df-4f01-bb2b-8e4e203aaa6e}" single_keyframe_only="0" default="0" hidden="false" name="X" order="0" animated="1">
+   <KEYFRAME data="-0.36469709873199463" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="0.345625638961792" time="3.000000238418579" handle2_y="31.2518" handle1_type="SMOOTH" handle1_x="2" handle2_x="4.33333" handle1_y="11.2162"/>
+   <KEYFRAME handle2_type="SMOOTH" data="-0.1331307291984558" time="7.000000476837158" handle2_y="-14.0074" handle1_type="SMOOTH" handle1_x="5.66667" handle2_x="8" handle1_y="0.878212"/>
+   <KEYFRAME data="-0.14913783967494965" time="10.00000095367432"/>
+  </RADIAN>
+  <RADIAN id="{aea5cb3a-9a28-420a-aae0-9618546f8bcb}" single_keyframe_only="0" default="0" hidden="false" name="Y" order="1" animated="1">
+   <KEYFRAME data="5.528770446777344" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="5.687570571899414" time="3.000000238418579" handle2_y="329.095" handle1_type="SMOOTH" handle1_x="2" handle2_x="4.33333" handle1_y="323.458"/>
+   <KEYFRAME handle2_type="SMOOTH" data="5.616384029388428" time="7.000000476837158" handle2_y="319.592" handle1_type="SMOOTH" handle1_x="5.66667" handle2_x="8" handle1_y="324.732"/>
+   <KEYFRAME data="5.490579605102539" time="10.00000095367432"/>
+  </RADIAN>
+  <RADIAN id="{32e7f7a8-8c41-409f-8061-0f0b913c68b7}" single_keyframe_only="0" default="0" hidden="false" name="Z" order="2" animated="1">
+   <KEYFRAME data="0.42702746391296387" time="0"/>
+   <KEYFRAME handle2_type="SMOOTH" data="-0.6283994317054749" time="3.000000238418579" handle2_y="-52.2833" handle1_type="SMOOTH" handle1_x="2" handle2_x="4.33333" handle1_y="-23.7957"/>
+   <KEYFRAME handle2_type="SMOOTH" data="0.15545715391635895" time="7.000000476837158" handle2_y="18.9373" handle1_type="SMOOTH" handle1_x="5.66667" handle2_x="8" handle1_y="-4.46669"/>
+   <KEYFRAME data="0.1794203221797943" time="10.00000095367432"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE id="{019d77c3-a792-44fb-b9a8-22b03d8fa311}" single_keyframe_only="1" default="1" user_friendy_name="Scale" hidden="false" name="scale" order="2" animated="0">
+  <KEYFRAME data="0.10000000149011612" time="-1"/>
+ </DOUBLE>
+ <BOOL id="{5eedb8ee-c76a-485e-b57f-06f05252c62b}" single_keyframe_only="0" default="0" user_friendy_name="Active" hidden="false" name="active" order="3" animated="1">
+  <KEYFRAME data="1" time="0"/>
+  <KEYFRAME data="0" time="20.83333396911621"/>
+ </BOOL>
+ <DOUBLE id="{afc59229-87e7-4db0-8350-ca3fe1046b52}" single_keyframe_only="0" default="1" user_friendy_name="Speed Multiplier" hidden="false" name="speed_multiplier" order="4" animated="1">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

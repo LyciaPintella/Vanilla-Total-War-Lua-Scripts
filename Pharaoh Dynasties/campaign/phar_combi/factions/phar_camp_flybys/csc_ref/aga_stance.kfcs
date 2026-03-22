@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{805d83ae-e2ad-4a05-af05-b5c8b85f101c}" name="aga_stance.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_ach_point.csc" version="23">
+ <VECTOR id="{39e51494-2d93-4b8b-afc7-aa289e3e49f0}" unique_id="{39e51494-2d93-4b8b-afc7-aa289e3e49f0}" is_linked="0" link_id="-1" name="position" surface_mode="Freeform">
+  <DOUBLE id="{208d6ad7-de31-4aab-af06-cc19566f2ae4}" hidden="false" single_keyframe_only="1" order="0" name="X" default="0" animated="0">
+   <KEYFRAME data="73.08100128173828" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{d2390c74-9051-4302-a1a2-c9034cd7a48d}" hidden="false" single_keyframe_only="1" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME data="1.043410301208496" time="-1"/>
+  </DOUBLE>
+  <DOUBLE id="{a4645dfc-03e2-4e37-8ce7-17c2337f8632}" hidden="false" single_keyframe_only="1" order="2" name="Z" default="0" animated="0">
+   <KEYFRAME data="1027.421142578125" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{400eb8d7-9c25-416d-8be1-fd83ad23a665}" name="rotation">
+  <RADIAN id="{1fff2777-1780-45d3-9612-d82b35dfb2ff}" hidden="false" single_keyframe_only="1" order="0" name="X" default="0" animated="0"/>
+  <RADIAN id="{f6b25b1a-8f3a-4cd7-8123-95c8ca56874d}" hidden="false" single_keyframe_only="1" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME data="1.671759843826294" time="-1"/>
+  </RADIAN>
+  <RADIAN id="{c7c372aa-0ee1-4266-bcff-f1439704b12b}" hidden="false" single_keyframe_only="1" order="2" name="Z" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{9ff1292c-a253-4d91-9f5e-ffdbed838afc}" hidden="false" single_keyframe_only="1" order="2" name="scale" default="1" user_friendy_name="Scale" animated="0"/>
+ <BOOL id="{5f8226a3-57ce-46f7-b970-bb36e7940a7d}" hidden="false" single_keyframe_only="0" order="3" name="active" default="0" user_friendy_name="Active" animated="1">
+  <KEYFRAME data="1" time="13.00000095367432"/>
+ </BOOL>
+ <DOUBLE id="{8320d655-601e-4703-9335-da152e6a80d1}" hidden="false" single_keyframe_only="0" order="4" name="speed_multiplier" default="1" user_friendy_name="Speed Multiplier" animated="1"/>
+</COMPOSITE_SCENE_FILE>

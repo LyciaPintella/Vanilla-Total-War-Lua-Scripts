@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ram_idle.csc" id="{4c92c77b-c0a5-466c-9b6d-9474e015bc17}" name="ram_idle.kfcs" version="23">
+ <VECTOR unique_id="{1747139f-8c55-4ec5-a9e0-cc812d6fa198}" id="{1747139f-8c55-4ec5-a9e0-cc812d6fa198}" name="position" surface_mode="Freeform" is_linked="0" link_id="0">
+  <DOUBLE hidden="false" default="0" id="{ed67f0c1-da00-4e75-ab5f-b237f616351f}" name="X" animated="0" order="0" single_keyframe_only="1">
+   <KEYFRAME data="590.427001953125" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" id="{7f2ca0ae-f065-457f-930d-b3cd6df27228}" name="Y" animated="0" order="1" single_keyframe_only="1">
+   <KEYFRAME data="1.8848857879638672" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" id="{17e86192-7829-47c1-bd9b-88d15a295908}" name="Z" animated="0" order="2" single_keyframe_only="1">
+   <KEYFRAME data="686.6439208984375" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{3e40d2c0-ad4b-426e-b2f4-77fbedabc155}" name="rotation">
+  <RADIAN hidden="false" default="0" id="{9f581d24-9c89-411c-bbbb-aaf4cbd66026}" name="X" animated="0" order="0" single_keyframe_only="1"/>
+  <RADIAN hidden="false" default="0" id="{cf8db618-af51-4fd8-8fdf-0d1a1631243b}" name="Y" animated="0" order="1" single_keyframe_only="1">
+   <KEYFRAME data="4.249818801879883" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" id="{1c6d70fe-fb92-45ec-8a78-3fa613884bca}" name="Z" animated="0" order="2" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" default="1" id="{2ed428b6-3c9b-4acb-9070-929fd6f0a49a}" name="scale" user_friendy_name="Scale" animated="0" order="2" single_keyframe_only="1"/>
+ <BOOL hidden="false" default="0" id="{d5b0c548-43a9-4b09-9c4f-4d5bb7f21828}" name="active" user_friendy_name="Active" animated="1" order="3" single_keyframe_only="0">
+  <KEYFRAME data="1" time="16"/>
+ </BOOL>
+ <DOUBLE hidden="false" default="1" id="{16c1ad27-ed73-482a-b5fc-c67ad6d9a663}" name="speed_multiplier" user_friendy_name="Speed Multiplier" animated="1" order="4" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

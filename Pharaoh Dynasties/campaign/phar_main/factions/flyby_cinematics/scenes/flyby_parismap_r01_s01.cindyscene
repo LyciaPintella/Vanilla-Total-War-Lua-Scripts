@@ -1,0 +1,47 @@
+<SCENE_FILE start_record_time="0" perspective_camera="360.487,3.96753,383.759:364.17,0.215745,388.873" end_record_time="105.0000054761767" name="flyby_parismap_r01_s01.CindyScene" version="23" id="{85469b12-16f6-4569-9413-26700d983ee7}">
+ <ENVIRONMENT data="" name="Environment" hidden="false" order="0" id="{276c81b6-b16b-48ad-adc0-78bb01738c6c}"/>
+ <VECTOR surface_mode="Freeform" name="position" is_linked="0" link_id="0" id="{d7ac0e80-2b7a-4902-8353-ddd8365c688f}" unique_id="{d7ac0e80-2b7a-4902-8353-ddd8365c688f}">
+  <DOUBLE name="X" hidden="false" order="0" single_keyframe_only="1" animated="1" id="{830e58b7-9b5c-41b9-8ec8-28d63dc4fcf2}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" single_keyframe_only="1" animated="1" id="{19a865d5-c9fb-4fe8-81e5-ae208852f145}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" single_keyframe_only="1" animated="1" id="{37fb78dc-9b80-4c0d-b1ba-50fc73093fb3}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{651e5aa7-2fdc-4f15-86f1-7722cb2fb327}">
+  <RADIAN name="X" hidden="false" order="0" single_keyframe_only="1" animated="1" id="{0c1aab16-d901-48f1-af84-86b259cefe7c}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </RADIAN>
+  <RADIAN name="Y" hidden="false" order="1" single_keyframe_only="1" animated="1" id="{e06aec6d-8075-4fee-a5c3-0d9eb993fdd1}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" order="2" single_keyframe_only="1" animated="1" id="{54888a5d-d2c6-4c98-aded-30585a44f04e}" default="0">
+   <KEYFRAME data="0" time="19.26667404174805"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{f369b7f1-4024-4b16-a950-b53d975593ca}"/>
+ <NODE name="Warscape Properties" id="{60b76aa2-1519-461e-9317-34897cce90d0}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/flyby_cam_paris.xml" name="flyby_cam_paris.xml" id="{611cfde8-631a-4a99-9360-2f5170197558}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{530e22fe-9a48-4538-beab-caef08b09d4b}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/menelaus02.kfcs" name="menelaus02.kfcs" id="{5c5e7a6e-c18a-43a3-b840-292067cbedcb}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/paris_helen_hector03.kfcs" name="paris_helen_hector03.kfcs" id="{3ac3dee8-919c-4c37-9f89-5d5ef0071e22}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/aeneashero04.kfcs" name="aeneashero04.kfcs" id="{7b5d7a01-3a89-4002-bab3-0022ee230178}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{f7211a2a-4c95-45ed-a670-ff74dcc87244}">
+  <AUDIO_EVENT name="paris01.kfa" audio_event_file="../audio/paris01.kfa" id="{705c37d1-8402-4752-9bea-ff94a8db5ffb}"/>
+  <AUDIO_EVENT name="paris02.kfa" audio_event_file="../audio/paris02.kfa" id="{85c5ff7a-ef2d-4cf0-b280-32dfd1ef392c}"/>
+  <AUDIO_EVENT name="paris03.kfa" audio_event_file="../audio/paris03.kfa" id="{6f69c547-521a-4525-a983-cc643818b71f}"/>
+  <AUDIO_EVENT name="paris04.kfa" audio_event_file="../audio/paris04.kfa" id="{70129615-f481-4187-a3cb-ec8d598cfb91}"/>
+  <AUDIO_EVENT name="paris05.kfa" audio_event_file="../audio/paris05.kfa" id="{716217ed-9fc2-491a-8c30-65ac04578aa3}"/>
+  <AUDIO_EVENT name="paris06.kfa" audio_event_file="../audio/paris06.kfa" id="{9a7f44c1-b2e2-4ac2-ba87-27ba6603cfae}"/>
+  <AUDIO_EVENT name="paris07.kfa" audio_event_file="../audio/paris07.kfa" id="{1a260ec9-552e-4757-bf95-49182d453fb9}"/>
+  <AUDIO_EVENT name="paris08.kfa" audio_event_file="../audio/paris08.kfa" id="{0a3cbdcc-e462-4103-8e08-b688a8c8d469}"/>
+  <AUDIO_EVENT name="paris09.kfa" audio_event_file="../audio/paris09.kfa" id="{4f437eea-e092-454e-a3b9-7a3331c97d31}"/>
+  <AUDIO_EVENT name="paris10.kfa" audio_event_file="../audio/paris10.kfa" id="{b0cebd1c-ffad-4ecf-95a0-e49bb578725f}"/>
+  <AUDIO_EVENT name="paris11.kfa" audio_event_file="../audio/paris11.kfa" id="{943e87f6-7b36-40c7-a784-cfe5ad88a33b}"/>
+ </NODE>
+</SCENE_FILE>

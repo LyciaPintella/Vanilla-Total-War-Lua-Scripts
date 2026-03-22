@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_irs_vo.csc" id="{820b2a85-4d5e-4adc-89ad-7d69e2d64d01}" name="irs_raid.kfcs" version="23">
+ <VECTOR id="{221abb6f-1182-4bd1-a0c5-cf2b5e470a91}" name="position" is_linked="0" unique_id="{221abb6f-1182-4bd1-a0c5-cf2b5e470a91}" link_id="0" surface_mode="Freeform">
+  <DOUBLE order="0" id="{56905d90-ec70-494e-90e1-095403c44899}" name="X" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="576.2466430664062" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{05cb342d-cf76-435f-98ef-7d97ee83d572}" name="Y" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="3.3320508003234863" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{bbcfbe99-3ec9-4d38-8d5c-19353a904973}" name="Z" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="841.0568237304688" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d1b276c5-4071-47bb-abd7-3427fd2fe562}" name="rotation">
+  <RADIAN order="0" id="{fefb388e-db1e-47f6-a4ad-a8d4f4d3133d}" name="X" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+  <RADIAN order="1" id="{11d30bd4-83c8-4cb2-9982-018d40e11aee}" name="Y" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="4.724066257476807" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" id="{af141997-8b33-49bb-88de-5b0b72aa284c}" name="Z" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{f1ade496-5fbe-4022-8baa-506c8d9d3da3}" name="scale" default="1" hidden="false" animated="0" user_friendy_name="Scale" single_keyframe_only="1"/>
+ <BOOL order="3" id="{c0834c21-532d-4a97-803e-1a9e08e41b2c}" name="active" default="0" hidden="false" animated="1" user_friendy_name="Active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="19.00000190734863"/>
+ </BOOL>
+ <DOUBLE order="4" id="{1d96d1a1-bf14-406b-b836-85115a24c578}" name="speed_multiplier" default="1" hidden="false" animated="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0">
+  <KEYFRAME data="1" time="35"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

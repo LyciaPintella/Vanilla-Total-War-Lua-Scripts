@@ -1,0 +1,21 @@
+<SCENE_FILE end_record_time="49.9333359375596" name="achilles_intro_flyby.CindyScene" version="23" id="{2631a7d4-55aa-4e2a-aa66-1472cdf6e819}" start_record_time="0.8000000417232513" perspective_camera="371.335,3.66388,409.492:368.872,-0.0548444,416.915">
+ <ENVIRONMENT name="Environment" id="{6db884cd-c501-43b3-a3e0-abc3fbe4baed}" hidden="false" order="0" data=""/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" unique_id="{acbcd2bd-6d73-47f3-a031-54cf5623735a}" name="position" id="{acbcd2bd-6d73-47f3-a031-54cf5623735a}">
+  <DOUBLE default="0" name="X" id="{7514c293-93e1-4d1e-bdd9-adb4dd93c80a}" single_keyframe_only="1" hidden="false" order="0" animated="1"/>
+  <DOUBLE default="0" name="Y" id="{b79d1303-1a42-49ed-8f4b-99806a96dc54}" single_keyframe_only="1" hidden="false" order="1" animated="1"/>
+  <DOUBLE default="0" name="Z" id="{103b44e2-220e-47ba-83c7-3fdc0666ebb3}" single_keyframe_only="1" hidden="false" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{b6f1b3d7-7a97-45d6-befc-7f373a46d44d}">
+  <RADIAN default="0" name="X" id="{2808721e-b19f-4e83-a7df-9a303adb3c01}" single_keyframe_only="1" hidden="false" order="0" animated="1"/>
+  <RADIAN default="0" name="Y" id="{b1d25d71-82d6-4e44-99ac-471bca6ed4c4}" single_keyframe_only="1" hidden="false" order="1" animated="1"/>
+  <RADIAN default="0" name="Z" id="{81896b50-e30a-4210-b045-17b7b3764176}" single_keyframe_only="1" hidden="false" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{147b3b11-caaf-4510-8ed2-618c49f8d8af}"/>
+ <NODE name="Warscape Properties" id="{5edd6075-ef4d-4ee1-a7f1-e1660d0113cf}">
+  <WARSCAPE_PROPERTIES name="achilles_flyby_camera.xml" id="{4b83daac-536a-458a-8e36-1cbb7c72f1bd}" warscape_properties_file="../cameras/achilles_flyby_camera.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{33bd8c29-310a-4221-bc4d-d4b27beab689}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/paris_helen_hector.kfcs" name="paris_helen_hector.kfcs" id="{86155300-ce0b-4ec6-b14b-39df85da29b0}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/achilles.kfcs" name="achilles.kfcs" id="{7a56efb3-1e51-4be6-94fc-a3423f7b61b5}"/>
+ </NODE>
+</SCENE_FILE>

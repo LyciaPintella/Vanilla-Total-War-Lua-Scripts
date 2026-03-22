@@ -1,0 +1,47 @@
+<SCENE_FILE id="{cca28107-fe69-4643-94e9-c5d7b455ec7c}" start_record_time="0" end_record_time="90.50000471994281" version="23" perspective_camera="247.514,3.82135,235.169:246.65,1.02434,241.777" name="flyby_ajax_r01_s01.CindyScene">
+ <ENVIRONMENT id="{bd0fac58-0ac4-4f47-95ea-2dac91a30820}" data="" hidden="false" order="0" name="Environment"/>
+ <VECTOR id="{657a10ea-792d-452d-97cf-cc049cb0c6f2}" surface_mode="Freeform" is_linked="0" link_id="0" unique_id="{657a10ea-792d-452d-97cf-cc049cb0c6f2}" name="position">
+  <DOUBLE id="{b3902c9f-5e6f-4e53-a689-4b07020d4f4a}" default="0" hidden="false" animated="1" order="0" single_keyframe_only="1" name="X">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{c5d694a8-c04a-4ceb-a356-140c2834c272}" default="0" hidden="false" animated="1" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{83f4adb3-3af2-4033-8275-ad041205cd00}" default="0" hidden="false" animated="1" order="2" single_keyframe_only="1" name="Z">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{e3a08c5f-9ebd-42cb-8402-154a58a3835a}" name="rotation">
+  <RADIAN id="{fc9767df-8861-4950-847f-fa73e92ae566}" default="0" hidden="false" animated="1" order="0" single_keyframe_only="1" name="X">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN id="{0ac250f0-a981-4e89-9265-bcc77fa71510}" default="0" hidden="false" animated="1" order="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN id="{245d1e1b-8cb1-4c13-8c00-fb90b777ae75}" default="0" hidden="false" animated="1" order="2" single_keyframe_only="1" name="Z">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{89999a8a-a595-4f4b-8f09-7497d66f3762}" name="Links"/>
+ <NODE id="{8c0cdadc-614b-48fa-88ee-6d9105f31249}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{6c6fbe3d-9fce-4bbe-815c-3d7c3047cfc1}" warscape_properties_file="../cameras/ajax_cam.xml" name="ajax_cam.xml"/>
+ </NODE>
+ <NODE id="{edacfe2a-1699-4391-86ff-842e9f7a9473}" name="Audio Events">
+  <AUDIO_EVENT id="{76389581-0015-44fd-8718-afd4e448ea97}" audio_event_file="../audio/ajax_01.kfa" name="ajax_01.kfa"/>
+  <AUDIO_EVENT id="{a3b10edf-7e8f-45a3-87bf-0bd5baab9dbf}" audio_event_file="../audio/ajax_02.kfa" name="ajax_02.kfa"/>
+  <AUDIO_EVENT id="{afa69926-b73f-43df-9b49-b265dde0b0d3}" audio_event_file="../audio/ajax_03.kfa" name="ajax_03.kfa"/>
+  <AUDIO_EVENT id="{d317b21d-36ae-4e2a-b91c-97c32e806902}" audio_event_file="../audio/ajax_04.kfa" name="ajax_04.kfa"/>
+  <AUDIO_EVENT id="{fb57745e-fc8b-4c60-9a63-b39022674cd8}" audio_event_file="../audio/ajax_05.kfa" name="ajax_05.kfa"/>
+  <AUDIO_EVENT id="{16e3b421-1c81-4808-bcd6-5701ee774c3f}" audio_event_file="../audio/ajax_06.kfa" name="ajax_06.kfa"/>
+  <AUDIO_EVENT id="{7bd5bc6d-aac0-4ad0-81a6-8717496d0b2d}" audio_event_file="../audio/ajax_07.kfa" name="ajax_07.kfa"/>
+ </NODE>
+ <NODE id="{f15ad2a6-1db6-4146-9c10-c443f55f28fc}" name="Triggers">
+  <TRIGGER id="{2513c116-2579-404e-b941-9e4734ba3b86}" trigger_file="../triggers/ajax_vo.ktr" name="ajax_vo.ktr"/>
+ </NODE>
+ <NODE id="{10bc9214-6b88-4eb0-9cb8-bf8e75debf28}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{8375fce3-e233-4aa7-bbd5-ac20585571cf}" composite_scene_file="../csc_ref/ajax_paris_helen_hector_scene.kfcs" name="ajax_paris_helen_hector_scene.kfcs"/>
+  <COMPOSITE_SCENE id="{2cafcb42-dff4-4739-9ef6-f39e984f9c0a}" composite_scene_file="../csc_ref/ajax_vo.kfcs" name="ajax_vo.kfcs"/>
+  <COMPOSITE_SCENE id="{72ff33f2-bb39-4c4e-a5ad-3cb32321cdb4}" composite_scene_file="../csc_ref/menelaus_ajax.kfcs" name="menelaus_ajax.kfcs"/>
+  <COMPOSITE_SCENE id="{7cd3701c-4b56-4e29-888b-0ca0894e103a}" composite_scene_file="../csc_ref/sailing_pirates.kfcs" name="sailing_pirates.kfcs"/>
+ </NODE>
+</SCENE_FILE>

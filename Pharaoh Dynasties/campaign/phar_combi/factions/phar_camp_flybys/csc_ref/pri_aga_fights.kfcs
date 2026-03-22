@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_aga_vs_ach.csc" id="{f1c21292-9339-4c24-91e1-14c3df8be677}" name="pri_aga_fights.kfcs" version="23">
+ <VECTOR is_linked="0" surface_mode="Freeform" link_id="0" unique_id="{ae7beacd-19fb-43d0-8a34-e03b8c832131}" id="{ae7beacd-19fb-43d0-8a34-e03b8c832131}" name="position">
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{7ac89bf3-f03b-4841-a899-df343a9880ba}" name="X" order="0">
+   <KEYFRAME data="121.25657653808594" time="0"/>
+  </DOUBLE>
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{066e9262-a9f6-41dc-a8fd-50caf468c3a7}" name="Y" order="1">
+   <KEYFRAME data="0.5146851539611816" time="0"/>
+  </DOUBLE>
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{dcd8dcff-e5b5-483e-877f-756d9d8a1e48}" name="Z" order="2">
+   <KEYFRAME data="1037.5333251953125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{821427fb-49a8-45a2-8146-86220ec91027}" name="rotation">
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{5c402f61-5358-4555-bb32-326bb8066571}" name="X" order="0"/>
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{1380306e-4a93-4db0-8cd5-4d422d818ae3}" name="Y" order="1">
+   <KEYFRAME data="3.9662771224975586" time="0"/>
+  </RADIAN>
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{123e5378-0a74-4745-8159-3a3bcb5aff7d}" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" default="1" id="{bd02388c-fe5e-4194-8e81-68f35a61604f}" name="scale" order="2"/>
+ <BOOL animated="1" user_friendy_name="Active" hidden="false" single_keyframe_only="0" default="0" id="{0a1ae1a9-eecb-4195-a148-a5da57a59f6a}" name="active" order="3">
+  <KEYFRAME data="1" time="68"/>
+ </BOOL>
+ <DOUBLE animated="1" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" default="1" id="{db3c0318-5884-4244-b556-9ca4eed11c21}" name="speed_multiplier" order="4"/>
+</COMPOSITE_SCENE_FILE>

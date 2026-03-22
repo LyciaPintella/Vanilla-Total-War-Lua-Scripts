@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE version="23" audio_event_name="Play_troy_adi_cam_faction_intro_homer_dio_07" name="dio_07.kfa" id="{3941d7e6-fcf4-4e24-852f-65e66c54e818}">
+ <VECTOR is_linked="0" surface_mode="Freeform" unique_id="{97b0ca56-69b4-4813-8718-ae53702947d8}" name="position" id="{97b0ca56-69b4-4813-8718-ae53702947d8}" link_id="0">
+  <DOUBLE default="0" animated="0" order="0" hidden="false" single_keyframe_only="1" name="X" id="{d5628e9e-35f6-425e-a508-aaf4b4d80227}">
+   <KEYFRAME data="255.22903442382812" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{b1c6098a-3047-4919-898c-c05404e8f5cc}">
+   <KEYFRAME data="1.116318702697754" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="0" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{b9a784f7-baa9-4cc6-ae93-4d2080b5c013}">
+   <KEYFRAME data="251.04119873046875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" default="0" animated="1" order="2" hidden="false" single_keyframe_only="0" name="active" id="{576505c2-c72d-4ae3-8343-c1adddbc5c48}">
+  <KEYFRAME data="1" time="77.50000762939453"/>
+  <KEYFRAME data="0" time="102.6343231201172"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" default="100" animated="0" order="3" hidden="false" single_keyframe_only="1" name="volume" id="{54245cd6-8765-4198-813b-93751cc6e0c3}"/>
+</AUDIO_EVENT_FILE>

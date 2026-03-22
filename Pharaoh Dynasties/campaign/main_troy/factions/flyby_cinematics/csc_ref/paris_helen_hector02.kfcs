@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE id="{4fd402d1-a01e-4c2a-b4ff-ebf3eebdcfad}" directory="composite_scene/troy/campaign_cinematic/troy_camp_hct_prs_hln_arrive_vo_foolish.csc" version="23" name="paris_helen_hector02.kfcs">
+ <VECTOR unique_id="{f9cd7f79-9a07-474b-9abf-85c4f7f7a0e9}" id="{f9cd7f79-9a07-474b-9abf-85c4f7f7a0e9}" is_linked="0" surface_mode="Freeform" name="position" link_id="0">
+  <DOUBLE id="{3898f3a8-13ed-4930-91be-9c0bc87da745}" order="0" animated="0" default="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <DOUBLE id="{db418c6e-0450-41a9-9154-e475be9d40b2}" order="1" animated="0" default="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <DOUBLE id="{a79b0443-94f4-4d6d-9034-6a28f9cdb85b}" order="2" animated="0" default="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{f6815ff8-c05f-4fb5-94ca-06782323581e}" name="rotation">
+  <RADIAN id="{7247703e-d5bf-4cac-ae6d-266248d42f05}" order="0" animated="0" default="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN id="{032726c8-fc5b-4df2-9031-ab04e5cb0a86}" order="1" animated="0" default="0" hidden="false" name="Y" single_keyframe_only="1"/>
+  <RADIAN id="{c0160a24-e7cf-49f0-b0ff-f02944429e68}" order="2" animated="0" default="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE id="{7949a830-ab34-46ba-a041-81b9f0c22d2f}" order="2" animated="0" default="1" user_friendy_name="Scale" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL id="{b0962c87-6fb0-4a9d-898e-6060e6d06407}" order="3" animated="1" default="0" user_friendy_name="Active" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME time="0.1000000089406967" data="1"/>
+  <KEYFRAME time="115.0000076293945" data="0"/>
+ </BOOL>
+ <DOUBLE id="{973f6e4e-e8aa-4ce8-a6ce-5ff6fad11307}" order="4" animated="1" default="1" user_friendy_name="Speed Multiplier" hidden="false" name="speed_multiplier" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

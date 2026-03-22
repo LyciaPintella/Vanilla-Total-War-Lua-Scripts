@@ -1,0 +1,38 @@
+<SCENE_FILE name="phar_camp_flyby_aga_r01_s01.CindyScene" end_record_time="153.5000080056489" version="23" start_record_time="0" id="{d0bd54f3-0d51-42f5-8942-fad7ad5f2bf7}" perspective_camera="0,0,0:0,0,0">
+ <ENVIRONMENT name="Environment" data="weather/campaign/prosperity/midday_prosperity.environment" hidden="false" order="0" id="{b08650ee-1a35-4d77-a372-163c191dbc57}"/>
+ <VECTOR name="position" link_id="0" surface_mode="Freeform" id="{34c5531e-6284-4cbb-9496-a31fbbc97d02}" is_linked="0" unique_id="{34c5531e-6284-4cbb-9496-a31fbbc97d02}">
+  <DOUBLE name="X" animated="1" single_keyframe_only="1" hidden="false" default="0" order="0" id="{c16bfc51-63a3-4a2b-b1ea-f116958ca70b}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE name="Y" animated="1" single_keyframe_only="1" hidden="false" default="0" order="1" id="{516a8674-df1d-46c3-a1a9-7b023cbab5d1}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE name="Z" animated="1" single_keyframe_only="1" hidden="false" default="0" order="2" id="{1c23f3dd-c48f-4ca7-b4c2-1c54bd00ef06}">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{b4db7b2e-875c-4a76-9700-2834246ab998}">
+  <RADIAN name="X" animated="1" single_keyframe_only="1" hidden="false" default="0" order="0" id="{410928a3-555a-4385-b177-44ad63104850}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN name="Y" animated="1" single_keyframe_only="1" hidden="false" default="0" order="1" id="{0e05e3fd-4948-4257-bf8a-6fc1d1205bcd}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN name="Z" animated="1" single_keyframe_only="1" hidden="false" default="0" order="2" id="{a624cff9-6fc0-45d3-96f2-113db58bf53a}">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{ce2e709c-3e18-4356-ba7e-caaee399fdad}"/>
+ <NODE name="Warscape Properties" id="{6e081360-b346-45c6-8576-c3d8f5c95e3c}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_aga.xml" warscape_properties_file="../cameras/flyby_cam_aga.xml" id="{072e2501-4f27-431e-8443-703563c289df}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{e4a468b3-e447-479f-a624-149fcddf8b5e}">
+  <AUDIO_EVENT name="aga01.kfa" audio_event_file="../audio/aga01.kfa" id="{d3b4c47b-2494-4926-8306-b8017298514b}"/>
+  <AUDIO_EVENT name="aga03.kfa" audio_event_file="../audio/aga03.kfa" id="{9a9c645b-04fa-4300-8d99-490683673c1f}"/>
+  <AUDIO_EVENT name="aga04.kfa" audio_event_file="../audio/aga04.kfa" id="{50b2c97b-3b96-4e4c-b89c-d34b700de9f8}"/>
+  <AUDIO_EVENT name="aga02.kfa" audio_event_file="../audio/aga02.kfa" id="{5c3d2f39-03ad-4025-9a58-9990fba63ea2}"/>
+  <AUDIO_EVENT name="aga05.kfa" audio_event_file="../audio/aga05.kfa" id="{dfb89819-16d3-464b-846e-a437e7d0ce18}"/>
+  <AUDIO_EVENT name="aga06.kfa" audio_event_file="../audio/aga06.kfa" id="{5c967bfd-e958-4834-8177-3248301abf8d}"/>
+  <AUDIO_EVENT name="aga07.kfa" audio_event_file="../audio/aga07.kfa" id="{593b5376-85dd-4d29-a33f-d893271e7f08}"/>
+ </NODE>
+</SCENE_FILE>

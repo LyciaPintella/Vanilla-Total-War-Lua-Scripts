@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{e107b03f-d5d2-41a9-9068-f4694a64469e}" name="Hector_Epic_Shout01.kfcs" version="23" directory="projects/battles_flyovers/csc_ref/hector_shout.csc">
+ <VECTOR link_id="0" unique_id="{09eadc6d-56f5-44fb-87ad-d62b56e25c29}" id="{09eadc6d-56f5-44fb-87ad-d62b56e25c29}" surface_mode="Freeform" name="position" is_linked="0">
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{6a2bddc0-b55c-4492-b9a3-ca1750c7bfc3}" order="0" name="X" default="0" animated="0">
+   <KEYFRAME data="5.400000095367432" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{1e4acc03-f312-405d-93da-9184532b2d3e}" order="1" name="Y" default="0" animated="0"/>
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{2c39840d-37f6-4a96-b838-90bf1dcd7a18}" order="2" name="Z" default="0" animated="0">
+   <KEYFRAME data="130.3000030517578" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{771d2e3d-fcf4-421c-9018-600963371f4f}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" id="{3afd6109-617d-496b-adab-8197d7c8c03e}" order="0" name="X" default="0" animated="0"/>
+  <RADIAN hidden="false" single_keyframe_only="1" id="{b3b3a2d3-eff8-409d-90cc-3a95f1b70f0c}" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME data="4.014257431030273" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" id="{b082a8fc-2f15-4dfa-bcee-5d5f141111e3}" order="2" name="Z" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" single_keyframe_only="1" id="{b8a358dd-d77a-4291-8bbf-f4bc1f7abd52}" order="2" name="scale" user_friendy_name="Scale" default="1" animated="0">
+  <KEYFRAME data="1.149999976158142" time="0"/>
+ </DOUBLE>
+ <BOOL hidden="false" single_keyframe_only="0" id="{0d3e9569-5127-4397-bb09-63f366ed0fa2}" order="3" name="active" user_friendy_name="Active" default="0" animated="1">
+  <KEYFRAME data="1" time="33.800048828125"/>
+ </BOOL>
+ <DOUBLE hidden="false" single_keyframe_only="0" id="{73f5ab19-df00-47dd-bfd6-d25f850c6c9f}" order="4" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" animated="1"/>
+</COMPOSITE_SCENE_FILE>

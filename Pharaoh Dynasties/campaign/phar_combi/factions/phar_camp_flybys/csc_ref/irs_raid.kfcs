@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_irs_vo.csc" version="23" name="irs_raid.kfcs" id="{820b2a85-4d5e-4adc-89ad-7d69e2d64d01}">
+ <VECTOR is_linked="0" unique_id="{221abb6f-1182-4bd1-a0c5-cf2b5e470a91}" link_id="0" name="position" surface_mode="Freeform" id="{221abb6f-1182-4bd1-a0c5-cf2b5e470a91}">
+  <DOUBLE order="0" animated="0" hidden="false" single_keyframe_only="1" name="X" default="0" id="{56905d90-ec70-494e-90e1-095403c44899}">
+   <KEYFRAME data="770.2470092773438" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" animated="0" hidden="false" single_keyframe_only="1" name="Y" default="0" id="{05cb342d-cf76-435f-98ef-7d97ee83d572}">
+   <KEYFRAME data="3.3320508003234863" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" animated="0" hidden="false" single_keyframe_only="1" name="Z" default="0" id="{bbcfbe99-3ec9-4d38-8d5c-19353a904973}">
+   <KEYFRAME data="841.0568237304688" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{d1b276c5-4071-47bb-abd7-3427fd2fe562}">
+  <RADIAN order="0" animated="0" hidden="false" single_keyframe_only="1" name="X" default="0" id="{fefb388e-db1e-47f6-a4ad-a8d4f4d3133d}"/>
+  <RADIAN order="1" animated="0" hidden="false" single_keyframe_only="1" name="Y" default="0" id="{11d30bd4-83c8-4cb2-9982-018d40e11aee}">
+   <KEYFRAME data="4.724064826965332" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" animated="0" hidden="false" single_keyframe_only="1" name="Z" default="0" id="{af141997-8b33-49bb-88de-5b0b72aa284c}"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" animated="0" hidden="false" single_keyframe_only="1" name="scale" user_friendy_name="Scale" default="1" id="{f1ade496-5fbe-4022-8baa-506c8d9d3da3}"/>
+ <BOOL order="3" animated="1" hidden="false" single_keyframe_only="0" name="active" user_friendy_name="Active" default="0" id="{c0834c21-532d-4a97-803e-1a9e08e41b2c}">
+  <KEYFRAME data="1" time="19.00000190734863"/>
+ </BOOL>
+ <DOUBLE order="4" animated="1" hidden="false" single_keyframe_only="0" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" id="{1d96d1a1-bf14-406b-b836-85115a24c578}">
+  <KEYFRAME data="1" time="20.66666793823242"/>
+  <KEYFRAME data="1" time="35"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

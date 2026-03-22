@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE id="{f619150d-0d00-473e-a5c6-aec093020f6b}" directory="script/battle/survival_battles/_composite_scene/nur_beast_stand_01.csc" hidden="false" version="27">
+ <VECTOR name="position" id="{b395d0f8-faab-4fe7-bdd5-7094ca1648ea}" link_id="0" surface_mode="Freeform" hidden="false" unique_id="{b395d0f8-faab-4fe7-bdd5-7094ca1648ea}" is_linked="0">
+  <DOUBLE name="X" id="{52b08e1e-5352-47b7-9237-e5e3115def5c}" order="0" default="0" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="123.38412475585938"/>
+  </DOUBLE>
+  <DOUBLE name="Y" id="{945f8328-97cf-476d-bd83-483d6741d32d}" order="1" default="0" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="24.273622512817383"/>
+  </DOUBLE>
+  <DOUBLE name="Z" id="{2daabe04-d508-442a-b8d3-70ac67db70dc}" order="2" default="0" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="-165.39602661132812"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{65b17f29-6ca2-4352-bd39-e5abfcd7c508}" hidden="false">
+  <RADIAN name="X" id="{c62b03c1-153d-4d26-9390-3c878fa9f8db}" order="0" default="0" animated="0" hidden="false" single_keyframe_only="1"/>
+  <RADIAN name="Y" id="{ae71c027-a719-4d08-8248-948456ffb9e0}" order="1" default="0" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="3.572173595428467"/>
+  </RADIAN>
+  <RADIAN name="Z" id="{c6055e6a-d66d-410f-a7f2-7e6a7748fcbc}" order="2" default="0" animated="0" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" id="{3f42fb39-92dd-496a-acdc-319eb35c9c7a}" order="2" default="1" animated="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="1.5"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Active" name="active" id="{80b777ea-8140-4259-881d-5eca7180a011}" order="3" default="0" animated="1" hidden="false" single_keyframe_only="0">
+  <KEYFRAME time="23.03333473205566" data="0"/>
+  <KEYFRAME time="23.03433418273926" data="1"/>
+  <KEYFRAME time="23.03433418273926" data="1"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" id="{25ea0b27-1675-45c5-9f99-804f02d81b77}" order="4" default="1" animated="1" hidden="false" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

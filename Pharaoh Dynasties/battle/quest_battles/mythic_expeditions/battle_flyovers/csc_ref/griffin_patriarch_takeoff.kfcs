@@ -1,0 +1,46 @@
+<COMPOSITE_SCENE_FILE name="griffin_patriarch_takeoff.kfcs" directory="composite_scene/troy/campaign_cinematic/griffin_quest_btl_flyovers_patriarch_takeoff.csc" version="23" id="{261ebe13-c093-46e4-adc7-01284e4887b5}">
+ <VECTOR is_linked="0" name="position" link_id="0" id="{1e12f299-a56e-4de3-a7e9-81635fd9373d}" surface_mode="Freeform" unique_id="{1e12f299-a56e-4de3-a7e9-81635fd9373d}">
+  <DOUBLE single_keyframe_only="0" name="X" default="0" hidden="false" animated="1" order="0" id="{1a0d5da6-16fc-4d56-9484-6dcaae67ace9}">
+   <KEYFRAME data="-41.71043395996094" time="3.366668462753296"/>
+   <KEYFRAME data="-41.71043395996094" time="26.76667594909668"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" name="Y" default="0" hidden="false" animated="1" order="1" id="{371df21a-b0f6-4ecd-8c86-2e65b6cb8341}">
+   <KEYFRAME handle2_type="SMOOTH" data="1264.3365478515625" handle2_x="24.8778" time="24.4666690826416" handle2_y="1264.34"/>
+   <KEYFRAME handle2_type="SMOOTH" data="1257.8101806640625" handle2_x="26.0556" time="25.70000267028809" handle1_type="SMOOTH" handle1_y="1261.26" handle2_y="1254.83" handle1_x="25.2889"/>
+   <KEYFRAME handle2_type="SMOOTH" data="1249.5809326171875" handle2_x="27.9333" time="26.76667594909668" handle1_type="SMOOTH" handle1_y="1251.56" handle2_y="1243.08" handle1_x="26.4111"/>
+   <KEYFRAME handle2_type="SMOOTH" data="1249.5809326171875" handle2_x="30.6778" time="30.26667785644531" handle1_type="SMOOTH" handle1_y="1250.36" handle2_y="1249.3" handle1_x="29.1"/>
+   <KEYFRAME handle2_type="SMOOTH" data="1247.32763671875" handle2_x="31.6889" time="31.50001335144043" handle1_type="SMOOTH" handle1_y="1248.03" handle2_y="1247.01" handle1_x="31.0889"/>
+   <KEYFRAME handle2_type="SMOOTH" data="1247.32763671875" handle2_x="33.2889" time="32.06667709350586" handle1_type="SMOOTH" handle1_y="1246.81" handle2_y="1250.69" handle1_x="31.8778"/>
+   <KEYFRAME data="1284.133544921875" time="35.73333740234375" handle1_type="SMOOTH" handle1_y="1284.13" handle1_x="34.5111"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" name="Z" default="0" hidden="false" animated="1" order="2" id="{48e6b36a-3d87-4c92-986f-29ca25d490e0}">
+   <KEYFRAME data="171.00108337402344" time="3.366668462753296"/>
+   <KEYFRAME data="171.00108337402344" time="24.86667060852051"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{f0cf0ae2-af10-43f4-8fe1-91de5057ec9d}">
+  <RADIAN single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" order="0" id="{fc6b1e8f-fb22-43e8-a1df-eb108c47469a}">
+   <KEYFRAME data="2.849407196044922" time="3.366668462753296"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="0" name="Y" default="0" hidden="false" animated="1" order="1" id="{6ba18bb8-143c-45aa-bf56-54b12cccc4dd}">
+   <KEYFRAME data="0.6478596329689026" time="3.366668462753296"/>
+   <KEYFRAME data="0.6491537094116211" time="22.60001564025879"/>
+   <KEYFRAME handle2_type="EASY" data="0.6488669514656067" time="23.83333778381348"/>
+   <KEYFRAME data="0.3089931011199951" time="25.33334541320801"/>
+   <KEYFRAME handle2_type="EASY" data="0.04191255196928978" time="27.23334312438965" handle1_type="EASY"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" order="2" id="{88b6c267-86d0-4f59-858d-21dbc2dc6e57}">
+   <KEYFRAME data="3.117269515991211" time="3.366668462753296"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" name="scale" default="1" hidden="false" animated="0" order="2" id="{715d2de2-17a4-4d63-94f5-52a961ccec13}">
+  <KEYFRAME data="2" time="3.366668462753296"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" name="active" default="0" hidden="false" animated="1" order="3" id="{f8c4b701-70ad-4046-8595-53518ea08595}">
+  <KEYFRAME data="1" time="9.633350372314453"/>
+  <KEYFRAME data="0" time="40.93334197998047"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="1" name="speed_multiplier" default="1" hidden="false" animated="0" order="4" id="{ef98ca82-4dbc-44f5-85e3-98b98362da93}">
+  <KEYFRAME data="1" time="3.366668462753296"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,20 @@
+<SCENE_FILE perspective_camera="60.9043,85.5389,-92.0729:21.413,70.3331,-71.2185" name="hector.CindyScene" end_record_time="50.00000260770321" id="{73601501-9634-42ad-8f47-68aa1598295c}" version="23" start_record_time="5.000000260770321">
+ <ENVIRONMENT order="0" name="Environment" id="{7d5d8e4c-2783-4117-88b7-880b2654394d}" hidden="false" data="projects/battles_flyovers/weahter/troy_generic_10_lo.environment"/>
+ <VECTOR name="position" is_linked="0" surface_mode="Freeform" id="{6ae68639-c808-484d-949f-bd9558f90771}" link_id="0" unique_id="{6ae68639-c808-484d-949f-bd9558f90771}">
+  <DOUBLE order="0" single_keyframe_only="1" name="X" default="0" id="{511e50ea-d67b-4018-838b-a49b52a98299}" hidden="false" animated="1"/>
+  <DOUBLE order="1" single_keyframe_only="1" name="Y" default="0" id="{e4990931-c541-49c0-9dc1-411c276579bf}" hidden="false" animated="1"/>
+  <DOUBLE order="2" single_keyframe_only="1" name="Z" default="0" id="{838d3c47-3f7e-4d9f-b86e-c7b70b185f06}" hidden="false" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{d9766af7-5731-47f4-9098-d4915f3d10a6}">
+  <RADIAN order="0" single_keyframe_only="1" name="X" default="0" id="{4b1fa029-06eb-49ee-80bc-d4f300391772}" hidden="false" animated="1"/>
+  <RADIAN order="1" single_keyframe_only="1" name="Y" default="0" id="{f5c3fc56-be02-4d90-b9da-f88a9269b454}" hidden="false" animated="1"/>
+  <RADIAN order="2" single_keyframe_only="1" name="Z" default="0" id="{844ebb41-b19a-4982-969a-cc11ca3be6e6}" hidden="false" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{f56be07c-ca81-441f-a136-461e5c888ff8}"/>
+ <NODE name="Warscape Properties" id="{ad0309e6-cf33-455a-8f66-703e55e8d98e}">
+  <WARSCAPE_PROPERTIES name="Hec_BattleIntroCam.xml" id="{1daf8461-7cf1-48fa-882e-1ddb0cf35878}" warscape_properties_file="../cameras/Hec_BattleIntroCam.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{7133c0f2-42a3-4053-bf98-28a742c67b4a}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/Hector_Epic_Shout.kfcs" name="Hector_Epic_Shout.kfcs" id="{46da2b4d-8d88-464a-a2df-7a8b4487dc93}"/>
+ </NODE>
+</SCENE_FILE>

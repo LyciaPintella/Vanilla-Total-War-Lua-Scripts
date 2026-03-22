@@ -1,0 +1,43 @@
+<SCENE_FILE perspective_camera="226.576,10.788,171.752:220.128,0.565848,190.384" name="flyby_serpedonmap_r01_s01.CindyScene" end_record_time="93.00000485032797" start_record_time="0" version="23" id="{365fca93-2975-4e38-a9f0-23facab5f4c7}">
+ <ENVIRONMENT data="" name="Environment" hidden="false" order="0" id="{4636b6bc-0921-4e08-97e3-1cbb8aa7f7f3}"/>
+ <VECTOR link_id="0" name="position" surface_mode="Freeform" is_linked="0" unique_id="{e4b3fe02-86a8-4aec-9bc7-14d9484ced25}" id="{e4b3fe02-86a8-4aec-9bc7-14d9484ced25}">
+  <DOUBLE name="X" animated="1" default="0" single_keyframe_only="1" hidden="false" order="0" id="{aaff540b-2330-46bb-9978-0de5a4a0f75c}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </DOUBLE>
+  <DOUBLE name="Y" animated="1" default="0" single_keyframe_only="1" hidden="false" order="1" id="{4f5cdb2e-1f17-4908-91db-dcfa857959c0}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </DOUBLE>
+  <DOUBLE name="Z" animated="1" default="0" single_keyframe_only="1" hidden="false" order="2" id="{101e914c-beba-4857-877c-106afe1affc1}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{f985f8d6-078f-4e28-bce1-a713fdcc3231}">
+  <RADIAN name="X" animated="1" default="0" single_keyframe_only="1" hidden="false" order="0" id="{62f3f2d4-f1ff-4524-901b-dfe82ccb6540}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </RADIAN>
+  <RADIAN name="Y" animated="1" default="0" single_keyframe_only="1" hidden="false" order="1" id="{09028f91-ff0e-44be-9556-fe4e5f9be7c4}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </RADIAN>
+  <RADIAN name="Z" animated="1" default="0" single_keyframe_only="1" hidden="false" order="2" id="{171b122c-5fdc-4b6a-9d56-9b3850d14cdd}">
+   <KEYFRAME data="0" time="29.00004005432129"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{fcfe9b73-7cdb-4dd3-a974-abc4c6a1f224}"/>
+ <NODE name="Warscape Properties" id="{1852e10b-ceea-499d-9f5d-d74ad72521fb}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_serpedon.xml" warscape_properties_file="../cameras/flyby_cam_serpedon.xml" id="{139b3714-d42f-42ef-b3ab-30e5c34c488a}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{f32a70ca-4a56-485e-a06c-d310eda6d06a}">
+  <COMPOSITE_SCENE name="serpedon.kfcs" composite_scene_file="../csc_ref/serpedon.kfcs" id="{4c4dfe93-9a1e-4a74-a6fc-b8aad3a2a211}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{9b385303-0587-4600-ace8-b02977c2d3ce}">
+  <AUDIO_EVENT name="sarpedon01.kfa" audio_event_file="../audio/sarpedon01.kfa" id="{dbc96604-6caa-460e-a894-e415123c2042}"/>
+  <AUDIO_EVENT name="sarpedon02.kfa" audio_event_file="../audio/sarpedon02.kfa" id="{f18f29d7-9126-41f9-925d-e24fd8f11a29}"/>
+  <AUDIO_EVENT name="sarpedon03.kfa" audio_event_file="../audio/sarpedon03.kfa" id="{faa3094b-984d-4534-aecc-4d5f277f13e6}"/>
+  <AUDIO_EVENT name="sarpedon04.kfa" audio_event_file="../audio/sarpedon04.kfa" id="{24549f10-07ec-4ec6-80e7-2dfe87152b64}"/>
+  <AUDIO_EVENT name="sarpedon05.kfa" audio_event_file="../audio/sarpedon05.kfa" id="{2e00a0f7-f2c7-409a-b983-9aecbf898939}"/>
+  <AUDIO_EVENT name="sarpedon06.kfa" audio_event_file="../audio/sarpedon06.kfa" id="{d4dc9fe5-b52f-4615-9eec-750725c2b649}"/>
+  <AUDIO_EVENT name="sarpedon07.kfa" audio_event_file="../audio/sarpedon07.kfa" id="{861ccbb7-751b-4d8b-a545-cd5e7cf5f4d6}"/>
+  <AUDIO_EVENT name="sarpedon08.kfa" audio_event_file="../audio/sarpedon08.kfa" id="{de6e6793-9018-43b4-ab4e-51a0753c4f64}"/>
+  <AUDIO_EVENT name="sarpedon09.kfa" audio_event_file="../audio/sarpedon09.kfa" id="{4909c521-722f-43f6-be82-fc711a72dd24}"/>
+ </NODE>
+</SCENE_FILE>

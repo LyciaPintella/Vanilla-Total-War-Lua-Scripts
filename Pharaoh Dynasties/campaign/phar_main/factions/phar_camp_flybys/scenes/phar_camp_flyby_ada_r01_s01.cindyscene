@@ -1,0 +1,25 @@
+<SCENE_FILE name="phar_camp_flyby_ada_r01_s01.CindyScene" end_record_time="98.50000513717532" version="23" start_record_time="0" id="{b2f9e972-abea-4947-b05c-e31e43c57823}" perspective_camera="0,0,0:0,0,0">
+ <ENVIRONMENT name="Environment" data="weather/campaign/prosperity/midday_prosperity.environment" hidden="false" order="0" id="{41414035-61c3-4fbc-b1de-389a0afd8e7a}"/>
+ <VECTOR name="position" link_id="0" surface_mode="Freeform" id="{a77c2a90-1d7f-496f-9914-afecce8d8fb3}" is_linked="0" unique_id="{a77c2a90-1d7f-496f-9914-afecce8d8fb3}">
+  <DOUBLE name="X" animated="1" single_keyframe_only="1" hidden="false" default="0" order="0" id="{25c56c91-8c28-4f41-a622-ee4047d24314}"/>
+  <DOUBLE name="Y" animated="1" single_keyframe_only="1" hidden="false" default="0" order="1" id="{9b70231b-5953-4a2b-a6a3-a18ddb15c332}"/>
+  <DOUBLE name="Z" animated="1" single_keyframe_only="1" hidden="false" default="0" order="2" id="{dc3662e7-cef3-42a7-a051-23b2ab7f9ead}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{c9a81a63-550a-4b76-a3d1-66ba68e3634b}">
+  <RADIAN name="X" animated="1" single_keyframe_only="1" hidden="false" default="0" order="0" id="{b4b35cf3-d9a2-4a30-b479-399264ec608b}"/>
+  <RADIAN name="Y" animated="1" single_keyframe_only="1" hidden="false" default="0" order="1" id="{8512f893-ef90-4947-9f02-86f6f9129f60}"/>
+  <RADIAN name="Z" animated="1" single_keyframe_only="1" hidden="false" default="0" order="2" id="{d3a51001-3a65-4c6d-9ef6-1c4b00654c9e}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{469c0c77-cc3e-4d2d-a7d2-74a02f97ac2e}"/>
+ <NODE name="Warscape Properties" id="{f163f107-aaac-4da6-953a-618c7123d03e}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_ada.xml" warscape_properties_file="../cameras/flyby_cam_ada.xml" id="{1c7367cb-a458-4b91-b327-280dfc584c75}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{34e9c2b1-de54-402b-84ad-7586a14b1e65}">
+  <AUDIO_EVENT name="ada01.kfa" audio_event_file="../audio/ada01.kfa" id="{c138d549-9f78-4348-8c79-4038a3e1d4d4}"/>
+  <AUDIO_EVENT name="ada02.kfa" audio_event_file="../audio/ada02.kfa" id="{93e9a7fa-6ae8-44fa-a720-16cbf8d306ac}"/>
+  <AUDIO_EVENT name="ada03.kfa" audio_event_file="../audio/ada03.kfa" id="{987ecc89-7d82-4762-b1d5-3b182ecdd6ce}"/>
+  <AUDIO_EVENT name="ada04.kfa" audio_event_file="../audio/ada04.kfa" id="{d996d253-9222-49a7-9ced-7d1b8b7cb20b}"/>
+  <AUDIO_EVENT name="ada05.kfa" audio_event_file="../audio/ada05.kfa" id="{e0fb64f8-3619-4b74-800b-5be291d54582}"/>
+  <AUDIO_EVENT name="ada06.kfa" audio_event_file="../audio/ada06.kfa" id="{75b8a8c6-e2da-41d9-80d5-670cdfead7e4}"/>
+ </NODE>
+</SCENE_FILE>

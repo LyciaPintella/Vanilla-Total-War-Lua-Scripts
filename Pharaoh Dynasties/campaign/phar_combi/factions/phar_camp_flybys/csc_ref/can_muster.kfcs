@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_can_muster.csc" version="23" id="{c53a0087-aa90-4ba3-9ad3-4ea65354801a}" name="can_muster.kfcs">
+ <VECTOR link_id="0" surface_mode="Freeform" id="{73e7face-45e4-4ea9-9eaf-e7f926abf29b}" unique_id="{73e7face-45e4-4ea9-9eaf-e7f926abf29b}" name="position" is_linked="0">
+  <DOUBLE default="0" order="0" animated="0" id="{12d6d66d-31cf-47fa-ac5a-eee5271a85be}" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="704.4229736328125" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" animated="0" id="{ee15ccc8-a836-4fe4-bf2d-3494314a7eba}" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="1.8156428337097168" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" animated="0" id="{5835ca5b-ff69-4e6c-bdb4-938d1a497748}" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="791.8372802734375" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{e00a2670-99db-4710-88f0-ec7773da5b3c}" name="rotation">
+  <RADIAN default="0" order="0" animated="0" id="{1fa7eb78-4972-48d8-9d5a-4eaa2e48dd92}" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN default="0" order="1" animated="0" id="{56b37f08-4bca-48b5-8f1b-5ec7b9e67c62}" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="4.306488990783691" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" animated="0" id="{78dbcd71-97df-46f4-b7bd-9a10cf74d293}" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" order="2" animated="0" user_friendy_name="Scale" id="{f166972f-f49d-4790-8d13-1c0f6102b9ed}" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL default="0" order="3" animated="1" user_friendy_name="Active" id="{7872ca26-9245-4e2e-a2f2-80dda405ded7}" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="30.00000190734863"/>
+ </BOOL>
+ <DOUBLE default="1" order="4" animated="1" user_friendy_name="Speed Multiplier" id="{34d31725-3b85-4c7c-906b-93763c2b56c1}" hidden="false" name="speed_multiplier" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

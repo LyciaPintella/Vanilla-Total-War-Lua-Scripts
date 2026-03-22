@@ -1,0 +1,20 @@
+<SCENE_FILE perspective_camera="770.507,183.98,1181.7:749.42,93.0508,1395.83" end_record_time="50.03333594277501" start_record_time="5.000000260770321" id="{7e99e2ec-45c7-4f20-bc73-6f3a5d658e9e}" name="achilles.CindyScene" version="23">
+ <ENVIRONMENT hidden="false" order="0" id="{49d2c25c-e0ea-4ab9-950a-2849c3a3798c}" name="Environment" data="weather/battle/troy_generic_01.environment"/>
+ <VECTOR surface_mode="Freeform" unique_id="{00a343db-891e-4366-9a09-950c2b49e85f}" is_linked="0" link_id="0" id="{00a343db-891e-4366-9a09-950c2b49e85f}" name="position">
+  <DOUBLE hidden="false" default="0" animated="1" order="0" id="{109f5a2b-6d33-4987-9b8c-4b19f8b4cf25}" name="X" single_keyframe_only="1"/>
+  <DOUBLE hidden="false" default="0" animated="1" order="1" id="{8be5e9a6-1d40-4fe6-bfa4-d310314fb823}" name="Y" single_keyframe_only="1"/>
+  <DOUBLE hidden="false" default="0" animated="1" order="2" id="{b3fb04fe-2568-4cf3-9ea1-3713d8f6641d}" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{3f76962d-223d-499d-84ac-3043004a73e6}" name="rotation">
+  <RADIAN hidden="false" default="0" animated="1" order="0" id="{bc2ed7f5-cafb-47e1-95e0-3a00e2e2dcf6}" name="X" single_keyframe_only="1"/>
+  <RADIAN hidden="false" default="0" animated="1" order="1" id="{7283c2c7-6f87-47da-8cf6-1c5397cfd74f}" name="Y" single_keyframe_only="1"/>
+  <RADIAN hidden="false" default="0" animated="1" order="2" id="{5f8dc01f-99d4-452c-a4df-a0595b1363a7}" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE id="{cfa1b063-3416-4d20-a100-5e7415d0832d}" name="Links"/>
+ <NODE id="{809feef7-f1fd-471b-8420-e9d7f409d3ec}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/Achilles_battle_introCam.xml" id="{093ad4db-f14c-46fc-b410-f0ef595aa176}" name="Achilles_battle_introCam.xml"/>
+ </NODE>
+ <NODE id="{6fd681dd-8790-4d12-96ef-f003d2475996}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/battle.kfcs" id="{1f28db30-ca8a-4636-a9be-db678995b6e2}" name="battle.kfcs"/>
+ </NODE>
+</SCENE_FILE>

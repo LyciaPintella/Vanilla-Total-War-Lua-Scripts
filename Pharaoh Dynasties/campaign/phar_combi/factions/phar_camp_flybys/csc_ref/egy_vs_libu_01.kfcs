@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE version="23" id="{c03799d2-0462-441b-91ff-27667165e394}" name="egy_vs_libu_01.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_egy_vs_libu.csc">
+ <VECTOR link_id="0" surface_mode="Freeform" id="{0f0d4bb6-72ab-4895-9c49-3d595df1edff}" unique_id="{0f0d4bb6-72ab-4895-9c49-3d595df1edff}" name="position" is_linked="0">
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="0" id="{bc590622-b298-4775-8f31-999c0f44f870}" name="X">
+   <KEYFRAME data="344.0192565917969" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="1" id="{4a7180e2-2aeb-41c1-98ab-13691993978d}" name="Y">
+   <KEYFRAME data="2.8385024070739746" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="2" id="{ac17b3b2-e309-4304-b12a-d9f81356fb68}" name="Z">
+   <KEYFRAME data="363.0581970214844" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{1e1ff6e5-71e7-4413-8c34-b6ffcfbc4a03}" name="rotation">
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="0" id="{aeb9f29c-5225-4ba3-b652-609284867b5a}" name="X"/>
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="1" id="{8c6e684d-16af-4950-be46-3fcfb8ba8be4}" name="Y">
+   <KEYFRAME data="4.139715194702148" time="-1"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="2" id="{d57fd1c1-12fc-4a5c-9fdd-58af2e94ae87}" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" default="1" single_keyframe_only="1" animated="0" order="2" user_friendy_name="Scale" id="{3469334c-7ac2-4584-a7b4-2fd653229043}" name="scale"/>
+ <BOOL hidden="false" default="0" single_keyframe_only="0" animated="1" order="3" user_friendy_name="Active" id="{90ce2ea3-6280-4cc1-ae3f-ded6190eafc2}" name="active">
+  <KEYFRAME data="1" time="82.00000762939453"/>
+ </BOOL>
+ <DOUBLE hidden="false" default="1" single_keyframe_only="0" animated="1" order="4" user_friendy_name="Speed Multiplier" id="{a03a9dd2-90b7-48cd-90a1-f9dc4425e3ec}" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

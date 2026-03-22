@@ -1,0 +1,29 @@
+<SCENE_FILE name="oddy_trojan_horse.CindyScene" version="23" perspective_camera="-234.86,134.303,-381.54:-238.083,133.066,-389.744" end_record_time="50.00000260770321" start_record_time="2.000000104308128" id="{30bfcf0f-d4c8-434a-a33e-ad85c9f6507c}">
+ <ENVIRONMENT hidden="false" name="Environment" data="" id="{a22641b4-f646-44bc-b794-03f68dc56842}" order="0"/>
+ <VECTOR name="position" link_id="0" unique_id="{02b0a589-8b7c-4cfc-9293-74c589af7c6e}" id="{02b0a589-8b7c-4cfc-9293-74c589af7c6e}" is_linked="0" surface_mode="Freeform">
+  <DOUBLE hidden="false" name="X" default="0" animated="1" single_keyframe_only="1" id="{8bd70fe2-ae1d-49d6-9104-20664c543bb3}" order="0">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Y" default="0" animated="1" single_keyframe_only="1" id="{6d786879-f6be-4b24-81a1-b0efdc9892e9}" order="1">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Z" default="0" animated="1" single_keyframe_only="1" id="{854e07c7-b568-4810-a669-f062cc23520d}" order="2">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{ab6a76f1-1502-4a22-9601-53b4073aec41}">
+  <RADIAN hidden="false" name="X" default="0" animated="1" single_keyframe_only="1" id="{7d5fddfd-fb72-4b1e-8155-986f3069b2ce}" order="0">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Y" default="0" animated="1" single_keyframe_only="1" id="{6b895708-1fef-4f2f-a609-dcf5615c2b7f}" order="1">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Z" default="0" animated="1" single_keyframe_only="1" id="{a3d809a6-91ce-40b2-b50b-a0b94fe3100b}" order="2">
+   <KEYFRAME handle1_y="0" data="0" handle2_x="2" handle2_type="SMOOTH" handle1_type="SMOOTH" time="2" handle2_y="0" handle1_x="2"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{88daf899-b3cc-4446-bd3f-c4965c5de909}"/>
+ <NODE name="Warscape Properties" id="{885a19cc-953a-4fdd-8115-c9f0778755cd}">
+  <WARSCAPE_PROPERTIES name="trojan_horse_cam.xml" id="{90239478-a796-4f76-bf33-f498f738b992}" warscape_properties_file="../cameras/trojan_horse_cam.xml"/>
+ </NODE>
+</SCENE_FILE>

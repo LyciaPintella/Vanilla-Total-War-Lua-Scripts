@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_ships.csc" id="{1b87b82e-72be-44f5-ad26-b7d341016d84}" name="ships02.kfcs" version="23">
+ <VECTOR id="{ebc19b15-cd32-4e1c-a3f9-02098b1b79ee}" name="position" is_linked="0" unique_id="{ebc19b15-cd32-4e1c-a3f9-02098b1b79ee}" link_id="0" surface_mode="Freeform">
+  <DOUBLE order="0" id="{d5d3dbe3-f5ce-4a51-8796-6be047194b2f}" name="X" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="484.1889953613281" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{555774a0-236e-49b0-898e-e8a607a18e67}" name="Y" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="0.10102176666259766" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{29dd8da3-7a7c-43c3-ae1a-5f4f7a7cb730}" name="Z" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="858.0563354492188" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{77c1465a-7014-46fe-b9c4-eab0e984d04c}" name="rotation">
+  <RADIAN order="0" id="{97de0b32-b034-4e25-813a-aac3e3260deb}" name="X" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+  <RADIAN order="1" id="{3e0029d7-4629-4fdc-b9ea-d526271dc35e}" name="Y" default="0" hidden="false" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="1.778886318206787" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" id="{30e3dc31-e519-414a-93a2-bccbc5d74cd1}" name="Z" default="0" hidden="false" animated="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{e4ca70da-0f06-40d3-a4f2-a0f6a3af3978}" name="scale" default="1" hidden="false" animated="0" user_friendy_name="Scale" single_keyframe_only="1"/>
+ <BOOL order="3" id="{0cf40813-cf91-402b-841e-2ce744a445a8}" name="active" default="0" hidden="false" animated="1" user_friendy_name="Active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="0.4000000357627869"/>
+ </BOOL>
+ <DOUBLE order="4" id="{6a0d5fe9-9ea1-489e-b645-93bd2878adda}" name="speed_multiplier" default="1" hidden="false" animated="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0">
+  <KEYFRAME data="1" time="35"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_asy_city_burn.csc" name="nin_burning_city.kfcs" version="23" id="{72e30022-f94d-4ca0-9920-0345553998ca}">
+ <VECTOR surface_mode="Freeform" name="position" id="{4a23d948-a406-4f84-a5cc-476234da1424}" is_linked="0" link_id="0" unique_id="{4a23d948-a406-4f84-a5cc-476234da1424}">
+  <DOUBLE order="0" animated="0" default="0" single_keyframe_only="1" name="X" id="{6dc853a0-c761-488f-8cd3-8bfa55b8d918}" hidden="false">
+   <KEYFRAME data="1176.868896484375" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" animated="0" default="0" single_keyframe_only="1" name="Y" id="{f2c28d70-fa68-40d3-84be-627dfbe3209d}" hidden="false">
+   <KEYFRAME data="0.5619277954101562" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" animated="0" default="0" single_keyframe_only="1" name="Z" id="{2264293e-b1e4-42d2-8013-2d22e27b10fa}" hidden="false">
+   <KEYFRAME data="844.0463256835938" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{fd18b426-6ee3-4ae0-8ddd-b8000ca22070}">
+  <RADIAN order="0" animated="0" default="0" single_keyframe_only="1" name="X" id="{7c011c54-307c-47a5-addb-e66d576a90be}" hidden="false"/>
+  <RADIAN order="1" animated="0" default="0" single_keyframe_only="1" name="Y" id="{f3385fa1-839f-49db-ac51-f6dfa5af4bd8}" hidden="false"/>
+  <RADIAN order="2" animated="0" default="0" single_keyframe_only="1" name="Z" id="{3af66950-fdc5-4888-8c7b-9063eaf90af2}" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" animated="0" default="1" user_friendy_name="Scale" single_keyframe_only="1" name="scale" id="{37bd0507-45f0-4d34-8251-337c340c9038}" hidden="false"/>
+ <BOOL order="3" animated="1" default="0" user_friendy_name="Active" single_keyframe_only="0" name="active" id="{b5d9d1bf-9d46-475c-837c-e6883df627fb}" hidden="false">
+  <KEYFRAME data="1" time="0.03333333507180214"/>
+ </BOOL>
+ <DOUBLE order="4" animated="1" default="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0" name="speed_multiplier" id="{b9f805be-d29c-487f-a792-31acc1e97ec0}" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

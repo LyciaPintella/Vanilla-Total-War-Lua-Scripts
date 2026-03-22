@@ -1,0 +1,25 @@
+<SCENE_FILE perspective_camera="-46.1786,180.953,144.217:-47.2106,181.016,148.341" hidden="false" start_record_time="0" version="27" id="{3cbabb7b-aac0-414b-8080-2f7c88d94c81}" end_record_time="36.00000187754631">
+ <ENVIRONMENT hidden="false" data="" name="Environment" order="0" id="{96c7ddce-00f4-4b2b-9d13-9d151f074e1a}"/>
+ <VECTOR surface_mode="Freeform" hidden="false" name="position" unique_id="{d1e972a0-f836-4229-8cbb-45f149223440}" link_id="0" is_linked="0" id="{d1e972a0-f836-4229-8cbb-45f149223440}">
+  <DOUBLE single_keyframe_only="1" hidden="false" name="X" animated="1" order="0" id="{3a2085e3-ab39-47ee-a48f-d10cca2317bb}" default="0"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" name="Y" animated="1" order="1" id="{a186014a-f41f-4cdd-919f-40ac25d6d01f}" default="0"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" name="Z" animated="1" order="2" id="{4d8d930a-94cd-4b24-b2cf-a576790516a0}" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{6c4740da-1111-4126-bb8e-d9c4c4548698}">
+  <RADIAN single_keyframe_only="1" hidden="false" name="X" animated="1" order="0" id="{0f5b3836-863e-436a-893d-9e2012e36031}" default="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" name="Y" animated="1" order="1" id="{0caa815d-1050-4130-94d6-4b2b14f7791d}" default="0">
+   <KEYFRAME time="3.900000095367432" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" name="Z" animated="1" order="2" id="{819efa03-0072-41aa-887b-0b344b9e19ce}" default="0"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{baf8995a-0c80-4bc6-ba82-2207b88a4fe4}"/>
+ <NODE hidden="false" name="Composite Scenes" id="{2ce1d634-2f75-453e-85c3-784a96b19b8d}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/cth_zhaoming_transform.kfcs" hidden="false" name="cth_zhaoming_transform.kfcs" id="{895ac2fc-13f8-4279-a1a6-8eebdbc0da1a}"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{1f950610-6dd9-40fa-8371-d9d2cc1b424f}">
+  <TRIGGER hidden="false" name="cth_bas_t01.ktr" trigger_file="../triggers/cth_bas_t01.ktr" id="{024c2e2e-3640-4d82-a716-68a87fdf89cc}"/>
+ </NODE>
+ <NODE hidden="false" name="Warscape Properties" id="{caf973ff-d235-4810-baaa-f8b7b53b15fc}">
+  <WARSCAPE_PROPERTIES hidden="false" name="cth_bas_c06.xml" warscape_properties_file="../cameras/cth_bas_c06.xml" id="{3fa6d03c-7c14-4137-b7ba-278805521669}"/>
+ </NODE>
+</SCENE_FILE>

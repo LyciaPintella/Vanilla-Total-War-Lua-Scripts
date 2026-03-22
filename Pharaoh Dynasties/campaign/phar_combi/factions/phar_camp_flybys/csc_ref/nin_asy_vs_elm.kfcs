@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE name="nin_asy_vs_elm.kfcs" id="{c92903ff-1bdd-4c6a-a8e5-b6c811140d0d}" directory="composite_scene/phar/campaign_cinematic/phar_camp_asy_vs_elm.csc" version="23">
+ <VECTOR name="position" unique_id="{e8b00ba3-6308-4e05-a5ea-15093fd11bc5}" surface_mode="Freeform" id="{e8b00ba3-6308-4e05-a5ea-15093fd11bc5}" link_id="0" is_linked="0">
+  <DOUBLE name="X" order="0" default="0" id="{100b598c-cc5e-4e3c-a63d-172a08999785}" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="1139.7041015625"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" default="0" id="{2f49ab75-0426-4674-b9a6-c4296af6920a}" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0.6742086410522461"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" default="0" id="{a78aa884-fef1-48b4-8fa9-a03f5d2a105a}" animated="0" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="788.3515014648438"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{5131dbd3-5882-450a-a173-1bfe152e50ac}">
+  <RADIAN name="X" order="0" default="0" id="{dece26d1-f908-4dd1-bcc5-5ec47e24acca}" animated="0" hidden="false" single_keyframe_only="1"/>
+  <RADIAN name="Y" order="1" default="0" id="{e1585337-ef55-4fbd-a002-986210f79f90}" animated="0" hidden="false" single_keyframe_only="1"/>
+  <RADIAN name="Z" order="2" default="0" id="{b9d39c02-d5c4-4e68-b702-deb4878d351f}" animated="0" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" user_friendy_name="Scale" order="2" default="1" id="{c90f0a74-5aa1-4fba-806d-6be8bceb86f6}" animated="0" hidden="false" single_keyframe_only="1"/>
+ <BOOL name="active" user_friendy_name="Active" order="3" default="0" id="{438eb291-6353-47e4-8bd4-863c7d1e8323}" animated="1" hidden="false" single_keyframe_only="0">
+  <KEYFRAME time="74.46666717529297" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" user_friendy_name="Speed Multiplier" order="4" default="1" id="{afdf43ba-c971-4c99-bc0e-e9f870fdedf8}" animated="1" hidden="false" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

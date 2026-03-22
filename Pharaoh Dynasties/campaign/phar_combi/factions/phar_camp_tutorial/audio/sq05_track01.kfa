@@ -1,0 +1,19 @@
+<AUDIO_EVENT_FILE id="{6efccd26-41f7-441c-9d67-1410c74bc995}" name="sq05_track01.kfa" version="23" audio_event_name="Play_phar_main_tutorial_v2_enemy_born_mern_1">
+ <VECTOR surface_mode="Freeform" id="{f597a906-0d01-412f-a260-7ad731888837}" name="position" is_linked="0" link_id="-1" unique_id="{f597a906-0d01-412f-a260-7ad731888837}">
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{9979edc7-c096-48fb-890e-ae7a130b274a}" order="0" default="0" name="X">
+   <KEYFRAME time="-1" data="436.4554138183594"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{2ba8741d-e212-4893-8eba-8c6d90c0ff96}" order="1" default="0" name="Y">
+   <KEYFRAME time="-1" data="4.76837158203125e-5"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{6ca7f159-dbf8-442b-b954-16c0e6298cea}" order="2" default="0" name="Z">
+   <KEYFRAME time="-1" data="733.9160766601562"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" animated="1" hidden="false" user_friendy_name="Active" id="{632393a5-b477-4f1f-ad2b-e360e02951ab}" order="2" default="0" name="active">
+  <KEYFRAME time="0.1990000158548355" data="0"/>
+  <KEYFRAME time="0.2000000178813934" data="1"/>
+  <KEYFRAME time="14.00000095367432" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" animated="0" hidden="false" user_friendy_name="Volume" id="{bc0a049e-ae0b-4c10-b1d7-909cec958099}" order="3" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

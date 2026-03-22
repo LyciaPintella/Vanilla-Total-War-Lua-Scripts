@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_asy_kneels.csc" version="23" id="{03e256c2-dcad-4f28-aad7-1e1c9866e485}" name="nin_asy_kneels.kfcs">
+ <VECTOR unique_id="{8949b563-a629-4c08-ba64-dbb24d3e061b}" id="{8949b563-a629-4c08-ba64-dbb24d3e061b}" name="position" is_linked="0" link_id="-1" surface_mode="Freeform">
+  <DOUBLE hidden="false" single_keyframe_only="1" order="0" id="{aaf2802f-a9b5-4d59-addd-c3167e3d928c}" name="X" default="0" animated="0">
+   <KEYFRAME data="927.8325805664062" time="-1"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" order="1" id="{bb9d3f4d-0fca-45cd-88e5-3c15067e4565}" name="Y" default="0" animated="0">
+   <KEYFRAME data="0.7185087203979492" time="-1"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" order="2" id="{4efcd9b1-577d-4596-936a-7919465623d6}" name="Z" default="0" animated="0">
+   <KEYFRAME data="932.1497192382812" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{6b566a94-633f-4944-b01a-6e552bcbfd65}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" order="0" id="{0c6acc40-54bb-48f7-a7e6-42d09eef2fbb}" name="X" default="0" animated="0"/>
+  <RADIAN hidden="false" single_keyframe_only="1" order="1" id="{7963db76-c90b-4ec2-8269-5fe640713c72}" name="Y" default="0" animated="0">
+   <KEYFRAME data="3.842041015625" time="-1"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" order="2" id="{07918a7d-09c2-4772-bd0e-75ad609d0068}" name="Z" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" user_friendy_name="Scale" single_keyframe_only="1" order="2" id="{e4b02158-435d-480a-9fef-f82d283fe165}" name="scale" default="1" animated="0"/>
+ <BOOL hidden="false" user_friendy_name="Active" single_keyframe_only="0" order="3" id="{c1de704f-0c72-440c-9d4a-030c5b82a847}" name="active" default="0" animated="1">
+  <KEYFRAME data="1" time="53.50000381469727"/>
+ </BOOL>
+ <DOUBLE hidden="false" user_friendy_name="Speed Multiplier" single_keyframe_only="0" order="4" id="{384f3442-45cd-4cc8-a60e-be66f87314d2}" name="speed_multiplier" default="1" animated="1"/>
+</COMPOSITE_SCENE_FILE>

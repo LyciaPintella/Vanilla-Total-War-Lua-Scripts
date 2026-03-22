@@ -1,0 +1,30 @@
+<PROP_FILE id="{0094c831-9175-4aa9-9989-23ad5f4e9bd6}" prop_name="vfx/models/phar_house_fire_inner_fast_01.wsmodel" version="23" name="fire03.kfp">
+ <VECTOR unique_id="{bd3d574d-ed0a-4234-b018-dcba0dec8d12}" is_linked="0" surface_mode="Freeform" id="{bd3d574d-ed0a-4234-b018-dcba0dec8d12}" link_id="0" name="position">
+  <DOUBLE order="0" id="{ca4a6795-8de6-40c2-9048-341d9503f2ac}" hidden="false" single_keyframe_only="1" animated="0" name="X" default="0">
+   <KEYFRAME time="0" data="377.6767272949219"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{0b4a3f43-1ad9-4ba2-b9ca-b1cfe2e2a905}" hidden="false" single_keyframe_only="1" animated="0" name="Y" default="0">
+   <KEYFRAME time="0" data="-0.7385854721069336"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{21ba22a3-2d1d-41dd-8074-0721c09c48f2}" hidden="false" single_keyframe_only="1" animated="0" name="Z" default="0">
+   <KEYFRAME time="0" data="901.4275512695312"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d9e89f98-5b37-4b49-b2b8-fd62b6f3a8f8}" name="rotation">
+  <RADIAN order="0" id="{7e3a550c-356a-42a3-ada9-28cf7c19fbc3}" hidden="false" single_keyframe_only="1" animated="0" name="X" default="0">
+   <KEYFRAME time="0" data="7.069671710269176e-7"/>
+  </RADIAN>
+  <RADIAN order="1" id="{2eefc71e-5652-4db8-806d-19acabfce82d}" hidden="false" single_keyframe_only="1" animated="0" name="Y" default="0">
+   <KEYFRAME time="0" data="0.4780508279800415"/>
+  </RADIAN>
+  <RADIAN order="2" id="{6dc47795-6439-42a7-9497-71289c558b3d}" hidden="false" single_keyframe_only="1" animated="0" name="Z" default="0">
+   <KEYFRAME time="0" data="-0.06957413256168365"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="1" id="{d4932080-6d51-4d1e-818f-1d59263a1d47}" hidden="false" single_keyframe_only="1" animated="0" name="scale" default="1">
+  <KEYFRAME time="0" data="0.5"/>
+ </DOUBLE>
+ <BOOL order="3" id="{5ea64f75-9b8c-4208-b597-fe88d965c713}" hidden="false" single_keyframe_only="1" animated="0" name="always visible" default="0">
+  <KEYFRAME time="0" data="1"/>
+ </BOOL>
+</PROP_FILE>

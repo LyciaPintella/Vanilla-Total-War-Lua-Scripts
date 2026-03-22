@@ -1,0 +1,14 @@
+<SCENE_FILE start_record_time="10.00000052154064" end_record_time="29.36666819825768" perspective_camera="362.677,2.66478,409.82:365.817,-1.22624,416.89" name="flyby_test.CindyScene" id="{29f57f36-8dff-4119-bddd-1bdc67880d71}" version="23">
+ <ENVIRONMENT order="0" hidden="false" data="Weather/default.environment" name="Environment" id="{3c7fa268-13af-4c8c-84c4-c57631530e64}"/>
+ <VECTOR unique_id="{b3f55557-c003-487c-bb38-44caa7da227f}" name="position" is_linked="0" link_id="-1" surface_mode="Freeform" id="{b3f55557-c003-487c-bb38-44caa7da227f}">
+  <DOUBLE order="0" hidden="false" name="X" id="{de6e00fe-8f3d-4c4d-bcd4-af829ede51af}" animated="1" default="0" single_keyframe_only="1"/>
+  <DOUBLE order="1" hidden="false" name="Y" id="{71a7b89f-129a-43bf-91ee-9c5251a651c6}" animated="1" default="0" single_keyframe_only="1"/>
+  <DOUBLE order="2" hidden="false" name="Z" id="{267d973e-637e-4a3c-88d1-f027c62959cc}" animated="1" default="0" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{313023d9-3cbf-4f6a-81c4-58ef95d6d434}">
+  <RADIAN order="0" hidden="false" name="X" id="{2e759415-c534-4299-ab77-71e28c14167f}" animated="1" default="0" single_keyframe_only="1"/>
+  <RADIAN order="1" hidden="false" name="Y" id="{dfd70fd9-47c5-446b-91dd-1b1e312180a8}" animated="1" default="0" single_keyframe_only="1"/>
+  <RADIAN order="2" hidden="false" name="Z" id="{2359600a-c5ad-431f-9eae-2ad4a85f6f72}" animated="1" default="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{374e1a27-dfde-4cef-b7f6-e904d27867f1}"/>
+</SCENE_FILE>

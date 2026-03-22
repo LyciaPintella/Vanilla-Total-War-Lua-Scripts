@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_set_vs_gen.csc" id="{95392e22-7914-4f48-8749-203b9bd4c416}" version="23" name="seti_vs_gen.kfcs">
+ <VECTOR link_id="0" unique_id="{13c3d741-aeda-4e33-b212-31002b2af068}" id="{13c3d741-aeda-4e33-b212-31002b2af068}" name="position" is_linked="0" surface_mode="Freeform">
+  <DOUBLE animated="0" default="0" order="0" id="{a023be05-9181-4fac-8ad4-3fda6b8909c9}" single_keyframe_only="1" name="X" hidden="false">
+   <KEYFRAME time="0" data="524.8599853515625"/>
+  </DOUBLE>
+  <DOUBLE animated="0" default="0" order="1" id="{8589d958-d64f-4c0d-b117-cb100e25841e}" single_keyframe_only="1" name="Y" hidden="false">
+   <KEYFRAME time="0" data="2.9934444427490234"/>
+  </DOUBLE>
+  <DOUBLE animated="0" default="0" order="2" id="{8fbaad10-7448-4bfe-8c81-3c315b8d6ec0}" single_keyframe_only="1" name="Z" hidden="false">
+   <KEYFRAME time="0" data="502.28240966796875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{2d8e90f7-dd4a-4e5a-a712-44968f2f2dbb}" name="rotation">
+  <RADIAN animated="0" default="0" order="0" id="{b3dc296e-962e-4627-83e8-186ebef01a85}" single_keyframe_only="1" name="X" hidden="false"/>
+  <RADIAN animated="0" default="0" order="1" id="{2e8601e9-325a-4d74-9a3d-2810ae53800a}" single_keyframe_only="1" name="Y" hidden="false">
+   <KEYFRAME time="0" data="0.5331528186798096"/>
+  </RADIAN>
+  <RADIAN animated="0" default="0" order="2" id="{1f35a022-1c52-4958-8db9-b768c0cebd07}" single_keyframe_only="1" name="Z" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" user_friendy_name="Scale" default="1" order="2" id="{6dfcdb4b-ec0b-49d0-a343-67cfa793ad44}" single_keyframe_only="1" name="scale" hidden="false"/>
+ <BOOL animated="1" user_friendy_name="Active" default="0" order="3" id="{b5e98777-1021-4b6a-88c8-297ebb619bcf}" single_keyframe_only="0" name="active" hidden="false">
+  <KEYFRAME time="39.00000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE animated="1" user_friendy_name="Speed Multiplier" default="1" order="4" id="{0c94cbda-c968-431f-8bf7-da4411f26069}" single_keyframe_only="0" name="speed_multiplier" hidden="false"/>
+</COMPOSITE_SCENE_FILE>

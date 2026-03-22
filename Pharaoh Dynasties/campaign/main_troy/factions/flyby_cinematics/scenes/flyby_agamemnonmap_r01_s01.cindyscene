@@ -1,0 +1,32 @@
+<SCENE_FILE id="{dfc2c1c6-6e80-4d67-b556-0462fa4bb155}" start_record_time="0" version="23" perspective_camera="242.88,11.2665,196.758:239.334,0.627962,210.425" end_record_time="84.00000438094139" name="flyby_agamemnonmap_r01_s01.CindyScene">
+ <ENVIRONMENT data="" id="{84d2d7cf-3233-4628-ad52-ab1b400975b1}" hidden="false" name="Environment" order="0"/>
+ <VECTOR id="{5ee174e6-491a-4593-a4b2-4a591c9cc409}" is_linked="0" surface_mode="Freeform" link_id="0" unique_id="{5ee174e6-491a-4593-a4b2-4a591c9cc409}" name="position">
+  <DOUBLE default="0" animated="1" single_keyframe_only="1" id="{5e8c2dcb-6739-4b73-a72f-e527dcdc5616}" hidden="false" name="X" order="0"/>
+  <DOUBLE default="0" animated="1" single_keyframe_only="1" id="{a58cf01c-d0ce-4d16-bafc-66adb61ad6ed}" hidden="false" name="Y" order="1"/>
+  <DOUBLE default="0" animated="1" single_keyframe_only="1" id="{2005add5-5ed9-400e-87ff-0347f6c7b6da}" hidden="false" name="Z" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES id="{03213aec-61a9-48c4-8d4a-11c802abcc85}" name="rotation">
+  <RADIAN default="0" animated="1" single_keyframe_only="1" id="{2cb9d329-f315-4886-969d-dab70486c7aa}" hidden="false" name="X" order="0"/>
+  <RADIAN default="0" animated="1" single_keyframe_only="1" id="{50339fd3-de2b-4155-b35e-e8a66a58288e}" hidden="false" name="Y" order="1"/>
+  <RADIAN default="0" animated="1" single_keyframe_only="1" id="{9f3f448e-1f52-4611-9f5b-8ff085f9e442}" hidden="false" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <NODE id="{6de7f4f4-8917-43e0-9597-830a1da54d2a}" name="Links"/>
+ <NODE id="{20514489-cc1c-49c5-9407-82debbdb4fd8}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{7192f10e-26d6-4a2b-87c9-c84df9b344a3}" warscape_properties_file="../cameras/flyby_cam_agamemnon.xml" name="flyby_cam_agamemnon.xml"/>
+ </NODE>
+ <NODE id="{90670b86-12fc-48db-8a00-520986625049}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{f7151b99-0f08-430f-b57e-2552613062c2}" composite_scene_file="../csc_ref/aeneashero01.kfcs" name="aeneashero01.kfcs"/>
+  <COMPOSITE_SCENE id="{f94a7be4-63b5-4067-8f09-4ba449dc54e1}" composite_scene_file="../csc_ref/agamemnon.kfcs" name="agamemnon.kfcs"/>
+  <COMPOSITE_SCENE id="{7caf651b-6150-49e3-a8d2-acdd93bb908f}" composite_scene_file="../csc_ref/menelaus.kfcs" name="menelaus.kfcs"/>
+  <COMPOSITE_SCENE id="{e22ed31c-a78d-4c2f-a812-ef11e25c4904}" composite_scene_file="../csc_ref/paris_helen_hector01.kfcs" name="paris_helen_hector01.kfcs"/>
+ </NODE>
+ <NODE id="{7a96961b-a954-4d9c-8208-ec54a7e45917}" name="Audio Events">
+  <AUDIO_EVENT id="{aa06879a-e657-4341-bd24-9c9831f4a15e}" audio_event_file="../audio/agamemnon01.kfa" name="agamemnon01.kfa"/>
+  <AUDIO_EVENT id="{cfce447d-6faa-448c-9e51-b4475822394c}" audio_event_file="../audio/agamemnon02.kfa" name="agamemnon02.kfa"/>
+  <AUDIO_EVENT id="{3b38f44b-eefd-4bba-9cb1-992de97c2d71}" audio_event_file="../audio/agamemnon03.kfa" name="agamemnon03.kfa"/>
+  <AUDIO_EVENT id="{9921fd9a-a0d9-4fe6-a0d8-19a071648ea5}" audio_event_file="../audio/agamemnon04.kfa" name="agamemnon04.kfa"/>
+  <AUDIO_EVENT id="{b1d1d108-3ebb-4657-9bfb-1875cf43af63}" audio_event_file="../audio/agamemnon05.kfa" name="agamemnon05.kfa"/>
+  <AUDIO_EVENT id="{ffe4991c-cf5b-4ec4-b344-786b6e97d6da}" audio_event_file="../audio/agamemnon06.kfa" name="agamemnon06.kfa"/>
+  <AUDIO_EVENT id="{5216e6e9-e884-443d-90aa-0b9156c2fcea}" audio_event_file="../audio/agamemnon07.kfa" name="agamemnon07.kfa"/>
+ </NODE>
+</SCENE_FILE>

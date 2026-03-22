@@ -1,0 +1,8 @@
+<NOISE_FILE id="{89d0c7c0-df24-4630-922b-4258daba2602}" name="cerb_cam shake.xml" version="23">
+ <DOUBLE single_keyframe_only="1" hidden="false" animated="0" order="0" user_friendy_name="Amplitude" id="{7bf7c244-ada2-4547-b494-207ffcfd3389}" name="amplitude" default="20"/>
+ <DOUBLE single_keyframe_only="1" hidden="false" animated="0" order="1" user_friendy_name="Frequency" id="{11b73285-f48f-4b53-bbd0-d2e215b371a6}" name="frequency" default="5"/>
+ <INT single_keyframe_only="0" hidden="false" animated="1" order="2" user_friendy_name="Number of Octaves" id="{8c515e16-06d0-4489-bf02-efbf03f1feec}" name="number_of_octaves" default="3"/>
+ <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="3" user_friendy_name="Offset" id="{eda6b897-c322-4732-824c-84c336b875d5}" name="offset" default="10"/>
+ <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="4" user_friendy_name="Persistence" id="{baaba158-b5a1-4d9d-8400-7cf16ad39e00}" name="persistence" default="0.5"/>
+ <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="5" user_friendy_name="Lacunarity" id="{5d4703b6-c2e3-4c77-b841-0009712f291a}" name="lacunarity" default="2"/>
+</NOISE_FILE>

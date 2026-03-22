@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_can_vs_hit.csc" version="23" name="can_vs_hit.kfcs" id="{3cb2ed97-adf4-48a3-820e-349fc8f6881e}">
+ <VECTOR is_linked="0" unique_id="{d7b4fdb8-ed79-4853-8023-9088dc455266}" link_id="0" name="position" surface_mode="Freeform" id="{d7b4fdb8-ed79-4853-8023-9088dc455266}">
+  <DOUBLE order="0" animated="0" hidden="false" single_keyframe_only="1" name="X" default="0" id="{39fc3b44-298f-478a-80e9-105287a1eccb}">
+   <KEYFRAME data="777.75" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" animated="0" hidden="false" single_keyframe_only="1" name="Y" default="0" id="{41054b6c-b9bf-42f8-891e-f509a0752f3a}">
+   <KEYFRAME data="5.0623884201049805" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" animated="0" hidden="false" single_keyframe_only="1" name="Z" default="0" id="{55491f02-5750-4d52-90df-04068dbd7d6b}">
+   <KEYFRAME data="876.2593383789062" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{88312f88-2316-455e-8fe0-73a7d81b88f9}">
+  <RADIAN order="0" animated="0" hidden="false" single_keyframe_only="1" name="X" default="0" id="{5c176158-aa62-482a-ad01-a2b8dee6e3da}"/>
+  <RADIAN order="1" animated="0" hidden="false" single_keyframe_only="1" name="Y" default="0" id="{d6142422-13f2-40f6-919b-e97d6f9d040d}">
+   <KEYFRAME data="0.7300943732261658" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" animated="0" hidden="false" single_keyframe_only="1" name="Z" default="0" id="{22b4c059-5400-42a4-83d6-f38d50a9701b}"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" animated="0" hidden="false" single_keyframe_only="1" name="scale" user_friendy_name="Scale" default="1" id="{0f030edf-70da-4bec-b941-a612eb3d1c32}"/>
+ <BOOL order="3" animated="1" hidden="false" single_keyframe_only="0" name="active" user_friendy_name="Active" default="0" id="{34c00b6d-aef9-4eb8-8971-8fec3de5beca}">
+  <KEYFRAME data="1" time="20.00000190734863"/>
+ </BOOL>
+ <DOUBLE order="4" animated="1" hidden="false" single_keyframe_only="0" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" id="{e7e691a2-482c-45f6-88ba-e83b882ddf95}">
+  <KEYFRAME data="1" time="20.66666793823242"/>
+  <KEYFRAME data="1" time="35"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,20 @@
+<SCENE_FILE end_record_time="47.00000245124102" id="{a24ef350-92a2-419a-8dfd-0dd0f3bf9767}" start_record_time="2.000000104308128" name="hector02.CindyScene" version="23" perspective_camera="4.88065,26.2156,128.294:13.0402,21.2881,145.876">
+ <ENVIRONMENT hidden="false" data="projects/battles_flyovers/weahter/troy_generic_10_lo_k.environment" id="{2ac64bd3-41d5-4fb1-abd9-5d2383343733}" order="0" name="Environment"/>
+ <VECTOR link_id="0" unique_id="{144761d7-3c42-47fa-b6bf-712cc492e397}" id="{144761d7-3c42-47fa-b6bf-712cc492e397}" surface_mode="Freeform" name="position" is_linked="0">
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{6ee41570-2836-4e2f-8d77-819027dc6ee1}" order="0" name="X" default="0" animated="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{ffa8c7d5-a491-433d-9bf0-d20cddb38ebd}" order="1" name="Y" default="0" animated="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="1" id="{c9f9ecaf-6701-4804-99f6-0a42be9f1839}" order="2" name="Z" default="0" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{41adb625-02ed-4590-8b33-3b50765cae6c}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" id="{2b98f252-5fcf-43c7-ad71-084395b74630}" order="0" name="X" default="0" animated="1"/>
+  <RADIAN hidden="false" single_keyframe_only="1" id="{c8b638c0-5482-4bb6-8158-21853ca18b27}" order="1" name="Y" default="0" animated="1"/>
+  <RADIAN hidden="false" single_keyframe_only="1" id="{8e63ca93-afa6-486c-83e3-01a0498e2972}" order="2" name="Z" default="0" animated="1"/>
+ </ROTATION_AXES>
+ <NODE id="{b13aa823-1372-4e69-8917-0cbf76f7f912}" name="Links"/>
+ <NODE id="{28404f00-f4da-48be-a6dd-c75e645a1c62}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{0f22cc2e-86b7-4e58-902d-832de1c3b217}" name="Hector_Epic_Shout01.kfcs" composite_scene_file="../csc_ref/Hector_Epic_Shout01.kfcs"/>
+ </NODE>
+ <NODE id="{b5073713-9195-4f7a-ac4a-882d8bd745f9}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{0d99e7b4-e117-4076-b59f-9f843b353829}" name="Hec_BattleIntroCam02.xml" warscape_properties_file="../cameras/Hec_BattleIntroCam02.xml"/>
+ </NODE>
+</SCENE_FILE>

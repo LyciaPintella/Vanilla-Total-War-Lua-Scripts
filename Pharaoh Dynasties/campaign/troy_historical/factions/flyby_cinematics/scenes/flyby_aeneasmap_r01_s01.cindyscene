@@ -1,0 +1,45 @@
+<SCENE_FILE perspective_camera="371.409,3.73146,428.2:374.488,0.328342,432.677" end_record_time="95.0000049546361" id="{a60fcd3e-67cd-422f-a9c6-dd4062dc4559}" start_record_time="0" name="flyby_aeneasmap_r01_s01.CindyScene" version="23">
+ <ENVIRONMENT hidden="false" id="{90b6e0b0-e14b-4e5e-b7ca-4cf13e943f8d}" name="Environment" order="0" data=""/>
+ <VECTOR is_linked="0" unique_id="{2db722fc-f722-4881-82a2-ac0f073c954d}" surface_mode="Freeform" id="{2db722fc-f722-4881-82a2-ac0f073c954d}" link_id="0" name="position">
+  <DOUBLE hidden="false" default="0" id="{e6fc1ea2-ded7-4c69-a844-b6904e3ea3a3}" name="X" animated="1" order="0" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" id="{03eb943b-1981-47ac-af49-d92bddc3465e}" name="Y" animated="1" order="1" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" id="{0b8b5e27-5bf7-4117-9e46-b39f6a255c5c}" name="Z" animated="1" order="2" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{243a7cfa-17bb-45cb-9134-de78940248fa}" name="rotation">
+  <RADIAN hidden="false" default="0" id="{fb33e14c-6f76-4cf5-900b-e3d924a89079}" name="X" animated="1" order="0" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" id="{2b2fa93f-ff75-4d47-89ee-c78825950eda}" name="Y" animated="1" order="1" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" id="{404df919-ff56-47f4-8bbe-470de1764e8f}" name="Z" animated="1" order="2" single_keyframe_only="1">
+   <KEYFRAME time="11.76667594909668" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{a9444526-e978-4e93-88eb-a6a47dc2f853}" name="Links"/>
+ <NODE id="{13d6bb25-4107-4f89-8371-fe2c0bec8b51}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{2d14b5c4-b128-43a3-a191-282f8a734d71}" name="flyby_cam_aeneas.xml" warscape_properties_file="../cameras/flyby_cam_aeneas.xml"/>
+ </NODE>
+ <NODE id="{a5b3fdc3-021b-4505-86d6-81a9c7790ff6}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{fdebcf47-2d95-4f43-8b15-3a288002ba04}" composite_scene_file="../csc_ref/aeneashero05.kfcs" name="aeneashero05.kfcs"/>
+  <COMPOSITE_SCENE id="{f144da54-5456-4b64-9e6b-614583c01cb3}" composite_scene_file="../csc_ref/paris_helen_hector05.kfcs" name="paris_helen_hector05.kfcs"/>
+  <COMPOSITE_SCENE id="{99413478-4857-4852-971b-6957bc932ef6}" composite_scene_file="../csc_ref/menelaus04.kfcs" name="menelaus04.kfcs"/>
+ </NODE>
+ <NODE id="{921da2eb-3f41-43ef-ae00-0a4f01bc762c}" name="Audio Events">
+  <AUDIO_EVENT id="{6fbdfa2f-a85f-4e23-b88d-a98d6e9b0729}" audio_event_file="../audio/aeneas01.kfa" name="aeneas01.kfa"/>
+  <AUDIO_EVENT id="{d44993c5-2a2f-4c65-a5c8-28325c12eb3e}" audio_event_file="../audio/aeneas02.kfa" name="aeneas02.kfa"/>
+  <AUDIO_EVENT id="{c3d8261d-4b05-4631-a440-717f2eb65bdc}" audio_event_file="../audio/aeneas03.kfa" name="aeneas03.kfa"/>
+  <AUDIO_EVENT id="{57cd39b4-3b04-4211-91d5-a2e2cbda55fe}" audio_event_file="../audio/aeneas04.kfa" name="aeneas04.kfa"/>
+  <AUDIO_EVENT id="{8b397fe6-f2f4-4290-b93d-3c140086e5e7}" audio_event_file="../audio/aeneas05.kfa" name="aeneas05.kfa"/>
+  <AUDIO_EVENT id="{ab6279f6-e190-423e-9c1a-c229615c4713}" audio_event_file="../audio/aeneas06.kfa" name="aeneas06.kfa"/>
+  <AUDIO_EVENT id="{7ac40225-17e7-4856-956f-d0df32270c37}" audio_event_file="../audio/aeneas07.kfa" name="aeneas07.kfa"/>
+  <AUDIO_EVENT id="{b3c5e30d-b8ec-44f8-87bb-738eb3618b8e}" audio_event_file="../audio/aeneas08.kfa" name="aeneas08.kfa"/>
+  <AUDIO_EVENT id="{78164c81-4d52-462f-b7b2-4a20d6989f63}" audio_event_file="../audio/aeneas09.kfa" name="aeneas09.kfa"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/phar/campaign_cinematic/phar_camp_pri_tro_talk.csc" id="{96f592dc-2a89-4173-bac4-0c47464562f7}" name="pri_tro_talk.kfcs" version="23">
+ <VECTOR is_linked="0" surface_mode="Freeform" link_id="0" unique_id="{3e5e3a4e-04bb-43fc-83ae-a446b0c99647}" id="{3e5e3a4e-04bb-43fc-83ae-a446b0c99647}" name="position">
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{33c315ab-9a59-44a7-98e5-654323c6cf47}" name="X" order="0">
+   <KEYFRAME data="281.642822265625" time="0"/>
+  </DOUBLE>
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{f2e44c1d-bc11-4a21-9ae4-4ff70a313fb3}" name="Y" order="1">
+   <KEYFRAME data="0.29774951934814453" time="0"/>
+  </DOUBLE>
+  <DOUBLE animated="0" hidden="false" single_keyframe_only="1" default="0" id="{f289e429-d02a-4bda-8c79-3fedd996249d}" name="Z" order="2">
+   <KEYFRAME data="1121.3162841796875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d28cd333-c218-4df0-9601-807eb47a0025}" name="rotation">
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{faaf352b-348a-408b-ae52-e260969305b3}" name="X" order="0"/>
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{2804ddc7-5871-4197-803d-19451dd27086}" name="Y" order="1">
+   <KEYFRAME data="4.271388530731201" time="0"/>
+  </RADIAN>
+  <RADIAN animated="0" hidden="false" single_keyframe_only="1" default="0" id="{881ff66a-2b38-47b7-904b-21d3475a72b2}" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" default="1" id="{f14bc4c3-e2ac-4304-a27d-4ec3c3f06b7c}" name="scale" order="2"/>
+ <BOOL animated="1" user_friendy_name="Active" hidden="false" single_keyframe_only="0" default="0" id="{3c283387-10e8-476f-90bc-ab2618599c03}" name="active" order="3">
+  <KEYFRAME data="1" time="12.03333377838135"/>
+  <KEYFRAME data="1" time="21.96666717529297"/>
+ </BOOL>
+ <DOUBLE animated="1" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" default="1" id="{0f2480c7-3a66-4924-b629-f9c1c186b7d3}" name="speed_multiplier" order="4"/>
+</COMPOSITE_SCENE_FILE>

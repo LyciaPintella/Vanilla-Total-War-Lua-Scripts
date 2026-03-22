@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/troy/campaign_cinematic/cerberus_quest_btl.csc" name="cerberus_custom.kfcs" id="{0943a2ce-9212-44a9-9b54-ace7e6b0add0}" version="23">
+ <VECTOR link_id="0" name="position" is_linked="0" unique_id="{8ce4f72b-955c-462b-8222-ff2998fbe144}" id="{8ce4f72b-955c-462b-8222-ff2998fbe144}" surface_mode="Freeform">
+  <DOUBLE default="0" order="0" name="X" animated="0" hidden="false" single_keyframe_only="1" id="{2d97ce83-67ca-4574-bd29-fda442acad85}">
+   <KEYFRAME time="0.997503399848938" handle1_x="0.997503" handle2_x="0.997503" data="-6.700818061828613" handle1_type="SMOOTH" handle1_y="-6.70082" handle2_y="-6.70082" handle2_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" name="Y" animated="0" hidden="false" single_keyframe_only="1" id="{14a6ec10-2a1b-4af4-9c3c-5d6d6a5c5ce2}">
+   <KEYFRAME time="0.997503399848938" handle1_x="0.997503" handle2_x="0.997503" data="393.40185546875" handle1_type="SMOOTH" handle1_y="393.402" handle2_y="393.402" handle2_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" name="Z" animated="0" hidden="false" single_keyframe_only="1" id="{f0858b27-463c-4007-8d3f-1e94bd72b5a6}">
+   <KEYFRAME time="0.997503399848938" handle1_x="0.997503" handle2_x="0.997503" data="296.6477966308594" handle1_type="SMOOTH" handle1_y="296.648" handle2_y="296.648" handle2_type="SMOOTH"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{9642d322-1951-496a-9811-4cbd9d25acd6}">
+  <RADIAN default="0" order="0" name="X" animated="0" hidden="false" single_keyframe_only="1" id="{3c53a738-8309-44c9-a612-c7e89ce1601d}"/>
+  <RADIAN default="0" order="1" name="Y" animated="0" hidden="false" single_keyframe_only="1" id="{e8633e50-7fe7-412a-adef-a7ab46882d0b}">
+   <KEYFRAME time="0.997503399848938" handle1_x="0.997503" handle2_x="0.997503" data="3.1415927410125732" handle1_type="SMOOTH" handle1_y="180" handle2_y="180" handle2_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" name="Z" animated="0" hidden="false" single_keyframe_only="1" id="{7ebbd559-70d6-47e6-a54f-3494b1d31a29}"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" order="2" name="scale" user_friendy_name="Scale" animated="0" hidden="false" single_keyframe_only="1" id="{178eb739-9a64-45d0-b0e6-5904f6aea55f}"/>
+ <BOOL default="0" order="3" name="active" user_friendy_name="Active" animated="1" hidden="false" single_keyframe_only="0" id="{ee81b922-e79a-406c-8020-76acc9fa83a0}">
+  <KEYFRAME time="17.19751358032227" data="1"/>
+  <KEYFRAME time="91.99997711181641" data="0"/>
+ </BOOL>
+ <DOUBLE default="1" order="4" name="speed_multiplier" user_friendy_name="Speed Multiplier" animated="1" hidden="false" single_keyframe_only="0" id="{25d36358-f405-424d-bf58-190adc69d70e}"/>
+</COMPOSITE_SCENE_FILE>

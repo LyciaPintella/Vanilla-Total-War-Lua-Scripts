@@ -1,0 +1,49 @@
+<SCENE_FILE end_record_time="157.0000081881881" name="phar_camp_flyby_wal_r01_s01.CindyScene" perspective_camera="214.716,25.3906,1161.22:223.286,11.251,1172.48" id="{8ca13c2a-c35d-414e-ae18-e36951082bd9}" start_record_time="0" version="23">
+ <ENVIRONMENT order="0" hidden="false" name="Environment" id="{64fdeeb3-f218-4bd1-8db9-4811391083fb}" data=""/>
+ <VECTOR link_id="0" unique_id="{3ba2d2fd-fede-4501-b2c0-6536aff0c5d7}" is_linked="0" surface_mode="Freeform" name="position" id="{3ba2d2fd-fede-4501-b2c0-6536aff0c5d7}">
+  <DOUBLE animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{aee1d034-33ac-4fd5-9ee3-3dfe5c3412fb}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{77ae85cb-8a70-4e0b-bdb9-bc705a00379a}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{b13e5762-213b-4004-9bca-f1ea371ac9fe}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{5340e306-caa2-4263-8925-db02ae81551d}">
+  <RADIAN animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{0ef91700-254a-490b-affb-3113c9aabc28}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{cb560d23-2498-49f7-993e-a4929e414dde}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{3e04031e-c825-4e6e-829a-078f7d43f4f2}" default="0">
+   <KEYFRAME time="14.99999523162842" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{d047064f-3345-4459-aebf-6b195ee6bdf8}"/>
+ <NODE name="Warscape Properties" id="{d95429fb-f0ec-4c9e-bc84-1f9af42b7d59}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_wal.xml" id="{af6a8aeb-7854-406f-be3d-9eb1bcbec925}" warscape_properties_file="../cameras/flyby_cam_wal.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{38818783-06eb-4370-b407-7977c041dfbd}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/wal_idle.kfcs" name="wal_idle.kfcs" id="{33962165-44ee-4aa3-a0f9-2798d7ea3495}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/can_muster.kfcs" name="can_muster.kfcs" id="{d4210301-425c-4442-80ef-f23f936d0d3c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/wal_ships.kfcs" name="wal_ships.kfcs" id="{b3cbf961-73e9-4ee2-a61e-f910e711a2c8}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ram_fights.kfcs" name="ram_fights.kfcs" id="{0d7f394d-cd30-423d-aa8b-03d69433a8d7}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/wal_can_talk.kfcs" name="wal_can_talk.kfcs" id="{6adee05c-d413-4f3a-93d5-ef314fbc6024}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/pel_village.kfcs" name="pel_village.kfcs" id="{0c21d4f0-c44b-4c51-b0a8-cd059774fb49}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/pel_village01.kfcs" name="pel_village01.kfcs" id="{37310d92-df26-4300-95cd-e76422584211}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/can_walk.kfcs" name="can_walk.kfcs" id="{4ef5db9a-6805-4448-901e-a56358c987ca}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{0757f3fb-d4f2-4921-a6f6-54fe9d7736f9}">
+  <AUDIO_EVENT name="wal_01.kfa" id="{d7e9ad14-e87f-442c-8ae4-a0776a5f847c}" audio_event_file="../audio/wal_01.kfa"/>
+  <AUDIO_EVENT name="wal_02.kfa" id="{7cb4c369-33ae-4695-8770-933a47355769}" audio_event_file="../audio/wal_02.kfa"/>
+  <AUDIO_EVENT name="wal_03.kfa" id="{26387020-82b3-499c-be5a-cbe7b6f5ef89}" audio_event_file="../audio/wal_03.kfa"/>
+  <AUDIO_EVENT name="wal_04.kfa" id="{7776b034-d6c2-4030-8837-db2495fff0fc}" audio_event_file="../audio/wal_04.kfa"/>
+  <AUDIO_EVENT name="wal_05.kfa" id="{e4e25b9a-08bf-4ebe-98f7-224b93c27fa7}" audio_event_file="../audio/wal_05.kfa"/>
+  <AUDIO_EVENT name="wal_06.kfa" id="{1b7118ed-5fa4-4aa1-a686-3351aede9578}" audio_event_file="../audio/wal_06.kfa"/>
+  <AUDIO_EVENT name="wal_07.kfa" id="{2975f288-9d17-404f-932b-e97e0d64ae06}" audio_event_file="../audio/wal_07.kfa"/>
+  <AUDIO_EVENT name="wal_08.kfa" id="{7d4560ef-178b-46ae-a8d1-58ab489b71fe}" audio_event_file="../audio/wal_08.kfa"/>
+ </NODE>
+</SCENE_FILE>

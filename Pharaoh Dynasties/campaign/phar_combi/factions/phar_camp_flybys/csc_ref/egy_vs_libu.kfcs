@@ -1,0 +1,23 @@
+<COMPOSITE_SCENE_FILE version="23" id="{920c546e-9acb-4167-a8cb-a45bf044437d}" name="egy_vs_libu.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_egy_vs_libu.csc">
+ <VECTOR link_id="-1" surface_mode="Freeform" id="{d86ce33d-0373-4d92-982c-2a95ed69a8ae}" unique_id="{d86ce33d-0373-4d92-982c-2a95ed69a8ae}" name="position" is_linked="0">
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="0" id="{25ccd3bc-86cf-4570-a62e-ff9c5fb34922}" name="X">
+   <KEYFRAME data="334.568603515625" time="-1"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="1" id="{a1b39d6e-ef3b-4096-a199-77057eedba15}" name="Y">
+   <KEYFRAME data="2.107557773590088" time="-1"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" single_keyframe_only="1" animated="0" order="2" id="{72ce6605-dbb1-4951-86b2-9c07eda8f112}" name="Z">
+   <KEYFRAME data="511.2538146972656" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{7a5614de-bff6-48a5-94ff-f0078628881f}" name="rotation">
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="0" id="{36591a6f-67ef-4c1d-91d0-695b2139c691}" name="X"/>
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="1" id="{365aaf2c-2075-4d20-a474-7f0a29a1ac68}" name="Y"/>
+  <RADIAN hidden="false" default="0" single_keyframe_only="1" animated="0" order="2" id="{be16864b-bd81-4788-993a-d2140da0514b}" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" default="1" single_keyframe_only="1" animated="0" order="2" user_friendy_name="Scale" id="{ddecdb21-94b6-42b7-8765-664a488e0728}" name="scale"/>
+ <BOOL hidden="false" default="0" single_keyframe_only="0" animated="1" order="3" user_friendy_name="Active" id="{208f6579-a588-440a-baf6-ef4b80738e34}" name="active">
+  <KEYFRAME data="1" time="64"/>
+ </BOOL>
+ <DOUBLE hidden="false" default="1" single_keyframe_only="0" animated="1" order="4" user_friendy_name="Speed Multiplier" id="{5d227792-ba0d-48fe-8e51-7789e01666a1}" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

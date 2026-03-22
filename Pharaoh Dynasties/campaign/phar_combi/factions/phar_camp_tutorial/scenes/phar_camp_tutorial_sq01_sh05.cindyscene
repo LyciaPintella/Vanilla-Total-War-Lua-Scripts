@@ -1,0 +1,29 @@
+<SCENE_FILE id="{b4eedfb5-23df-4a29-9065-94d73842849e}" start_record_time="0" end_record_time="18.00000093877316" perspective_camera="457.956,36.8683,726.994:456.592,30.6359,732.85" name="phar_camp_tutorial_sq01_sh05.CindyScene" version="23">
+ <ENVIRONMENT id="{a6ddb5cf-701e-414f-9342-8dc227003452}" order="0" hidden="false" data="weather/campaign/prosperity/midday_prosperity.environment" name="Environment"/>
+ <VECTOR id="{1c058684-bc59-48cd-83b5-a4d1a5f790ef}" link_id="0" surface_mode="Freeform" is_linked="0" unique_id="{1c058684-bc59-48cd-83b5-a4d1a5f790ef}" name="position">
+  <DOUBLE id="{af870a12-46f4-42e5-bf43-1040e7164f39}" default="0" order="0" hidden="false" animated="1" single_keyframe_only="1" name="X">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{d0582691-815c-4201-b10e-14b4d9f49e6d}" default="0" order="1" hidden="false" animated="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE id="{fcaab766-a018-4597-ba15-4dd17089e3ca}" default="0" order="2" hidden="false" animated="1" single_keyframe_only="1" name="Z">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{5313a3f0-a5ad-44ab-8807-79af5ea60a84}" name="rotation">
+  <RADIAN id="{978806c7-7ae2-483e-98ea-24b9caad4b46}" default="0" order="0" hidden="false" animated="1" single_keyframe_only="1" name="X">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN id="{4b02a95d-36f1-4832-8f1b-2a8f90a5bd0f}" default="0" order="1" hidden="false" animated="1" single_keyframe_only="1" name="Y">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN id="{9cbaa46e-5a80-4fe2-8975-0ac45846de2e}" default="0" order="2" hidden="false" animated="1" single_keyframe_only="1" name="Z">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{a47e9564-73cc-433c-a62e-919c8f3e566a}" name="Links"/>
+ <NODE id="{a3343f7a-6144-4c61-bcbd-0c3cf847d9dd}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{f4abd3f2-913a-4f40-8cc4-3199de3dee89}" warscape_properties_file="../cameras/cam_sq01_sh06.xml" name="cam_sq01_sh06.xml"/>
+ </NODE>
+</SCENE_FILE>

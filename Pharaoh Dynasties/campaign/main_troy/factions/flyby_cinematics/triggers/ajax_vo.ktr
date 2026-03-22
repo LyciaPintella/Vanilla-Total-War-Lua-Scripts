@@ -1,0 +1,11 @@
+<TRIGGER_FILE id="{a0e94529-8c3e-42c9-be39-e10d563e9e73}" version="23" name="ajax_vo.ktr">
+ <STRING id="{d8268156-8fe4-4357-b96b-199aea425cc7}" hidden="false" order="0" name="Timeline">
+  <KEYFRAME time="2" data=""/>
+  <KEYFRAME time="14.50000095367432" data=""/>
+  <KEYFRAME time="33" data=""/>
+  <KEYFRAME time="43.4999885559082" data=""/>
+  <KEYFRAME time="56.9999885559082" data=""/>
+  <KEYFRAME time="63.50000381469727" data=""/>
+  <KEYFRAME time="80.50000762939453" data=""/>
+ </STRING>
+</TRIGGER_FILE>

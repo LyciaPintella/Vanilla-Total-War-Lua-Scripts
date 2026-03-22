@@ -1,0 +1,32 @@
+<SCENE_FILE start_record_time="0" perspective_camera="0,0,0:0,0,0" name="land_battle_easy.CindyScene" end_record_time="126.0000065714121" id="{a2c1f361-3c6c-4987-b14b-f388388607c4}" version="23">
+ <ENVIRONMENT data="" hidden="false" name="Environment" order="0" id="{3e3c8bab-c8f1-45d8-982e-ae3124b2ecce}"/>
+ <VECTOR unique_id="{a91929fb-e653-4d68-acd1-c1ad12c8297f}" link_id="0" name="position" id="{a91929fb-e653-4d68-acd1-c1ad12c8297f}" is_linked="0" surface_mode="Freeform">
+  <DOUBLE default="0" hidden="false" name="X" animated="1" order="0" id="{52f15a0f-df62-4fec-a3b2-352c51a2d358}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" name="Y" animated="1" order="1" id="{f5e53e77-3394-47a7-8f68-27b79371e2e9}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" name="Z" animated="1" order="2" id="{3dc970e6-7fe6-4103-bbca-4510c80f8080}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{76267c0b-8417-4270-a19d-2b2453063ddc}">
+  <RADIAN default="0" hidden="false" name="X" animated="1" order="0" id="{f662912f-4a9c-425a-a9f9-cc2b2d3f832f}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" name="Y" animated="1" order="1" id="{23eb128a-10f7-45e7-81f2-f93d2cb3af34}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+  <RADIAN default="0" hidden="false" name="Z" animated="1" order="2" id="{3f43c4da-6749-4f53-b206-3764111615c8}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="1"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{a8f651e6-c8b6-49b5-a127-47955d493b5f}"/>
+ <NODE name="Warscape Properties" id="{8f8d96e5-5c09-43f5-a83c-5bcf969d665e}">
+  <WARSCAPE_PROPERTIES name="cam_lbe.xml" id="{c0c4c0cc-9345-486e-b26e-dd3996e06e18}" warscape_properties_file="../cameras/cam_lbe.xml"/>
+ </NODE>
+ <NODE name="Audio Events" id="{03068ec0-d5ac-45fe-bdde-7c0581844e69}">
+  <AUDIO_EVENT audio_event_file="../audio/vo_lbe.kfa" name="vo_lbe.kfa" id="{efe8c509-3d03-4377-8021-c4af407985e1}"/>
+ </NODE>
+</SCENE_FILE>

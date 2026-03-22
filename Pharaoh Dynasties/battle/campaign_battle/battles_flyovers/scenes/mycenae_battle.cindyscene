@@ -1,0 +1,17 @@
+<SCENE_FILE perspective_camera="893.773,1663.46,303.85:882.996,1660.45,287.273" version="23" name="mycenae_battle.CindyScene" end_record_time="43.00000224262476" id="{84172310-0e66-405c-ae40-5c88ee5e3977}" start_record_time="0.2000000104308128">
+ <ENVIRONMENT order="0" data="" name="Environment" id="{208aeac8-1df6-47ee-a75e-beb73d04c6ef}" hidden="false"/>
+ <VECTOR surface_mode="Freeform" unique_id="{9f22a321-4752-4697-9e85-56dae76f8824}" is_linked="0" name="position" id="{9f22a321-4752-4697-9e85-56dae76f8824}" link_id="0">
+  <DOUBLE order="0" single_keyframe_only="1" name="X" default="0" animated="1" id="{760ad551-61a8-41c1-8c68-37718f402912}" hidden="false"/>
+  <DOUBLE order="1" single_keyframe_only="1" name="Y" default="0" animated="1" id="{553a30ef-7318-4fe6-84c3-f8888fe8bb4c}" hidden="false"/>
+  <DOUBLE order="2" single_keyframe_only="1" name="Z" default="0" animated="1" id="{dd5b3965-b4bc-43ca-b21e-ffd5182ad02c}" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{ef117d73-2ff3-4813-a474-085e2883d1e0}">
+  <RADIAN order="0" single_keyframe_only="1" name="X" default="0" animated="1" id="{6625e1ee-43c6-46f4-983d-7c5667ea79c9}" hidden="false"/>
+  <RADIAN order="1" single_keyframe_only="1" name="Y" default="0" animated="1" id="{709f26a2-146d-4b68-8786-7a6b08995bc3}" hidden="false"/>
+  <RADIAN order="2" single_keyframe_only="1" name="Z" default="0" animated="1" id="{9c98c2c9-e2f1-4e9b-9416-b88780cbe611}" hidden="false"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{7c628f2b-04b6-426e-97b1-64c71fb022a0}"/>
+ <NODE name="Warscape Properties" id="{9d778e6d-a82b-48c7-a171-d6e4e5d8cebb}">
+  <WARSCAPE_PROPERTIES name="mycenae_cam.xml" warscape_properties_file="../cameras/mycenae_cam.xml" id="{890c8fe4-16f7-4ab7-adb5-017a83b5668d}"/>
+ </NODE>
+</SCENE_FILE>

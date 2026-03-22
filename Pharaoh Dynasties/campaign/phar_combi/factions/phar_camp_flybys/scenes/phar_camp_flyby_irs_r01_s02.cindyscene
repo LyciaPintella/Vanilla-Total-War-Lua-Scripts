@@ -1,0 +1,45 @@
+<SCENE_FILE version="23" id="{bab1b06f-05c8-453b-8c89-e422a03d577a}" name="phar_camp_flyby_irs_r01_s02.CindyScene" start_record_time="0" end_record_time="69.00000359863043" perspective_camera="313.909,14.8827,471.165:325.456,3.33573,482.712">
+ <ENVIRONMENT data="" id="{7d264454-8d6c-456f-85dc-019bde9768b2}" name="Environment" hidden="false" order="0"/>
+ <VECTOR surface_mode="Freeform" id="{760e2775-0d94-40dd-96cd-1e0b8b9e88c6}" name="position" link_id="0" is_linked="0" unique_id="{760e2775-0d94-40dd-96cd-1e0b8b9e88c6}">
+  <DOUBLE id="{cfffc59e-56e0-4dab-b332-9714d8dffef6}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </DOUBLE>
+  <DOUBLE id="{8edb20b1-cf96-4926-a18e-dfa4419f4747}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </DOUBLE>
+  <DOUBLE id="{e4cca75d-d429-4331-9637-0ddc0591a5d7}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d1874b71-3483-4f6f-8b4c-9234c8a46c7a}" name="rotation">
+  <RADIAN id="{69eece21-ef7a-4cb2-b5b3-4cfa0b4a87fc}" name="X" animated="1" single_keyframe_only="1" default="0" hidden="false" order="0">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </RADIAN>
+  <RADIAN id="{1e9716e8-1fe4-44b3-a72e-4f1981bd55ec}" name="Y" animated="1" single_keyframe_only="1" default="0" hidden="false" order="1">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </RADIAN>
+  <RADIAN id="{dd685b84-0d98-4cef-804a-4da432ecea4a}" name="Z" animated="1" single_keyframe_only="1" default="0" hidden="false" order="2">
+   <KEYFRAME data="0" time="11.46666717529297"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{e6baa831-6f75-4823-ae44-e8d1aecdf877}" name="Links"/>
+ <NODE id="{5440e85d-6ac2-46b1-ae98-f9f831b2f587}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{3ada7139-28bd-4747-bca9-6d903d1199c1}" name="flyby_cam_irs.xml" warscape_properties_file="../cameras/flyby_cam_irs.xml"/>
+ </NODE>
+ <NODE id="{0c1e089e-1258-4844-93d9-7ab52fdf61ec}" name="Audio Events">
+  <AUDIO_EVENT id="{44ea7719-74ea-4ce3-b481-5a3317bdf28a}" name="phar_cam_faction_intro_mernephtah_irs_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_irs_01.kfa"/>
+  <AUDIO_EVENT id="{0c891b91-a46a-4245-8338-8d224475a140}" name="phar_cam_faction_intro_mernephtah_irs_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_irs_02.kfa"/>
+  <AUDIO_EVENT id="{d620cad8-5607-4813-84fa-d5bb5e0e3ead}" name="phar_cam_faction_intro_mernephtah_irs_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_irs_03.kfa"/>
+  <AUDIO_EVENT id="{a6edd2de-4cac-4070-99d8-5612ff7e9c42}" name="phar_cam_faction_intro_mernephtah_irs_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_irs_04.kfa"/>
+  <AUDIO_EVENT id="{a6f962a3-fbcb-4d40-8700-68c3def631cb}" name="phar_cam_faction_intro_mernephtah_irs_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_irs_05.kfa"/>
+ </NODE>
+ <NODE id="{96b65cb5-6cf4-46ab-ae9c-e930742d051c}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{24e033f4-7e22-419d-8f6c-24d429e04d33}" name="can_vs_can_irs.kfcs" composite_scene_file="../csc_ref/can_vs_can_irs.kfcs"/>
+  <COMPOSITE_SCENE id="{86ec1830-98e4-4576-b6f0-e2f3d381f0df}" name="ships_irs.kfcs" composite_scene_file="../csc_ref/ships_irs.kfcs"/>
+  <COMPOSITE_SCENE id="{4b2baafe-179c-43f3-8ee4-2f0916c07919}" name="can_vs_can_irs01.kfcs" composite_scene_file="../csc_ref/can_vs_can_irs01.kfcs"/>
+  <COMPOSITE_SCENE id="{43a150f1-219f-48f1-a997-173fe52831fd}" name="can_run.kfcs" composite_scene_file="../csc_ref/can_run.kfcs"/>
+  <COMPOSITE_SCENE id="{a73ca762-8720-48db-a6f8-cd8deb95b46d}" name="bay_walk.kfcs" composite_scene_file="../csc_ref/bay_walk.kfcs"/>
+  <COMPOSITE_SCENE id="{f12dcca5-2f59-4518-bec4-3f39096ed7b9}" name="can_vs_can_irs02.kfcs" composite_scene_file="../csc_ref/can_vs_can_irs02.kfcs"/>
+  <COMPOSITE_SCENE id="{e5ffebea-e232-4866-84af-722007fbae95}" name="irs_rally_special.kfcs" composite_scene_file="../csc_ref/irs_rally_special.kfcs"/>
+ </NODE>
+</SCENE_FILE>

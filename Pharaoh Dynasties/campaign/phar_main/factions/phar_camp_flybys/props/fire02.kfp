@@ -1,0 +1,33 @@
+<PROP_FILE version="23" prop_name="vfx/models/phar_house_fire_inner_fast_01.wsmodel" name="fire02.kfp" id="{b961ac95-b0a4-4703-8efc-2325c339af70}">
+ <VECTOR surface_mode="Freeform" unique_id="{adbb1570-533d-4a33-8987-9bf08ed5cbfc}" name="position" is_linked="0" link_id="0" id="{adbb1570-533d-4a33-8987-9bf08ed5cbfc}">
+  <DOUBLE order="0" hidden="false" animated="1" single_keyframe_only="0" name="X" id="{67769696-7f19-48c2-b5ba-ab4ef6177540}" default="0">
+   <KEYFRAME time="0" data="438.3539733886719"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" animated="1" single_keyframe_only="0" name="Y" id="{ed988266-514e-4e10-a0d9-9e9cc348756d}" default="0">
+   <KEYFRAME time="0" data="-0.5608257055282593"/>
+   <KEYFRAME time="105.1666717529297" data="-0.5608257055282593"/>
+   <KEYFRAME time="112.8000030517578" data="-2"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" animated="1" single_keyframe_only="0" name="Z" id="{1659b214-a5c6-42c1-8424-935759d8f63d}" default="0">
+   <KEYFRAME time="0" data="967.9362182617188"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{88fb5cca-f87c-40c9-a899-17c5a4c981eb}">
+  <RADIAN order="0" hidden="false" animated="0" single_keyframe_only="1" name="X" id="{8004dada-0869-4787-9edf-5523c2eed300}" default="0">
+   <KEYFRAME time="0" data="3.1415913105010986"/>
+  </RADIAN>
+  <RADIAN order="1" hidden="false" animated="0" single_keyframe_only="1" name="Y" id="{75302df0-67f7-48d4-8d4f-3f3ca4214900}" default="0">
+   <KEYFRAME time="0" data="5.664975166320801"/>
+  </RADIAN>
+  <RADIAN order="2" hidden="false" animated="0" single_keyframe_only="1" name="Z" id="{d646cecc-03fc-4aa5-b889-8b9b1c414485}" default="0">
+   <KEYFRAME time="0" data="3.0720181465148926"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="1" hidden="false" animated="0" single_keyframe_only="1" name="scale" id="{cb4c28b2-7b2b-4fe2-8a9c-5ba5c70ed65a}" default="1">
+  <KEYFRAME time="0" data="0.4000000059604645"/>
+ </DOUBLE>
+ <BOOL order="3" hidden="false" animated="1" single_keyframe_only="0" name="always visible" id="{84ca48ca-84a8-4121-881b-f65ee4b0ffe4}" default="0">
+  <KEYFRAME time="0" data="1"/>
+  <KEYFRAME time="100.2000045776367" data="0"/>
+ </BOOL>
+</PROP_FILE>

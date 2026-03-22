@@ -1,0 +1,33 @@
+<SCENE_FILE id="{acea4af8-9e4b-46cb-914e-ff92b3c33e0f}" perspective_camera="446.583,9.85168,328.32:431.521,-3.30537,328.216" end_record_time="27.00000140815973" name="phar_camp_tutorial_sq01_sh01.CindyScene" version="23" start_record_time="0">
+ <ENVIRONMENT order="0" hidden="false" id="{79962435-9a9b-46bd-a186-7fadc3d88567}" name="Environment" data="weather/campaign/prosperity/midday_prosperity.environment"/>
+ <VECTOR surface_mode="Freeform" link_id="0" id="{07f31fb1-0f05-4a23-81fe-88956ac6f4ac}" is_linked="0" name="position" unique_id="{07f31fb1-0f05-4a23-81fe-88956ac6f4ac}">
+  <DOUBLE order="0" hidden="false" animated="1" id="{38b4e882-18c0-44be-9524-d74e24261e48}" default="0" name="X" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" animated="1" id="{9108ed1f-87d4-4e8d-9ef4-0732a5682dcd}" default="0" name="Y" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" animated="1" id="{e47ccb80-654c-4707-85f1-e456f5202546}" default="0" name="Z" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{232b6010-d897-46e1-957f-9ce9e9753982}" name="rotation">
+  <RADIAN order="0" hidden="false" animated="1" id="{3c5189e5-9d1e-4354-8432-e07308c86cf4}" default="0" name="X" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+  <RADIAN order="1" hidden="false" animated="1" id="{fd11c418-c973-4a6f-970f-9fb8d3bd9ad4}" default="0" name="Y" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+  <RADIAN order="2" hidden="false" animated="1" id="{cbcf054b-e2c1-4f5b-b79b-49e4418db72c}" default="0" name="Z" single_keyframe_only="1">
+   <KEYFRAME time="1" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{c18b0185-623d-4d93-a461-2da7e052dca9}" name="Links"/>
+ <NODE id="{08d52bea-af04-47cc-9e0a-af62a8245bf4}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{a2caeded-c2d0-425a-94ce-0ddd47c4a740}" name="cam_sq01_sh01.xml" warscape_properties_file="../cameras/cam_sq01_sh01.xml"/>
+ </NODE>
+ <NODE id="{85195e1a-5313-453a-a596-9d5e30119559}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{31a6923f-6a56-43b9-9f28-3455d8d0619c}" name="eagle.kfcs" composite_scene_file="../csc_ref/eagle.kfcs"/>
+  <COMPOSITE_SCENE id="{560a6449-7e7d-4250-9d07-fb50de792ccf}" name="sh01_sand.kfcs" composite_scene_file="../csc_ref/sh01_sand.kfcs"/>
+ </NODE>
+</SCENE_FILE>

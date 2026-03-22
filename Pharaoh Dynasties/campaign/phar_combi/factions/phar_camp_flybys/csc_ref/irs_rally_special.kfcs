@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE version="23" id="{9dd1fc10-72c1-4b21-95e8-df23d6281935}" name="irs_rally_special.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_irs_vo_special.csc">
+ <VECTOR id="{d11dc10c-6b3e-4177-b9e6-72e8b3d021e9}" unique_id="{d11dc10c-6b3e-4177-b9e6-72e8b3d021e9}" link_id="0" is_linked="0" surface_mode="Freeform" name="position">
+  <DOUBLE default="0" id="{c5f8505f-48d3-41cf-984e-f4b4cb319805}" order="0" animated="0" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="847.8070068359375" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" id="{0bfb6da7-fba7-412a-afa6-8e087b14e2f9}" order="1" animated="0" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="2.96597957611084" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" id="{944885a0-cd8e-4c7d-b85c-1b5f6bb4cd28}" order="2" animated="0" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="890.5557861328125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{f10e6a97-e14d-4e23-a5b9-e3f5955a885f}" name="rotation">
+  <RADIAN default="0" id="{53c336a1-5ea8-45e9-828b-90d0750c3e92}" order="0" animated="0" hidden="false" name="X" single_keyframe_only="1"/>
+  <RADIAN default="0" id="{da15e41f-5b08-4789-83c7-ec8cb8254d91}" order="1" animated="0" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="4.137412071228027" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" id="{d1bd730e-76b8-4def-8799-e796d1cf952d}" order="2" animated="0" hidden="false" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" id="{f972ac1f-c8ef-4679-91e7-041878fcc989}" user_friendy_name="Scale" order="2" animated="0" hidden="false" name="scale" single_keyframe_only="1"/>
+ <BOOL default="0" id="{e605c883-22fa-46d2-978c-8d531182af35}" user_friendy_name="Active" order="3" animated="1" hidden="false" name="active" single_keyframe_only="0">
+  <KEYFRAME data="1" time="25.00000190734863"/>
+ </BOOL>
+ <DOUBLE default="1" id="{0c68009d-6c79-4ba0-b692-8dc362be6285}" user_friendy_name="Speed Multiplier" order="4" animated="1" hidden="false" name="speed_multiplier" single_keyframe_only="0">
+  <KEYFRAME data="1" time="11.46666717529297"/>
+  <KEYFRAME data="1" time="45.06666946411133"/>
+  <KEYFRAME data="1" time="73"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

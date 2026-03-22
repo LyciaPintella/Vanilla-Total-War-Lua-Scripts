@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE id="{9d030e14-139e-4f22-9064-daee4a07426d}" name="sq05_track03.kfa" version="23" audio_event_name="Play_phar_main_tutorial_v2_pi_ramesses_mern_1">
+ <VECTOR surface_mode="Freeform" id="{0c5f4d78-ed03-4b10-a955-e6b12c12c2fa}" name="position" is_linked="0" link_id="0" unique_id="{0c5f4d78-ed03-4b10-a955-e6b12c12c2fa}">
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{a1e48fe1-dab2-48ca-9046-752e2cce701b}" order="0" default="0" name="X">
+   <KEYFRAME time="0" data="436.4554138183594"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{d309f93d-d05d-4341-b98f-6f899d93b32c}" order="1" default="0" name="Y">
+   <KEYFRAME time="0" data="4.76837158203125e-5"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" animated="0" hidden="false" id="{3460ca56-1de9-4bfb-b7cd-6a37941cdb8e}" order="2" default="0" name="Z">
+   <KEYFRAME time="0" data="733.9160766601562"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" animated="1" hidden="false" user_friendy_name="Active" id="{9d6d06ca-b489-4361-9227-dfa1a0a08329}" order="2" default="0" name="active">
+  <KEYFRAME time="32.30000305175781" data="1"/>
+  <KEYFRAME time="42.49999237060547" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" animated="0" hidden="false" user_friendy_name="Volume" id="{24970f58-9ddb-4d9d-b121-6f1bb85183df}" order="3" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

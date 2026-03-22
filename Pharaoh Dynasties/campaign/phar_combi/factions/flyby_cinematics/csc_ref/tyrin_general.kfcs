@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/troy/campaign_cinematic/tyrin_soldier.csc" version="23" name="tyrin_general.kfcs" id="{7fa3d0d5-2015-4a96-a6df-b1618c09e4ac}">
+ <VECTOR unique_id="{df194413-0cc3-40d4-a531-d35d96d897b2}" link_id="0" name="position" surface_mode="Freeform" id="{df194413-0cc3-40d4-a531-d35d96d897b2}" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" name="X" animated="0" order="0" id="{8293e93a-9e76-4f11-a95a-a8ca0e96c614}">
+   <KEYFRAME time="-1" data="232.4129943847656"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" name="Y" animated="0" order="1" id="{76f8bb2d-0956-4139-af1d-6b6aa8e83d9b}"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" default="0" name="Z" animated="0" order="2" id="{e5ab40a8-f517-491d-941d-0771abfc2023}">
+   <KEYFRAME time="-1" data="118.3820037841797"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{0f912c17-650a-41f8-802b-052a358317f1}">
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" name="X" animated="0" order="0" id="{0b397f1b-cb53-4ec9-9a48-d6231dbaca15}"/>
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" name="Y" animated="0" order="1" id="{143e464f-e303-4374-8e86-ecc08bcfa5af}">
+   <KEYFRAME time="-1" data="5.725489616394043"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" default="0" name="Z" animated="0" order="2" id="{ff0f704d-f1bd-4bf7-9227-2987725f125d}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" default="1" name="scale" animated="0" order="2" id="{17bc6d34-6f6f-443f-9ed5-8ab6816d3159}"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" default="0" name="active" animated="1" order="3" id="{0c330326-c931-4ddc-aa01-53015f58befd}">
+  <KEYFRAME time="41" data="1"/>
+  <KEYFRAME time="74.00006103515625" data="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" hidden="false" default="1" name="speed_multiplier" animated="1" order="4" id="{b0174350-4cd2-4d74-94e8-9034e408dfbc}"/>
+</COMPOSITE_SCENE_FILE>

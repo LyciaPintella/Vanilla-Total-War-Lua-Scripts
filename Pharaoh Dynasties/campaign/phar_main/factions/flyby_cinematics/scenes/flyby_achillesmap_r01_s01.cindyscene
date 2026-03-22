@@ -1,0 +1,45 @@
+<SCENE_FILE perspective_camera="211.37,4.02141,320.462:207.618,0.550334,325.86" start_record_time="0" id="{6443bed0-2dd6-4674-af2a-77449b7ef31c}" end_record_time="81.0000042244792" version="23" name="flyby_achillesmap_r01_s01.CindyScene">
+ <ENVIRONMENT data="" hidden="false" order="0" id="{9ee500b4-163f-4bab-a7a0-6350f17f106c}" name="Environment"/>
+ <VECTOR is_linked="0" id="{72ea6762-9aa0-4f90-8897-4ebb80db66b9}" unique_id="{72ea6762-9aa0-4f90-8897-4ebb80db66b9}" name="position" link_id="0" surface_mode="Freeform">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" id="{ca7ecc1e-904d-44e0-b381-e94bade0d929}" default="0" name="X" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" id="{8741013e-79f4-47fb-8eab-04b6cc27af7d}" default="0" name="Y" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" id="{a516ea1b-485a-4ebc-b302-eddcb7f9355f}" default="0" name="Z" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{292630af-89c7-4b07-bb07-e8fefd0c33c8}" name="rotation">
+  <RADIAN hidden="false" order="0" single_keyframe_only="1" id="{0536bc04-ddf1-436e-a5a7-1c46a31763cb}" default="0" name="X" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" single_keyframe_only="1" id="{1a6b339a-418d-4901-bdd2-dfe7084f722e}" default="0" name="Y" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" single_keyframe_only="1" id="{5712aa73-414a-40f2-b9d0-d4a596147017}" default="0" name="Z" animated="1">
+   <KEYFRAME data="0" time="30.50005722045898"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{dc4c1204-6621-4540-979e-e916e4164902}" name="Links"/>
+ <NODE id="{c6f67608-cd65-4a4e-b6f9-b7e4e888b31d}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{eb380a74-2e5c-4a0d-8d9d-c434fc38b493}" warscape_properties_file="../cameras/flyby_cam_achilles.xml" name="flyby_cam_achilles.xml"/>
+ </NODE>
+ <NODE id="{051ba08a-b754-4e65-9c1b-83b6b30d5a79}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{5fc3a530-22dc-43f8-8444-9394d8a2e25b}" composite_scene_file="../csc_ref/paris_helen_hector.kfcs" name="paris_helen_hector.kfcs"/>
+  <COMPOSITE_SCENE id="{dfbcf29c-edd9-4931-abcb-a95512f6440f}" composite_scene_file="../csc_ref/achilles.kfcs" name="achilles.kfcs"/>
+  <COMPOSITE_SCENE id="{ee5b2ca8-b267-450d-ab0a-084eaab4bc11}" composite_scene_file="../csc_ref/thessally_soldier.kfcs" name="thessally_soldier.kfcs"/>
+ </NODE>
+ <NODE id="{f5bfc988-0394-4bd7-865e-f0e9d7b2cae9}" name="Audio Events">
+  <AUDIO_EVENT id="{8f097f65-cdfa-4ea5-b9fc-62dcfaf30efa}" audio_event_file="../audio/achilles01.kfa" name="achilles01.kfa"/>
+  <AUDIO_EVENT id="{e06d32f5-e37b-4265-9408-81c4b801c1da}" audio_event_file="../audio/achilles02.kfa" name="achilles02.kfa"/>
+  <AUDIO_EVENT id="{513059d8-a942-4bea-a918-d5e7f028cd5b}" audio_event_file="../audio/achilles03.kfa" name="achilles03.kfa"/>
+  <AUDIO_EVENT id="{de1f5cc8-4c01-4087-9d68-713f717b56cd}" audio_event_file="../audio/achilles04.kfa" name="achilles04.kfa"/>
+  <AUDIO_EVENT id="{94d08484-1300-4b04-b9d4-d194f729ed9e}" audio_event_file="../audio/achilles05.kfa" name="achilles05.kfa"/>
+  <AUDIO_EVENT id="{11a59fc8-a033-43d3-9a4f-e66129bab286}" audio_event_file="../audio/achilles06.kfa" name="achilles06.kfa"/>
+  <AUDIO_EVENT id="{8f02963d-9c34-468c-aba1-3db605792698}" audio_event_file="../audio/achilles07.kfa" name="achilles07.kfa"/>
+  <AUDIO_EVENT id="{b32a436c-b312-4cc5-9ee8-9a1f8c3447e6}" audio_event_file="../audio/achilles08.kfa" name="achilles08.kfa"/>
+  <AUDIO_EVENT id="{456209ff-290b-4b0c-9e55-5a3cfac70d39}" audio_event_file="../audio/achilles09.kfa" name="achilles09.kfa"/>
+ </NODE>
+</SCENE_FILE>

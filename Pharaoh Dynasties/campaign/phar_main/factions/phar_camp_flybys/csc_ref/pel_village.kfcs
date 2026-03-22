@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE name="pel_village.kfcs" version="23" id="{64f3503a-fd26-4c7c-95b6-e05dc3a283cc}" directory="composite_scene/phar/campaign_cinematic/phar_camp_pel_village.csc">
+ <VECTOR name="position" link_id="-1" id="{76051185-e137-4a5f-ae5c-0a467924a7f6}" unique_id="{76051185-e137-4a5f-ae5c-0a467924a7f6}" surface_mode="Freeform" is_linked="0">
+  <DOUBLE name="X" default="0" animated="0" single_keyframe_only="1" id="{415349d0-11de-4974-a9dc-b84397c62cae}" hidden="false" order="0">
+   <KEYFRAME time="-1" data="490.65460205078125"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" animated="0" single_keyframe_only="1" id="{01becd21-0106-4b0b-8eb0-643860a8e13f}" hidden="false" order="1">
+   <KEYFRAME time="-1" data="0.12965667247772217"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" animated="0" single_keyframe_only="1" id="{0fb2f0d8-85f0-4728-8d0b-653aedab3469}" hidden="false" order="2">
+   <KEYFRAME time="-1" data="792.254638671875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{cbfeb8f1-a5bc-450c-b987-c8372ddfb3e8}">
+  <RADIAN name="X" default="0" animated="0" single_keyframe_only="1" id="{554d25cc-7571-4ebd-9713-940a3cfc45dd}" hidden="false" order="0"/>
+  <RADIAN name="Y" default="0" animated="0" single_keyframe_only="1" id="{615e776d-23c9-4506-ade5-dd73ff638efb}" hidden="false" order="1"/>
+  <RADIAN name="Z" default="0" animated="0" single_keyframe_only="1" id="{db72043c-24df-41c5-b137-70807445660c}" hidden="false" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" default="1" animated="0" user_friendy_name="Scale" single_keyframe_only="1" id="{4dd6cc4f-5d6e-4ed0-83b1-3b3180e092a1}" hidden="false" order="2">
+  <KEYFRAME time="-1" data="1.2000000476837158"/>
+ </DOUBLE>
+ <BOOL name="active" default="0" animated="1" user_friendy_name="Active" single_keyframe_only="0" id="{5f253ab7-6be6-43b7-a57d-6611fe0656c7}" hidden="false" order="3">
+  <KEYFRAME time="7.000000476837158" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" default="1" animated="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0" id="{e95e6430-333c-4c43-a6dd-bf2345a50e81}" hidden="false" order="4"/>
+</COMPOSITE_SCENE_FILE>

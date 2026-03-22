@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE version="23" id="{5ef7cb6e-8b3b-46cd-9e4d-a8d88a8f5abd}" directory="script/battle/preview_battles/troy/battle_cutscene/csc/battle_scene.csc" name="battle.kfcs">
+ <VECTOR surface_mode="Freeform" id="{7fca8a6c-c738-4f1b-a7c9-d355caf38e2d}" name="position" unique_id="{7fca8a6c-c738-4f1b-a7c9-d355caf38e2d}" link_id="-1" is_linked="0">
+  <DOUBLE default="0" id="{bb232862-ee48-4d98-b38f-a017fddc79f3}" name="X" order="0" hidden="false" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="-114.5688323974609" time="0.2000000178813934"/>
+  </DOUBLE>
+  <DOUBLE default="0" id="{06afc8f3-c158-4456-8b36-21371e90dd04}" name="Y" order="1" hidden="false" single_keyframe_only="1" animated="0"/>
+  <DOUBLE default="0" id="{2a7a32c7-b1ce-4484-bf8b-ddb7dc0fa45d}" name="Z" order="2" hidden="false" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="-52.04890441894531" time="10.46666717529297"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{71afcfc8-1492-4a74-987c-d55cac9eff23}" name="rotation">
+  <RADIAN default="0" id="{53b5b33e-ecd4-4405-b4cb-e6ca1e34736f}" name="X" order="0" hidden="false" single_keyframe_only="1" animated="0"/>
+  <RADIAN default="0" id="{40a90b2c-cbc3-4ebd-82b8-3953bdbd6979}" name="Y" order="1" hidden="false" single_keyframe_only="1" animated="0">
+   <KEYFRAME data="0.7853981852531433" time="-1"/>
+  </RADIAN>
+  <RADIAN default="0" id="{c7088352-de3c-4bb6-8873-1d75428b7ba1}" name="Z" order="2" hidden="false" single_keyframe_only="1" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" id="{262b6c7f-986c-48d9-b4a4-b567a221349b}" name="scale" user_friendy_name="Scale" order="2" hidden="false" single_keyframe_only="1" animated="0"/>
+ <BOOL default="0" id="{56999fed-ac0f-4139-98e9-d15fede3cbdd}" name="active" user_friendy_name="Active" order="3" hidden="false" single_keyframe_only="0" animated="1">
+  <KEYFRAME data="0" time="9.999000549316406"/>
+  <KEYFRAME data="1" time="10.00000095367432"/>
+ </BOOL>
+ <DOUBLE default="1" id="{30719485-2a59-4b06-9674-dabb33c5abba}" name="speed_multiplier" user_friendy_name="Speed Multiplier" order="4" hidden="false" single_keyframe_only="0" animated="1"/>
+</COMPOSITE_SCENE_FILE>

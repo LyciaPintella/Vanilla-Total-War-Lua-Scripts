@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE id="{16463a80-9bc4-43bb-bdcf-cd0b5b16d97d}" name="kask_vs_hit_01.kfcs" directory="composite_scene/phar/campaign_cinematic/phar_camp_kask_vs_hit.csc" version="23">
+ <VECTOR is_linked="0" surface_mode="Freeform" id="{7d740cdc-0f30-4a61-9584-c7a0de294bca}" name="position" link_id="-1" unique_id="{7d740cdc-0f30-4a61-9584-c7a0de294bca}">
+  <DOUBLE hidden="false" order="0" animated="0" id="{8665c485-e582-4c8c-aa35-806542b8165c}" name="X" default="0" single_keyframe_only="1">
+   <KEYFRAME time="-1" data="299.3663024902344"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" animated="0" id="{bc8b2c15-299f-4fe0-aa19-feebd9c98a78}" name="Y" default="0" single_keyframe_only="1">
+   <KEYFRAME time="-1" data="0.002334117889404297"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" animated="0" id="{7ee50cab-3ae3-4ef3-bb90-677fb5b5434c}" name="Z" default="0" single_keyframe_only="1">
+   <KEYFRAME time="-1" data="1005.7611694335938"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{c2ae3bee-84c6-4daf-9626-6a571637ea94}" name="rotation">
+  <RADIAN hidden="false" order="0" animated="0" id="{6b780236-8fad-411d-a2e4-3b0132be8f31}" name="X" default="0" single_keyframe_only="1"/>
+  <RADIAN hidden="false" order="1" animated="0" id="{07465b5e-cfdb-463f-95a8-8738ae77fbd4}" name="Y" default="0" single_keyframe_only="1">
+   <KEYFRAME time="-1" data="4.171326637268066"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" animated="0" id="{a1c2864f-d239-42d9-a7e8-10e991f7cea9}" name="Z" default="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" order="2" animated="0" id="{0b9e5209-7024-418e-ae33-25b6af463da6}" name="scale" default="1" single_keyframe_only="1" user_friendy_name="Scale"/>
+ <BOOL hidden="false" order="3" animated="1" id="{6e1523be-b20c-46de-abde-491d96eda2a1}" name="active" default="0" single_keyframe_only="0" user_friendy_name="Active">
+  <KEYFRAME time="0.5333333611488342" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="4" animated="1" id="{5e00065e-7279-4b25-812a-28e0f37df7b7}" name="speed_multiplier" default="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier"/>
+</COMPOSITE_SCENE_FILE>

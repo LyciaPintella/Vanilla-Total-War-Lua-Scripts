@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE name="bay_stabs.kfcs" id="{1a2b5058-786b-4aab-944b-64e70aa2cdd5}" directory="composite_scene/phar/campaign_cinematic/phar_camp_bay_stabs.csc" version="23">
+ <VECTOR name="position" surface_mode="Freeform" id="{f77f0117-9aef-4a37-941a-aaaf0884511c}" link_id="0" is_linked="0" unique_id="{f77f0117-9aef-4a37-941a-aaaf0884511c}">
+  <DOUBLE name="X" order="0" default="0" id="{754009e3-610f-4b83-8372-0aed9f23a99f}" animated="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="705.759033203125"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" default="0" id="{86529a1a-00f0-45d4-9607-162f5dc813ee}" animated="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="1.6557955741882324"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" default="0" id="{3f4b7cb9-62db-43ea-bf2b-05a152ffde5f}" animated="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="803.3193359375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{8cf3c6c3-0ed3-4a1b-9bbb-dde35d7d99d3}">
+  <RADIAN name="X" order="0" default="0" id="{1d1f3ded-a718-477c-a77e-4047eaa65fa0}" animated="0" single_keyframe_only="1" hidden="false"/>
+  <RADIAN name="Y" order="1" default="0" id="{6bf78614-e106-4d5f-b717-4e86344e703d}" animated="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="0.5534029603004456"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" default="0" id="{92e1a1c5-b692-4317-a069-f1e66511e1a5}" animated="0" single_keyframe_only="1" hidden="false"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" order="2" default="1" id="{ab92897f-2c20-4890-9c69-e17a3829ebaa}" user_friendy_name="Scale" animated="0" single_keyframe_only="1" hidden="false"/>
+ <BOOL name="active" order="3" default="0" id="{adc3fa11-d407-444a-b12a-197d1db2d41d}" user_friendy_name="Active" animated="1" single_keyframe_only="0" hidden="false">
+  <KEYFRAME time="41.20000076293945" data="1"/>
+  <KEYFRAME time="56.00000381469727" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" order="4" default="1" id="{b8e2591a-4e51-47b1-87c3-8ff0e354fa75}" user_friendy_name="Speed Multiplier" animated="1" single_keyframe_only="0" hidden="false">
+  <KEYFRAME time="20.66666793823242" data="1"/>
+  <KEYFRAME time="56.00000381469727" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

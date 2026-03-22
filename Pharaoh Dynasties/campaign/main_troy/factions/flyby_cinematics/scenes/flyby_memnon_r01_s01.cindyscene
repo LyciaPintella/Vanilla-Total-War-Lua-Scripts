@@ -1,0 +1,40 @@
+<SCENE_FILE perspective_camera="492.794,6.67603,135.319:491.42,3.02591,141.638" end_record_time="75.50000393763185" id="{e960ef33-1fce-44b7-9e9b-1ab49ebe3e9c}" version="23" start_record_time="0.5000000260770321" name="flyby_memnon_r01_s01.CindyScene">
+ <ENVIRONMENT order="0" hidden="false" id="{f1bcb11b-82b8-49b8-9152-1447fbd89104}" data="" name="Environment"/>
+ <VECTOR link_id="0" surface_mode="Freeform" is_linked="0" id="{2022799e-25e6-4390-965d-e2af5aaf164e}" unique_id="{2022799e-25e6-4390-965d-e2af5aaf164e}" name="position">
+  <DOUBLE order="0" hidden="false" single_keyframe_only="1" animated="1" id="{2d63def1-07c7-4a13-bde0-9dd1b994bc3b}" default="0" name="X">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" single_keyframe_only="1" animated="1" id="{1a6145d3-7015-49f6-a82e-4b34ace3250d}" default="0" name="Y">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" single_keyframe_only="1" animated="1" id="{e24af0b0-aef8-4f40-8058-f5fed6798c24}" default="0" name="Z">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{df960f46-c497-4f37-a4cc-60e3d2879ba1}" name="rotation">
+  <RADIAN order="0" hidden="false" single_keyframe_only="1" animated="1" id="{41dd55fb-96c5-4be1-be9b-a8b508a96441}" default="0" name="X">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </RADIAN>
+  <RADIAN order="1" hidden="false" single_keyframe_only="1" animated="1" id="{eae65eac-69f0-4bcd-a72b-ff7a0d50dd75}" default="0" name="Y">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </RADIAN>
+  <RADIAN order="2" hidden="false" single_keyframe_only="1" animated="1" id="{a7760162-b3b5-41c4-bc33-0cc56ed20a15}" default="0" name="Z">
+   <KEYFRAME time="0.6000000238418579" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{3bbb73e7-22ef-4dbe-84b9-51184d605807}" name="Links"/>
+ <NODE id="{a4627a44-fdc3-42b0-b1df-97135b5bfb45}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{726e367e-5ac4-479e-90da-870f2684d7a9}" warscape_properties_file="../cameras/memnon_cam.xml" name="memnon_cam.xml"/>
+ </NODE>
+ <NODE id="{a5e1e55e-bdb1-46f6-a564-002ecddd736f}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/memnon_vo.kfcs" id="{1af3f112-5bf5-42a8-8b9b-ae86286d9c4b}" name="memnon_vo.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/prs_hln_hct_for_memnon_fb.kfcs" id="{cf8a9133-041c-4412-ad37-1d2745f3c194}" name="prs_hln_hct_for_memnon_fb.kfcs"/>
+ </NODE>
+ <NODE id="{590090ed-42e4-49f6-b0e0-ef57c84506c3}" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/memnon01.kfa" id="{5ae85462-5f7f-4ac8-b45d-016b9549b8ea}" name="memnon01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/memnon02.kfa" id="{d05d259c-6c20-4061-88be-5dd62022c4c6}" name="memnon02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/memnon03.kfa" id="{bbd69a36-61f1-4720-8033-c85022c19b12}" name="memnon03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/memnon04.kfa" id="{0fb9c992-3f02-4192-b656-fbc196f353c2}" name="memnon04.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/memnon05.kfa" id="{934537e8-ea94-40c6-a51f-4ba31f3ebf99}" name="memnon05.kfa"/>
+ </NODE>
+</SCENE_FILE>

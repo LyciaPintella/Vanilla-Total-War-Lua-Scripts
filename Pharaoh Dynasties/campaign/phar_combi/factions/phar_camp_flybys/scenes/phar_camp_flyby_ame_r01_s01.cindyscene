@@ -1,0 +1,44 @@
+<SCENE_FILE end_record_time="83.00000432878733" version="23" name="phar_camp_flyby_ame_r01_s01.CindyScene" start_record_time="0" id="{c4e34e9d-23f8-4827-a2f4-1cffdbe110c9}" perspective_camera="382.544,12.2835,350.767:376.142,1.97938,366.668">
+ <ENVIRONMENT name="Environment" data="" order="0" hidden="false" id="{3998edad-440e-4e0b-b983-f648045cd66a}"/>
+ <VECTOR name="position" is_linked="0" link_id="0" unique_id="{2b15cf94-933e-4b65-829c-dfc368393d2e}" surface_mode="Freeform" id="{2b15cf94-933e-4b65-829c-dfc368393d2e}">
+  <DOUBLE single_keyframe_only="1" name="X" default="0" order="0" animated="1" hidden="false" id="{f8cfcea0-455f-4eaa-a138-96775bcfd1d1}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Y" default="0" order="1" animated="1" hidden="false" id="{54f2ba5c-7297-4288-9f3e-0226971b6fe1}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" name="Z" default="0" order="2" animated="1" hidden="false" id="{250d6f15-58b5-47aa-b7d6-1240bce8144e}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{c4be3878-b7a6-4de4-8b3f-f040689c5d18}">
+  <RADIAN single_keyframe_only="1" name="X" default="0" order="0" animated="1" hidden="false" id="{8df4bde9-66b9-40b8-b741-d60d563a4c21}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" name="Y" default="0" order="1" animated="1" hidden="false" id="{09aadc5a-e932-44e2-9394-d99763681492}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" name="Z" default="0" order="2" animated="1" hidden="false" id="{66390bc6-f6c3-4b0b-9468-fc7168752394}">
+   <KEYFRAME time="24.63333320617676" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{5f42ac06-0052-4240-882a-44a1448ac212}"/>
+ <NODE name="Warscape Properties" id="{e63dc1ff-2a8f-48c4-9a40-e7e491bca13b}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_ame.xml" warscape_properties_file="../cameras/flyby_cam_ame.xml" id="{d79dbc29-69be-4d82-83ff-d3dea9111bec}"/>
+ </NODE>
+ <NODE name="Audio Events" id="{86f4a9cf-c212-4dfd-b5aa-bd5b0b7507b1}">
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_01.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_01.kfa" id="{1a20e1f1-e4dd-411b-ba6c-60b1c87fb554}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_02.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_02.kfa" id="{fdccbde0-0119-4f92-99fc-89c0737aabb2}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_03.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_03.kfa" id="{a4052982-4ed9-423c-856f-4afafb646f9f}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_04.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_04.kfa" id="{5fb86963-411e-4b07-aea2-884126406dda}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_05.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_05.kfa" id="{b80be345-ec52-40ca-b9df-9153c5ce79ed}"/>
+  <AUDIO_EVENT name="phar_cam_faction_intro_mernephtah_ame_06.kfa" audio_event_file="../audio/phar_cam_faction_intro_mernephtah_ame_06.kfa" id="{1b265eb7-14e6-428c-a57d-15821779490a}"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{aa25a198-07f0-49d2-be83-35927f5397d2}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ame_kush_talk.kfcs" name="ame_kush_talk.kfcs" id="{f3ab8e2a-d0fa-4f46-b694-ee77ee842c52}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/kush_raid.kfcs" name="kush_raid.kfcs" id="{2dd6a4a1-bef7-45bc-972f-280cfa57ac8b}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/tau_idle_02.kfcs" name="tau_idle_02.kfcs" id="{b6dfdf5c-b256-4b45-b5c8-7f9fdafd788a}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/egy_vs_kush.kfcs" name="egy_vs_kush.kfcs" id="{d2f938f0-c9e7-4f61-aaa4-90f149674d1c}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ship.kfcs" name="ship.kfcs" id="{28420475-6577-4f61-a03a-3d0d9edde1d9}"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE name="achilles01.kfcs" id="{449845a9-ee02-4f83-a197-737406faaa86}" directory="composite_scene/troy/campaign_cinematic/troy_camp_ach_vo_glory.csc" version="23">
+ <VECTOR unique_id="{10311b10-5c7a-4793-a5a3-e91cf090191f}" is_linked="0" name="position" link_id="0" surface_mode="Freeform" id="{10311b10-5c7a-4793-a5a3-e91cf090191f}">
+  <DOUBLE order="0" single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" id="{3c1fb269-5b0f-49c8-a89e-e13e2601c0d3}">
+   <KEYFRAME time="-0.7999999523162842" data="207.8378143310547"/>
+  </DOUBLE>
+  <DOUBLE order="1" single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" id="{ff20920a-cab8-4ca4-a3f3-b2eacc6358f4}">
+   <KEYFRAME time="-0.7999999523162842" data="0.5529141426086426"/>
+  </DOUBLE>
+  <DOUBLE order="2" single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" id="{d99d41a8-11bd-416b-b474-3c9667e19c55}">
+   <KEYFRAME time="-0.7999999523162842" data="327.1517333984375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{3b40df15-e6a0-4540-86e7-494c795db2e0}">
+  <RADIAN order="0" single_keyframe_only="1" name="X" default="0" hidden="false" animated="0" id="{26589fe8-b029-4984-a7dd-6fb4f99d5346}">
+   <KEYFRAME time="-0.7999999523162842" data="-2.726138745856588e-07"/>
+  </RADIAN>
+  <RADIAN order="1" single_keyframe_only="1" name="Y" default="0" hidden="false" animated="0" id="{5c44ef12-971c-4262-a48d-3a24abe10fe0}">
+   <KEYFRAME time="-0.7999999523162842" data="2.774622678756714"/>
+  </RADIAN>
+  <RADIAN order="2" single_keyframe_only="1" name="Z" default="0" hidden="false" animated="0" id="{20d1c82c-0e44-4821-b18e-5e5c1821ca0c}">
+   <KEYFRAME time="-0.7999999523162842" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" single_keyframe_only="1" name="scale" default="1" hidden="false" animated="0" id="{62b8a71e-7136-4cfc-aaff-c23f30ff4958}" user_friendy_name="Scale"/>
+ <BOOL order="3" single_keyframe_only="0" name="active" default="0" hidden="false" animated="1" id="{52ddcfcf-03bb-4219-a10f-3dd0bbdb140b}" user_friendy_name="Active">
+  <KEYFRAME time="15.96667289733887" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" single_keyframe_only="1" name="speed_multiplier" default="1" hidden="false" animated="0" id="{6dce884d-2e7d-4e43-af37-b914b8a7e70e}" user_friendy_name="Speed Multiplier"/>
+</COMPOSITE_SCENE_FILE>

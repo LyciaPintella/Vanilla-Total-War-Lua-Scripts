@@ -1,0 +1,43 @@
+<SCENE_FILE end_record_time="98.50000513717532" name="phar_camp_flyby_ada_r01_s01.CindyScene" perspective_camera="214.716,25.3906,1161.22:223.286,11.251,1172.48" id="{b2f9e972-abea-4947-b05c-e31e43c57823}" start_record_time="0" version="23">
+ <ENVIRONMENT order="0" hidden="false" name="Environment" id="{41414035-61c3-4fbc-b1de-389a0afd8e7a}" data=""/>
+ <VECTOR link_id="0" unique_id="{a77c2a90-1d7f-496f-9914-afecce8d8fb3}" is_linked="0" surface_mode="Freeform" name="position" id="{a77c2a90-1d7f-496f-9914-afecce8d8fb3}">
+  <DOUBLE animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{25c56c91-8c28-4f41-a622-ee4047d24314}" default="0"/>
+  <DOUBLE animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{9b70231b-5953-4a2b-a6a3-a18ddb15c332}" default="0"/>
+  <DOUBLE animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{dc3662e7-cef3-42a7-a051-23b2ab7f9ead}" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{c9a81a63-550a-4b76-a3d1-66ba68e3634b}">
+  <RADIAN animated="1" order="0" hidden="false" single_keyframe_only="1" name="X" id="{b4b35cf3-d9a2-4a30-b479-399264ec608b}" default="0"/>
+  <RADIAN animated="1" order="1" hidden="false" single_keyframe_only="1" name="Y" id="{8512f893-ef90-4947-9f02-86f6f9129f60}" default="0"/>
+  <RADIAN animated="1" order="2" hidden="false" single_keyframe_only="1" name="Z" id="{d3a51001-3a65-4c6d-9ef6-1c4b00654c9e}" default="0"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{469c0c77-cc3e-4d2d-a7d2-74a02f97ac2e}"/>
+ <NODE name="Warscape Properties" id="{f163f107-aaac-4da6-953a-618c7123d03e}">
+  <WARSCAPE_PROPERTIES name="flyby_cam_ada.xml" id="{1c7367cb-a458-4b91-b327-280dfc584c75}" warscape_properties_file="../cameras/flyby_cam_ada.xml"/>
+ </NODE>
+ <NODE name="Audio Events" id="{34e9c2b1-de54-402b-84ad-7586a14b1e65}">
+  <AUDIO_EVENT name="ada01.kfa" id="{c138d549-9f78-4348-8c79-4038a3e1d4d4}" audio_event_file="../audio/ada01.kfa"/>
+  <AUDIO_EVENT name="ada02.kfa" id="{93e9a7fa-6ae8-44fa-a720-16cbf8d306ac}" audio_event_file="../audio/ada02.kfa"/>
+  <AUDIO_EVENT name="ada03.kfa" id="{987ecc89-7d82-4762-b1d5-3b182ecdd6ce}" audio_event_file="../audio/ada03.kfa"/>
+  <AUDIO_EVENT name="ada04.kfa" id="{d996d253-9222-49a7-9ced-7d1b8b7cb20b}" audio_event_file="../audio/ada04.kfa"/>
+  <AUDIO_EVENT name="ada05.kfa" id="{e0fb64f8-3619-4b74-800b-5be291d54582}" audio_event_file="../audio/ada05.kfa"/>
+  <AUDIO_EVENT name="ada06.kfa" id="{75b8a8c6-e2da-41d9-80d5-670cdfead7e4}" audio_event_file="../audio/ada06.kfa"/>
+ </NODE>
+ <NODE name="Composite Scenes" id="{77606376-2c92-4559-b916-4e24d1a52589}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_river_ship.kfcs" name="ada_river_ship.kfcs" id="{e23c047e-24db-44c1-a19b-1e61642e5959}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_idle.kfcs" name="ada_asy_idle.kfcs" id="{6a3ab43d-fde8-4bc0-8460-543aeab72564}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_vs_bab.kfcs" name="ada_asy_vs_bab.kfcs" id="{cf8ff31e-aa5a-4fc0-9f72-0cf57067ca29}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_raid.kfcs" name="ada_asy_raid.kfcs" id="{8da609b2-e374-4eb0-ac1a-242ba746e175}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_idle01.kfcs" name="ada_asy_idle01.kfcs" id="{9356cbe4-b336-43e8-889b-0e59cfacc249}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_burning_city.kfcs" name="ada_burning_city.kfcs" id="{ba916d04-65aa-4693-a70a-60fbb9f05c4b}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_river_ship01.kfcs" name="ada_river_ship01.kfcs" id="{4d3901de-e222-46df-a7fc-a0e2a29306c6}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_walk.kfcs" name="ada_asy_walk.kfcs" id="{cb3305ab-6fd7-4178-96c8-3e15d895e80a}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_can_vs_asy.kfcs" name="ada_can_vs_asy.kfcs" id="{8048ed22-791d-4b40-91fb-84254799a995}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_sup_orders.kfcs" name="ada_sup_orders.kfcs" id="{a24d6b4c-80ab-4e31-9030-09dc38f078e0}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_burning_city01.kfcs" name="ada_burning_city01.kfcs" id="{d0e36b60-c240-4b68-a5ef-a1cd26907bd6}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_urt_raid.kfcs" name="ada_urt_raid.kfcs" id="{6ca4d054-08ad-46f4-a4c4-51eaf842694a}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_vs_urt.kfcs" name="ada_asy_vs_urt.kfcs" id="{60e1ea18-2990-4892-8b28-d93a92dd4685}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_vs_asy.kfcs" name="ada_asy_vs_asy.kfcs" id="{540de432-9172-441e-93e9-9b763b8125b9}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_hit_walk.kfcs" name="ada_hit_walk.kfcs" id="{1572f180-ec87-43d4-aa5f-14dee6186cb5}"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ada_asy_talk.kfcs" name="ada_asy_talk.kfcs" id="{e747964c-56d7-4267-b15b-585fa3b25878}"/>
+ </NODE>
+</SCENE_FILE>

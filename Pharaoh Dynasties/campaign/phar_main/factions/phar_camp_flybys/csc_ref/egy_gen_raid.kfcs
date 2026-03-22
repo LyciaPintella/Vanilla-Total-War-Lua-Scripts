@@ -1,0 +1,25 @@
+<COMPOSITE_SCENE_FILE version="23" directory="composite_scene/phar/campaign_cinematic/phar_camp_egy_raid.csc" name="egy_gen_raid.kfcs" id="{b538c6e3-3142-40b8-aee0-a746a8f156c0}">
+ <VECTOR name="position" surface_mode="Freeform" link_id="-1" unique_id="{ac991df1-5eab-401e-8163-7861d30ac7fd}" is_linked="0" id="{ac991df1-5eab-401e-8163-7861d30ac7fd}">
+  <DOUBLE animated="0" single_keyframe_only="1" hidden="false" name="X" order="0" id="{58d7d2f7-8592-4677-b5b5-8a63dbcb25a4}" default="0">
+   <KEYFRAME time="-1" data="350.50323486328125"/>
+  </DOUBLE>
+  <DOUBLE animated="0" single_keyframe_only="1" hidden="false" name="Y" order="1" id="{cf05462f-4834-4570-8279-5408ed042157}" default="0">
+   <KEYFRAME time="-1" data="1.8934392929077148"/>
+  </DOUBLE>
+  <DOUBLE animated="0" single_keyframe_only="1" hidden="false" name="Z" order="2" id="{1512099d-f0a0-4205-8c50-2924d26e71c1}" default="0">
+   <KEYFRAME time="-1" data="569.4012451171875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{723af021-58fb-419e-9e8c-1569eaf7fec5}">
+  <RADIAN animated="0" single_keyframe_only="1" hidden="false" name="X" order="0" id="{44b0996d-e4b8-46b1-a35e-f5ca5280af20}" default="0"/>
+  <RADIAN animated="0" single_keyframe_only="1" hidden="false" name="Y" order="1" id="{3a997381-ee35-4bc7-b36f-dec5459e23a9}" default="0">
+   <KEYFRAME time="-1" data="2.9809248447418213"/>
+  </RADIAN>
+  <RADIAN animated="0" single_keyframe_only="1" hidden="false" name="Z" order="2" id="{fc1f5557-bcb1-42ea-b421-6ddd1d192d07}" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" single_keyframe_only="1" hidden="false" user_friendy_name="Scale" name="scale" order="2" id="{22d37dc0-c429-486c-9be1-2fb62f5273bd}" default="1"/>
+ <BOOL animated="1" single_keyframe_only="0" hidden="false" user_friendy_name="Active" name="active" order="3" id="{5dbce9c4-0eba-462f-89e0-89f6ac5ad3dd}" default="0">
+  <KEYFRAME time="34.76667022705078" data="1"/>
+ </BOOL>
+ <DOUBLE animated="1" single_keyframe_only="0" hidden="false" user_friendy_name="Speed Multiplier" name="speed_multiplier" order="4" id="{a2ac52d0-f0aa-48e0-966c-f74f84f62b75}" default="1"/>
+</COMPOSITE_SCENE_FILE>
